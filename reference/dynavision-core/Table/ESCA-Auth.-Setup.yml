@@ -1,0 +1,135 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"ESCA Auth. Setup"'
+alId: ID 71096628
+baseKind: Table
+kind: Table
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Table](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-table-object)'
+objectProperties:
+- name: Access
+  value: Public
+  promoted: false
+- name: Caption
+  value: Authentication Setup
+  promoted: false
+- name: DataClassification
+  value: SystemMetadata
+  promoted: false
+- name: DrillDownPageId
+  value: ESCA Auth. Setup List
+  promoted: false
+  xrefType:
+    xref: O:Page::ESCA_Auth#_Setup_List
+    name: '"ESCA Auth. Setup List"'
+    isExternal: false
+- name: LookupPageId
+  value: ESCA Auth. Setup List
+  promoted: false
+  xrefType:
+    xref: O:Page::ESCA_Auth#_Setup_List
+    name: '"ESCA Auth. Setup List"'
+    isExternal: false
+methods:
+- syntax:
+    content: 'procedure GetAuthenticationString(): Text'
+    return:
+      description: The 'Authorization' string to include in the message request header
+      returnType:
+        name: Text
+        isExternal: true
+  summary: Returns a string to use in the 'Authorization' message request header
+  uid: M:Table::ESCA_Auth#_Setup.GetAuthenticationString:Text
+  name: GetAuthenticationString
+fields:
+- type:
+    name: Code[20]
+    isExternal: true
+  uid: F:Table::ESCA_Auth#_Setup.Code[20]
+  name: Code
+- type:
+    name: '"ESCA Authentication Type"'
+    isExternal: true
+  uid: F:Table::ESCA_Auth#_Setup.Authentication_Type
+  name: '"Authentication Type"'
+- type:
+    name: Text[2048]
+    isExternal: true
+  uid: F:Table::ESCA_Auth#_Setup.Scope[2048]
+  name: Scope
+- type:
+    name: Text[2048]
+    isExternal: true
+  uid: F:Table::ESCA_Auth#_Setup.Authentication_Provider_URL[2048]
+  name: '"Authentication Provider URL"'
+- type:
+    name: Text[2048]
+    isExternal: true
+  uid: F:Table::ESCA_Auth#_Setup.Redirect_URL[2048]
+  name: '"Redirect URL"'
+- type:
+    name: Text[50]
+    isExternal: true
+  uid: F:Table::ESCA_Auth#_Setup.Tenant[50]
+  name: Tenant
+- type:
+    name: '"ESCA OAuth2 Grant Type"'
+    isExternal: true
+  uid: F:Table::ESCA_Auth#_Setup.OAuth2_Grant_Type
+  name: '"OAuth2 Grant Type"'
+- type:
+    name: Boolean
+    isExternal: true
+  uid: F:Table::ESCA_Auth#_Setup.Initialized
+  name: Initialized
+- type:
+    name: Text[2048]
+    isExternal: true
+  uid: F:Table::ESCA_Auth#_Setup.Access_Token[2048]
+  name: '"Access Token"'
+- type:
+    name: DateTime
+    isExternal: true
+  uid: F:Table::ESCA_Auth#_Setup.Access_Token_Expires_at
+  name: '"Access Token Expires at"'
+- type:
+    xref: O:Enum::ESCA_Module
+    name: '"ESCA Module"'
+    isExternal: false
+  uid: F:Table::ESCA_Auth#_Setup.Module
+  name: Module
+- type:
+    name: Guid
+    isExternal: true
+  uid: F:Table::ESCA_Auth#_Setup.SystemId
+  name: SystemId
+- type:
+    name: DateTime
+    isExternal: true
+  uid: F:Table::ESCA_Auth#_Setup.SystemCreatedAt
+  name: SystemCreatedAt
+- type:
+    name: Guid
+    isExternal: true
+  uid: F:Table::ESCA_Auth#_Setup.SystemCreatedBy
+  name: SystemCreatedBy
+- type:
+    name: DateTime
+    isExternal: true
+  uid: F:Table::ESCA_Auth#_Setup.SystemModifiedAt
+  name: SystemModifiedAt
+- type:
+    name: Guid
+    isExternal: true
+  uid: F:Table::ESCA_Auth#_Setup.SystemModifiedBy
+  name: SystemModifiedBy
+- type:
+    name: BigInteger
+    isExternal: true
+  uid: F:Table::ESCA_Auth#_Setup.SystemRowVersion
+  name: SystemRowVersion
+commentId: O:Table::ESCA Auth# Setup
+uid: O:Table::ESCA_Auth#_Setup
+name: '"ESCA Auth. Setup"'

@@ -1,0 +1,38 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"ESCA Terms and Conditions"'
+alId: ID 71177004
+baseKind: Page
+kind: Page
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+sourceTableType:
+  name: '"ESCA Module Registration Setup"'
+  isExternal: true
+seeAlso:
+- '[Page](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-object)'
+objectProperties:
+- name: ApplicationArea
+  value: '#All'
+  promoted: false
+- name: Caption
+  value: Dynavision Terms and Conditions
+  promoted: false
+- name: Editable
+  value: "False"
+  promoted: false
+- name: Permissions
+  value: tabledata "ESCA Module Registration Setup" = RIM
+  promoted: false
+- name: SourceTable
+  value: "71096603"
+  promoted: true
+- name: UsageCategory
+  value: None
+  promoted: false
+- name: PageType
+  value: NavigatePage
+  promoted: true
+commentId: O:Page::ESCA Terms and Conditions
+uid: O:Page::ESCA_Terms_and_Conditions
+name: '"ESCA Terms and Conditions"'

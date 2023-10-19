@@ -1,0 +1,16 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"ESCA Vendor"'
+alId: ID 71096610
+baseKind: Table
+kind: TableExtension
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+extends:
+  name: Vendor
+  isExternal: true
+seeAlso:
+- '[Table Extension](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-table-ext-object)'
+commentId: O:TableExtension::ESCA Vendor
+uid: O:TableExtension::ESCA_Vendor
+name: '"ESCA Vendor"'

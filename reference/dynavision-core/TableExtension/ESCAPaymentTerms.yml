@@ -1,0 +1,16 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: ESCAPaymentTerms
+alId: ID 71096624
+baseKind: Table
+kind: TableExtension
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+extends:
+  name: '"Payment Terms"'
+  isExternal: true
+seeAlso:
+- '[Table Extension](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-table-ext-object)'
+commentId: O:TableExtension::ESCAPaymentTerms
+uid: O:TableExtension::ESCAPaymentTerms
+name: ESCAPaymentTerms

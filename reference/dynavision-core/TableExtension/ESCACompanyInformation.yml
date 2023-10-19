@@ -1,0 +1,68 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: ESCACompanyInformation
+alId: ID 71096606
+baseKind: Table
+kind: TableExtension
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+extends:
+  name: '"Company Information"'
+  isExternal: true
+seeAlso:
+- '[Table Extension](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-table-ext-object)'
+fields:
+- type:
+    name: Code[10]
+    isExternal: true
+  uid: F:TableExtension::ESCACompanyInformation.ESCA_Default_Language_Code[10]
+  name: '"ESCA Default Language Code"'
+- type:
+    name: Boolean
+    isExternal: true
+  uid: F:TableExtension::ESCACompanyInformation.ESCA_Setup_Mode
+  name: '"ESCA Setup Mode"'
+- type:
+    name: Code[10]
+    isExternal: true
+  uid: F:TableExtension::ESCACompanyInformation.ESCA_Default_Language_Dutch[10]
+  name: '"ESCA Default Language Dutch"'
+  obsoletion:
+    state: pending
+    reason: Language is auto defined based on localisation. Either the Add Language action is to be used to insert text constant translations
+    version: "22.0"
+- type:
+    name: Code[10]
+    isExternal: true
+  uid: F:TableExtension::ESCACompanyInformation.ESCA_Default_Language_French[10]
+  name: '"ESCA Default Language French"'
+  obsoletion:
+    state: pending
+    reason: Language is auto defined based on localisation. Either the Add Language action is to be used to insert text constant translations
+    version: "22.0"
+- type:
+    name: Code[10]
+    isExternal: true
+  uid: F:TableExtension::ESCACompanyInformation.ESCA_Default_Language_English[10]
+  name: '"ESCA Default Language English"'
+  obsoletion:
+    state: pending
+    reason: Language is auto defined based on localisation. Either the Add Language action is to be used to insert text constant translations
+    version: "22.0"
+- type:
+    name: Code[10]
+    isExternal: true
+  uid: F:TableExtension::ESCACompanyInformation.ESCA_Default_Language_German[10]
+  name: '"ESCA Default Language German"'
+  obsoletion:
+    state: pending
+    reason: Language is auto defined based on localisation. Either the Add Language action is to be used to insert text constant translations
+    version: "22.0"
+- type:
+    name: Media
+    isExternal: true
+  uid: F:TableExtension::ESCACompanyInformation.ESCA_Footer_Picture
+  name: '"ESCA Footer Picture"'
+commentId: O:TableExtension::ESCACompanyInformation
+uid: O:TableExtension::ESCACompanyInformation
+name: ESCACompanyInformation

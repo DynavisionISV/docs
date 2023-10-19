@@ -1,0 +1,66 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"ESCA Text Constant Data"'
+alId: ID 71096594
+baseKind: Table
+kind: Table
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Table](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-table-object)'
+objectProperties:
+- name: Access
+  value: Public
+  promoted: false
+- name: Caption
+  value: Text Constant Data
+  promoted: false
+fields:
+- type:
+    name: Code[20]
+    isExternal: true
+  uid: F:Table::ESCA_Text_Constant_Data.Code[20]
+  name: Code
+- type:
+    name: Code[10]
+    isExternal: true
+  uid: F:Table::ESCA_Text_Constant_Data.Language_Code[10]
+  name: '"Language Code"'
+- type:
+    name: Text[2048]
+    isExternal: true
+  uid: F:Table::ESCA_Text_Constant_Data.Data[2048]
+  name: Data
+- type:
+    name: Guid
+    isExternal: true
+  uid: F:Table::ESCA_Text_Constant_Data.SystemId
+  name: SystemId
+- type:
+    name: DateTime
+    isExternal: true
+  uid: F:Table::ESCA_Text_Constant_Data.SystemCreatedAt
+  name: SystemCreatedAt
+- type:
+    name: Guid
+    isExternal: true
+  uid: F:Table::ESCA_Text_Constant_Data.SystemCreatedBy
+  name: SystemCreatedBy
+- type:
+    name: DateTime
+    isExternal: true
+  uid: F:Table::ESCA_Text_Constant_Data.SystemModifiedAt
+  name: SystemModifiedAt
+- type:
+    name: Guid
+    isExternal: true
+  uid: F:Table::ESCA_Text_Constant_Data.SystemModifiedBy
+  name: SystemModifiedBy
+- type:
+    name: BigInteger
+    isExternal: true
+  uid: F:Table::ESCA_Text_Constant_Data.SystemRowVersion
+  name: SystemRowVersion
+commentId: O:Table::ESCA Text Constant Data
+uid: O:Table::ESCA_Text_Constant_Data
+name: '"ESCA Text Constant Data"'

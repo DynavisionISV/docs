@@ -1,0 +1,50 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"ESCA Report Datastore"'
+alId: ID 71177460
+baseKind: Codeunit
+kind: Codeunit
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Codeunit](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-codeunit-object)'
+objectProperties:
+- name: Access
+  value: Public
+  promoted: false
+- name: SingleInstance
+  value: "True"
+  promoted: false
+methods:
+- syntax:
+    content: 'procedure SetReportLayoutVersion(NewReportLayoutVersion: Integer)'
+    parameters:
+    - id: NewReportLayoutVersion
+      description: The new 'Report Layout Version'
+      parameterType:
+        name: Integer
+        isExternal: true
+  summary: >-
+    Allows to change the global 'Report Layout Version' before a report is ran. This allows reports to retrieve a different report layout setup, based on the version context.
+
+    Do not forget to clear the version after the report has run
+  uid: M:Codeunit::ESCA_Report_Datastore.SetReportLayoutVersion(Integer)
+  name: SetReportLayoutVersion
+- syntax:
+    content: 'procedure GetReportLayoutVersion(): Integer'
+    return:
+      description: The global 'Report Layout Version' state
+      returnType:
+        name: Integer
+        isExternal: true
+  summary: Allows to read the global 'Report Layout Version' when a report is ran. This allows reports to retrieve a different report layout setup, based on the version context.
+  uid: M:Codeunit::ESCA_Report_Datastore.GetReportLayoutVersion:Integer
+  name: GetReportLayoutVersion
+- syntax:
+    content: procedure ClearReportLayoutVersion()
+  summary: Clears the global 'Report Layout Version'
+  uid: M:Codeunit::ESCA_Report_Datastore.ClearReportLayoutVersion
+  name: ClearReportLayoutVersion
+commentId: O:Codeunit::ESCA Report Datastore
+uid: O:Codeunit::ESCA_Report_Datastore
+name: '"ESCA Report Datastore"'

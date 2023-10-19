@@ -1,0 +1,37 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"ESCA Text Block Card"'
+alId: ID 71096664
+baseKind: Page
+kind: Page
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+sourceTableType:
+  xref: O:Table::ESCA_Text_Block
+  name: '"ESCA Text Block"'
+  isExternal: false
+seeAlso:
+- '[Page](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-object)'
+objectProperties:
+- name: ApplicationArea
+  value: '#All'
+  promoted: false
+- name: Caption
+  value: Text Block Card
+  promoted: false
+- name: PageType
+  value: Card
+  promoted: true
+- name: SourceTable
+  value: "71096629"
+  promoted: true
+  xrefType:
+    xref: O:Table::ESCA_Text_Block
+    name: '"ESCA Text Block"'
+    isExternal: false
+- name: UsageCategory
+  value: None
+  promoted: false
+commentId: O:Page::ESCA Text Block Card
+uid: O:Page::ESCA_Text_Block_Card
+name: '"ESCA Text Block Card"'

@@ -1,0 +1,16 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: ESCAResourceList
+alId: ID 71096653
+baseKind: Page
+kind: PageExtension
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+extends:
+  name: '"Resource List"'
+  isExternal: true
+seeAlso:
+- '[Page Extension](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-ext-object)'
+commentId: O:PageExtension::ESCAResourceList
+uid: O:PageExtension::ESCAResourceList
+name: ESCAResourceList

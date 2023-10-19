@@ -1,0 +1,47 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"ESCA Data Links"'
+alId: ID 71177003
+baseKind: Page
+kind: Page
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+sourceTableType:
+  name: '"ESCA Data Link"'
+  isExternal: true
+seeAlso:
+- '[Page](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-object)'
+objectProperties:
+- name: ApplicationArea
+  value: '#All'
+  promoted: false
+- name: Caption
+  value: Data Links
+  promoted: false
+- name: DeleteAllowed
+  value: "False"
+  promoted: false
+- name: Editable
+  value: "False"
+  promoted: false
+- name: InsertAllowed
+  value: "False"
+  promoted: false
+- name: PageType
+  value: List
+  promoted: true
+- name: SourceTable
+  value: "71096647"
+  promoted: true
+- name: SourceTableView
+  value: sorting(Type, Indentation)
+  promoted: false
+- name: UsageCategory
+  value: None
+  promoted: false
+- name: SourceTableTemporary
+  value: "True"
+  promoted: false
+commentId: O:Page::ESCA Data Links
+uid: O:Page::ESCA_Data_Links
+name: '"ESCA Data Links"'

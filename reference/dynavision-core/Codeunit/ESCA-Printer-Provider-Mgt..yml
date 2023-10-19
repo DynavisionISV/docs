@@ -1,0 +1,20 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"ESCA Printer Provider Mgt."'
+alId: ID 71096594
+baseKind: Codeunit
+kind: Codeunit
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Codeunit](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-codeunit-object)'
+objectProperties:
+- name: Access
+  value: Public
+  promoted: false
+- name: Permissions
+  value: tabledata "Printer Selection" = M
+  promoted: false
+commentId: O:Codeunit::ESCA Printer Provider Mgt#
+uid: O:Codeunit::ESCA_Printer_Provider_Mgt#
+name: '"ESCA Printer Provider Mgt."'

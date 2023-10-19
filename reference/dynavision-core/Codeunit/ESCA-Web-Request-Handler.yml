@@ -1,0 +1,407 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"ESCA Web Request Handler"'
+alId: ID 71096576
+baseKind: Codeunit
+kind: Codeunit
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Codeunit](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-codeunit-object)'
+objectProperties:
+- name: Access
+  value: Public
+  promoted: false
+methods:
+- syntax:
+    content: 'procedure SendWebRequest(URL: Text, Method: Text, Certificate: Text, CertificatePassword: Text, DictionaryOfRequestHeaders: Dictionary of [Text, Text], DictionaryOfContentHeaders: Dictionary of [Text, Text], ContentAsText: Text, var ResponseReasonPhrase: Text, var ResponseText: Text): Boolean'
+    parameters:
+    - id: URL
+      description: The URI used for the HTTP request.
+      parameterType:
+        name: Text
+        isExternal: true
+    - id: Method
+      description: The method type as defined in the HTTP standard ('GET', 'POST', ...)
+      parameterType:
+        name: Text
+        isExternal: true
+    - id: Certificate
+      description: The Base64 encoded certificate
+      parameterType:
+        name: Text
+        isExternal: true
+    - id: CertificatePassword
+      description: The certificate password
+      parameterType:
+        name: Text
+        isExternal: true
+    - id: DictionaryOfRequestHeaders
+      description: Name / content dictionary for the request HttpHeader
+      parameterType:
+        name: Dictionary of [Text, Text]
+        isExternal: true
+    - id: DictionaryOfContentHeaders
+      description: Name / content dictionary for the content HttpHeader
+      parameterType:
+        name: Dictionary of [Text, Text]
+        isExternal: true
+    - id: ContentAsText
+      description: HttpContent content
+      parameterType:
+        name: Text
+        isExternal: true
+    - id: ResponseReasonPhrase
+      description: Returns the reason phrase of the HTTP response.
+      parameterType:
+        name: Text
+        isExternal: true
+    - id: ResponseText
+      description: Returns the content of the HTTP response.
+      parameterType:
+        name: Text
+        isExternal: true
+    return:
+      description: Indicates if the HTTP response was successful. True if StatusCode was in the range 200-299.
+      returnType:
+        name: Boolean
+        isExternal: true
+  summary: Send a HTTP request with context as text / response content as text
+  uid: M:Codeunit::ESCA_Web_Request_Handler.SendWebRequest(Text,Text,Text,Text,Dictionary[Text,Text],Dictionary[Text,Text],Text,Text@,Text@):Boolean
+  name: SendWebRequest
+- syntax:
+    content: 'procedure SendWebRequest(URL: Text, Method: Text, Certificate: Text, CertificatePassword: Text, DictionaryOfRequestHeaders: Dictionary of [Text, Text], DictionaryOfContentHeaders: Dictionary of [Text, Text], ContentAsText: Text, var ResponseReasonPhrase: Text, var ResponseText: Text, IncludeEndOfLineInResponse: Boolean): Boolean'
+    parameters:
+    - id: URL
+      description: The URI used for the HTTP request.
+      parameterType:
+        name: Text
+        isExternal: true
+    - id: Method
+      description: The method type as defined in the HTTP standard ('GET', 'POST', ...)
+      parameterType:
+        name: Text
+        isExternal: true
+    - id: Certificate
+      description: The Base64 encoded certificate
+      parameterType:
+        name: Text
+        isExternal: true
+    - id: CertificatePassword
+      description: The certificate password
+      parameterType:
+        name: Text
+        isExternal: true
+    - id: DictionaryOfRequestHeaders
+      description: Name / content dictionary for the request HttpHeader
+      parameterType:
+        name: Dictionary of [Text, Text]
+        isExternal: true
+    - id: DictionaryOfContentHeaders
+      description: Name / content dictionary for the content HttpHeader
+      parameterType:
+        name: Dictionary of [Text, Text]
+        isExternal: true
+    - id: ContentAsText
+      description: HttpContent content
+      parameterType:
+        name: Text
+        isExternal: true
+    - id: ResponseReasonPhrase
+      description: Returns the reason phrase of the HTTP response.
+      parameterType:
+        name: Text
+        isExternal: true
+    - id: ResponseText
+      description: Returns the content of the HTTP response.
+      parameterType:
+        name: Text
+        isExternal: true
+    - id: IncludeEndOfLineInResponse
+      description: Indicates if line endings are respected in the response content (uses InStream.Read instead of InStream.ReadText)
+      parameterType:
+        name: Boolean
+        isExternal: true
+    return:
+      description: Indicates if the HTTP response was successful. True if StatusCode was in the range 200-299.
+      returnType:
+        name: Boolean
+        isExternal: true
+  summary: Send a HTTP request, respecting LineEndings in the response content
+  uid: M:Codeunit::ESCA_Web_Request_Handler.SendWebRequest(Text,Text,Text,Text,Dictionary[Text,Text],Dictionary[Text,Text],Text,Text@,Text@,Boolean):Boolean
+  name: SendWebRequest
+- syntax:
+    content: 'procedure SendWebRequest(URL: Text, Method: Text, Certificate: Text, CertificatePassword: Text, DictionaryOfRequestHeaders: Dictionary of [Text, Text], DictionaryOfContentHeaders: Dictionary of [Text, Text], ContentAsText: Text, var ResponseReasonPhrase: Text, var ResponseStream: OutStream): Boolean'
+    parameters:
+    - id: URL
+      description: The URI used for the HTTP request.
+      parameterType:
+        name: Text
+        isExternal: true
+    - id: Method
+      description: The method type as defined in the HTTP standard ('GET', 'POST', ...)
+      parameterType:
+        name: Text
+        isExternal: true
+    - id: Certificate
+      description: The Base64 encoded certificate
+      parameterType:
+        name: Text
+        isExternal: true
+    - id: CertificatePassword
+      description: The certificate password
+      parameterType:
+        name: Text
+        isExternal: true
+    - id: DictionaryOfRequestHeaders
+      description: Name / content dictionary for the request HttpHeader
+      parameterType:
+        name: Dictionary of [Text, Text]
+        isExternal: true
+    - id: DictionaryOfContentHeaders
+      description: Name / content dictionary for the content HttpHeader
+      parameterType:
+        name: Dictionary of [Text, Text]
+        isExternal: true
+    - id: ContentAsText
+      description: HttpContent content
+      parameterType:
+        name: Text
+        isExternal: true
+    - id: ResponseReasonPhrase
+      description: Returns the reason phrase of the HTTP response.
+      parameterType:
+        name: Text
+        isExternal: true
+    - id: ResponseStream
+      description: Returns the content of the HTTP response as a stream.
+      parameterType:
+        name: OutStream
+        isExternal: true
+    return:
+      description: Indicates if the HTTP response was successful. True if StatusCode was in the range 200-299.
+      returnType:
+        name: Boolean
+        isExternal: true
+  summary: Send a HTTP request with context as text / response content as a stream
+  uid: M:Codeunit::ESCA_Web_Request_Handler.SendWebRequest(Text,Text,Text,Text,Dictionary[Text,Text],Dictionary[Text,Text],Text,Text@,OutStream@):Boolean
+  name: SendWebRequest
+- syntax:
+    content: 'procedure SendWebRequest(URL: Text, Method: Text, Certificate: Text, CertificatePassword: Text, DictionaryOfRequestHeaders: Dictionary of [Text, Text], DictionaryOfContentHeaders: Dictionary of [Text, Text], ContentStream: InStream, var ResponseReasonPhrase: Text, var ResponseText: Text): Boolean'
+    parameters:
+    - id: URL
+      description: The URI used for the HTTP request.
+      parameterType:
+        name: Text
+        isExternal: true
+    - id: Method
+      description: The method type as defined in the HTTP standard ('GET', 'POST', ...)
+      parameterType:
+        name: Text
+        isExternal: true
+    - id: Certificate
+      description: The Base64 encoded certificate
+      parameterType:
+        name: Text
+        isExternal: true
+    - id: CertificatePassword
+      description: The certificate password
+      parameterType:
+        name: Text
+        isExternal: true
+    - id: DictionaryOfRequestHeaders
+      description: Name / content dictionary for the request HttpHeader
+      parameterType:
+        name: Dictionary of [Text, Text]
+        isExternal: true
+    - id: DictionaryOfContentHeaders
+      description: Name / content dictionary for the content HttpHeader
+      parameterType:
+        name: Dictionary of [Text, Text]
+        isExternal: true
+    - id: ContentStream
+      description: HttpContent content as stream
+      parameterType:
+        name: InStream
+        isExternal: true
+    - id: ResponseReasonPhrase
+      description: Returns the reason phrase of the HTTP response.
+      parameterType:
+        name: Text
+        isExternal: true
+    - id: ResponseText
+      description: Returns the content of the HTTP response.
+      parameterType:
+        name: Text
+        isExternal: true
+    return:
+      description: Indicates if the HTTP response was successful. True if StatusCode was in the range 200-299.
+      returnType:
+        name: Boolean
+        isExternal: true
+  summary: Send a HTTP request with content as a stream / response content as text
+  uid: M:Codeunit::ESCA_Web_Request_Handler.SendWebRequest(Text,Text,Text,Text,Dictionary[Text,Text],Dictionary[Text,Text],InStream,Text@,Text@):Boolean
+  name: SendWebRequest
+- syntax:
+    content: 'procedure SendWebRequest(URL: Text, Method: Text, Certificate: Text, CertificatePassword: Text, DictionaryOfRequestHeaders: Dictionary of [Text, Text], DictionaryOfContentHeaders: Dictionary of [Text, Text], ContentStream: InStream, var ResponseReasonPhrase: Text, var ResponseText: Text, IncludeEndOfLineInResponse: Boolean): Boolean'
+    parameters:
+    - id: URL
+      description: The URI used for the HTTP request.
+      parameterType:
+        name: Text
+        isExternal: true
+    - id: Method
+      description: The method type as defined in the HTTP standard ('GET', 'POST', ...)
+      parameterType:
+        name: Text
+        isExternal: true
+    - id: Certificate
+      description: The Base64 encoded certificate
+      parameterType:
+        name: Text
+        isExternal: true
+    - id: CertificatePassword
+      description: The certificate password
+      parameterType:
+        name: Text
+        isExternal: true
+    - id: DictionaryOfRequestHeaders
+      description: Name / content dictionary for the request HttpHeader
+      parameterType:
+        name: Dictionary of [Text, Text]
+        isExternal: true
+    - id: DictionaryOfContentHeaders
+      description: Name / content dictionary for the content HttpHeader
+      parameterType:
+        name: Dictionary of [Text, Text]
+        isExternal: true
+    - id: ContentStream
+      description: HttpContent content as stream
+      parameterType:
+        name: InStream
+        isExternal: true
+    - id: ResponseReasonPhrase
+      description: Returns the reason phrase of the HTTP response.
+      parameterType:
+        name: Text
+        isExternal: true
+    - id: ResponseText
+      description: Returns the content of the HTTP response.
+      parameterType:
+        name: Text
+        isExternal: true
+    - id: IncludeEndOfLineInResponse
+      description: Indicates if line endings are respected in the response content (uses InStream.Read instead of InStream.ReadText)
+      parameterType:
+        name: Boolean
+        isExternal: true
+    return:
+      description: Indicates if the HTTP response was successful. True if StatusCode was in the range 200-299.
+      returnType:
+        name: Boolean
+        isExternal: true
+  summary: Send a HTTP request with content as a stream / response content as text, respecting LineEndings in the response content
+  uid: M:Codeunit::ESCA_Web_Request_Handler.SendWebRequest(Text,Text,Text,Text,Dictionary[Text,Text],Dictionary[Text,Text],InStream,Text@,Text@,Boolean):Boolean
+  name: SendWebRequest
+- syntax:
+    content: 'procedure SendWebRequest(URL: Text, Method: Text, Certificate: Text, CertificatePassword: Text, DictionaryOfRequestHeaders: Dictionary of [Text, Text], DictionaryOfContentHeaders: Dictionary of [Text, Text], ContentStream: InStream, var ResponseReasonPhrase: Text, var ResponseStream: OutStream): Boolean'
+    parameters:
+    - id: URL
+      description: The URI used for the HTTP request.
+      parameterType:
+        name: Text
+        isExternal: true
+    - id: Method
+      description: The method type as defined in the HTTP standard ('GET', 'POST', ...)
+      parameterType:
+        name: Text
+        isExternal: true
+    - id: Certificate
+      description: The Base64 encoded certificate
+      parameterType:
+        name: Text
+        isExternal: true
+    - id: CertificatePassword
+      description: The certificate password
+      parameterType:
+        name: Text
+        isExternal: true
+    - id: DictionaryOfRequestHeaders
+      description: Name / content dictionary for the request HttpHeader
+      parameterType:
+        name: Dictionary of [Text, Text]
+        isExternal: true
+    - id: DictionaryOfContentHeaders
+      description: Name / content dictionary for the content HttpHeader
+      parameterType:
+        name: Dictionary of [Text, Text]
+        isExternal: true
+    - id: ContentStream
+      description: HttpContent content as stream
+      parameterType:
+        name: InStream
+        isExternal: true
+    - id: ResponseReasonPhrase
+      description: Returns the reason phrase of the HTTP response.
+      parameterType:
+        name: Text
+        isExternal: true
+    - id: ResponseStream
+      description: Returns the content of the HTTP response as a stream.
+      parameterType:
+        name: OutStream
+        isExternal: true
+    return:
+      description: Indicates if the HTTP response was successful. True if StatusCode was in the range 200-299.
+      returnType:
+        name: Boolean
+        isExternal: true
+  summary: Send a HTTP request with content as a stream / response content as a stream
+  uid: M:Codeunit::ESCA_Web_Request_Handler.SendWebRequest(Text,Text,Text,Text,Dictionary[Text,Text],Dictionary[Text,Text],InStream,Text@,OutStream@):Boolean
+  name: SendWebRequest
+- syntax:
+    content: 'procedure GetStatusCode(): Integer'
+    return:
+      description: The status code of the HTTP response.
+      returnType:
+        name: Integer
+        isExternal: true
+  summary: Get the status code of the HTTP response.
+  uid: M:Codeunit::ESCA_Web_Request_Handler.GetStatusCode:Integer
+  name: GetStatusCode
+- syntax:
+    content: 'procedure GetLog(var WebRequestLog: Record "ESCA Web Request Log")'
+    parameters:
+    - id: WebRequestLog
+      description: The Web Request Log record
+      parameterType:
+        name: Record "ESCA Web Request Log"
+        isExternal: true
+  summary: Returns the Web Request Log record that was created after sending the web request
+  uid: M:Codeunit::ESCA_Web_Request_Handler.GetLog(ESCA_Web_Request_Log@)
+  name: GetLog
+- syntax:
+    content: 'procedure SetSkipLogWhenSuccessful(Skip: Boolean)'
+    parameters:
+    - id: Skip
+      description: True if successful web requests should not be logged
+      parameterType:
+        name: Boolean
+        isExternal: true
+  summary: Specifies if successful web requests should be logged
+  uid: M:Codeunit::ESCA_Web_Request_Handler.SetSkipLogWhenSuccessful(Boolean)
+  name: SetSkipLogWhenSuccessful
+- syntax:
+    content: 'procedure SetTimeOut(NewTimeout: Duration)'
+    parameters:
+    - id: NewTimeout
+      description: duration in milliseconds
+      parameterType:
+        name: Duration
+        isExternal: true
+  summary: Sets the duration in milliseconds to wait before the request times out.
+  uid: M:Codeunit::ESCA_Web_Request_Handler.SetTimeOut(Duration)
+  name: SetTimeOut
+commentId: O:Codeunit::ESCA Web Request Handler
+uid: O:Codeunit::ESCA_Web_Request_Handler
+name: '"ESCA Web Request Handler"'

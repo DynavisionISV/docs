@@ -1,0 +1,107 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"ESCA FTP Setup"'
+alId: ID 71096590
+baseKind: Table
+kind: Table
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Table](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-table-object)'
+objectProperties:
+- name: Access
+  value: Public
+  promoted: false
+- name: Caption
+  value: FTP Setup
+  promoted: false
+- name: DrillDownPageId
+  value: ESCA FTP Setup List
+  promoted: false
+  xrefType:
+    xref: O:Page::ESCA_FTP_Setup_List
+    name: '"ESCA FTP Setup List"'
+    isExternal: false
+- name: LookupPageId
+  value: ESCA FTP Setup List
+  promoted: false
+  xrefType:
+    xref: O:Page::ESCA_FTP_Setup_List
+    name: '"ESCA FTP Setup List"'
+    isExternal: false
+fields:
+- type:
+    name: Code[20]
+    isExternal: true
+  uid: F:Table::ESCA_FTP_Setup.Code[20]
+  name: Code
+- type:
+    xref: O:Enum::ESCA_FTP_Type
+    name: '"ESCA FTP Type"'
+    isExternal: false
+  uid: F:Table::ESCA_FTP_Setup.FTP_Type
+  name: '"FTP Type"'
+- type:
+    name: Text[2048]
+    isExternal: true
+  uid: F:Table::ESCA_FTP_Setup.FTP_URL[2048]
+  name: '"FTP URL"'
+- type:
+    name: Text[50]
+    isExternal: true
+  uid: F:Table::ESCA_FTP_Setup.User_Name[50]
+  name: '"User Name"'
+- type:
+    name: Blob
+    isExternal: true
+  uid: F:Table::ESCA_FTP_Setup.User_Password
+  name: '"User Password"'
+- type:
+    name: Blob
+    isExternal: true
+  uid: F:Table::ESCA_FTP_Setup.Azure_Function_URL
+  name: '"Azure Function URL"'
+- type:
+    xref: O:Enum::ESCA_FTP_Request_Type
+    name: '"ESCA FTP Request Type"'
+    isExternal: false
+  uid: F:Table::ESCA_FTP_Setup.FTP_Request_Type
+  name: '"FTP Request Type"'
+- type:
+    name: Text[100]
+    isExternal: true
+  uid: F:Table::ESCA_FTP_Setup.File_Filter[100]
+  name: '"File Filter"'
+- type:
+    name: Guid
+    isExternal: true
+  uid: F:Table::ESCA_FTP_Setup.SystemId
+  name: SystemId
+- type:
+    name: DateTime
+    isExternal: true
+  uid: F:Table::ESCA_FTP_Setup.SystemCreatedAt
+  name: SystemCreatedAt
+- type:
+    name: Guid
+    isExternal: true
+  uid: F:Table::ESCA_FTP_Setup.SystemCreatedBy
+  name: SystemCreatedBy
+- type:
+    name: DateTime
+    isExternal: true
+  uid: F:Table::ESCA_FTP_Setup.SystemModifiedAt
+  name: SystemModifiedAt
+- type:
+    name: Guid
+    isExternal: true
+  uid: F:Table::ESCA_FTP_Setup.SystemModifiedBy
+  name: SystemModifiedBy
+- type:
+    name: BigInteger
+    isExternal: true
+  uid: F:Table::ESCA_FTP_Setup.SystemRowVersion
+  name: SystemRowVersion
+commentId: O:Table::ESCA FTP Setup
+uid: O:Table::ESCA_FTP_Setup
+name: '"ESCA FTP Setup"'

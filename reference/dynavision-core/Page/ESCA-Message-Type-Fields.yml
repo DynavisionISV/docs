@@ -1,0 +1,32 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"ESCA Message Type Fields"'
+alId: ID 71096636
+baseKind: Page
+kind: Page
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+sourceTableType:
+  name: '"ESCA Message Type Field"'
+  isExternal: true
+seeAlso:
+- '[Page](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-object)'
+objectProperties:
+- name: ApplicationArea
+  value: '#All'
+  promoted: false
+- name: Caption
+  value: Message Type Fields
+  promoted: false
+- name: PageType
+  value: List
+  promoted: true
+- name: SourceTable
+  value: "71096622"
+  promoted: true
+- name: UsageCategory
+  value: None
+  promoted: false
+commentId: O:Page::ESCA Message Type Fields
+uid: O:Page::ESCA_Message_Type_Fields
+name: '"ESCA Message Type Fields"'

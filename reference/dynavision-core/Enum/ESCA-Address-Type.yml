@@ -1,0 +1,41 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"ESCA Address Type"'
+alId: ID 71096595
+baseKind: Enum
+kind: Enum
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Enum](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-extensible-enums)'
+objectProperties:
+- name: Access
+  value: Public
+  promoted: false
+- name: Extensible
+  value: "True"
+  promoted: true
+enumValues:
+- uid: E:Enum::ESCA_Address_Type.Empty
+  name: Empty
+- uid: E:Enum::ESCA_Address_Type.Company_Address
+  name: '"Company Address"'
+- uid: E:Enum::ESCA_Address_Type.Ship-To_Address
+  name: '"Ship-To Address"'
+- uid: E:Enum::ESCA_Address_Type.Sell-To_Address
+  name: '"Sell-To Address"'
+- uid: E:Enum::ESCA_Address_Type.Bill-To_Address
+  name: '"Bill-To Address"'
+- uid: E:Enum::ESCA_Address_Type.Responsibility_Center
+  name: '"Responsibility Center"'
+- uid: E:Enum::ESCA_Address_Type.Pay-To_Address
+  name: '"Pay-To Address"'
+- uid: E:Enum::ESCA_Address_Type.Buy-From_Address
+  name: '"Buy-From Address"'
+- uid: E:Enum::ESCA_Address_Type.Transfer-From_Address
+  name: '"Transfer-From Address"'
+- uid: E:Enum::ESCA_Address_Type.Transfer-To_Address
+  name: '"Transfer-To Address"'
+commentId: O:Enum::ESCA Address Type
+uid: O:Enum::ESCA_Address_Type
+name: '"ESCA Address Type"'

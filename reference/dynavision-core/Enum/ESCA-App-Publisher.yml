@@ -1,0 +1,27 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"ESCA App Publisher"'
+alId: ID 71096643
+baseKind: Enum
+kind: Enum
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Enum](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-extensible-enums)'
+objectProperties:
+- name: Access
+  value: Public
+  promoted: false
+- name: Extensible
+  value: "True"
+  promoted: true
+enumValues:
+- uid: E:Enum::ESCA_App_Publisher.Dynavision
+  name: Dynavision
+implements:
+- xref: O:ESCA_License_Validator
+  name: '"ESCA License Validator"'
+  isExternal: false
+commentId: O:Enum::ESCA App Publisher
+uid: O:Enum::ESCA_App_Publisher
+name: '"ESCA App Publisher"'

@@ -1,0 +1,44 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"ESCA Communication Method"'
+alId: ID 71096612
+baseKind: Enum
+kind: Enum
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Enum](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-extensible-enums)'
+objectProperties:
+- name: Access
+  value: Public
+  promoted: false
+- name: DefaultImplementation
+  value: 71177006,71177006
+  promoted: false
+- name: Extensible
+  value: "True"
+  promoted: true
+- name: UnknownValueImplementation
+  value: 71177006,71177006
+  promoted: false
+enumValues:
+- uid: E:Enum::ESCA_Communication_Method.Default
+  name: Default
+- uid: E:Enum::ESCA_Communication_Method.Download
+  name: Download
+- uid: E:Enum::ESCA_Communication_Method.Database
+  name: Database
+- uid: E:Enum::ESCA_Communication_Method.Email
+  name: Email
+- uid: E:Enum::ESCA_Communication_Method.FTP
+  name: FTP
+- uid: E:Enum::ESCA_Communication_Method.API
+  name: API
+implements:
+- name: '"ESCA Communication Method"'
+  isExternal: true
+- name: '"ESCA Communication Method Test"'
+  isExternal: true
+commentId: O:Enum::ESCA Communication Method
+uid: O:Enum::ESCA_Communication_Method
+name: '"ESCA Communication Method"'

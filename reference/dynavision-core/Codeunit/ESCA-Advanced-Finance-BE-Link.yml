@@ -1,0 +1,17 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"ESCA Advanced Finance BE Link"'
+alId: ID 71096638
+baseKind: Codeunit
+kind: Codeunit
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Codeunit](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-codeunit-object)'
+objectProperties:
+- name: Access
+  value: Public
+  promoted: false
+commentId: O:Codeunit::ESCA Advanced Finance BE Link
+uid: O:Codeunit::ESCA_Advanced_Finance_BE_Link
+name: '"ESCA Advanced Finance BE Link"'

@@ -1,0 +1,16 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: ESCASalesInvoiceHeader
+alId: ID 71096614
+baseKind: Table
+kind: TableExtension
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+extends:
+  name: '"Sales Invoice Header"'
+  isExternal: true
+seeAlso:
+- '[Table Extension](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-table-ext-object)'
+commentId: O:TableExtension::ESCASalesInvoiceHeader
+uid: O:TableExtension::ESCASalesInvoiceHeader
+name: ESCASalesInvoiceHeader

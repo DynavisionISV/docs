@@ -1,0 +1,16 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: ESCAResponsibilityCenter
+alId: ID 71096624
+baseKind: Page
+kind: PageExtension
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+extends:
+  name: '"Responsibility Center Card"'
+  isExternal: true
+seeAlso:
+- '[Page Extension](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-ext-object)'
+commentId: O:PageExtension::ESCAResponsibilityCenter
+uid: O:PageExtension::ESCAResponsibilityCenter
+name: ESCAResponsibilityCenter

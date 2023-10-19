@@ -1,0 +1,20 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"ESCA D365 BUS FULL ACCESS"'
+alId: ID 71096575
+baseKind: PermissionSet
+kind: PermissionSetExtension
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+extends:
+  name: '"D365 BUS FULL ACCESS"'
+  isExternal: true
+seeAlso:
+- '[Permission Set Extension](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-permissionset-ext-object)'
+objectProperties:
+- name: IncludedPermissionSets
+  value: '"ESCA Core, Edit","ESCA Core, Setup"'
+  promoted: false
+commentId: O:PermissionSetExtension::ESCA D365 BUS FULL ACCESS
+uid: O:PermissionSetExtension::ESCA_D365_BUS_FULL_ACCESS
+name: '"ESCA D365 BUS FULL ACCESS"'

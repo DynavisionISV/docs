@@ -1,0 +1,22 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: ESCAWarehouseActivityLine
+alId: ID 71096592
+baseKind: Table
+kind: TableExtension
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+extends:
+  name: '"Warehouse Activity Line"'
+  isExternal: true
+seeAlso:
+- '[Table Extension](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-table-ext-object)'
+fields:
+- type:
+    name: '"ESCA Item Type"'
+    isExternal: true
+  uid: F:TableExtension::ESCAWarehouseActivityLine.ESCA_Item_Type
+  name: '"ESCA Item Type"'
+commentId: O:TableExtension::ESCAWarehouseActivityLine
+uid: O:TableExtension::ESCAWarehouseActivityLine
+name: ESCAWarehouseActivityLine

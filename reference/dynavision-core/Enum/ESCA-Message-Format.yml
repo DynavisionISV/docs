@@ -1,0 +1,41 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"ESCA Message Format"'
+alId: ID 71096606
+baseKind: Enum
+kind: Enum
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Enum](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-extensible-enums)'
+objectProperties:
+- name: Access
+  value: Public
+  promoted: false
+- name: DefaultImplementation
+  value: 71177006,71177006,71177006,71177006
+  promoted: false
+- name: Extensible
+  value: "True"
+  promoted: true
+- name: UnknownValueImplementation
+  value: 71177006,71177006,71177006,71177006
+  promoted: false
+enumValues:
+- uid: E:Enum::ESCA_Message_Format._
+  name: '" "'
+implements:
+- xref: O:ESCA_Message_Format
+  name: '"ESCA Message Format"'
+  isExternal: false
+- name: '"ESCA Message PreProcess"'
+  isExternal: true
+- xref: O:ESCA_Message_API
+  name: '"ESCA Message API"'
+  isExternal: false
+- xref: O:ESCA_Message_Request_API
+  name: '"ESCA Message Request API"'
+  isExternal: false
+commentId: O:Enum::ESCA Message Format
+uid: O:Enum::ESCA_Message_Format
+name: '"ESCA Message Format"'

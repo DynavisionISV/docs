@@ -1,0 +1,16 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"ESCA Customer Card"'
+alId: ID 71096647
+baseKind: Page
+kind: PageExtension
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+extends:
+  name: '"Customer Card"'
+  isExternal: true
+seeAlso:
+- '[Page Extension](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-ext-object)'
+commentId: O:PageExtension::ESCA Customer Card
+uid: O:PageExtension::ESCA_Customer_Card
+name: '"ESCA Customer Card"'

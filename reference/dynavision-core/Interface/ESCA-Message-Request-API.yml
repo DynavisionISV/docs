@@ -1,0 +1,46 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"ESCA Message Request API"'
+baseKind: Interface
+kind: Interface
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Interface](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-interfaces-in-al)'
+objectProperties:
+- name: Access
+  value: Public
+  promoted: false
+- name: Access
+  value: Public
+  promoted: false
+methods:
+- syntax:
+    content: 'procedure SupportsMessageRequestAPI(): Boolean'
+    return:
+      description: True if the message request api is supported
+      returnType:
+        name: Boolean
+        isExternal: true
+  summary: Indicates if the message request api is supported
+  uid: M:ESCA_Message_Request_API.SupportsMessageRequestAPI:Boolean
+  name: SupportsMessageRequestAPI
+- syntax:
+    content: 'procedure ProcessIncomingRequest(Request: Codeunit "Temp Blob", var Response: Codeunit "Temp Blob")'
+    parameters:
+    - id: Request
+      description: The Temp Blob instance containing the incoming request
+      parameterType:
+        name: '"Temp Blob"'
+        isExternal: true
+    - id: Response
+      description: The Temp Blob instance containing response to the request
+      parameterType:
+        name: '"Temp Blob"'
+        isExternal: true
+  summary: ProcessIncomingRequest.
+  uid: M:ESCA_Message_Request_API.ProcessIncomingRequest(Codeunit::Temp_Blob,Codeunit::Temp_Blob@)
+  name: ProcessIncomingRequest
+commentId: O:ESCA Message Request API
+uid: O:ESCA_Message_Request_API
+name: '"ESCA Message Request API"'

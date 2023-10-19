@@ -1,0 +1,38 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"ESCA Fields"'
+alId: ID 71096638
+baseKind: Page
+kind: Page
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+sourceTableType:
+  name: Field
+  isExternal: true
+seeAlso:
+- '[Page](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-object)'
+objectProperties:
+- name: ApplicationArea
+  value: '#All'
+  promoted: false
+- name: Caption
+  value: Fields
+  promoted: false
+- name: Editable
+  value: "False"
+  promoted: false
+- name: PageType
+  value: List
+  promoted: true
+- name: SourceTable
+  value: "2000000041"
+  promoted: true
+  xrefType:
+    name: Field
+    isExternal: true
+- name: UsageCategory
+  value: None
+  promoted: false
+commentId: O:Page::ESCA Fields
+uid: O:Page::ESCA_Fields
+name: '"ESCA Fields"'

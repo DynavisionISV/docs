@@ -1,0 +1,38 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"ESCA Import Messages"'
+alId: ID 71096575
+baseKind: Report
+kind: Report
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Report](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-report-object)'
+objectProperties:
+- name: ApplicationArea
+  value: '#All'
+  promoted: false
+- name: Caption
+  value: Import Messages
+  promoted: false
+- name: ProcessingOnly
+  value: "True"
+  promoted: false
+- name: UsageCategory
+  value: Tasks
+  promoted: false
+- name: ApplicationArea
+  value: '#All'
+  promoted: false
+- name: Caption
+  value: Import Messages
+  promoted: false
+- name: ProcessingOnly
+  value: "True"
+  promoted: false
+- name: UsageCategory
+  value: Tasks
+  promoted: false
+commentId: O:Report::ESCA Import Messages
+uid: O:Report::ESCA_Import_Messages
+name: '"ESCA Import Messages"'

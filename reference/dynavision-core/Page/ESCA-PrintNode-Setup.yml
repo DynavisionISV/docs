@@ -1,0 +1,43 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"ESCA PrintNode Setup"'
+alId: ID 71096581
+baseKind: Page
+kind: Page
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+sourceTableType:
+  xref: O:Table::ESCA_PrintNode_Setup
+  name: '"ESCA PrintNode Setup"'
+  isExternal: false
+seeAlso:
+- '[Page](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-object)'
+objectProperties:
+- name: ApplicationArea
+  value: '#All'
+  promoted: false
+- name: Caption
+  value: PrintNode Setup
+  promoted: false
+- name: DeleteAllowed
+  value: "False"
+  promoted: false
+- name: InsertAllowed
+  value: "False"
+  promoted: false
+- name: PageType
+  value: Card
+  promoted: true
+- name: SourceTable
+  value: "71096576"
+  promoted: true
+  xrefType:
+    xref: O:Table::ESCA_PrintNode_Setup
+    name: '"ESCA PrintNode Setup"'
+    isExternal: false
+- name: UsageCategory
+  value: Administration
+  promoted: false
+commentId: O:Page::ESCA PrintNode Setup
+uid: O:Page::ESCA_PrintNode_Setup
+name: '"ESCA PrintNode Setup"'

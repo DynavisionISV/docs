@@ -1,0 +1,48 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"ESCA Color Picker"'
+baseKind: ControlAddIn
+kind: ControlAddIn
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[ControlAddIn](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-control-addin-object)'
+methods:
+- syntax:
+    content: 'procedure AddColorPicker(Caption: Text, Id: Text)'
+    parameters:
+    - id: Caption
+      parameterType:
+        name: Text
+        isExternal: true
+    - id: Id
+      parameterType:
+        name: Text
+        isExternal: true
+  uid: M:ESCA_Color_Picker.AddColorPicker(Text,Text)
+  name: AddColorPicker
+- syntax:
+    content: 'procedure SetColor(Color: Text, ColorPickerId: Text)'
+    parameters:
+    - id: Color
+      parameterType:
+        name: Text
+        isExternal: true
+    - id: ColorPickerId
+      parameterType:
+        name: Text
+        isExternal: true
+  uid: M:ESCA_Color_Picker.SetColor(Text,Text)
+  name: SetColor
+- syntax:
+    content: 'procedure Enable(Enable: Boolean)'
+    parameters:
+    - id: Enable
+      parameterType:
+        name: Boolean
+        isExternal: true
+  uid: M:ESCA_Color_Picker.Enable(Boolean)
+  name: Enable
+commentId: O:ESCA Color Picker
+uid: O:ESCA_Color_Picker
+name: '"ESCA Color Picker"'

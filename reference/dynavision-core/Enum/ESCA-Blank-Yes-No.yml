@@ -1,0 +1,27 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"ESCA Blank Yes No"'
+alId: ID 71096604
+baseKind: Enum
+kind: Enum
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Enum](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-extensible-enums)'
+objectProperties:
+- name: Access
+  value: Public
+  promoted: false
+- name: Extensible
+  value: "False"
+  promoted: true
+enumValues:
+- uid: E:Enum::ESCA_Blank_Yes_No._
+  name: '" "'
+- uid: E:Enum::ESCA_Blank_Yes_No.Yes
+  name: "Yes"
+- uid: E:Enum::ESCA_Blank_Yes_No.No
+  name: "No"
+commentId: O:Enum::ESCA Blank Yes No
+uid: O:Enum::ESCA_Blank_Yes_No
+name: '"ESCA Blank Yes No"'

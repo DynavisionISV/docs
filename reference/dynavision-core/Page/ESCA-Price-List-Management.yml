@@ -1,0 +1,47 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"ESCA Price List Management"'
+alId: ID 71177010
+baseKind: Page
+kind: Page
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+sourceTableType:
+  name: '"Price List Line"'
+  isExternal: true
+seeAlso:
+- '[Page](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-object)'
+objectProperties:
+- name: AdditionalSearchTerms
+  value: Edit Prices, Discount Management, Price List, PriceListManagement
+  promoted: false
+- name: ApplicationArea
+  value: '#All'
+  promoted: false
+- name: Caption
+  value: Price List Management
+  promoted: false
+- name: DeleteAllowed
+  value: "False"
+  promoted: false
+- name: InsertAllowed
+  value: "False"
+  promoted: false
+- name: ModifyAllowed
+  value: "False"
+  promoted: false
+- name: PageType
+  value: List
+  promoted: true
+- name: SourceTable
+  value: "7001"
+  promoted: true
+  xrefType:
+    name: '"Price List Line"'
+    isExternal: true
+- name: UsageCategory
+  value: Tasks
+  promoted: false
+commentId: O:Page::ESCA Price List Management
+uid: O:Page::ESCA_Price_List_Management
+name: '"ESCA Price List Management"'

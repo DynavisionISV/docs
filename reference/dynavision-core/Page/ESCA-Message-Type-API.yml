@@ -1,0 +1,61 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"ESCA Message Type API"'
+alId: ID 71096643
+baseKind: Page
+kind: Page
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+sourceTableType:
+  xref: O:Table::ESCA_Message_Type
+  name: '"ESCA Message Type"'
+  isExternal: false
+seeAlso:
+- '[Page](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-object)'
+objectProperties:
+- name: APIGroup
+  value: core
+  promoted: false
+- name: APIPublisher
+  value: dynavision
+  promoted: false
+- name: APIVersion
+  value: "'v1.0'"
+  promoted: false
+- name: ApplicationArea
+  value: '#All'
+  promoted: false
+- name: Caption
+  value: Message Type API
+  promoted: false
+- name: DelayedInsert
+  value: "True"
+  promoted: false
+- name: DeleteAllowed
+  value: "False"
+  promoted: false
+- name: EntityName
+  value: messageType
+  promoted: false
+- name: EntitySetName
+  value: messageTypes
+  promoted: false
+- name: InsertAllowed
+  value: "False"
+  promoted: false
+- name: ModifyAllowed
+  value: "False"
+  promoted: false
+- name: PageType
+  value: API
+  promoted: true
+- name: SourceTable
+  value: "71096599"
+  promoted: true
+  xrefType:
+    xref: O:Table::ESCA_Message_Type
+    name: '"ESCA Message Type"'
+    isExternal: false
+commentId: O:Page::ESCA Message Type API
+uid: O:Page::ESCA_Message_Type_API
+name: '"ESCA Message Type API"'

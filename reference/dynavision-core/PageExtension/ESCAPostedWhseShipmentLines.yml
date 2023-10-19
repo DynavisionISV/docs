@@ -1,0 +1,16 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: ESCAPostedWhseShipmentLines
+alId: ID 71096615
+baseKind: Page
+kind: PageExtension
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+extends:
+  name: '"Posted Whse. Shipment Lines"'
+  isExternal: true
+seeAlso:
+- '[Page Extension](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-ext-object)'
+commentId: O:PageExtension::ESCAPostedWhseShipmentLines
+uid: O:PageExtension::ESCAPostedWhseShipmentLines
+name: ESCAPostedWhseShipmentLines

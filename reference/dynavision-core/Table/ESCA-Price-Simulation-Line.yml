@@ -1,0 +1,197 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"ESCA Price Simulation Line"'
+alId: ID 71096588
+baseKind: Table
+kind: Table
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Table](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-table-object)'
+objectProperties:
+- name: Access
+  value: Public
+  promoted: false
+- name: Caption
+  value: Price Simulation Line
+  promoted: false
+- name: DataClassification
+  value: CustomerContent
+  promoted: false
+- name: TableType
+  value: Temporary
+  promoted: false
+fields:
+- type:
+    name: Integer
+    isExternal: true
+  uid: F:Table::ESCA_Price_Simulation_Line.PK
+  name: PK
+- type:
+    name: Code[20]
+    isExternal: true
+  uid: F:Table::ESCA_Price_Simulation_Line.Customer_No.[20]
+  name: '"Customer No."'
+- type:
+    name: '"Sales Line Type"'
+    isExternal: true
+  uid: F:Table::ESCA_Price_Simulation_Line.Simulation_Type
+  name: '"Simulation Type"'
+- type:
+    name: Code[20]
+    isExternal: true
+  uid: F:Table::ESCA_Price_Simulation_Line.Asset_No.[20]
+  name: '"Asset No."'
+- type:
+    name: Decimal
+    isExternal: true
+  uid: F:Table::ESCA_Price_Simulation_Line.Quantity
+  name: Quantity
+- type:
+    name: Code[10]
+    isExternal: true
+  uid: F:Table::ESCA_Price_Simulation_Line.Unit_Of_Measure_Code[10]
+  name: '"Unit Of Measure Code"'
+- type:
+    name: Code[10]
+    isExternal: true
+  uid: F:Table::ESCA_Price_Simulation_Line.Variant_Code[10]
+  name: '"Variant Code"'
+- type:
+    name: Boolean
+    isExternal: true
+  uid: F:Table::ESCA_Price_Simulation_Line.Allow_Blocked_Item
+  name: '"Allow Blocked Item"'
+- type:
+    name: '"Price Calculation Method"'
+    isExternal: true
+  uid: F:Table::ESCA_Price_Simulation_Line.Price_Calculation_Method
+  name: '"Price Calculation Method"'
+- type:
+    name: Date
+    isExternal: true
+  uid: F:Table::ESCA_Price_Simulation_Line.Order_Date
+  name: '"Order Date"'
+- type:
+    name: Code[20]
+    isExternal: true
+  uid: F:Table::ESCA_Price_Simulation_Line.Item_Discount_Group[20]
+  name: '"Item Discount Group"'
+- type:
+    name: Code[10]
+    isExternal: true
+  uid: F:Table::ESCA_Price_Simulation_Line.Customer_Price_Group[10]
+  name: '"Customer Price Group"'
+- type:
+    name: Code[20]
+    isExternal: true
+  uid: F:Table::ESCA_Price_Simulation_Line.Customer_Discount_Group[20]
+  name: '"Customer Discount Group"'
+- type:
+    name: Boolean
+    isExternal: true
+  uid: F:Table::ESCA_Price_Simulation_Line.Incl_Vat
+  name: '"Incl Vat"'
+- type:
+    name: Code[20]
+    isExternal: true
+  uid: F:Table::ESCA_Price_Simulation_Line.VAT_Bus._Posting_Group[20]
+  name: '"VAT Bus. Posting Group"'
+- type:
+    name: Text[100]
+    isExternal: true
+  uid: F:Table::ESCA_Price_Simulation_Line.Prio_Description[100]
+  name: '"Prio Description"'
+- type:
+    name: Text[100]
+    isExternal: true
+  uid: F:Table::ESCA_Price_Simulation_Line.Customer_Name[100]
+  name: '"Customer Name"'
+- type:
+    name: Text[100]
+    isExternal: true
+  uid: F:Table::ESCA_Price_Simulation_Line.Item_Description[100]
+  name: '"Item Description"'
+- type:
+    name: Text[100]
+    isExternal: true
+  uid: F:Table::ESCA_Price_Simulation_Line.Resource_Name[100]
+  name: '"Resource Name"'
+- type:
+    name: Text[100]
+    isExternal: true
+  uid: F:Table::ESCA_Price_Simulation_Line.G/L_Account_Name[100]
+  name: '"G/L Account Name"'
+- type:
+    name: Boolean
+    isExternal: true
+  uid: F:Table::ESCA_Price_Simulation_Line.Only_Prices_From_Price_List
+  name: '"Only Prices From Price List"'
+- type:
+    name: Boolean
+    isExternal: true
+  uid: F:Table::ESCA_Price_Simulation_Line.Store_Applied_Discount
+  name: '"Store Applied Discount"'
+- type:
+    name: Boolean
+    isExternal: true
+  uid: F:Table::ESCA_Price_Simulation_Line.Store_Applied_Price
+  name: '"Store Applied Price"'
+- type:
+    name: Boolean
+    isExternal: true
+  uid: F:Table::ESCA_Price_Simulation_Line.Store_Considered_Discounts
+  name: '"Store Considered Discounts"'
+- type:
+    name: Boolean
+    isExternal: true
+  uid: F:Table::ESCA_Price_Simulation_Line.Store_Considered_Prices
+  name: '"Store Considered Prices"'
+- type:
+    name: Boolean
+    isExternal: true
+  uid: F:Table::ESCA_Price_Simulation_Line.Exclude_Blocked_Assets
+  name: '"Exclude Blocked Assets"'
+- type:
+    name: Boolean
+    isExternal: true
+  uid: F:Table::ESCA_Price_Simulation_Line.Exclude_Promotion_Prices
+  name: '"Exclude Promotion Prices"'
+- type:
+    name: Boolean
+    isExternal: true
+  uid: F:Table::ESCA_Price_Simulation_Line.Collect_Error_Info
+  name: '"Collect Error Info"'
+- type:
+    name: Guid
+    isExternal: true
+  uid: F:Table::ESCA_Price_Simulation_Line.SystemId
+  name: SystemId
+- type:
+    name: DateTime
+    isExternal: true
+  uid: F:Table::ESCA_Price_Simulation_Line.SystemCreatedAt
+  name: SystemCreatedAt
+- type:
+    name: Guid
+    isExternal: true
+  uid: F:Table::ESCA_Price_Simulation_Line.SystemCreatedBy
+  name: SystemCreatedBy
+- type:
+    name: DateTime
+    isExternal: true
+  uid: F:Table::ESCA_Price_Simulation_Line.SystemModifiedAt
+  name: SystemModifiedAt
+- type:
+    name: Guid
+    isExternal: true
+  uid: F:Table::ESCA_Price_Simulation_Line.SystemModifiedBy
+  name: SystemModifiedBy
+- type:
+    name: BigInteger
+    isExternal: true
+  uid: F:Table::ESCA_Price_Simulation_Line.SystemRowVersion
+  name: SystemRowVersion
+commentId: O:Table::ESCA Price Simulation Line
+uid: O:Table::ESCA_Price_Simulation_Line
+name: '"ESCA Price Simulation Line"'

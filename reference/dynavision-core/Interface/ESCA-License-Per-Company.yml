@@ -1,0 +1,30 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"ESCA License Per Company"'
+baseKind: Interface
+kind: Interface
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Interface](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-interfaces-in-al)'
+objectProperties:
+- name: Access
+  value: Public
+  promoted: false
+- name: Access
+  value: Public
+  promoted: false
+methods:
+- syntax:
+    content: 'procedure RequiresLicensePerCompany(): Boolean'
+    return:
+      description: True if a license per company is required
+      returnType:
+        name: Boolean
+        isExternal: true
+  summary: Returns if the module requires a license per company
+  uid: M:ESCA_License_Per_Company.RequiresLicensePerCompany:Boolean
+  name: RequiresLicensePerCompany
+commentId: O:ESCA License Per Company
+uid: O:ESCA_License_Per_Company
+name: '"ESCA License Per Company"'

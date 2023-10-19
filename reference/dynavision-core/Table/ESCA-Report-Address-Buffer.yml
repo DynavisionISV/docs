@@ -1,0 +1,107 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"ESCA Report Address Buffer"'
+alId: ID 71096631
+baseKind: Table
+kind: Table
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Table](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-table-object)'
+objectProperties:
+- name: Access
+  value: Public
+  promoted: false
+- name: Caption
+  value: Report Address Buffer
+  promoted: false
+- name: DataClassification
+  value: CustomerContent
+  promoted: false
+- name: TableType
+  value: Temporary
+  promoted: false
+fields:
+- type:
+    name: Text[2048]
+    isExternal: true
+  uid: F:Table::ESCA_Report_Address_Buffer.Address[2048]
+  name: Address
+- type:
+    name: Text[250]
+    isExternal: true
+  uid: F:Table::ESCA_Report_Address_Buffer.EORI_No.[250]
+  name: '"EORI No."'
+- type:
+    name: Text[250]
+    isExternal: true
+  uid: F:Table::ESCA_Report_Address_Buffer.VAT_No.[250]
+  name: '"VAT No."'
+- type:
+    name: Text[250]
+    isExternal: true
+  uid: F:Table::ESCA_Report_Address_Buffer.Bank_Name[250]
+  name: '"Bank Name"'
+- type:
+    name: Text[250]
+    isExternal: true
+  uid: F:Table::ESCA_Report_Address_Buffer.IBAN[250]
+  name: IBAN
+- type:
+    name: Text[250]
+    isExternal: true
+  uid: F:Table::ESCA_Report_Address_Buffer.SWIFT/BIC_Code[250]
+  name: '"SWIFT/BIC Code"'
+- type:
+    name: Text[250]
+    isExternal: true
+  uid: F:Table::ESCA_Report_Address_Buffer.Website[250]
+  name: Website
+- type:
+    name: Text[250]
+    isExternal: true
+  uid: F:Table::ESCA_Report_Address_Buffer.Phone_No.[250]
+  name: '"Phone No."'
+- type:
+    name: Text[250]
+    isExternal: true
+  uid: F:Table::ESCA_Report_Address_Buffer.Mobile_Phone_No.[250]
+  name: '"Mobile Phone No."'
+- type:
+    name: Text[250]
+    isExternal: true
+  uid: F:Table::ESCA_Report_Address_Buffer.E-mail[250]
+  name: '"E-mail"'
+- type:
+    name: Guid
+    isExternal: true
+  uid: F:Table::ESCA_Report_Address_Buffer.SystemId
+  name: SystemId
+- type:
+    name: DateTime
+    isExternal: true
+  uid: F:Table::ESCA_Report_Address_Buffer.SystemCreatedAt
+  name: SystemCreatedAt
+- type:
+    name: Guid
+    isExternal: true
+  uid: F:Table::ESCA_Report_Address_Buffer.SystemCreatedBy
+  name: SystemCreatedBy
+- type:
+    name: DateTime
+    isExternal: true
+  uid: F:Table::ESCA_Report_Address_Buffer.SystemModifiedAt
+  name: SystemModifiedAt
+- type:
+    name: Guid
+    isExternal: true
+  uid: F:Table::ESCA_Report_Address_Buffer.SystemModifiedBy
+  name: SystemModifiedBy
+- type:
+    name: BigInteger
+    isExternal: true
+  uid: F:Table::ESCA_Report_Address_Buffer.SystemRowVersion
+  name: SystemRowVersion
+commentId: O:Table::ESCA Report Address Buffer
+uid: O:Table::ESCA_Report_Address_Buffer
+name: '"ESCA Report Address Buffer"'

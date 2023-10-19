@@ -1,0 +1,163 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"ESCA Authorization Setup"'
+alId: ID 71096581
+baseKind: Table
+kind: Table
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Table](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-table-object)'
+objectProperties:
+- name: Access
+  value: Public
+  promoted: false
+- name: Caption
+  value: Authorization Setup
+  promoted: false
+- name: DrillDownPageId
+  value: ESCA Authorization Setup List
+  promoted: false
+  xrefType:
+    xref: O:Page::ESCA_Authorization_Setup_List
+    name: '"ESCA Authorization Setup List"'
+    isExternal: false
+- name: LookupPageId
+  value: ESCA Authorization Setup List
+  promoted: false
+  xrefType:
+    xref: O:Page::ESCA_Authorization_Setup_List
+    name: '"ESCA Authorization Setup List"'
+    isExternal: false
+- name: ObsoleteReason
+  value: Replaced by new authorization setup framework
+  promoted: false
+- name: ObsoleteState
+  value: Pending
+  promoted: false
+- name: ObsoleteTag
+  value: "21.0"
+  promoted: false
+fields:
+- type:
+    name: Code[20]
+    isExternal: true
+  uid: F:Table::ESCA_Authorization_Setup.Code[20]
+  name: Code
+- type:
+    name: '"ESCA Authorization Type"'
+    isExternal: true
+  uid: F:Table::ESCA_Authorization_Setup.Authorization_Type
+  name: '"Authorization Type"'
+- type:
+    name: Text[250]
+    isExternal: true
+  uid: F:Table::ESCA_Authorization_Setup.Web_Service_Access_Key[250]
+  name: '"Web Service Access Key"'
+- type:
+    name: Text[100]
+    isExternal: true
+  uid: F:Table::ESCA_Authorization_Setup.Web_Service_UserName[100]
+  name: '"Web Service UserName"'
+- type:
+    name: Text[2048]
+    isExternal: true
+  uid: F:Table::ESCA_Authorization_Setup.Access_Token[2048]
+  name: '"Access Token"'
+- type:
+    name: Text[2048]
+    isExternal: true
+  uid: F:Table::ESCA_Authorization_Setup.Refresh_Token[2048]
+  name: '"Refresh Token"'
+- type:
+    name: Text[2048]
+    isExternal: true
+  uid: F:Table::ESCA_Authorization_Setup.ClientId[2048]
+  name: ClientId
+- type:
+    name: Text[2048]
+    isExternal: true
+  uid: F:Table::ESCA_Authorization_Setup.Client_Secret[2048]
+  name: '"Client Secret"'
+- type:
+    name: Text[2048]
+    isExternal: true
+  uid: F:Table::ESCA_Authorization_Setup.Scope[2048]
+  name: Scope
+- type:
+    name: Text[2048]
+    isExternal: true
+  uid: F:Table::ESCA_Authorization_Setup.Autorize_URL[2048]
+  name: '"Autorize URL"'
+- type:
+    name: Text[2048]
+    isExternal: true
+  uid: F:Table::ESCA_Authorization_Setup.Token_URL[2048]
+  name: '"Token URL"'
+- type:
+    name: DateTime
+    isExternal: true
+  uid: F:Table::ESCA_Authorization_Setup.Access_Token_Expires_at
+  name: '"Access Token Expires at"'
+- type:
+    name: Text[2048]
+    isExternal: true
+  uid: F:Table::ESCA_Authorization_Setup.Redirect_URI[2048]
+  name: '"Redirect URI"'
+- type:
+    name: DateTime
+    isExternal: true
+  uid: F:Table::ESCA_Authorization_Setup.Refresh_Token_Expires_at
+  name: '"Refresh Token Expires at"'
+- type:
+    name: Text[2048]
+    isExternal: true
+  uid: F:Table::ESCA_Authorization_Setup.Authorization_Code[2048]
+  name: '"Authorization Code"'
+- type:
+    name: Text[2048]
+    isExternal: true
+  uid: F:Table::ESCA_Authorization_Setup.Environment[2048]
+  name: Environment
+- type:
+    name: Text[50]
+    isExternal: true
+  uid: F:Table::ESCA_Authorization_Setup.Tenant[50]
+  name: Tenant
+- type:
+    name: Guid
+    isExternal: true
+  uid: F:Table::ESCA_Authorization_Setup.SystemId
+  name: SystemId
+- type:
+    name: DateTime
+    isExternal: true
+  uid: F:Table::ESCA_Authorization_Setup.SystemCreatedAt
+  name: SystemCreatedAt
+- type:
+    name: Guid
+    isExternal: true
+  uid: F:Table::ESCA_Authorization_Setup.SystemCreatedBy
+  name: SystemCreatedBy
+- type:
+    name: DateTime
+    isExternal: true
+  uid: F:Table::ESCA_Authorization_Setup.SystemModifiedAt
+  name: SystemModifiedAt
+- type:
+    name: Guid
+    isExternal: true
+  uid: F:Table::ESCA_Authorization_Setup.SystemModifiedBy
+  name: SystemModifiedBy
+- type:
+    name: BigInteger
+    isExternal: true
+  uid: F:Table::ESCA_Authorization_Setup.SystemRowVersion
+  name: SystemRowVersion
+commentId: O:Table::ESCA Authorization Setup
+uid: O:Table::ESCA_Authorization_Setup
+name: '"ESCA Authorization Setup"'
+obsoletion:
+  state: pending
+  reason: Replaced by new authorization setup framework
+  version: "21.0"

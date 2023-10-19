@@ -1,0 +1,16 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: ESCAPostedWhseReceiptLines
+alId: ID 71096614
+baseKind: Page
+kind: PageExtension
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+extends:
+  name: '"Posted Whse. Receipt Lines"'
+  isExternal: true
+seeAlso:
+- '[Page Extension](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-ext-object)'
+commentId: O:PageExtension::ESCAPostedWhseReceiptLines
+uid: O:PageExtension::ESCAPostedWhseReceiptLines
+name: ESCAPostedWhseReceiptLines

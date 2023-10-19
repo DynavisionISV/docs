@@ -1,0 +1,67 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"ESCA Item Ledg. Entry Comp API"'
+alId: ID 71096617
+baseKind: Page
+kind: Page
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+sourceTableType:
+  xref: O:Table::ESCAItemLedgerEntryCompanion
+  name: ESCAItemLedgerEntryCompanion
+  isExternal: false
+seeAlso:
+- '[Page](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-object)'
+objectProperties:
+- name: APIGroup
+  value: core
+  promoted: false
+- name: APIPublisher
+  value: dynavision
+  promoted: false
+- name: APIVersion
+  value: "'v1.0'"
+  promoted: false
+- name: Caption
+  value: Item Ledger Entry API
+  promoted: false
+- name: DelayedInsert
+  value: "True"
+  promoted: false
+- name: DeleteAllowed
+  value: "False"
+  promoted: false
+- name: EntityCaption
+  value: Item Ledger Entry
+  promoted: false
+- name: EntityName
+  value: itemLedgerEntry
+  promoted: false
+- name: EntitySetCaption
+  value: Item Ledger Entries
+  promoted: false
+- name: EntitySetName
+  value: itemLedgerEntries
+  promoted: false
+- name: InsertAllowed
+  value: "False"
+  promoted: false
+- name: ModifyAllowed
+  value: "False"
+  promoted: false
+- name: ODataKeyFields
+  value: "2000000000"
+  promoted: false
+- name: PageType
+  value: API
+  promoted: true
+- name: SourceTable
+  value: "71096586"
+  promoted: true
+  xrefType:
+    xref: O:Table::ESCAItemLedgerEntryCompanion
+    name: ESCAItemLedgerEntryCompanion
+    isExternal: false
+commentId: O:Page::ESCA Item Ledg# Entry Comp API
+uid: O:Page::ESCA_Item_Ledg#_Entry_Comp_API
+name: '"ESCA Item Ledg. Entry Comp API"'

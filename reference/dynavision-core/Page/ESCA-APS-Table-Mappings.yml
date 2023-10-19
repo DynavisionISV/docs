@@ -1,0 +1,40 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"ESCA APS Table Mappings"'
+alId: ID 71096626
+baseKind: Page
+kind: Page
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+sourceTableType:
+  xref: O:Table::ESCA_APS_Table_Mapping
+  name: '"ESCA APS Table Mapping"'
+  isExternal: false
+seeAlso:
+- '[Page](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-object)'
+objectProperties:
+- name: ApplicationArea
+  value: '#All'
+  promoted: false
+- name: Caption
+  value: Attribute Printing Set Table Mappings
+  promoted: false
+- name: DelayedInsert
+  value: "True"
+  promoted: false
+- name: PageType
+  value: List
+  promoted: true
+- name: SourceTable
+  value: "71096608"
+  promoted: true
+  xrefType:
+    xref: O:Table::ESCA_APS_Table_Mapping
+    name: '"ESCA APS Table Mapping"'
+    isExternal: false
+- name: UsageCategory
+  value: Administration
+  promoted: false
+commentId: O:Page::ESCA APS Table Mappings
+uid: O:Page::ESCA_APS_Table_Mappings
+name: '"ESCA APS Table Mappings"'

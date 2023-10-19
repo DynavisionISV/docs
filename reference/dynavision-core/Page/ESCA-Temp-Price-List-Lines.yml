@@ -1,0 +1,38 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"ESCA Temp Price List Lines"'
+alId: ID 71096600
+baseKind: Page
+kind: Page
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+sourceTableType:
+  name: '"Price List Line"'
+  isExternal: true
+seeAlso:
+- '[Page](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-object)'
+objectProperties:
+- name: ApplicationArea
+  value: '#All'
+  promoted: false
+- name: Caption
+  value: Price List Lines
+  promoted: false
+- name: LinksAllowed
+  value: "False"
+  promoted: false
+- name: PageType
+  value: ListPart
+  promoted: true
+- name: SourceTable
+  value: "7001"
+  promoted: true
+  xrefType:
+    name: '"Price List Line"'
+    isExternal: true
+- name: SourceTableTemporary
+  value: "True"
+  promoted: false
+commentId: O:Page::ESCA Temp Price List Lines
+uid: O:Page::ESCA_Temp_Price_List_Lines
+name: '"ESCA Temp Price List Lines"'

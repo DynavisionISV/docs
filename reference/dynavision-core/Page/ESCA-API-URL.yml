@@ -1,0 +1,40 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"ESCA API URL"'
+alId: ID 71096578
+baseKind: Page
+kind: Page
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+sourceTableType:
+  xref: O:Table::ESCA_API_URL
+  name: '"ESCA API URL"'
+  isExternal: false
+seeAlso:
+- '[Page](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-object)'
+objectProperties:
+- name: AdditionalSearchTerms
+  value: web service,webservice,endpoint
+  promoted: false
+- name: ApplicationArea
+  value: '#All'
+  promoted: false
+- name: Caption
+  value: API URL
+  promoted: false
+- name: PageType
+  value: List
+  promoted: true
+- name: SourceTable
+  value: "71096583"
+  promoted: true
+  xrefType:
+    xref: O:Table::ESCA_API_URL
+    name: '"ESCA API URL"'
+    isExternal: false
+- name: UsageCategory
+  value: Lists
+  promoted: false
+commentId: O:Page::ESCA API URL
+uid: O:Page::ESCA_API_URL
+name: '"ESCA API URL"'

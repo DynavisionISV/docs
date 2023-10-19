@@ -1,0 +1,103 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"ESCA Trade Message Type"'
+alId: ID 71177025
+baseKind: Codeunit
+kind: Codeunit
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Codeunit](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-codeunit-object)'
+objectProperties:
+- name: Access
+  value: Public
+  promoted: false
+methods:
+- syntax:
+    content: 'procedure CheckSetup(MessageType: Record "ESCA Message Type")'
+    parameters:
+    - id: MessageType
+      parameterType:
+        name: Record "ESCA Message Type"
+        isExternal: true
+  uid: M:Codeunit::ESCA_Trade_Message_Type.CheckSetup(ESCA_Message_Type)
+  name: CheckSetup
+- syntax:
+    content: 'procedure RequiresPartner(): Boolean'
+    return:
+      returnType:
+        name: Boolean
+        isExternal: true
+  uid: M:Codeunit::ESCA_Trade_Message_Type.RequiresPartner:Boolean
+  name: RequiresPartner
+- syntax:
+    content: 'procedure GetPartners(Source: Variant, PartnerCodes: List of [Code[30]])'
+    parameters:
+    - id: Source
+      parameterType:
+        name: Variant
+        isExternal: true
+    - id: PartnerCodes
+      parameterType:
+        name: List of [Code[30]]
+        isExternal: true
+  uid: M:Codeunit::ESCA_Trade_Message_Type.GetPartners(Variant,List[Code])
+  name: GetPartners
+- syntax:
+    content: 'procedure GetPartnerFields(Source: Variant, var TempPartnerMapping: Record "ESCA Partner Mapping" temporary)'
+    parameters:
+    - id: Source
+      parameterType:
+        name: Variant
+        isExternal: true
+    - id: TempPartnerMapping
+      parameterType:
+        name: Record "ESCA Partner Mapping" temporary
+        isExternal: true
+  uid: M:Codeunit::ESCA_Trade_Message_Type.GetPartnerFields(Variant,ESCA_Partner_Mapping@)
+  name: GetPartnerFields
+- syntax:
+    content: 'procedure SupportsSetup(): Boolean'
+    return:
+      returnType:
+        name: Boolean
+        isExternal: true
+  uid: M:Codeunit::ESCA_Trade_Message_Type.SupportsSetup:Boolean
+  name: SupportsSetup
+- syntax:
+    content: 'procedure CreateSetup(MessageTypeCode: Code[30])'
+    parameters:
+    - id: MessageTypeCode
+      parameterType:
+        name: Code[30]
+        isExternal: true
+  uid: M:Codeunit::ESCA_Trade_Message_Type.CreateSetup(Code[30])
+  name: CreateSetup
+- syntax:
+    content: 'procedure DeleteSetup(MessageTypeCode: Code[30])'
+    parameters:
+    - id: MessageTypeCode
+      parameterType:
+        name: Code[30]
+        isExternal: true
+  uid: M:Codeunit::ESCA_Trade_Message_Type.DeleteSetup(Code[30])
+  name: DeleteSetup
+- syntax:
+    content: 'procedure ShowSetup(MessageTypeCode: Code[30])'
+    parameters:
+    - id: MessageTypeCode
+      parameterType:
+        name: Code[30]
+        isExternal: true
+  uid: M:Codeunit::ESCA_Trade_Message_Type.ShowSetup(Code[30])
+  name: ShowSetup
+implements:
+- xref: O:ESCA_Message_Type
+  name: '"ESCA Message Type"'
+  isExternal: false
+- xref: O:ESCA_Message_Type_Setup
+  name: '"ESCA Message Type Setup"'
+  isExternal: false
+commentId: O:Codeunit::ESCA Trade Message Type
+uid: O:Codeunit::ESCA_Trade_Message_Type
+name: '"ESCA Trade Message Type"'

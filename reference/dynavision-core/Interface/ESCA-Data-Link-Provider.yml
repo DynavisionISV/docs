@@ -1,0 +1,44 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"ESCA Data Link Provider"'
+baseKind: Interface
+kind: Interface
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Interface](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-interfaces-in-al)'
+objectProperties:
+- name: Access
+  value: Public
+  promoted: false
+- name: Access
+  value: Public
+  promoted: false
+methods:
+- syntax:
+    content: 'procedure GetAccountName(): Text'
+    return:
+      returnType:
+        name: Text
+        isExternal: true
+  uid: M:ESCA_Data_Link_Provider.GetAccountName:Text
+  name: GetAccountName
+- syntax:
+    content: 'procedure GetContainerName(): Text'
+    return:
+      returnType:
+        name: Text
+        isExternal: true
+  uid: M:ESCA_Data_Link_Provider.GetContainerName:Text
+  name: GetContainerName
+- syntax:
+    content: 'procedure GetStorageKey(): Text'
+    return:
+      returnType:
+        name: Text
+        isExternal: true
+  uid: M:ESCA_Data_Link_Provider.GetStorageKey:Text
+  name: GetStorageKey
+commentId: O:ESCA Data Link Provider
+uid: O:ESCA_Data_Link_Provider
+name: '"ESCA Data Link Provider"'

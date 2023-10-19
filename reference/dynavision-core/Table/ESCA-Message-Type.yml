@@ -1,0 +1,403 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"ESCA Message Type"'
+alId: ID 71096599
+baseKind: Table
+kind: Table
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Table](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-table-object)'
+objectProperties:
+- name: Access
+  value: Public
+  promoted: false
+- name: Caption
+  value: Message Type
+  promoted: false
+- name: DataClassification
+  value: CustomerContent
+  promoted: false
+- name: DrillDownPageId
+  value: ESCA Message Types
+  promoted: false
+  xrefType:
+    xref: O:Page::ESCA_Message_Types
+    name: '"ESCA Message Types"'
+    isExternal: false
+- name: LookupPageId
+  value: ESCA Message Types
+  promoted: false
+  xrefType:
+    xref: O:Page::ESCA_Message_Types
+    name: '"ESCA Message Types"'
+    isExternal: false
+methods:
+- syntax:
+    content: 'procedure GetOrCreate(MessageFormat: Enum "ESCA Message Format"): Boolean'
+    parameters:
+    - id: MessageFormat
+      description: The message format to find/create the message type
+      parameterType:
+        xref: O:Enum::ESCA_Message_Format
+        name: '"ESCA Message Format"'
+        isExternal: false
+    return:
+      description: True if the message type was found (or created if missing)
+      returnType:
+        name: Boolean
+        isExternal: true
+  summary: Gets the message type for a message format (and create if missing)
+  uid: M:Table::ESCA_Message_Type.GetOrCreate(Enum::ESCA_Message_Format):Boolean
+  name: GetOrCreate
+- syntax:
+    content: 'procedure FormatPrice(Price: Decimal): Text'
+    parameters:
+    - id: Price
+      description: The price to format
+      parameterType:
+        name: Decimal
+        isExternal: true
+    return:
+      description: The formatted price as text
+      returnType:
+        name: Text
+        isExternal: true
+  summary: Formats a price field in the price format of the message type
+  uid: M:Table::ESCA_Message_Type.FormatPrice(Decimal):Text
+  name: FormatPrice
+- syntax:
+    content: 'procedure FormatQuantity(Quantity: Decimal): Text'
+    parameters:
+    - id: Quantity
+      description: The quantity to format
+      parameterType:
+        name: Decimal
+        isExternal: true
+    return:
+      description: The formatted quantity as text
+      returnType:
+        name: Text
+        isExternal: true
+  summary: Formats a quantity field in the quantity format of the message type
+  uid: M:Table::ESCA_Message_Type.FormatQuantity(Decimal):Text
+  name: FormatQuantity
+- syntax:
+    content: 'procedure FormatDate(Date: Date): Text'
+    parameters:
+    - id: Date
+      description: The date to format
+      parameterType:
+        name: Date
+        isExternal: true
+    return:
+      description: The formatted date as text
+      returnType:
+        name: Text
+        isExternal: true
+  summary: Formats a date field in the date format of the message type
+  uid: M:Table::ESCA_Message_Type.FormatDate(Date):Text
+  name: FormatDate
+- syntax:
+    content: 'procedure FormatTime(Time: Time): Text'
+    parameters:
+    - id: Time
+      description: The time to format
+      parameterType:
+        name: Time
+        isExternal: true
+    return:
+      description: The formatted time as text
+      returnType:
+        name: Text
+        isExternal: true
+  summary: Formats a time field in the time format of the message type
+  uid: M:Table::ESCA_Message_Type.FormatTime(Time):Text
+  name: FormatTime
+- syntax:
+    content: 'procedure ImportData(ShowMessages: Boolean)'
+    parameters:
+    - id: ShowMessages
+      description: True if the resulted messages must be shown after import
+      parameterType:
+        name: Boolean
+        isExternal: true
+  summary: Import data automatically and auto process (based on the 'Auto Process' setting)
+  uid: M:Table::ESCA_Message_Type.ImportData(Boolean)
+  name: ImportData
+- syntax:
+    content: 'procedure ImportData(FromFile: Boolean, ShowMessages: Boolean)'
+    parameters:
+    - id: FromFile
+      description: True if the data is to be manually imported by selecting a file, false if data is automatically imported via the configured communication method
+      parameterType:
+        name: Boolean
+        isExternal: true
+    - id: ShowMessages
+      description: True if the resulted messages must be shown after import
+      parameterType:
+        name: Boolean
+        isExternal: true
+  summary: Import data automatically or manually and auto process (based on the 'Auto Process' setting)
+  uid: M:Table::ESCA_Message_Type.ImportData(Boolean,Boolean)
+  name: ImportData
+- syntax:
+    content: 'procedure ImportData(RequestBody: Codeunit "Temp Blob", ShowMessages: Boolean)'
+    parameters:
+    - id: RequestBody
+      description: A TempBlob record allowing to pass a custom request body
+      parameterType:
+        name: '"Temp Blob"'
+        isExternal: true
+    - id: ShowMessages
+      description: True if the resulted messages must be shown after import
+      parameterType:
+        name: Boolean
+        isExternal: true
+  summary: Import data automatically or manually and auto process (based on the 'Auto Process' setting)
+  uid: M:Table::ESCA_Message_Type.ImportData(Codeunit::Temp_Blob,Boolean)
+  name: ImportData
+- syntax:
+    content: 'procedure GetAPIUrl(PartnerCode: Code[30], var APIUrl: Record "ESCA API URL")'
+    parameters:
+    - id: PartnerCode
+      description: (Optional) The partner code in case the message type is using different API Urls by partner
+      parameterType:
+        name: Code[30]
+        isExternal: true
+    - id: APIUrl
+      description: The returned API Url record
+      parameterType:
+        name: Record "ESCA API URL"
+        isExternal: true
+  summary: Gets the API URL record for a given message type and/or partner code
+  uid: M:Table::ESCA_Message_Type.GetAPIUrl(Code[30],ESCA_API_URL@)
+  name: GetAPIUrl
+- syntax:
+    content: 'procedure AddPartner(PartnerCode: Code[30])'
+    parameters:
+    - id: PartnerCode
+      description: The code representing the partner
+      parameterType:
+        name: Code[30]
+        isExternal: true
+  summary: Adds a partner with the specified partner code if it does not already exist in the partner message type table.
+  uid: M:Table::ESCA_Message_Type.AddPartner(Code[30])
+  name: AddPartner
+fields:
+- type:
+    name: Code[30]
+    isExternal: true
+  uid: F:Table::ESCA_Message_Type.Code[30]
+  name: Code
+- type:
+    name: Text[100]
+    isExternal: true
+  uid: F:Table::ESCA_Message_Type.Description[100]
+  name: Description
+- type:
+    name: Boolean
+    isExternal: true
+  uid: F:Table::ESCA_Message_Type.Blocked
+  name: Blocked
+- type:
+    xref: O:Enum::ESCA_Message_Type
+    name: '"ESCA Message Type"'
+    isExternal: false
+  uid: F:Table::ESCA_Message_Type.Message_Type
+  name: '"Message Type"'
+- type:
+    xref: O:Enum::ESCA_Message_Format
+    name: '"ESCA Message Format"'
+    isExternal: false
+  uid: F:Table::ESCA_Message_Type.Message_Format
+  name: '"Message Format"'
+- type:
+    name: '"ESCA Message Type Direction"'
+    isExternal: true
+  uid: F:Table::ESCA_Message_Type.Direction
+  name: Direction
+- type:
+    name: Code[20]
+    isExternal: true
+  uid: F:Table::ESCA_Message_Type.XML_Schema[20]
+  name: '"XML Schema"'
+- type:
+    name: Text[100]
+    isExternal: true
+  uid: F:Table::ESCA_Message_Type.File_Name[100]
+  name: '"File Name"'
+- type:
+    name: Text[30]
+    isExternal: true
+  uid: F:Table::ESCA_Message_Type.File_Extension[30]
+  name: '"File Extension"'
+- type:
+    name: Integer
+    isExternal: true
+  uid: F:Table::ESCA_Message_Type.XMLPort_ID
+  name: '"XMLPort ID"'
+- type:
+    name: Text[249]
+    isExternal: true
+  uid: F:Table::ESCA_Message_Type.XMLPort_Caption[249]
+  name: '"XMLPort Caption"'
+- type:
+    name: Boolean
+    isExternal: true
+  uid: F:Table::ESCA_Message_Type.Test_Mode
+  name: '"Test Mode"'
+- type:
+    xref: O:Enum::ESCA_Communication_Method
+    name: '"ESCA Communication Method"'
+    isExternal: false
+  uid: F:Table::ESCA_Message_Type.Communication_Method
+  name: '"Communication Method"'
+- type:
+    name: Text[80]
+    isExternal: true
+  uid: F:Table::ESCA_Message_Type.Email[80]
+  name: Email
+- type:
+    name: '"Email Scenario"'
+    isExternal: true
+  uid: F:Table::ESCA_Message_Type.Email_Scenario
+  name: '"Email Scenario"'
+- type:
+    name: Blob
+    isExternal: true
+  uid: F:Table::ESCA_Message_Type.Email_Body
+  name: '"Email Body"'
+- type:
+    name: Code[20]
+    isExternal: true
+  uid: F:Table::ESCA_Message_Type.FTP_Code_(Upload)[20]
+  name: '"FTP Code (Upload)"'
+- type:
+    name: Text[250]
+    isExternal: true
+  uid: F:Table::ESCA_Message_Type.FTP_Path_(Upload)[250]
+  name: '"FTP Path (Upload)"'
+- type:
+    name: Code[20]
+    isExternal: true
+  uid: F:Table::ESCA_Message_Type.FTP_Code_(Download)[20]
+  name: '"FTP Code (Download)"'
+- type:
+    name: Text[250]
+    isExternal: true
+  uid: F:Table::ESCA_Message_Type.FTP_Path_(Download)[250]
+  name: '"FTP Path (Download)"'
+- type:
+    name: Code[20]
+    isExternal: true
+  uid: F:Table::ESCA_Message_Type.FTP_Code_(Move)[20]
+  name: '"FTP Code (Move)"'
+- type:
+    name: Text[250]
+    isExternal: true
+  uid: F:Table::ESCA_Message_Type.FTP_Path_(Move)[250]
+  name: '"FTP Path (Move)"'
+- type:
+    name: Boolean
+    isExternal: true
+  uid: F:Table::ESCA_Message_Type.Auto_Process
+  name: '"Auto Process"'
+- type:
+    name: Boolean
+    isExternal: true
+  uid: F:Table::ESCA_Message_Type.Auto_Send
+  name: '"Auto Send"'
+- type:
+    name: Code[10]
+    isExternal: true
+  uid: F:Table::ESCA_Message_Type.Job_Queue_Category_Code[10]
+  name: '"Job Queue Category Code"'
+- type:
+    name: Boolean
+    isExternal: true
+  uid: F:Table::ESCA_Message_Type.Delete_Attachment_if_Processed
+  name: '"Delete Attachment if Processed"'
+- type:
+    name: Guid
+    isExternal: true
+  uid: F:Table::ESCA_Message_Type.Batch_Guid
+  name: '"Batch Guid"'
+- type:
+    name: Code[20]
+    isExternal: true
+  uid: F:Table::ESCA_Message_Type.API_URL_Code[20]
+  name: '"API URL Code"'
+- type:
+    name: Text[250]
+    isExternal: true
+  uid: F:Table::ESCA_Message_Type.API_URL[250]
+  name: '"API URL"'
+- type:
+    name: Integer
+    isExternal: true
+  uid: F:Table::ESCA_Message_Type.Partners
+  name: Partners
+- type:
+    name: Integer
+    isExternal: true
+  uid: F:Table::ESCA_Message_Type.ESCA_Messages_in_Error
+  name: '"ESCA Messages in Error"'
+- type:
+    name: Integer
+    isExternal: true
+  uid: F:Table::ESCA_Message_Type.ESCA_Messages_to_Process
+  name: '"ESCA Messages to Process"'
+- type:
+    name: Text[500]
+    isExternal: true
+  uid: F:Table::ESCA_Message_Type.Quantity_Format[500]
+  name: '"Quantity Format"'
+- type:
+    name: Text[500]
+    isExternal: true
+  uid: F:Table::ESCA_Message_Type.Price_Format[500]
+  name: '"Price Format"'
+- type:
+    name: Text[500]
+    isExternal: true
+  uid: F:Table::ESCA_Message_Type.Date_Format[500]
+  name: '"Date Format"'
+- type:
+    name: Text[500]
+    isExternal: true
+  uid: F:Table::ESCA_Message_Type.Time_Format[500]
+  name: '"Time Format"'
+- type:
+    name: Guid
+    isExternal: true
+  uid: F:Table::ESCA_Message_Type.SystemId
+  name: SystemId
+- type:
+    name: DateTime
+    isExternal: true
+  uid: F:Table::ESCA_Message_Type.SystemCreatedAt
+  name: SystemCreatedAt
+- type:
+    name: Guid
+    isExternal: true
+  uid: F:Table::ESCA_Message_Type.SystemCreatedBy
+  name: SystemCreatedBy
+- type:
+    name: DateTime
+    isExternal: true
+  uid: F:Table::ESCA_Message_Type.SystemModifiedAt
+  name: SystemModifiedAt
+- type:
+    name: Guid
+    isExternal: true
+  uid: F:Table::ESCA_Message_Type.SystemModifiedBy
+  name: SystemModifiedBy
+- type:
+    name: BigInteger
+    isExternal: true
+  uid: F:Table::ESCA_Message_Type.SystemRowVersion
+  name: SystemRowVersion
+commentId: O:Table::ESCA Message Type
+uid: O:Table::ESCA_Message_Type
+name: '"ESCA Message Type"'

@@ -1,0 +1,27 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: ESCAResponsibilityCenter
+alId: ID 71096612
+baseKind: Table
+kind: TableExtension
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+extends:
+  name: '"Responsibility Center"'
+  isExternal: true
+seeAlso:
+- '[Table Extension](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-table-ext-object)'
+fields:
+- type:
+    name: Media
+    isExternal: true
+  uid: F:TableExtension::ESCAResponsibilityCenter.ESCA_Picture
+  name: '"ESCA Picture"'
+- type:
+    name: Media
+    isExternal: true
+  uid: F:TableExtension::ESCAResponsibilityCenter.ESCA_Footer_Picture
+  name: '"ESCA Footer Picture"'
+commentId: O:TableExtension::ESCAResponsibilityCenter
+uid: O:TableExtension::ESCAResponsibilityCenter
+name: ESCAResponsibilityCenter

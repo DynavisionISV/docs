@@ -1,0 +1,58 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"ESCA Render Barcode"'
+alId: ID 71096577
+baseKind: Report
+kind: Report
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Report](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-report-object)'
+objectProperties:
+- name: ApplicationArea
+  value: '#All'
+  promoted: false
+- name: Caption
+  value: Render Barcode
+  promoted: false
+- name: DefaultLayout
+  value: RDLC
+  promoted: false
+- name: RDLCLayout
+  value: src/_Barcode/RenderBarcode.rdlc
+  promoted: false
+- name: UsageCategory
+  value: None
+  promoted: false
+- name: ApplicationArea
+  value: '#All'
+  promoted: false
+- name: Caption
+  value: Render Barcode
+  promoted: false
+- name: DefaultLayout
+  value: RDLC
+  promoted: false
+- name: RDLCLayout
+  value: src/_Barcode/RenderBarcode.rdlc
+  promoted: false
+- name: UsageCategory
+  value: None
+  promoted: false
+methods:
+- syntax:
+    content: 'procedure SetParameters(NewEncodedBarcode: Text, NewBarcodeFont: Text)'
+    parameters:
+    - id: NewEncodedBarcode
+      parameterType:
+        name: Text
+        isExternal: true
+    - id: NewBarcodeFont
+      parameterType:
+        name: Text
+        isExternal: true
+  uid: M:Report::ESCA_Render_Barcode.SetParameters(Text,Text)
+  name: SetParameters
+commentId: O:Report::ESCA Render Barcode
+uid: O:Report::ESCA_Render_Barcode
+name: '"ESCA Render Barcode"'

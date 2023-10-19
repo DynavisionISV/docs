@@ -1,0 +1,38 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: ESCAReturnShipmentLine
+alId: ID 71096585
+baseKind: Table
+kind: TableExtension
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+extends:
+  name: '"Return Shipment Line"'
+  isExternal: true
+seeAlso:
+- '[Table Extension](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-table-ext-object)'
+fields:
+- type:
+    name: '"ESCA Item Type"'
+    isExternal: true
+  uid: F:TableExtension::ESCAReturnShipmentLine.ESCA_Item_Type
+  name: '"ESCA Item Type"'
+- type:
+    name: Boolean
+    isExternal: true
+  uid: F:TableExtension::ESCAReturnShipmentLine.ESCA_Excl._From_Paym._Discount
+  name: '"ESCA Excl. From Paym. Discount"'
+- type:
+    xref: O:Enum::ESCA_Discount_Priority
+    name: '"ESCA Discount Priority"'
+    isExternal: false
+  uid: F:TableExtension::ESCAReturnShipmentLine.ESCA_Discount_Priority
+  name: '"ESCA Discount Priority"'
+- type:
+    name: Boolean
+    isExternal: true
+  uid: F:TableExtension::ESCAReturnShipmentLine.ESCA_No_Payment_Discount
+  name: '"ESCA No Payment Discount"'
+commentId: O:TableExtension::ESCAReturnShipmentLine
+uid: O:TableExtension::ESCAReturnShipmentLine
+name: ESCAReturnShipmentLine

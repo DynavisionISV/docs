@@ -1,0 +1,104 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"ESCA Report Layout Setup Line"'
+alId: ID 71096597
+baseKind: Table
+kind: Table
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Table](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-table-object)'
+objectProperties:
+- name: Access
+  value: Public
+  promoted: false
+- name: Caption
+  value: Layout Lines
+  promoted: false
+- name: ObsoleteReason
+  value: Not used and incompatible with new Report Layout Setup approach
+  promoted: false
+- name: ObsoleteState
+  value: Pending
+  promoted: false
+- name: ObsoleteTag
+  value: "23.0"
+  promoted: false
+fields:
+- type:
+    name: Integer
+    isExternal: true
+  uid: F:Table::ESCA_Report_Layout_Setup_Line.Report_ID
+  name: '"Report ID"'
+- type:
+    name: Integer
+    isExternal: true
+  uid: F:Table::ESCA_Report_Layout_Setup_Line.Line_No.
+  name: '"Line No."'
+- type:
+    name: Integer
+    isExternal: true
+  uid: F:Table::ESCA_Report_Layout_Setup_Line.Table_ID
+  name: '"Table ID"'
+- type:
+    name: Integer
+    isExternal: true
+  uid: F:Table::ESCA_Report_Layout_Setup_Line.Field_No.
+  name: '"Field No."'
+- type:
+    name: Text[30]
+    isExternal: true
+  uid: F:Table::ESCA_Report_Layout_Setup_Line.Field_Name[30]
+  name: '"Field Name"'
+- type:
+    name: Integer
+    isExternal: true
+  uid: F:Table::ESCA_Report_Layout_Setup_Line.Order
+  name: Order
+- type:
+    name: Decimal
+    isExternal: true
+  uid: F:Table::ESCA_Report_Layout_Setup_Line.Width
+  name: Width
+- type:
+    name: Text[20]
+    isExternal: true
+  uid: F:Table::ESCA_Report_Layout_Setup_Line.Column_Caption[20]
+  name: '"Column Caption"'
+- type:
+    name: Guid
+    isExternal: true
+  uid: F:Table::ESCA_Report_Layout_Setup_Line.SystemId
+  name: SystemId
+- type:
+    name: DateTime
+    isExternal: true
+  uid: F:Table::ESCA_Report_Layout_Setup_Line.SystemCreatedAt
+  name: SystemCreatedAt
+- type:
+    name: Guid
+    isExternal: true
+  uid: F:Table::ESCA_Report_Layout_Setup_Line.SystemCreatedBy
+  name: SystemCreatedBy
+- type:
+    name: DateTime
+    isExternal: true
+  uid: F:Table::ESCA_Report_Layout_Setup_Line.SystemModifiedAt
+  name: SystemModifiedAt
+- type:
+    name: Guid
+    isExternal: true
+  uid: F:Table::ESCA_Report_Layout_Setup_Line.SystemModifiedBy
+  name: SystemModifiedBy
+- type:
+    name: BigInteger
+    isExternal: true
+  uid: F:Table::ESCA_Report_Layout_Setup_Line.SystemRowVersion
+  name: SystemRowVersion
+commentId: O:Table::ESCA Report Layout Setup Line
+uid: O:Table::ESCA_Report_Layout_Setup_Line
+name: '"ESCA Report Layout Setup Line"'
+obsoletion:
+  state: pending
+  reason: Not used and incompatible with new Report Layout Setup approach
+  version: "23.0"

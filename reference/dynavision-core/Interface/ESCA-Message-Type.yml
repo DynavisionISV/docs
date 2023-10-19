@@ -1,0 +1,57 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"ESCA Message Type"'
+baseKind: Interface
+kind: Interface
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Interface](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-interfaces-in-al)'
+objectProperties:
+- name: Access
+  value: Public
+  promoted: false
+- name: Access
+  value: Public
+  promoted: false
+methods:
+- syntax:
+    content: 'procedure CheckSetup(MessageType: Record "ESCA Message Type")'
+    parameters:
+    - id: MessageType
+      description: The message type to check
+      parameterType:
+        name: Record "ESCA Message Type"
+        isExternal: true
+  summary: Checks the required settings for the given message type when unblocking
+  uid: M:ESCA_Message_Type.CheckSetup(ESCA_Message_Type)
+  name: CheckSetup
+- syntax:
+    content: 'procedure RequiresPartner(): Boolean'
+    return:
+      description: True if the message type requires the mandatory use of partners
+      returnType:
+        name: Boolean
+        isExternal: true
+  summary: Returns if the message type requires the mandatory use of partners
+  uid: M:ESCA_Message_Type.RequiresPartner:Boolean
+  name: RequiresPartner
+- syntax:
+    content: 'procedure GetPartners(Source: Variant, PartnerCodes: List of [Code[30]])'
+    parameters:
+    - id: Source
+      description: The source record from which the message is sent
+      parameterType:
+        name: Variant
+        isExternal: true
+    - id: PartnerCodes
+      description: Returns a list of partner codes that should receive the message
+      parameterType:
+        name: List of [Code[30]]
+        isExternal: true
+  summary: Retrieves a list of partners for sending messages to
+  uid: M:ESCA_Message_Type.GetPartners(Variant,List[Code])
+  name: GetPartners
+commentId: O:ESCA Message Type
+uid: O:ESCA_Message_Type
+name: '"ESCA Message Type"'

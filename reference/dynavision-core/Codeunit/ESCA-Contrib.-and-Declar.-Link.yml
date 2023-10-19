@@ -1,0 +1,34 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"ESCA Contrib. and Declar. Link"'
+alId: ID 71096668
+baseKind: Codeunit
+kind: Codeunit
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Codeunit](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-codeunit-object)'
+objectProperties:
+- name: Access
+  value: Public
+  promoted: false
+methods:
+- syntax:
+    content: 'procedure AdjustContributions(var RecordRef: RecordRef): Boolean'
+    parameters:
+    - id: RecordRef
+      description: A recordref referencing a sales line or purchase line
+      parameterType:
+        name: RecordRef
+        isExternal: true
+    return:
+      description: True if contributions have been added, updated or removed
+      returnType:
+        name: Boolean
+        isExternal: true
+  summary: (Re)calculates the contributions for a given record
+  uid: M:Codeunit::ESCA_Contrib#_and_Declar#_Link.AdjustContributions(RecordRef@):Boolean
+  name: AdjustContributions
+commentId: O:Codeunit::ESCA Contrib# and Declar# Link
+uid: O:Codeunit::ESCA_Contrib#_and_Declar#_Link
+name: '"ESCA Contrib. and Declar. Link"'

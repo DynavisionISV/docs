@@ -1,0 +1,19 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"ESCA Email Scenario"'
+alId: ID 71096575
+baseKind: Enum
+kind: EnumExtension
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+extends:
+  name: '"Email Scenario"'
+  isExternal: true
+seeAlso:
+- '[Enum Extension](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-extensible-enums)'
+enumValues:
+- uid: E:EnumExtension::ESCA_Email_Scenario.ESCA_Job_Queue_Report_Delivery
+  name: '"ESCA Job Queue Report Delivery"'
+commentId: O:EnumExtension::ESCA Email Scenario
+uid: O:EnumExtension::ESCA_Email_Scenario
+name: '"ESCA Email Scenario"'

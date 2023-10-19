@@ -1,0 +1,22 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: ESCAGeneralLedgerSetup
+alId: ID 71096623
+baseKind: Table
+kind: TableExtension
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+extends:
+  name: '"General Ledger Setup"'
+  isExternal: true
+seeAlso:
+- '[Table Extension](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-table-ext-object)'
+fields:
+- type:
+    name: Boolean
+    isExternal: true
+  uid: F:TableExtension::ESCAGeneralLedgerSetup.ESCA_Limit_Pmt.Disc._VAT.Tol.
+  name: '"ESCA Limit Pmt.Disc. VAT.Tol."'
+commentId: O:TableExtension::ESCAGeneralLedgerSetup
+uid: O:TableExtension::ESCAGeneralLedgerSetup
+name: ESCAGeneralLedgerSetup

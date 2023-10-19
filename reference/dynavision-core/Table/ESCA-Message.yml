@@ -1,0 +1,313 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"ESCA Message"'
+alId: ID 71096613
+baseKind: Table
+kind: Table
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Table](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-table-object)'
+objectProperties:
+- name: Access
+  value: Public
+  promoted: false
+- name: Caption
+  value: Message
+  promoted: false
+- name: DataClassification
+  value: CustomerContent
+  promoted: false
+- name: DrillDownPageId
+  value: ESCA Messages
+  promoted: false
+  xrefType:
+    xref: O:Page::ESCA_Messages
+    name: '"ESCA Messages"'
+    isExternal: false
+- name: LookupPageId
+  value: ESCA Messages
+  promoted: false
+  xrefType:
+    xref: O:Page::ESCA_Messages
+    name: '"ESCA Messages"'
+    isExternal: false
+- name: Permissions
+  value: tabledata "Tenant Media" = D
+  promoted: false
+methods:
+- syntax:
+    content: 'procedure Process(DebugMode: Boolean)'
+    parameters:
+    - id: DebugMode
+      description: If enabled, error messages will be reported to the user
+      parameterType:
+        name: Boolean
+        isExternal: true
+  summary: Process the current message
+  uid: M:Table::ESCA_Message.Process(Boolean)
+  name: Process
+- syntax:
+    content: 'procedure GetAttachmentAsStream(var TempBlob: Codeunit "Temp Blob", var InStream: InStream): Boolean'
+    parameters:
+    - id: TempBlob
+      description: The TempBlob instance containing the streams
+      parameterType:
+        name: '"Temp Blob"'
+        isExternal: true
+    - id: InStream
+      description: The InStream to read the message contents
+      parameterType:
+        name: InStream
+        isExternal: true
+    return:
+      description: True if the attachment was successfully retrieved
+      returnType:
+        name: Boolean
+        isExternal: true
+  summary: Returns the message's attachments as InStream. Used to process the message contents for incoming messages
+  uid: M:Table::ESCA_Message.GetAttachmentAsStream(Codeunit::Temp_Blob@,InStream@):Boolean
+  name: GetAttachmentAsStream
+- syntax:
+    content: 'procedure AddMessageLink(Source: Variant, DocumentNo: Code[20])'
+    parameters:
+    - id: Source
+      description: The source (record) to link the message to
+      parameterType:
+        name: Variant
+        isExternal: true
+    - id: DocumentNo
+      description: The document number of the source (record) to link the message to
+      parameterType:
+        name: Code[20]
+        isExternal: true
+  summary: Adds a link to a source record
+  uid: M:Table::ESCA_Message.AddMessageLink(Variant,Code[20])
+  name: AddMessageLink
+- syntax:
+    content: 'procedure AddMessageLink(Source: Variant, DocumentNo: Code[20], NewOperation: Enum "ESCA Operation")'
+    parameters:
+    - id: Source
+      description: The source (record) to link the message to
+      parameterType:
+        name: Variant
+        isExternal: true
+    - id: DocumentNo
+      description: The document number of the source (record) to link the message to
+      parameterType:
+        name: Code[20]
+        isExternal: true
+    - id: NewOperation
+      description: The operation performed on the source (record)
+      parameterType:
+        xref: O:Enum::ESCA_Operation
+        name: '"ESCA Operation"'
+        isExternal: false
+  summary: Adds a link to a source record
+  uid: M:Table::ESCA_Message.AddMessageLink(Variant,Code[20],Enum::ESCA_Operation)
+  name: AddMessageLink
+- syntax:
+    content: 'procedure AddAdditionalFields(var XmlNode: XmlNode, Source: Variant)'
+    parameters:
+    - id: XmlNode
+      description: The XmlNode to add the fields to
+      parameterType:
+        name: XmlNode
+        isExternal: true
+    - id: Source
+      description: The source (record) to get the data from
+      parameterType:
+        name: Variant
+        isExternal: true
+  summary: Adds a set of additional (custom) fields to an outgoing message. Fields are defined in the 'Message Type Field' table
+  uid: M:Table::ESCA_Message.AddAdditionalFields(XmlNode@,Variant)
+  name: AddAdditionalFields
+- syntax:
+    content: 'procedure ProcessAdditionalFields(var XmlNode: XmlNode, var Source: Variant)'
+    parameters:
+    - id: XmlNode
+      description: The XmlNode to read the fields from
+      parameterType:
+        name: XmlNode
+        isExternal: true
+    - id: Source
+      description: The source (record) to write the data to
+      parameterType:
+        name: Variant
+        isExternal: true
+  summary: Process a set of additional (custom) fields on an incoming message. Fields are defined in the 'Message Type Field' table
+  uid: M:Table::ESCA_Message.ProcessAdditionalFields(XmlNode@,Variant@)
+  name: ProcessAdditionalFields
+- syntax:
+    content: 'procedure GetAPIResponseFromAttachment(TempBlob: Codeunit "Temp Blob", var InStr: InStream): Boolean'
+    parameters:
+    - id: TempBlob
+      description: The TempBlob instance containing the message api's response
+      parameterType:
+        name: '"Temp Blob"'
+        isExternal: true
+    - id: InStr
+      description: The instream to read the message api's response
+      parameterType:
+        name: InStream
+        isExternal: true
+    return:
+      description: True if the api response was successfully retrieved
+      returnType:
+        name: Boolean
+        isExternal: true
+  summary: Returns the message api's response as parsed from the message's attachments. Used when the message request api is implemented.
+  uid: M:Table::ESCA_Message.GetAPIResponseFromAttachment(Codeunit::Temp_Blob,InStream@):Boolean
+  name: GetAPIResponseFromAttachment
+fields:
+- type:
+    name: Integer
+    isExternal: true
+  uid: F:Table::ESCA_Message.Entry_No.
+  name: '"Entry No."'
+- type:
+    name: Code[30]
+    isExternal: true
+  uid: F:Table::ESCA_Message.Message_Type_Code[30]
+  name: '"Message Type Code"'
+- type:
+    name: '"ESCA Message Status"'
+    isExternal: true
+  uid: F:Table::ESCA_Message.Status
+  name: Status
+- type:
+    xref: O:Enum::ESCA_Message_Direction
+    name: '"ESCA Message Direction"'
+    isExternal: false
+  uid: F:Table::ESCA_Message.Direction
+  name: Direction
+- type:
+    name: Code[30]
+    isExternal: true
+  uid: F:Table::ESCA_Message.Partner_Code[30]
+  name: '"Partner Code"'
+- type:
+    name: Text[100]
+    isExternal: true
+  uid: F:Table::ESCA_Message.Partner_Name[100]
+  name: '"Partner Name"'
+- type:
+    xref: O:Enum::ESCA_Communication_Method
+    name: '"ESCA Communication Method"'
+    isExternal: false
+  uid: F:Table::ESCA_Message.Communication_Method
+  name: '"Communication Method"'
+- type:
+    name: Media
+    isExternal: true
+  uid: F:Table::ESCA_Message.Attachment_ID
+  name: '"Attachment ID"'
+- type:
+    name: Guid
+    isExternal: true
+  uid: F:Table::ESCA_Message.Batch_Guid
+  name: '"Batch Guid"'
+- type:
+    name: Text[250]
+    isExternal: true
+  uid: F:Table::ESCA_Message.File_Name[250]
+  name: '"File Name"'
+- type:
+    name: Text[30]
+    isExternal: true
+  uid: F:Table::ESCA_Message.File_Extension[30]
+  name: '"File Extension"'
+- type:
+    name: Integer
+    isExternal: true
+  uid: F:Table::ESCA_Message.Log_Table_No.
+  name: '"Log Table No."'
+- type:
+    name: Guid
+    isExternal: true
+  uid: F:Table::ESCA_Message.Log_SystemId
+  name: '"Log SystemId"'
+- type:
+    name: Boolean
+    isExternal: true
+  uid: F:Table::ESCA_Message.Test_Message
+  name: '"Test Message"'
+- type:
+    name: Text[2048]
+    isExternal: true
+  uid: F:Table::ESCA_Message.Error_Message[2048]
+  name: '"Error Message"'
+- type:
+    name: Boolean
+    isExternal: true
+  uid: F:Table::ESCA_Message.Error
+  name: Error
+- type:
+    name: DateTime
+    isExternal: true
+  uid: F:Table::ESCA_Message.Processed_at
+  name: '"Processed at"'
+- type:
+    name: Integer
+    isExternal: true
+  uid: F:Table::ESCA_Message.Links
+  name: Links
+- type:
+    name: Code[20]
+    isExternal: true
+  uid: F:Table::ESCA_Message.Document_No.[20]
+  name: '"Document No."'
+- type:
+    xref: O:Enum::ESCA_Operation
+    name: '"ESCA Operation"'
+    isExternal: false
+  uid: F:Table::ESCA_Message.Operation
+  name: Operation
+- type:
+    name: Boolean
+    isExternal: true
+  uid: F:Table::ESCA_Message.Incoming_API_Response
+  name: '"Incoming API Response"'
+- type:
+    name: Media
+    isExternal: true
+  uid: F:Table::ESCA_Message.Response_ID
+  name: '"Response ID"'
+- type:
+    name: Code[50]
+    isExternal: true
+  uid: F:Table::ESCA_Message.Created_by_User_Name[50]
+  name: '"Created by User Name"'
+- type:
+    name: Guid
+    isExternal: true
+  uid: F:Table::ESCA_Message.SystemId
+  name: SystemId
+- type:
+    name: DateTime
+    isExternal: true
+  uid: F:Table::ESCA_Message.SystemCreatedAt
+  name: SystemCreatedAt
+- type:
+    name: Guid
+    isExternal: true
+  uid: F:Table::ESCA_Message.SystemCreatedBy
+  name: SystemCreatedBy
+- type:
+    name: DateTime
+    isExternal: true
+  uid: F:Table::ESCA_Message.SystemModifiedAt
+  name: SystemModifiedAt
+- type:
+    name: Guid
+    isExternal: true
+  uid: F:Table::ESCA_Message.SystemModifiedBy
+  name: SystemModifiedBy
+- type:
+    name: BigInteger
+    isExternal: true
+  uid: F:Table::ESCA_Message.SystemRowVersion
+  name: SystemRowVersion
+commentId: O:Table::ESCA Message
+uid: O:Table::ESCA_Message
+name: '"ESCA Message"'

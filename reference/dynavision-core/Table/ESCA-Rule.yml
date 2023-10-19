@@ -1,0 +1,153 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"ESCA Rule"'
+alId: ID 71096626
+baseKind: Table
+kind: Table
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Table](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-table-object)'
+objectProperties:
+- name: Access
+  value: Public
+  promoted: false
+- name: Caption
+  value: Rule
+  promoted: false
+- name: DataClassification
+  value: SystemMetadata
+  promoted: false
+methods:
+- syntax:
+    content: 'procedure Create(Ruleset: Record "ESCA Ruleset", NewParentTableNo: Integer, NewTableNo: Integer, NewTableMappingCode: Code[20], NewFieldNo: Integer, NewOperator: Enum "ESCA Rule Operator", NewValue: Text): Boolean'
+    parameters:
+    - id: Ruleset
+      description: The ruleset to which the rule should be linked
+      parameterType:
+        name: Record "ESCA Ruleset"
+        isExternal: true
+    - id: NewParentTableNo
+      description: The parent table no. to which the rule applies
+      parameterType:
+        name: Integer
+        isExternal: true
+    - id: NewTableNo
+      description: The table no. to which the rule applies
+      parameterType:
+        name: Integer
+        isExternal: true
+    - id: NewTableMappingCode
+      description: The table mapping used to retrieve the table to which the rule applies using the parent table no.
+      parameterType:
+        name: Code[20]
+        isExternal: true
+    - id: NewFieldNo
+      description: The field no. to which the rule applies
+      parameterType:
+        name: Integer
+        isExternal: true
+    - id: NewOperator
+      description: The operator which is used to evaluate the field value
+      parameterType:
+        xref: O:Enum::ESCA_Rule_Operator
+        name: '"ESCA Rule Operator"'
+        isExternal: false
+    - id: NewValue
+      description: Value (optional) used to compare the field value with(o
+      parameterType:
+        name: Text
+        isExternal: true
+    return:
+      description: True if the rule was succesfully created
+      returnType:
+        name: Boolean
+        isExternal: true
+  summary: Creates a new rule
+  uid: M:Table::ESCA_Rule.Create(ESCA_Ruleset,Integer,Integer,Code[20],Integer,Enum::ESCA_Rule_Operator,Text):Boolean
+  name: Create
+fields:
+- type:
+    name: Integer
+    isExternal: true
+  uid: F:Table::ESCA_Rule.Ruleset_Id
+  name: '"Ruleset Id"'
+- type:
+    name: Integer
+    isExternal: true
+  uid: F:Table::ESCA_Rule.Line_No.
+  name: '"Line No."'
+- type:
+    name: Integer
+    isExternal: true
+  uid: F:Table::ESCA_Rule.Parent_Table_No.
+  name: '"Parent Table No."'
+- type:
+    name: Code[20]
+    isExternal: true
+  uid: F:Table::ESCA_Rule.Table_Mapping_Code[20]
+  name: '"Table Mapping Code"'
+- type:
+    name: Integer
+    isExternal: true
+  uid: F:Table::ESCA_Rule.Table_No.
+  name: '"Table No."'
+- type:
+    name: Text[249]
+    isExternal: true
+  uid: F:Table::ESCA_Rule.Table_Caption[249]
+  name: '"Table Caption"'
+- type:
+    name: Integer
+    isExternal: true
+  uid: F:Table::ESCA_Rule.Field_No.
+  name: '"Field No."'
+- type:
+    name: Text[80]
+    isExternal: true
+  uid: F:Table::ESCA_Rule.Field_Caption[80]
+  name: '"Field Caption"'
+- type:
+    xref: O:Enum::ESCA_Rule_Operator
+    name: '"ESCA Rule Operator"'
+    isExternal: false
+  uid: F:Table::ESCA_Rule.Operator
+  name: Operator
+- type:
+    name: Text[250]
+    isExternal: true
+  uid: F:Table::ESCA_Rule.Value[250]
+  name: Value
+- type:
+    name: Guid
+    isExternal: true
+  uid: F:Table::ESCA_Rule.SystemId
+  name: SystemId
+- type:
+    name: DateTime
+    isExternal: true
+  uid: F:Table::ESCA_Rule.SystemCreatedAt
+  name: SystemCreatedAt
+- type:
+    name: Guid
+    isExternal: true
+  uid: F:Table::ESCA_Rule.SystemCreatedBy
+  name: SystemCreatedBy
+- type:
+    name: DateTime
+    isExternal: true
+  uid: F:Table::ESCA_Rule.SystemModifiedAt
+  name: SystemModifiedAt
+- type:
+    name: Guid
+    isExternal: true
+  uid: F:Table::ESCA_Rule.SystemModifiedBy
+  name: SystemModifiedBy
+- type:
+    name: BigInteger
+    isExternal: true
+  uid: F:Table::ESCA_Rule.SystemRowVersion
+  name: SystemRowVersion
+commentId: O:Table::ESCA Rule
+uid: O:Table::ESCA_Rule
+name: '"ESCA Rule"'

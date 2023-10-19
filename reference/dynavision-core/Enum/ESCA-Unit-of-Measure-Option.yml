@@ -1,0 +1,29 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"ESCA Unit of Measure Option"'
+alId: ID 71096588
+baseKind: Enum
+kind: Enum
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Enum](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-extensible-enums)'
+objectProperties:
+- name: Access
+  value: Public
+  promoted: false
+- name: Extensible
+  value: "False"
+  promoted: true
+enumValues:
+- uid: E:Enum::ESCA_Unit_of_Measure_Option.Undefined
+  name: Undefined
+- uid: E:Enum::ESCA_Unit_of_Measure_Option.Base_Unit_of_Measure
+  name: '"Base Unit of Measure"'
+- uid: E:Enum::ESCA_Unit_of_Measure_Option.Sales_Unit_of_Measure
+  name: '"Sales Unit of Measure"'
+- uid: E:Enum::ESCA_Unit_of_Measure_Option.Purch#_Unit_of_Measure
+  name: '"Purch. Unit of Measure"'
+commentId: O:Enum::ESCA Unit of Measure Option
+uid: O:Enum::ESCA_Unit_of_Measure_Option
+name: '"ESCA Unit of Measure Option"'

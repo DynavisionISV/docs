@@ -1,0 +1,28 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"ESCA Partner Source Type"'
+alId: ID 71096605
+baseKind: Enum
+kind: Enum
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Enum](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-extensible-enums)'
+objectProperties:
+- name: Access
+  value: Public
+  promoted: false
+enumValues:
+- uid: E:Enum::ESCA_Partner_Source_Type._
+  name: '" "'
+- uid: E:Enum::ESCA_Partner_Source_Type.Customer
+  name: Customer
+- uid: E:Enum::ESCA_Partner_Source_Type.Vendor
+  name: Vendor
+- uid: E:Enum::ESCA_Partner_Source_Type.Location
+  name: Location
+- uid: E:Enum::ESCA_Partner_Source_Type.Shipping_Agent
+  name: '"Shipping Agent"'
+commentId: O:Enum::ESCA Partner Source Type
+uid: O:Enum::ESCA_Partner_Source_Type
+name: '"ESCA Partner Source Type"'

@@ -1,0 +1,89 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"ESCA Feature"'
+alId: ID 71096621
+baseKind: Table
+kind: Table
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Table](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-table-object)'
+objectProperties:
+- name: Access
+  value: Public
+  promoted: false
+- name: Caption
+  value: Feature
+  promoted: false
+- name: DataClassification
+  value: SystemMetadata
+  promoted: false
+- name: DrillDownPageId
+  value: ESCA Features
+  promoted: false
+  xrefType:
+    xref: O:Page::ESCA_Features
+    name: '"ESCA Features"'
+    isExternal: false
+- name: LookupPageId
+  value: ESCA Features
+  promoted: false
+  xrefType:
+    xref: O:Page::ESCA_Features
+    name: '"ESCA Features"'
+    isExternal: false
+fields:
+- type:
+    name: Integer
+    isExternal: true
+  uid: F:Table::ESCA_Feature.Id
+  name: Id
+- type:
+    xref: O:Enum::ESCA_Feature_Type
+    name: '"ESCA Feature Type"'
+    isExternal: false
+  uid: F:Table::ESCA_Feature.Feature
+  name: Feature
+- type:
+    name: Text[2048]
+    isExternal: true
+  uid: F:Table::ESCA_Feature.Description[2048]
+  name: Description
+- type:
+    name: Boolean
+    isExternal: true
+  uid: F:Table::ESCA_Feature.Enabled
+  name: Enabled
+- type:
+    name: Guid
+    isExternal: true
+  uid: F:Table::ESCA_Feature.SystemId
+  name: SystemId
+- type:
+    name: DateTime
+    isExternal: true
+  uid: F:Table::ESCA_Feature.SystemCreatedAt
+  name: SystemCreatedAt
+- type:
+    name: Guid
+    isExternal: true
+  uid: F:Table::ESCA_Feature.SystemCreatedBy
+  name: SystemCreatedBy
+- type:
+    name: DateTime
+    isExternal: true
+  uid: F:Table::ESCA_Feature.SystemModifiedAt
+  name: SystemModifiedAt
+- type:
+    name: Guid
+    isExternal: true
+  uid: F:Table::ESCA_Feature.SystemModifiedBy
+  name: SystemModifiedBy
+- type:
+    name: BigInteger
+    isExternal: true
+  uid: F:Table::ESCA_Feature.SystemRowVersion
+  name: SystemRowVersion
+commentId: O:Table::ESCA Feature
+uid: O:Table::ESCA_Feature
+name: '"ESCA Feature"'

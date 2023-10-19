@@ -1,0 +1,130 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"ESCA PrintNode Printer"'
+alId: ID 71096577
+baseKind: Table
+kind: Table
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Table](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-table-object)'
+objectProperties:
+- name: Access
+  value: Public
+  promoted: false
+- name: Caption
+  value: PrintNode Printer
+  promoted: false
+- name: DrillDownPageId
+  value: ESCA PrintNode Printer List
+  promoted: false
+  xrefType:
+    xref: O:Page::ESCA_PrintNode_Printer_List
+    name: '"ESCA PrintNode Printer List"'
+    isExternal: false
+- name: LookupPageId
+  value: ESCA PrintNode Printer List
+  promoted: false
+  xrefType:
+    xref: O:Page::ESCA_PrintNode_Printer_List
+    name: '"ESCA PrintNode Printer List"'
+    isExternal: false
+fields:
+- type:
+    name: Text[50]
+    isExternal: true
+  uid: F:Table::ESCA_PrintNode_Printer.PrinterID[50]
+  name: PrinterID
+- type:
+    name: Text[100]
+    isExternal: true
+  uid: F:Table::ESCA_PrintNode_Printer.Name[100]
+  name: Name
+- type:
+    name: Text[100]
+    isExternal: true
+  uid: F:Table::ESCA_PrintNode_Printer.Description[100]
+  name: Description
+- type:
+    name: Text[50]
+    isExternal: true
+  uid: F:Table::ESCA_PrintNode_Printer.State[50]
+  name: State
+- type:
+    name: Integer
+    isExternal: true
+  uid: F:Table::ESCA_PrintNode_Printer.Entry_No.
+  name: '"Entry No."'
+- type:
+    name: Text[50]
+    isExternal: true
+  uid: F:Table::ESCA_PrintNode_Printer.Client_State[50]
+  name: '"Client State"'
+- type:
+    name: Text[50]
+    isExternal: true
+  uid: F:Table::ESCA_PrintNode_Printer.Paper_Type[50]
+  name: '"Paper Type"'
+- type:
+    name: Boolean
+    isExternal: true
+  uid: F:Table::ESCA_PrintNode_Printer.Custom_Paper_Type
+  name: '"Custom Paper Type"'
+- type:
+    name: Integer
+    isExternal: true
+  uid: F:Table::ESCA_PrintNode_Printer.Paper_Width
+  name: '"Paper Width"'
+- type:
+    name: Integer
+    isExternal: true
+  uid: F:Table::ESCA_PrintNode_Printer.Paper_Height
+  name: '"Paper Height"'
+- type:
+    name: Boolean
+    isExternal: true
+  uid: F:Table::ESCA_PrintNode_Printer.Landscape
+  name: Landscape
+- type:
+    name: Text[50]
+    isExternal: true
+  uid: F:Table::ESCA_PrintNode_Printer.Computer_Name[50]
+  name: '"Computer Name"'
+- type:
+    name: Boolean
+    isExternal: true
+  uid: F:Table::ESCA_PrintNode_Printer.Fit_To_Page
+  name: '"Fit To Page"'
+- type:
+    name: Guid
+    isExternal: true
+  uid: F:Table::ESCA_PrintNode_Printer.SystemId
+  name: SystemId
+- type:
+    name: DateTime
+    isExternal: true
+  uid: F:Table::ESCA_PrintNode_Printer.SystemCreatedAt
+  name: SystemCreatedAt
+- type:
+    name: Guid
+    isExternal: true
+  uid: F:Table::ESCA_PrintNode_Printer.SystemCreatedBy
+  name: SystemCreatedBy
+- type:
+    name: DateTime
+    isExternal: true
+  uid: F:Table::ESCA_PrintNode_Printer.SystemModifiedAt
+  name: SystemModifiedAt
+- type:
+    name: Guid
+    isExternal: true
+  uid: F:Table::ESCA_PrintNode_Printer.SystemModifiedBy
+  name: SystemModifiedBy
+- type:
+    name: BigInteger
+    isExternal: true
+  uid: F:Table::ESCA_PrintNode_Printer.SystemRowVersion
+  name: SystemRowVersion
+commentId: O:Table::ESCA PrintNode Printer
+uid: O:Table::ESCA_PrintNode_Printer
+name: '"ESCA PrintNode Printer"'

@@ -1,0 +1,51 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"ESCA Sort Functions"'
+alId: ID 71177491
+baseKind: Codeunit
+kind: Codeunit
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Codeunit](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-codeunit-object)'
+objectProperties:
+- name: Access
+  value: Public
+  promoted: false
+methods:
+- syntax:
+    content: 'procedure MergeSort(List: List of [Integer])'
+    parameters:
+    - id: List
+      description: List of integers to be sorted
+      parameterType:
+        name: List of [Integer]
+        isExternal: true
+  summary: Sort a list of integers using the Merge Sort algorithm
+  uid: M:Codeunit::ESCA_Sort_Functions.MergeSort(List[Integer])
+  name: MergeSort
+- syntax:
+    content: 'procedure InsertionSort(List: List of [Integer])'
+    parameters:
+    - id: List
+      description: List of integers to be sorted
+      parameterType:
+        name: List of [Integer]
+        isExternal: true
+  summary: Sort a list of integers using the Insertion Sort algorithm
+  uid: M:Codeunit::ESCA_Sort_Functions.InsertionSort(List[Integer])
+  name: InsertionSort
+- syntax:
+    content: 'procedure BubbleSort(List: List of [Integer])'
+    parameters:
+    - id: List
+      description: List of integers to be sorted
+      parameterType:
+        name: List of [Integer]
+        isExternal: true
+  summary: Sort a list of integers using the Bubble Sort algorithm
+  uid: M:Codeunit::ESCA_Sort_Functions.BubbleSort(List[Integer])
+  name: BubbleSort
+commentId: O:Codeunit::ESCA Sort Functions
+uid: O:Codeunit::ESCA_Sort_Functions
+name: '"ESCA Sort Functions"'

@@ -1,0 +1,756 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title> </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content=" ">
+      
+      <link rel="icon" href="../../../favicon.ico">
+      <link rel="stylesheet" href="../../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../../public/main.css">
+      <meta name="docfx:navrel" content="../../../toc.html">
+      <meta name="docfx:tocrel" content="../../../toc.html">
+      
+      
+      
+      
+      
+  </head>
+
+  <script type="module">
+    import options from './../../../public/main.js'
+    import { init } from './../../../public/docfx.min.js'
+    init(options)
+  </script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../../index.html">
+            <img id="logo" class="svg" src="../../../public/aldoc_logo.svg" alt="Documentation">
+            Documentation
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="O:Codeunit::ESCA_Message">
+  <h1>Codeunit &quot;ESCA Message&quot;</h1>
+
+
+<div class="font-style-italic">ID 71177004</div>
+
+
+
+
+
+
+
+
+  	<h2 id="properties">Properties</h2>
+
+  	<table class="table">
+  		<thead>
+  			<tr>
+  				<th>Name</th>
+  				<th>Value</th>
+  			</tr>
+  		</thead>
+  		<tbody>
+  			<tr>
+  					<td>Access</td>
+  					<td class="font-style-italic">
+							Public
+  					</td>
+  			</tr>
+  		</tbody>
+  	</table>
+  	<h2 id="methods">Methods</h2>
+   <h3 class="memberNameHolder">Clear</h3>
+   <div class="memberInfo">
+
+   		<div class="summaryHolder">
+   			<div class="summary">
+				<p>Clears all the global variables</p>
+
+   			</div>
+   		</div>
+
+   		<pre><code dir="ltr" class="hljs lang-al">procedure Clear()</code></pre>
+
+
+
+
+   </div>
+   <h3 class="memberNameHolder">SetSource</h3>
+   <div class="memberInfo">
+
+   		<div class="summaryHolder">
+   			<div class="summary">
+				<p>Sets the source / record(s) triggering the sending of the message. These sources will be used to build the message content.</p>
+
+   			</div>
+   		</div>
+
+   		<pre><code dir="ltr" class="hljs lang-al">procedure SetSource(NewSource: Variant)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								NewSource
+   							</td>
+   							<td class="font-style-italic">
+Variant                 </td>
+   							<td>
+								<p>The source / record(s) used to send a message</p>
+
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">SetPartnerCode</h3>
+   <div class="memberInfo">
+
+   		<div class="summaryHolder">
+   			<div class="summary">
+				<p>Sets the code of the partner to whom to send the message. This will be used to filter the message types to send.</p>
+
+   			</div>
+   		</div>
+
+   		<pre><code dir="ltr" class="hljs lang-al">procedure SetPartnerCode(NewPartnerCode: Code[30])</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								NewPartnerCode
+   							</td>
+   							<td class="font-style-italic">
+Code[30]                 </td>
+   							<td>
+								<p>The code of the partner to whom to send the message</p>
+
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">SetMessageTypeCode</h3>
+   <div class="memberInfo">
+
+   		<div class="summaryHolder">
+   			<div class="summary">
+				<p>Sets the message type code of the message to send. This will be used to filter the message types to send.</p>
+
+   			</div>
+   		</div>
+
+   		<pre><code dir="ltr" class="hljs lang-al">procedure SetMessageTypeCode(NewMessageTypeCode: Code[30])</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								NewMessageTypeCode
+   							</td>
+   							<td class="font-style-italic">
+Code[30]                 </td>
+   							<td>
+								<p>The code of the message type to send</p>
+
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">SetMessageType</h3>
+   <div class="memberInfo">
+
+   		<div class="summaryHolder">
+   			<div class="summary">
+				<p>Sets the message type of the message to send. This will be used to filter the message types to send.</p>
+
+   			</div>
+   		</div>
+
+   		<pre><code dir="ltr" class="hljs lang-al">procedure SetMessageType(NewMessageType: Enum &quot;ESCA Message Type&quot;)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								NewMessageType
+   							</td>
+   							<td class="font-style-italic">
+<a class="xref" href="../Enum/ESCA-Message-Type.html">&quot;ESCA Message Type&quot;</a>                 </td>
+   							<td>
+								<p>The message type of the message to send</p>
+
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">SetCommunicationMethod</h3>
+   <div class="memberInfo">
+
+   		<div class="summaryHolder">
+   			<div class="summary">
+				<p>Sets the communication method of the message to send.</p>
+
+   			</div>
+   		</div>
+
+   		<pre><code dir="ltr" class="hljs lang-al">procedure SetCommunicationMethod(NewCommunicationMethod: Enum &quot;ESCA Communication Method&quot;)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								NewCommunicationMethod
+   							</td>
+   							<td class="font-style-italic">
+<a class="xref" href="../Enum/ESCA-Communication-Method.html">&quot;ESCA Communication Method&quot;</a>                 </td>
+   							<td>
+								<p>The communication method of the message to send</p>
+
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">SetOperation</h3>
+   <div class="memberInfo">
+
+   		<div class="summaryHolder">
+   			<div class="summary">
+				<p>Sets the operation performed on the source (record). This is logged in the message link record and can be included in the message contents.</p>
+
+   			</div>
+   		</div>
+
+   		<pre><code dir="ltr" class="hljs lang-al">procedure SetOperation(NewOperation: Enum &quot;ESCA Operation&quot;)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								NewOperation
+   							</td>
+   							<td class="font-style-italic">
+<a class="xref" href="../Enum/ESCA-Operation.html">&quot;ESCA Operation&quot;</a>                 </td>
+   							<td>
+								<p>The operation performed on the source (record)</p>
+
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">SetTempBlob</h3>
+   <div class="memberInfo">
+
+   		<div class="summaryHolder">
+   			<div class="summary">
+				<p>Sets the message content of the message to send.</p>
+
+   			</div>
+   		</div>
+
+   		<pre><code dir="ltr" class="hljs lang-al">procedure SetTempBlob(NewTempBlob: Codeunit &quot;Temp Blob&quot;)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								NewTempBlob
+   							</td>
+   							<td class="font-style-italic">
+&quot;Temp Blob&quot;                 </td>
+   							<td>
+								<p>A temp blob containing the message content as blob</p>
+
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">SetAutoSend</h3>
+   <div class="memberInfo">
+
+   		<div class="summaryHolder">
+   			<div class="summary">
+				<p>Sets whether sending messages is triggered via an automatic process or not (manual)
+If NewAutoSend is set, only message types with the 'Auto Send' setting will be considered</p>
+
+   			</div>
+   		</div>
+
+   		<pre><code dir="ltr" class="hljs lang-al">procedure SetAutoSend(NewAutoSend: Boolean)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								NewAutoSend
+   							</td>
+   							<td class="font-style-italic">
+Boolean                 </td>
+   							<td>
+								<p>True if sending messages is triggered via an automatic process</p>
+
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">SetTestMessage</h3>
+   <div class="memberInfo">
+
+   		<div class="summaryHolder">
+   			<div class="summary">
+				<p>Sets whether the message is a test message
+If NewTestMessage is set, the message is not processed on the receiving end</p>
+
+   			</div>
+   		</div>
+
+   		<pre><code dir="ltr" class="hljs lang-al">procedure SetTestMessage(NewTestMessage: Boolean)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								NewTestMessage
+   							</td>
+   							<td class="font-style-italic">
+Boolean                 </td>
+   							<td>
+								<p>True if the message is a test message</p>
+
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">Send</h3>
+   <div class="memberInfo">
+
+   		<div class="summaryHolder">
+   			<div class="summary">
+				<p>Sends the message</p>
+
+   			</div>
+   		</div>
+
+   		<pre><code dir="ltr" class="hljs lang-al">procedure Send(NewSource: Variant, NewMessageType: Enum &quot;ESCA Message Type&quot;): Integer</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								NewSource
+   							</td>
+   							<td class="font-style-italic">
+Variant                 </td>
+   							<td>
+								<p>The source / record(s) used to send a message</p>
+
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								NewMessageType
+   							</td>
+   							<td class="font-style-italic">
+<a class="xref" href="../Enum/ESCA-Message-Type.html">&quot;ESCA Message Type&quot;</a>                 </td>
+   							<td>
+								<p>The message type of the message to send</p>
+
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+   			<h4>Returns</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   					<tr>
+   						<td>
+Integer               </td>
+   						<td>
+							<p>The entry number of the created message record.</p>
+
+   						</td>
+   					</tr>
+   				</tbody>
+   			</table>
+
+
+   </div>
+   <h3 class="memberNameHolder">SendAutomatically</h3>
+   <div class="memberInfo">
+
+   		<div class="summaryHolder">
+   			<div class="summary">
+				<p>Sends the message triggered by an automatic process (Release, post, ...)</p>
+
+   			</div>
+   		</div>
+
+   		<pre><code dir="ltr" class="hljs lang-al">procedure SendAutomatically(NewSource: Variant, NewMessageType: Enum &quot;ESCA Message Type&quot;): Integer</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								NewSource
+   							</td>
+   							<td class="font-style-italic">
+Variant                 </td>
+   							<td>
+								<p>The source / record(s) used to send a message</p>
+
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								NewMessageType
+   							</td>
+   							<td class="font-style-italic">
+<a class="xref" href="../Enum/ESCA-Message-Type.html">&quot;ESCA Message Type&quot;</a>                 </td>
+   							<td>
+								<p>The message type of the message to send</p>
+
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+   			<h4>Returns</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   					<tr>
+   						<td>
+Integer               </td>
+   						<td>
+							<p>The entry number of the created message record.</p>
+
+   						</td>
+   					</tr>
+   				</tbody>
+   			</table>
+
+
+   </div>
+   <h3 class="memberNameHolder">SendAutomatically</h3>
+   <div class="memberInfo">
+
+   		<div class="summaryHolder">
+   			<div class="summary">
+				<p>Sends the message triggered by an automatic process (Release, post, ...)</p>
+
+   			</div>
+   		</div>
+
+   		<pre><code dir="ltr" class="hljs lang-al">procedure SendAutomatically(NewSource: Variant, NewMessageType: Enum &quot;ESCA Message Type&quot;, NewOperation: Enum &quot;ESCA Operation&quot;): Integer</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								NewSource
+   							</td>
+   							<td class="font-style-italic">
+Variant                 </td>
+   							<td>
+								<p>The source / record(s) used to send a message</p>
+
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								NewMessageType
+   							</td>
+   							<td class="font-style-italic">
+<a class="xref" href="../Enum/ESCA-Message-Type.html">&quot;ESCA Message Type&quot;</a>                 </td>
+   							<td>
+								<p>The message type of the message to send</p>
+
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								NewOperation
+   							</td>
+   							<td class="font-style-italic">
+<a class="xref" href="../Enum/ESCA-Operation.html">&quot;ESCA Operation&quot;</a>                 </td>
+   							<td>
+								<p>The operation performed on the source (record)</p>
+
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+   			<h4>Returns</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   					<tr>
+   						<td>
+Integer               </td>
+   						<td>
+							<p>The entry number of the created message record.</p>
+
+   						</td>
+   					</tr>
+   				</tbody>
+   			</table>
+
+
+   </div>
+   <h3 class="memberNameHolder">Send</h3>
+   <div class="memberInfo">
+
+   		<div class="summaryHolder">
+   			<div class="summary">
+				<p>Sends the message (using the pre-defined global variables)</p>
+
+   			</div>
+   		</div>
+
+   		<pre><code dir="ltr" class="hljs lang-al">procedure Send(): Integer</code></pre>
+
+
+   			<h4>Returns</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   					<tr>
+   						<td>
+Integer               </td>
+   						<td>
+							<p>The entry number of the created message record.</p>
+
+   						</td>
+   					</tr>
+   				</tbody>
+   			</table>
+
+
+   </div>
+
+  	<h2 id="see-also">See also</h2>
+  	<ul>
+  			<li><p><a href="https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-codeunit-object">Codeunit</a></p>
+</li>
+  	</ul>
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+        
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+
+    <footer class="border-top">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          Made with <a href="https://go.microsoft.com/fwlink/?linkid=2247728">ALDoc</a> and <a href="https://dotnet.github.io/docfx">DocFx</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

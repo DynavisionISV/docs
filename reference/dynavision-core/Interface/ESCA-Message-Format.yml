@@ -1,0 +1,97 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"ESCA Message Format"'
+baseKind: Interface
+kind: Interface
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Interface](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-interfaces-in-al)'
+objectProperties:
+- name: Access
+  value: Public
+  promoted: false
+- name: Access
+  value: Public
+  promoted: false
+methods:
+- syntax:
+    content: 'procedure GetDefaultMessageTypeCode(): Code[30]'
+    return:
+      description: Code for the new message type
+      returnType:
+        name: Code[30]
+        isExternal: true
+  summary: Returns the default code to create a new message type
+  uid: M:ESCA_Message_Format.GetDefaultMessageTypeCode:Code[30]
+  name: GetDefaultMessageTypeCode
+- syntax:
+    content: 'procedure ApplyDefaultMessageTypeSettings(var MessageType: Record "ESCA Message Type")'
+    parameters:
+    - id: MessageType
+      description: The Message Type on which to apply the settings
+      parameterType:
+        name: Record "ESCA Message Type"
+        isExternal: true
+  summary: Apply default settings such as direction, trigger, description, ... when a message format is applied to a message type
+  uid: M:ESCA_Message_Format.ApplyDefaultMessageTypeSettings(ESCA_Message_Type@)
+  name: ApplyDefaultMessageTypeSettings
+- syntax:
+    content: 'procedure SupportsFormatFields(): Boolean'
+    return:
+      description: True if the format fields are used in the message format
+      returnType:
+        name: Boolean
+        isExternal: true
+  summary: >-
+    Indicates if the message format supports the date, time, price or quantity format fields
+
+    If supported, the format fields will be shown on the message format card
+  uid: M:ESCA_Message_Format.SupportsFormatFields:Boolean
+  name: SupportsFormatFields
+- syntax:
+    content: 'procedure GetMessageContent(Message: Record "ESCA Message", var Source: Variant, Operation: Enum "ESCA Operation", var TempBlob: Codeunit "Temp Blob", var DocumentNo: Code[20])'
+    parameters:
+    - id: Message
+      description: The outgoing message record
+      parameterType:
+        name: Record "ESCA Message"
+        isExternal: true
+    - id: Source
+      description: The (filtered) source record(s) for which the message will be sent
+      parameterType:
+        name: Variant
+        isExternal: true
+    - id: Operation
+      description: The operation performed on the source record(s)
+      parameterType:
+        xref: O:Enum::ESCA_Operation
+        name: '"ESCA Operation"'
+        isExternal: false
+    - id: TempBlob
+      description: A TempBlob instance used to pass the message content via streams
+      parameterType:
+        name: '"Temp Blob"'
+        isExternal: true
+    - id: DocumentNo
+      description: The document number used to store on the message link (optional)
+      parameterType:
+        name: Code[20]
+        isExternal: true
+  summary: Constructs the message content required to include on an outgoing message
+  uid: M:ESCA_Message_Format.GetMessageContent(ESCA_Message,Variant@,Enum::ESCA_Operation,Codeunit::Temp_Blob@,Code[20]@)
+  name: GetMessageContent
+- syntax:
+    content: 'procedure ProcessIncomingMessage(var Message: Record "ESCA Message")'
+    parameters:
+    - id: Message
+      description: The message record to be processed
+      parameterType:
+        name: Record "ESCA Message"
+        isExternal: true
+  summary: Processes the incoming message by reading and processing the message content
+  uid: M:ESCA_Message_Format.ProcessIncomingMessage(ESCA_Message@)
+  name: ProcessIncomingMessage
+commentId: O:ESCA Message Format
+uid: O:ESCA_Message_Format
+name: '"ESCA Message Format"'

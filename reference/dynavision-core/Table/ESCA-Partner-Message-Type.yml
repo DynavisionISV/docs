@@ -1,0 +1,94 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"ESCA Partner Message Type"'
+alId: ID 71096610
+baseKind: Table
+kind: Table
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Table](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-table-object)'
+objectProperties:
+- name: Access
+  value: Public
+  promoted: false
+- name: Caption
+  value: Partner Message Type
+  promoted: false
+- name: DataClassification
+  value: CustomerContent
+  promoted: false
+- name: DrillDownPageId
+  value: ESCA Partner Message Types
+  promoted: false
+  xrefType:
+    xref: O:Page::ESCA_Partner_Message_Types
+    name: '"ESCA Partner Message Types"'
+    isExternal: false
+- name: LookupPageId
+  value: ESCA Partner Message Types
+  promoted: false
+  xrefType:
+    xref: O:Page::ESCA_Partner_Message_Types
+    name: '"ESCA Partner Message Types"'
+    isExternal: false
+fields:
+- type:
+    name: Code[30]
+    isExternal: true
+  uid: F:Table::ESCA_Partner_Message_Type.Partner_Code[30]
+  name: '"Partner Code"'
+- type:
+    name: Code[30]
+    isExternal: true
+  uid: F:Table::ESCA_Partner_Message_Type.Message_Type_Code[30]
+  name: '"Message Type Code"'
+- type:
+    xref: O:Enum::ESCA_Message_Type
+    name: '"ESCA Message Type"'
+    isExternal: false
+  uid: F:Table::ESCA_Partner_Message_Type.Message_Type
+  name: '"Message Type"'
+- type:
+    name: '"ESCA Message Type Direction"'
+    isExternal: true
+  uid: F:Table::ESCA_Partner_Message_Type.Direction
+  name: Direction
+- type:
+    name: Integer
+    isExternal: true
+  uid: F:Table::ESCA_Partner_Message_Type.Mappings
+  name: Mappings
+- type:
+    name: Guid
+    isExternal: true
+  uid: F:Table::ESCA_Partner_Message_Type.SystemId
+  name: SystemId
+- type:
+    name: DateTime
+    isExternal: true
+  uid: F:Table::ESCA_Partner_Message_Type.SystemCreatedAt
+  name: SystemCreatedAt
+- type:
+    name: Guid
+    isExternal: true
+  uid: F:Table::ESCA_Partner_Message_Type.SystemCreatedBy
+  name: SystemCreatedBy
+- type:
+    name: DateTime
+    isExternal: true
+  uid: F:Table::ESCA_Partner_Message_Type.SystemModifiedAt
+  name: SystemModifiedAt
+- type:
+    name: Guid
+    isExternal: true
+  uid: F:Table::ESCA_Partner_Message_Type.SystemModifiedBy
+  name: SystemModifiedBy
+- type:
+    name: BigInteger
+    isExternal: true
+  uid: F:Table::ESCA_Partner_Message_Type.SystemRowVersion
+  name: SystemRowVersion
+commentId: O:Table::ESCA Partner Message Type
+uid: O:Table::ESCA_Partner_Message_Type
+name: '"ESCA Partner Message Type"'

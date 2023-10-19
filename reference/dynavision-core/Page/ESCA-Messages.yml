@@ -1,0 +1,52 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"ESCA Messages"'
+alId: ID 71096633
+baseKind: Page
+kind: Page
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+sourceTableType:
+  xref: O:Table::ESCA_Message
+  name: '"ESCA Message"'
+  isExternal: false
+seeAlso:
+- '[Page](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-object)'
+objectProperties:
+- name: AdditionalSearchTerms
+  value: import,export,documents,docs,edi,data exchange,excel,incoming,outgoing,intercompany,inbox,outbox,transactions,files,interface
+  promoted: false
+- name: ApplicationArea
+  value: '#All'
+  promoted: false
+- name: Caption
+  value: Messages
+  promoted: false
+- name: DeleteAllowed
+  value: "True"
+  promoted: false
+- name: InsertAllowed
+  value: "False"
+  promoted: false
+- name: ModifyAllowed
+  value: "False"
+  promoted: false
+- name: PageType
+  value: List
+  promoted: true
+- name: SourceTable
+  value: "71096613"
+  promoted: true
+  xrefType:
+    xref: O:Table::ESCA_Message
+    name: '"ESCA Message"'
+    isExternal: false
+- name: SourceTableView
+  value: order(descending)
+  promoted: false
+- name: UsageCategory
+  value: Lists
+  promoted: false
+commentId: O:Page::ESCA Messages
+uid: O:Page::ESCA_Messages
+name: '"ESCA Messages"'

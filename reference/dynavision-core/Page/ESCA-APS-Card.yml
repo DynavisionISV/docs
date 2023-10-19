@@ -1,0 +1,37 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"ESCA APS Card"'
+alId: ID 71096624
+baseKind: Page
+kind: Page
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+sourceTableType:
+  xref: O:Table::ESCA_APS
+  name: '"ESCA APS"'
+  isExternal: false
+seeAlso:
+- '[Page](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-object)'
+objectProperties:
+- name: ApplicationArea
+  value: '#All'
+  promoted: false
+- name: Caption
+  value: Attribute Printing Set
+  promoted: false
+- name: PageType
+  value: Card
+  promoted: true
+- name: SourceTable
+  value: "71096607"
+  promoted: true
+  xrefType:
+    xref: O:Table::ESCA_APS
+    name: '"ESCA APS"'
+    isExternal: false
+- name: UsageCategory
+  value: None
+  promoted: false
+commentId: O:Page::ESCA APS Card
+uid: O:Page::ESCA_APS_Card
+name: '"ESCA APS Card"'

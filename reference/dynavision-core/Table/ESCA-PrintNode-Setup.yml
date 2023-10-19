@@ -1,0 +1,76 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"ESCA PrintNode Setup"'
+alId: ID 71096576
+baseKind: Table
+kind: Table
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Table](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-table-object)'
+objectProperties:
+- name: Access
+  value: Public
+  promoted: false
+- name: Caption
+  value: PrintNode Setup
+  promoted: false
+fields:
+- type:
+    name: Code[10]
+    isExternal: true
+  uid: F:Table::ESCA_PrintNode_Setup.Primary_Key[10]
+  name: '"Primary Key"'
+- type:
+    name: Text[250]
+    isExternal: true
+  uid: F:Table::ESCA_PrintNode_Setup.Base_URL[250]
+  name: '"Base URL"'
+- type:
+    name: Text[250]
+    isExternal: true
+  uid: F:Table::ESCA_PrintNode_Setup.API_Key[250]
+  name: '"API Key"'
+- type:
+    name: Integer
+    isExternal: true
+  uid: F:Table::ESCA_PrintNode_Setup.Default_Paper_Width
+  name: '"Default Paper Width"'
+- type:
+    name: Integer
+    isExternal: true
+  uid: F:Table::ESCA_PrintNode_Setup.Default_Paper_Height
+  name: '"Default Paper Height"'
+- type:
+    name: Guid
+    isExternal: true
+  uid: F:Table::ESCA_PrintNode_Setup.SystemId
+  name: SystemId
+- type:
+    name: DateTime
+    isExternal: true
+  uid: F:Table::ESCA_PrintNode_Setup.SystemCreatedAt
+  name: SystemCreatedAt
+- type:
+    name: Guid
+    isExternal: true
+  uid: F:Table::ESCA_PrintNode_Setup.SystemCreatedBy
+  name: SystemCreatedBy
+- type:
+    name: DateTime
+    isExternal: true
+  uid: F:Table::ESCA_PrintNode_Setup.SystemModifiedAt
+  name: SystemModifiedAt
+- type:
+    name: Guid
+    isExternal: true
+  uid: F:Table::ESCA_PrintNode_Setup.SystemModifiedBy
+  name: SystemModifiedBy
+- type:
+    name: BigInteger
+    isExternal: true
+  uid: F:Table::ESCA_PrintNode_Setup.SystemRowVersion
+  name: SystemRowVersion
+commentId: O:Table::ESCA PrintNode Setup
+uid: O:Table::ESCA_PrintNode_Setup
+name: '"ESCA PrintNode Setup"'

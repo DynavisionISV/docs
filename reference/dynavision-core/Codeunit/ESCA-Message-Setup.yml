@@ -1,0 +1,31 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"ESCA Message Setup"'
+alId: ID 71177020
+baseKind: Codeunit
+kind: Codeunit
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Codeunit](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-codeunit-object)'
+objectProperties:
+- name: Access
+  value: Public
+  promoted: false
+- name: SingleInstance
+  value: "True"
+  promoted: false
+methods:
+- syntax:
+    content: 'procedure IsMessageEnabled(): Boolean'
+    return:
+      description: True if the message module is enabled
+      returnType:
+        name: Boolean
+        isExternal: true
+  summary: Indicates if the message module is enabled (based on the existence of message types)
+  uid: M:Codeunit::ESCA_Message_Setup.IsMessageEnabled:Boolean
+  name: IsMessageEnabled
+commentId: O:Codeunit::ESCA Message Setup
+uid: O:Codeunit::ESCA_Message_Setup
+name: '"ESCA Message Setup"'

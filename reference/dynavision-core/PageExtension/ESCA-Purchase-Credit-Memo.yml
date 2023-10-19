@@ -1,0 +1,16 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"ESCA Purchase Credit Memo"'
+alId: ID 71096636
+baseKind: Page
+kind: PageExtension
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+extends:
+  name: '"Purchase Credit Memo"'
+  isExternal: true
+seeAlso:
+- '[Page Extension](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-ext-object)'
+commentId: O:PageExtension::ESCA Purchase Credit Memo
+uid: O:PageExtension::ESCA_Purchase_Credit_Memo
+name: '"ESCA Purchase Credit Memo"'

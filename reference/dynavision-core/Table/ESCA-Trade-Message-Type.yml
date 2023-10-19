@@ -1,0 +1,107 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"ESCA Trade Message Type"'
+alId: ID 71096615
+baseKind: Table
+kind: Table
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Table](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-table-object)'
+objectProperties:
+- name: Access
+  value: Public
+  promoted: false
+- name: Caption
+  value: Trade Message Type
+  promoted: false
+- name: DataClassification
+  value: CustomerContent
+  promoted: false
+methods:
+- syntax:
+    content: 'procedure GetOrCreate(MessageTypeCode: Code[30])'
+    parameters:
+    - id: MessageTypeCode
+      description: The message type code to find/create the trade message type
+      parameterType:
+        name: Code[30]
+        isExternal: true
+  summary: Gets the trade message type for a message type code (and create if missing)
+  uid: M:Table::ESCA_Trade_Message_Type.GetOrCreate(Code[30])
+  name: GetOrCreate
+fields:
+- type:
+    name: Code[30]
+    isExternal: true
+  uid: F:Table::ESCA_Trade_Message_Type.Message_Type_Code[30]
+  name: '"Message Type Code"'
+- type:
+    xref: O:Enum::ESCA_Message_Type
+    name: '"ESCA Message Type"'
+    isExternal: false
+  uid: F:Table::ESCA_Trade_Message_Type.Message_Type
+  name: '"Message Type"'
+- type:
+    name: Boolean
+    isExternal: true
+  uid: F:Table::ESCA_Trade_Message_Type.Auto_Release_Document
+  name: '"Auto Release Document"'
+- type:
+    name: Code[10]
+    isExternal: true
+  uid: F:Table::ESCA_Trade_Message_Type.Req._Worksheet_Template_Name[10]
+  name: '"Req. Worksheet Template Name"'
+- type:
+    name: Code[10]
+    isExternal: true
+  uid: F:Table::ESCA_Trade_Message_Type.Req._Journal_Batch_Name[10]
+  name: '"Req. Journal Batch Name"'
+- type:
+    name: Boolean
+    isExternal: true
+  uid: F:Table::ESCA_Trade_Message_Type.Posted_Sales_Shipment
+  name: '"Posted Sales Shipment"'
+- type:
+    name: Boolean
+    isExternal: true
+  uid: F:Table::ESCA_Trade_Message_Type.Posted_Return_Shipment
+  name: '"Posted Return Shipment"'
+- type:
+    name: Boolean
+    isExternal: true
+  uid: F:Table::ESCA_Trade_Message_Type.Posted_Transfer_Shipment
+  name: '"Posted Transfer Shipment"'
+- type:
+    name: Guid
+    isExternal: true
+  uid: F:Table::ESCA_Trade_Message_Type.SystemId
+  name: SystemId
+- type:
+    name: DateTime
+    isExternal: true
+  uid: F:Table::ESCA_Trade_Message_Type.SystemCreatedAt
+  name: SystemCreatedAt
+- type:
+    name: Guid
+    isExternal: true
+  uid: F:Table::ESCA_Trade_Message_Type.SystemCreatedBy
+  name: SystemCreatedBy
+- type:
+    name: DateTime
+    isExternal: true
+  uid: F:Table::ESCA_Trade_Message_Type.SystemModifiedAt
+  name: SystemModifiedAt
+- type:
+    name: Guid
+    isExternal: true
+  uid: F:Table::ESCA_Trade_Message_Type.SystemModifiedBy
+  name: SystemModifiedBy
+- type:
+    name: BigInteger
+    isExternal: true
+  uid: F:Table::ESCA_Trade_Message_Type.SystemRowVersion
+  name: SystemRowVersion
+commentId: O:Table::ESCA Trade Message Type
+uid: O:Table::ESCA_Trade_Message_Type
+name: '"ESCA Trade Message Type"'

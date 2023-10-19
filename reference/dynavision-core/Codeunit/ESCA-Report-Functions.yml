@@ -1,0 +1,856 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"ESCA Report Functions"'
+alId: ID 71096674
+baseKind: Codeunit
+kind: Codeunit
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Codeunit](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-codeunit-object)'
+objectProperties:
+- name: Access
+  value: Public
+  promoted: false
+methods:
+- syntax:
+    content: 'procedure FormatAddressLists(RecordVariant: Variant, LanguageCode: Code[10], ReportLayoutSetup: Record "ESCA Report Layout Setup", var TopLeftAddress: List of [Text], var TopRightAddress: List of [Text], var BottomLeftAddress: List of [Text])'
+    parameters:
+    - id: RecordVariant
+      description: Source record for which the addresses should be formatted
+      parameterType:
+        name: Variant
+        isExternal: true
+    - id: LanguageCode
+      description: Code of the language to use
+      parameterType:
+        name: Code[10]
+        isExternal: true
+    - id: ReportLayoutSetup
+      description: Setup containing the address positions
+      parameterType:
+        name: Record "ESCA Report Layout Setup"
+        isExternal: true
+    - id: TopLeftAddress
+      description: List of addresses to be displayed on the top left
+      parameterType:
+        name: List of [Text]
+        isExternal: true
+    - id: TopRightAddress
+      description: List of addresses to be displayed on the top right
+      parameterType:
+        name: List of [Text]
+        isExternal: true
+    - id: BottomLeftAddress
+      description: List of addresses to be displayed on the bottom left
+      parameterType:
+        name: List of [Text]
+        isExternal: true
+  summary: Format the addresses for a source record based on the settings on the report layout setup
+  uid: M:Codeunit::ESCA_Report_Functions.FormatAddressLists(Variant,Code[10],ESCA_Report_Layout_Setup,List[Text]@,List[Text]@,List[Text]@)
+  name: FormatAddressLists
+- syntax:
+    content: 'procedure ConvertAddressListToText(var List: List of [Text]): Text'
+    parameters:
+    - id: List
+      description: List containing the addresses to convert
+      parameterType:
+        name: List of [Text]
+        isExternal: true
+    return:
+      description: The text representation of the address list
+      returnType:
+        name: Text
+        isExternal: true
+  summary: Converts a list of addresses to a text
+  uid: M:Codeunit::ESCA_Report_Functions.ConvertAddressListToText(List[Text]@):Text
+  name: ConvertAddressListToText
+- syntax:
+    content: 'procedure HandleVATText(LanguageCode: Code[10], var VATText: Text)'
+    parameters:
+    - id: LanguageCode
+      description: Code of the language use
+      parameterType:
+        name: Code[10]
+        isExternal: true
+    - id: VATText
+      description: Text to add the VAT caption to
+      parameterType:
+        name: Text
+        isExternal: true
+  summary: Adds a caption to a VAT Text if not already present
+  uid: M:Codeunit::ESCA_Report_Functions.HandleVATText(Code[10],Text@)
+  name: HandleVATText
+- syntax:
+    content: 'procedure FormatVATText(LanguageCode: Code[10], var BillToVATText: Text, var SellToVATText: Text, var ShipToVATText: Text, var CompanyVATText: Text)'
+    parameters:
+    - id: LanguageCode
+      description: Code of the language to use
+      parameterType:
+        name: Code[10]
+        isExternal: true
+    - id: BillToVATText
+      description: Bill-to VAT text
+      parameterType:
+        name: Text
+        isExternal: true
+    - id: SellToVATText
+      description: Sell-to VAT text
+      parameterType:
+        name: Text
+        isExternal: true
+    - id: ShipToVATText
+      description: Ship-to VAT text
+      parameterType:
+        name: Text
+        isExternal: true
+    - id: CompanyVATText
+      description: Company VAT text
+      parameterType:
+        name: Text
+        isExternal: true
+  summary: Adds caption to the VAT Texts if not already present
+  uid: M:Codeunit::ESCA_Report_Functions.FormatVATText(Code[10],Text@,Text@,Text@,Text@)
+  name: FormatVATText
+- syntax:
+    content: 'procedure GetValueAtIndex(List: List of [Text], index: Integer): Text'
+    parameters:
+    - id: List
+      description: List to search
+      parameterType:
+        name: List of [Text]
+        isExternal: true
+    - id: index
+      description: Index of the value to retrieve
+      parameterType:
+        name: Integer
+        isExternal: true
+    return:
+      description: Value retrieved from the list by index
+      returnType:
+        name: Text
+        isExternal: true
+  summary: Retrieves the value from a list identified by an index
+  uid: M:Codeunit::ESCA_Report_Functions.GetValueAtIndex(List[Text],Integer):Text
+  name: GetValueAtIndex
+- syntax:
+    content: 'procedure SetupHeaderFields(RecordVariant: Variant, ReportLayoutSetup: Record "ESCA Report Layout Setup", LanguageCode: Code[10], var HeaderFields: List of [Text], var HeaderValues: List of [Text])'
+    parameters:
+    - id: RecordVariant
+      description: '>Source record for which the headers should be retrieved'
+      parameterType:
+        name: Variant
+        isExternal: true
+    - id: ReportLayoutSetup
+      description: Setup containing the header layout setup
+      parameterType:
+        name: Record "ESCA Report Layout Setup"
+        isExternal: true
+    - id: LanguageCode
+      description: Code of the language to use
+      parameterType:
+        name: Code[10]
+        isExternal: true
+    - id: HeaderFields
+      description: List of retrieved header titles
+      parameterType:
+        name: List of [Text]
+        isExternal: true
+    - id: HeaderValues
+      description: List of retrieved header values
+      parameterType:
+        name: List of [Text]
+        isExternal: true
+  summary: Retrieves the header fields for a specific record
+  uid: M:Codeunit::ESCA_Report_Functions.SetupHeaderFields(Variant,ESCA_Report_Layout_Setup,Code[10],List[Text]@,List[Text]@)
+  name: SetupHeaderFields
+- syntax:
+    content: 'procedure FormatDecimalValue(var DecimalValue: Decimal, FormattingStructure: Text[500], BlankZero: Boolean): Text'
+    parameters:
+    - id: DecimalValue
+      description: Decimal to format
+      parameterType:
+        name: Decimal
+        isExternal: true
+    - id: FormattingStructure
+      description: Format string to format the decimal
+      parameterType:
+        name: Text[500]
+        isExternal: true
+    - id: BlankZero
+      description: Indicates if zero's should be displayed as an empty text
+      parameterType:
+        name: Boolean
+        isExternal: true
+    return:
+      description: A text formatted decimal
+      returnType:
+        name: Text
+        isExternal: true
+  summary: Return a text formatted decimal according to a specified formatting structure
+  uid: M:Codeunit::ESCA_Report_Functions.FormatDecimalValue(Decimal@,Text[500],Boolean):Text
+  name: FormatDecimalValue
+- syntax:
+    content: 'procedure ReturnLineVat(Vat: Decimal, ReportLayoutSetup: Record "ESCA Report Layout Setup"): Text'
+    parameters:
+    - id: Vat
+      description: VAT amount
+      parameterType:
+        name: Decimal
+        isExternal: true
+    - id: ReportLayoutSetup
+      description: Layout setup record
+      parameterType:
+        name: Record "ESCA Report Layout Setup"
+        isExternal: true
+    return:
+      description: Text representing VAT amount
+      returnType:
+        name: Text
+        isExternal: true
+  summary: Returns formatted VAT Amount
+  uid: M:Codeunit::ESCA_Report_Functions.ReturnLineVat(Decimal,ESCA_Report_Layout_Setup):Text
+  name: ReturnLineVat
+- syntax:
+    content: 'procedure ReturnUnitOfMeasure(UnitOfMeasureCode: Code[10], LanguageCode: Code[10]): Text'
+    parameters:
+    - id: UnitOfMeasureCode
+      description: Code of the unit of measure to use
+      parameterType:
+        name: Code[10]
+        isExternal: true
+    - id: LanguageCode
+      description: Code of the language to use
+      parameterType:
+        name: Code[10]
+        isExternal: true
+    return:
+      description: Text representing the unit of measure
+      returnType:
+        name: Text
+        isExternal: true
+  summary: Retrieves the unit of measure representation for a specific language
+  uid: M:Codeunit::ESCA_Report_Functions.ReturnUnitOfMeasure(Code[10],Code[10]):Text
+  name: ReturnUnitOfMeasure
+- syntax:
+    content: 'procedure AddItemTrackingText(var ItemTrackingText: List of [Text], var TempTrackingSpecification: Record "Tracking Specification" temporary, LanguageCode: Code[10])'
+    parameters:
+    - id: ItemTrackingText
+      description: List of item tracking texts
+      parameterType:
+        name: List of [Text]
+        isExternal: true
+    - id: TempTrackingSpecification
+      description: Tracking specification to use
+      parameterType:
+        name: Record "Tracking Specification" temporary
+        isExternal: true
+    - id: LanguageCode
+      description: Code of the language to use
+      parameterType:
+        name: Code[10]
+        isExternal: true
+  summary: Composes a list of item tracking texts based on the tracking specification
+  uid: M:Codeunit::ESCA_Report_Functions.AddItemTrackingText(List[Text]@,Tracking_Specification@,Code[10])
+  name: AddItemTrackingText
+- syntax:
+    content: 'procedure AddItemAttributesText(var ItemAttributesText: List of [Text], itemNo: Code[20], LanguageCode: Code[10])'
+    parameters:
+    - id: ItemAttributesText
+      description: List of item attribute texts
+      parameterType:
+        name: List of [Text]
+        isExternal: true
+    - id: itemNo
+      description: The item no. to use
+      parameterType:
+        name: Code[20]
+        isExternal: true
+    - id: LanguageCode
+      description: Code of the language to use
+      parameterType:
+        name: Code[10]
+        isExternal: true
+  summary: Composes a list of item attribute texts for a for an item no.
+  uid: M:Codeunit::ESCA_Report_Functions.AddItemAttributesText(List[Text]@,Code[20],Code[10])
+  name: AddItemAttributesText
+- syntax:
+    content: 'procedure GetCurrencySymbol(CurrencyCode: Code[10]): Text'
+    parameters:
+    - id: CurrencyCode
+      description: Code[20].
+      parameterType:
+        name: Code[10]
+        isExternal: true
+    return:
+      description: Text
+      returnType:
+        name: Text
+        isExternal: true
+  summary: Return the Currency Symbol for a specific Currency (Local Currency Symbol on G/L Setup is used as fallback)
+  uid: M:Codeunit::ESCA_Report_Functions.GetCurrencySymbol(Code[10]):Text
+  name: GetCurrencySymbol
+- syntax:
+    content: 'procedure AddItemWeightText(var ItemWeightText: List of [Text], LanguageCode: Code[10], Quantity: Decimal, Weight: Decimal)'
+    parameters:
+    - id: ItemWeightText
+      description: List of item weight texts
+      parameterType:
+        name: List of [Text]
+        isExternal: true
+    - id: LanguageCode
+      description: Code of the language to use
+      parameterType:
+        name: Code[10]
+        isExternal: true
+    - id: Quantity
+      description: Quantity to use
+      parameterType:
+        name: Decimal
+        isExternal: true
+    - id: Weight
+      description: Weight to use
+      parameterType:
+        name: Decimal
+        isExternal: true
+  summary: Composes a list of item weight texts for a quantity/weight combination
+  uid: M:Codeunit::ESCA_Report_Functions.AddItemWeightText(List[Text]@,Code[10],Decimal,Decimal)
+  name: AddItemWeightText
+- syntax:
+    content: 'procedure AddLineToVatSummaryForVariant(RecordVariant: Variant, var TempVatAmountLine: Record "VAT Amount Line" temporary)'
+    parameters:
+    - id: RecordVariant
+      description: Source record the document line to add
+      parameterType:
+        name: Variant
+        isExternal: true
+    - id: TempVatAmountLine
+      description: The vat summary
+      parameterType:
+        name: Record "VAT Amount Line" temporary
+        isExternal: true
+  summary: Adds a document line to the vat summary
+  uid: M:Codeunit::ESCA_Report_Functions.AddLineToVatSummaryForVariant(Variant,VAT_Amount_Line@)
+  name: AddLineToVatSummaryForVariant
+- syntax:
+    content: 'procedure CreateVATTable(var TempVatAmountLine: Record "VAT Amount Line" temporary, var VATTable: array[3, 5] of Text, var TotalTable: array[2, 5] of Text, DecimalFormatting: Text[500], LanguageCode: Code[10])'
+    parameters:
+    - id: TempVatAmountLine
+      description: Vat amount lines to use
+      parameterType:
+        name: Record "VAT Amount Line" temporary
+        isExternal: true
+    - id: VATTable
+      description: Generated vat table
+      parameterType:
+        name: array[3, 5] of Text
+        isExternal: true
+    - id: TotalTable
+      description: Generated totals table
+      parameterType:
+        name: array[2, 5] of Text
+        isExternal: true
+    - id: DecimalFormatting
+      description: Format string used to format decimals
+      parameterType:
+        name: Text[500]
+        isExternal: true
+    - id: LanguageCode
+      description: Code of the language to use
+      parameterType:
+        name: Code[10]
+        isExternal: true
+  summary: Generates a vat and totals table for the specified vat amount lines
+  uid: M:Codeunit::ESCA_Report_Functions.CreateVATTable(VAT_Amount_Line@,Text[3,]@,Text[2,]@,Text[500],Code[10])
+  name: CreateVATTable
+- syntax:
+    content: 'procedure CreateVATTableLCY(var TempVatAmountLine: Record "VAT Amount Line" temporary, var VATTableLCY: array[2, 5] of Text, DecimalFormatting: Text[500], LanguageCode: Code[10], PostingDate: Date, CurrencyCode: Code[10], CurrencyFactor: Decimal)'
+    parameters:
+    - id: TempVatAmountLine
+      description: Vat amount lines to use
+      parameterType:
+        name: Record "VAT Amount Line" temporary
+        isExternal: true
+    - id: VATTableLCY
+      description: Generated vat table
+      parameterType:
+        name: array[2, 5] of Text
+        isExternal: true
+    - id: DecimalFormatting
+      description: Format string used to format decimals
+      parameterType:
+        name: Text[500]
+        isExternal: true
+    - id: LanguageCode
+      description: Code of the language to use
+      parameterType:
+        name: Code[10]
+        isExternal: true
+    - id: PostingDate
+      description: PostingDate to use
+      parameterType:
+        name: Date
+        isExternal: true
+    - id: CurrencyCode
+      description: CurrencyCode to use
+      parameterType:
+        name: Code[10]
+        isExternal: true
+    - id: CurrencyFactor
+      description: CurrencyFactor to use
+      parameterType:
+        name: Decimal
+        isExternal: true
+  summary: Generates a LCY vat table for the specified vat amount lines
+  uid: M:Codeunit::ESCA_Report_Functions.CreateVATTableLCY(VAT_Amount_Line@,Text[2,]@,Text[500],Code[10],Date,Code[10],Decimal)
+  name: CreateVATTableLCY
+- syntax:
+    content: 'procedure CreateVATTable(var TempVatAmountLine: Record "VAT Amount Line" temporary, var VATTable: array[3, 5] of Text, var TotalTable: array[2, 5] of Text, DecimalFormatting: Text[500], LanguageCode: Code[10], var VATTableLCY: array[2, 5] of Text, PostingDate: Date, CurrencyCode: Code[10], CurrencyFactor: Decimal)'
+    parameters:
+    - id: TempVatAmountLine
+      description: Vat amount lines to use
+      parameterType:
+        name: Record "VAT Amount Line" temporary
+        isExternal: true
+    - id: VATTable
+      description: Generated vat table
+      parameterType:
+        name: array[3, 5] of Text
+        isExternal: true
+    - id: TotalTable
+      description: Generated totals table
+      parameterType:
+        name: array[2, 5] of Text
+        isExternal: true
+    - id: DecimalFormatting
+      description: Format string used to format decimals
+      parameterType:
+        name: Text[500]
+        isExternal: true
+    - id: LanguageCode
+      description: Code of the language to use
+      parameterType:
+        name: Code[10]
+        isExternal: true
+    - id: VATTableLCY
+      description: Generated vat lcy table
+      parameterType:
+        name: array[2, 5] of Text
+        isExternal: true
+    - id: PostingDate
+      description: PostingDate to use
+      parameterType:
+        name: Date
+        isExternal: true
+    - id: CurrencyCode
+      description: CurrencyCode to use
+      parameterType:
+        name: Code[10]
+        isExternal: true
+    - id: CurrencyFactor
+      description: CurrencyFactor to use
+      parameterType:
+        name: Decimal
+        isExternal: true
+  summary: Generates a vat, vat lcy and totals table for the specified vat amount lines
+  uid: M:Codeunit::ESCA_Report_Functions.CreateVATTable(VAT_Amount_Line@,Text[3,]@,Text[2,]@,Text[500],Code[10],Text[2,]@,Date,Code[10],Decimal)
+  name: CreateVATTable
+- syntax:
+    content: 'procedure CalculateLineStyle(RecordVariant: Variant, var Bold: Boolean, var Italic: Boolean, var UnderLine: Boolean)'
+    parameters:
+    - id: RecordVariant
+      description: Source record to calculate the line style for
+      parameterType:
+        name: Variant
+        isExternal: true
+    - id: Bold
+      description: Indicates if the line should have a bold style
+      parameterType:
+        name: Boolean
+        isExternal: true
+    - id: Italic
+      description: Indicates if the line should have an italic style
+      parameterType:
+        name: Boolean
+        isExternal: true
+    - id: UnderLine
+      description: Indicates if the line should have an underline style
+      parameterType:
+        name: Boolean
+        isExternal: true
+  summary: Calculates the line style for a source record based on the values of the bold/italic/underline fields
+  uid: M:Codeunit::ESCA_Report_Functions.CalculateLineStyle(Variant,Boolean@,Boolean@,Boolean@)
+  name: CalculateLineStyle
+- syntax:
+    content: 'procedure ReturnPaymentTermsDescription(PaymentTermsCaption: Text, PrintPaymentDiscount: Boolean, PaymentDiscountTextConstant: Text, PaymentTermsCode: Code[10], LanguageCode: Code[10], PmtDiscountDate: Date, PaymentDiscountTotalAmount: Decimal, PaymentDiscountAmount: Decimal, CurrencySignTotals: Text, TaxableAmountMinusDiscount: Decimal): Text'
+    parameters:
+    - id: PaymentTermsCaption
+      description: Text.
+      parameterType:
+        name: Text
+        isExternal: true
+    - id: PrintPaymentDiscount
+      description: Boolean.
+      parameterType:
+        name: Boolean
+        isExternal: true
+    - id: PaymentDiscountTextConstant
+      description: Text.
+      parameterType:
+        name: Text
+        isExternal: true
+    - id: PaymentTermsCode
+      description: Code[10].
+      parameterType:
+        name: Code[10]
+        isExternal: true
+    - id: LanguageCode
+      description: Code[10].
+      parameterType:
+        name: Code[10]
+        isExternal: true
+    - id: PmtDiscountDate
+      description: Date.
+      parameterType:
+        name: Date
+        isExternal: true
+    - id: PaymentDiscountTotalAmount
+      description: Decimal.
+      parameterType:
+        name: Decimal
+        isExternal: true
+    - id: PaymentDiscountAmount
+      description: Decimal.
+      parameterType:
+        name: Decimal
+        isExternal: true
+    - id: CurrencySignTotals
+      description: Text.
+      parameterType:
+        name: Text
+        isExternal: true
+    - id: TaxableAmountMinusDiscount
+      description: Decimal.
+      parameterType:
+        name: Decimal
+        isExternal: true
+    return:
+      description: 'PaymentTermsDescription: Text'
+      returnType:
+        name: Text
+        isExternal: true
+  summary: Returns the payment description and optionally the payment discount.
+  uid: M:Codeunit::ESCA_Report_Functions.ReturnPaymentTermsDescription(Text,Boolean,Text,Code[10],Code[10],Date,Decimal,Decimal,Text,Decimal):Text
+  name: ReturnPaymentTermsDescription
+- syntax:
+    content: 'procedure ReturnPaymentMethodDescription(PaymentMethodCaption: Text, PaymentMethodCode: Code[10], LanguageCode: Code[10]): Text'
+    parameters:
+    - id: PaymentMethodCaption
+      description: Text.
+      parameterType:
+        name: Text
+        isExternal: true
+    - id: PaymentMethodCode
+      description: Code[10].
+      parameterType:
+        name: Code[10]
+        isExternal: true
+    - id: LanguageCode
+      description: Code[10].
+      parameterType:
+        name: Code[10]
+        isExternal: true
+    return:
+      description: 'PaymentMethodDescription: Text'
+      returnType:
+        name: Text
+        isExternal: true
+  summary: Returns the payment method description based on the set code on the document
+  uid: M:Codeunit::ESCA_Report_Functions.ReturnPaymentMethodDescription(Text,Code[10],Code[10]):Text
+  name: ReturnPaymentMethodDescription
+- syntax:
+    content: 'procedure ReturnShipmentMethodDescription(ShipmentMethodCaption: Text, ShipmentMethodCode: Code[10], LanguageCode: Code[10]): Text'
+    parameters:
+    - id: ShipmentMethodCaption
+      description: Text.
+      parameterType:
+        name: Text
+        isExternal: true
+    - id: ShipmentMethodCode
+      description: Code[10].
+      parameterType:
+        name: Code[10]
+        isExternal: true
+    - id: LanguageCode
+      description: Code[10].
+      parameterType:
+        name: Code[10]
+        isExternal: true
+    return:
+      description: 'ShipmentMethodDescription: Text'
+      returnType:
+        name: Text
+        isExternal: true
+  summary: Returns the shipment method description based on the set code on the document
+  uid: M:Codeunit::ESCA_Report_Functions.ReturnShipmentMethodDescription(Text,Code[10],Code[10]):Text
+  name: ReturnShipmentMethodDescription
+- syntax:
+    content: 'procedure CalculatePaymentDiscount(RecordVariant: Variant, var PaymentDiscountAmount: Decimal, var PaymentDiscountTotalAmount: Decimal, var PaymentDiscountDate: Date)'
+    parameters:
+    - id: RecordVariant
+      description: Source record to calculate the payment discount for
+      parameterType:
+        name: Variant
+        isExternal: true
+    - id: PaymentDiscountAmount
+      description: Calculated payment discount amount
+      parameterType:
+        name: Decimal
+        isExternal: true
+    - id: PaymentDiscountTotalAmount
+      description: Calculated payment discount total amount
+      parameterType:
+        name: Decimal
+        isExternal: true
+    - id: PaymentDiscountDate
+      description: Retrieved payment discount date
+      parameterType:
+        name: Date
+        isExternal: true
+  summary: Calculates the payment discount for a source record
+  uid: M:Codeunit::ESCA_Report_Functions.CalculatePaymentDiscount(Variant,Decimal@,Decimal@,Date@)
+  name: CalculatePaymentDiscount
+- syntax:
+    content: 'procedure DefineLogoSource(var CompanyInformation: Record "Company Information", RecordVariant: Variant)'
+    parameters:
+    - id: CompanyInformation
+      description: Company information record containing the pictures in the picture/footer picture fields
+      parameterType:
+        name: Record "Company Information"
+        isExternal: true
+    - id: RecordVariant
+      description: Source record to calculate the (footer) picture for
+      parameterType:
+        name: Variant
+        isExternal: true
+  summary: Calculates the (footer) picture for a source record
+  uid: M:Codeunit::ESCA_Report_Functions.DefineLogoSource(Company_Information@,Variant)
+  name: DefineLogoSource
+- syntax:
+    content: 'procedure GetDefaultLanguageCode(): Code[10]'
+    return:
+      description: ""
+      returnType:
+        name: Code[10]
+        isExternal: true
+  summary: Retrieves the default language code if not other language code is specified
+  uid: M:Codeunit::ESCA_Report_Functions.GetDefaultLanguageCode:Code[10]
+  name: GetDefaultLanguageCode
+- syntax:
+    content: 'procedure CalculateLinkedEmpties(RecordVariant: Variant, var EmptiesPrice: Decimal, var EmptiesTotal: Decimal)'
+    parameters:
+    - id: RecordVariant
+      description: Source record to calculate the empties for
+      parameterType:
+        name: Variant
+        isExternal: true
+    - id: EmptiesPrice
+      description: Calculated empties price
+      parameterType:
+        name: Decimal
+        isExternal: true
+    - id: EmptiesTotal
+      description: Calculated empties total
+      parameterType:
+        name: Decimal
+        isExternal: true
+  summary: Calculates the empties price/total for a given source record
+  uid: M:Codeunit::ESCA_Report_Functions.CalculateLinkedEmpties(Variant,Decimal@,Decimal@)
+  name: CalculateLinkedEmpties
+- syntax:
+    content: 'procedure CalculateEmptiesTotals(RecordVariant: Variant, var EmptiesArray: array[2, 3] of Decimal, QuantityFieldNo: Integer, UnitPriceOrCostFieldNo: Integer)'
+    parameters:
+    - id: RecordVariant
+      description: Source record to calculate the empties totals for
+      parameterType:
+        name: Variant
+        isExternal: true
+    - id: EmptiesArray
+      description: Array containing the empties totals
+      parameterType:
+        name: array[2, 3] of Decimal
+        isExternal: true
+    - id: QuantityFieldNo
+      description: Quantity to add
+      parameterType:
+        name: Integer
+        isExternal: true
+    - id: UnitPriceOrCostFieldNo
+      description: No. of the field of the unit price/cost
+      parameterType:
+        name: Integer
+        isExternal: true
+  summary: Calculates an array of empties totals for a source record
+  uid: M:Codeunit::ESCA_Report_Functions.CalculateEmptiesTotals(Variant,Decimal[2,]@,Integer,Integer)
+  name: CalculateEmptiesTotals
+- syntax:
+    content: 'procedure FormatValueForEmpties(DecimalValue: Decimal, FormattingStructure: Text[500], BlankZero: Boolean, Currency: Text): Text'
+    parameters:
+    - id: DecimalValue
+      description: Decimal to format
+      parameterType:
+        name: Decimal
+        isExternal: true
+    - id: FormattingStructure
+      description: Format string to use
+      parameterType:
+        name: Text[500]
+        isExternal: true
+    - id: BlankZero
+      description: Indicates if zero's should be displayed as an empty text
+      parameterType:
+        name: Boolean
+        isExternal: true
+    - id: Currency
+      description: Currency value to display
+      parameterType:
+        name: Text
+        isExternal: true
+    return:
+      description: A text formatted decimal
+      returnType:
+        name: Text
+        isExternal: true
+  summary: Return a text formatted decimal according to a specified formatting structure
+  uid: M:Codeunit::ESCA_Report_Functions.FormatValueForEmpties(Decimal,Text[500],Boolean,Text):Text
+  name: FormatValueForEmpties
+- syntax:
+    content: 'procedure CalculateLinkedEmptiesQuantity(RecordVariant: Variant, var EmptiesQuantity: Decimal, var EmptiesTotal: Decimal)'
+    parameters:
+    - id: RecordVariant
+      description: Source record to calculate the linked quantities for
+      parameterType:
+        name: Variant
+        isExternal: true
+    - id: EmptiesQuantity
+      description: Calculated linked empties quantity
+      parameterType:
+        name: Decimal
+        isExternal: true
+    - id: EmptiesTotal
+      description: Calculated linked empties total
+      parameterType:
+        name: Decimal
+        isExternal: true
+  summary: Calculate the linked empties quantity for a source record
+  uid: M:Codeunit::ESCA_Report_Functions.CalculateLinkedEmptiesQuantity(Variant,Decimal@,Decimal@)
+  name: CalculateLinkedEmptiesQuantity
+- syntax:
+    content: 'procedure GetPopupComments(RecordVariant: Variant, DocumentOrLineVariant: Variant, var PopUpComments: List of [Text], LinkFieldNo: Integer)'
+    parameters:
+    - id: RecordVariant
+      description: No. of the source table where the popup comments should be checked
+      parameterType:
+        name: Variant
+        isExternal: true
+    - id: DocumentOrLineVariant
+      description: Document or document line to retrieve the popup comments for
+      parameterType:
+        name: Variant
+        isExternal: true
+    - id: PopUpComments
+      description: Retrieved popup comments
+      parameterType:
+        name: List of [Text]
+        isExternal: true
+    - id: LinkFieldNo
+      description: Field no. of the document/document line where the link for the popup comment is stored
+      parameterType:
+        name: Integer
+        isExternal: true
+  summary: Retrieve the popup comments for a document of document line
+  uid: M:Codeunit::ESCA_Report_Functions.GetPopupComments(Variant,Variant,List[Text]@,Integer)
+  name: GetPopupComments
+- syntax:
+    content: 'procedure GetExciseFields(SourceVariant: Variant, var ExciseFieldsFieldInfo: Codeunit "ESCA Field Info")'
+    parameters:
+    - id: SourceVariant
+      description: Record to which fields of the Excise Module are linked
+      parameterType:
+        name: Variant
+        isExternal: true
+    - id: ExciseFieldsFieldInfo
+      description: ESCR Field Info codeunit containing the requested field info
+      parameterType:
+        xref: O:Codeunit::ESCA_Field_Info
+        name: '"ESCA Field Info"'
+        isExternal: false
+  summary: Fill the ExciseFieldsFieldInfo param with field info from the Excise Module
+  uid: M:Codeunit::ESCA_Report_Functions.GetExciseFields(Variant,Codeunit::ESCA_Field_Info@)
+  name: GetExciseFields
+- syntax:
+    content: 'procedure GetSelectedBarcodeFont(var SelectedBarcodeFont: Text, BarcodeFont: Enum "Barcode Symbology", TextBelowBarcode: Boolean)'
+    parameters:
+    - id: SelectedBarcodeFont
+      description: Calculated barcode font name
+      parameterType:
+        name: Text
+        isExternal: true
+    - id: BarcodeFont
+      description: Barcode Symbology to calculate the font name for
+      parameterType:
+        name: '"Barcode Symbology"'
+        isExternal: true
+    - id: TextBelowBarcode
+      description: Indicates if the text below the barcode should be printed or not
+      parameterType:
+        name: Boolean
+        isExternal: true
+  summary: Calculates the barcode font name for a selected Barcode Symbology
+  uid: M:Codeunit::ESCA_Report_Functions.GetSelectedBarcodeFont(Text@,Enum::Barcode_Symbology,Boolean)
+  name: GetSelectedBarcodeFont
+- syntax:
+    content: 'procedure SetReportLayoutSetup(var NewReportLayoutSetup: Record "ESCA Report Layout Setup")'
+    parameters:
+    - id: NewReportLayoutSetup
+      description: The report layout setup record to set
+      parameterType:
+        name: Record "ESCA Report Layout Setup"
+        isExternal: true
+  summary: >-
+    Sets the report layout setup record used by the following procedures:
+     - AddItemWeightText
+     - CalculatePaymentDiscount
+     - DefineLogoSource
+  uid: M:Codeunit::ESCA_Report_Functions.SetReportLayoutSetup(ESCA_Report_Layout_Setup@)
+  name: SetReportLayoutSetup
+- syntax:
+    signatures:
+    - '[Obsolete(Removed and replaced by GetVATClauseTexts (supporting extended texts) in Dynavision Layouts,20.0)]'
+    content: 'procedure CreateVATClauseTable(var TempVatAmountLine: Record "VAT Amount Line" temporary, var TempVATClause: Record "VAT Clause" temporary, RecordVariant: Variant)'
+    parameters:
+    - id: TempVatAmountLine
+      description: Vat amount lines to use
+      parameterType:
+        name: Record "VAT Amount Line" temporary
+        isExternal: true
+    - id: TempVATClause
+      description: Generated vat clause table
+      parameterType:
+        name: Record "VAT Clause" temporary
+        isExternal: true
+    - id: RecordVariant
+      description: Source record to retrieve the vat clause description for
+      parameterType:
+        name: Variant
+        isExternal: true
+  summary: Generates a vat clause table based on vat amount lines
+  uid: M:Codeunit::ESCA_Report_Functions.CreateVATClauseTable(VAT_Amount_Line@,VAT_Clause@,Variant)
+  name: CreateVATClauseTable
+  obsoletion:
+    state: pending
+    reason: Removed and replaced by GetVATClauseTexts (supporting extended texts) in Dynavision Layouts
+    version: "20.0"
+commentId: O:Codeunit::ESCA Report Functions
+uid: O:Codeunit::ESCA_Report_Functions
+name: '"ESCA Report Functions"'

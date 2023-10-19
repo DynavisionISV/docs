@@ -1,0 +1,218 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"ESCA Field Functions"'
+alId: ID 71096621
+baseKind: Codeunit
+kind: Codeunit
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Codeunit](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-codeunit-object)'
+objectProperties:
+- name: Access
+  value: Public
+  promoted: false
+methods:
+- syntax:
+    content: 'procedure SelectField(TableNo: Integer): Integer'
+    parameters:
+    - id: TableNo
+      description: The number of the table
+      parameterType:
+        name: Integer
+        isExternal: true
+    return:
+      description: The number of the selected field
+      returnType:
+        name: Integer
+        isExternal: true
+  summary: Shows a page allowing to select a field for a specific table
+  uid: M:Codeunit::ESCA_Field_Functions.SelectField(Integer):Integer
+  name: SelectField
+- syntax:
+    content: 'procedure ReturnFieldValue(RecordVariant: Variant, FieldNo: Integer): Text[2048]'
+    parameters:
+    - id: RecordVariant
+      description: The source record
+      parameterType:
+        name: Variant
+        isExternal: true
+    - id: FieldNo
+      description: The number of the field
+      parameterType:
+        name: Integer
+        isExternal: true
+    return:
+      description: The value of the field
+      returnType:
+        name: Text[2048]
+        isExternal: true
+  summary: Retrieve the field value from any record based on a field number
+  uid: M:Codeunit::ESCA_Field_Functions.ReturnFieldValue(Variant,Integer):Text[2048]
+  name: ReturnFieldValue
+- syntax:
+    content: 'procedure ReturnFieldValue(RecordRef: RecordRef, FieldNo: Integer): Text[2048]'
+    parameters:
+    - id: RecordRef
+      description: The source RecordRef
+      parameterType:
+        name: RecordRef
+        isExternal: true
+    - id: FieldNo
+      description: The number of the field
+      parameterType:
+        name: Integer
+        isExternal: true
+    return:
+      description: The value of the field
+      returnType:
+        name: Text[2048]
+        isExternal: true
+  summary: Retrieve the field value from a RecordRef based on a field number
+  uid: M:Codeunit::ESCA_Field_Functions.ReturnFieldValue(RecordRef,Integer):Text[2048]
+  name: ReturnFieldValue
+- syntax:
+    content: 'procedure GetFieldValue(FieldRef: FieldRef): Text[2048]'
+    parameters:
+    - id: FieldRef
+      description: The source FieldRef
+      parameterType:
+        name: FieldRef
+        isExternal: true
+    return:
+      description: The value of the field
+      returnType:
+        name: Text[2048]
+        isExternal: true
+  summary: Retrieve the value from a FieldRef
+  uid: M:Codeunit::ESCA_Field_Functions.GetFieldValue(FieldRef):Text[2048]
+  name: GetFieldValue
+- syntax:
+    content: 'procedure ReturnFieldName(RecordVariant: Variant, FieldNo: Integer): Text[2048]'
+    parameters:
+    - id: RecordVariant
+      description: The source record
+      parameterType:
+        name: Variant
+        isExternal: true
+    - id: FieldNo
+      description: The number of the field
+      parameterType:
+        name: Integer
+        isExternal: true
+    return:
+      description: The name of the field
+      returnType:
+        name: Text[2048]
+        isExternal: true
+  summary: Retrieve the field name from a RecordRef based on a field number
+  uid: M:Codeunit::ESCA_Field_Functions.ReturnFieldName(Variant,Integer):Text[2048]
+  name: ReturnFieldName
+- syntax:
+    content: 'procedure FindFieldValueAsText(RecordVariant: Variant, FieldName: Text, var FieldValue: Text): Boolean'
+    parameters:
+    - id: RecordVariant
+      description: The source record
+      parameterType:
+        name: Variant
+        isExternal: true
+    - id: FieldName
+      description: The name of the field
+      parameterType:
+        name: Text
+        isExternal: true
+    - id: FieldValue
+      description: The value of the field
+      parameterType:
+        name: Text
+        isExternal: true
+    return:
+      description: True if the field was found based on the field name
+      returnType:
+        name: Boolean
+        isExternal: true
+  summary: Retrieve the field value from any record based on a field name
+  uid: M:Codeunit::ESCA_Field_Functions.FindFieldValueAsText(Variant,Text,Text@):Boolean
+  name: FindFieldValueAsText
+- syntax:
+    content: 'procedure SetFieldValue(var RecordRef: RecordRef, FieldNo: Integer, ValueToSet: Variant): Boolean'
+    parameters:
+    - id: RecordRef
+      description: The source RecordRef
+      parameterType:
+        name: RecordRef
+        isExternal: true
+    - id: FieldNo
+      description: The number of the field
+      parameterType:
+        name: Integer
+        isExternal: true
+    - id: ValueToSet
+      description: The value of the field
+      parameterType:
+        name: Variant
+        isExternal: true
+    return:
+      description: True is the value was validated successfully
+      returnType:
+        name: Boolean
+        isExternal: true
+  summary: Set and validate a field value for a RecordRef based on a field number
+  uid: M:Codeunit::ESCA_Field_Functions.SetFieldValue(RecordRef@,Integer,Variant):Boolean
+  name: SetFieldValue
+- syntax:
+    content: 'procedure RequestNewValueForAField(RecordVariant: Variant, FieldNo: Integer, InitialValue: Text, ThrowError: Boolean): Text'
+    parameters:
+    - id: RecordVariant
+      description: The source record
+      parameterType:
+        name: Variant
+        isExternal: true
+    - id: FieldNo
+      description: The number of the field
+      parameterType:
+        name: Integer
+        isExternal: true
+    - id: InitialValue
+      description: (Optional) The current value of the field
+      parameterType:
+        name: Text
+        isExternal: true
+    - id: ThrowError
+      description: Raise an error if no value was entered when closing the page
+      parameterType:
+        name: Boolean
+        isExternal: true
+    return:
+      description: The value entered by the user
+      returnType:
+        name: Text
+        isExternal: true
+  summary: >-
+    Ask the user a new value for a field based on a field number 
+
+    The value is entered via a filter page
+  uid: M:Codeunit::ESCA_Field_Functions.RequestNewValueForAField(Variant,Integer,Text,Boolean):Text
+  name: RequestNewValueForAField
+- syntax:
+    content: 'procedure CheckMandatoryField(RecordVariant: Variant, FieldNo: Integer)'
+    parameters:
+    - id: RecordVariant
+      description: The source record
+      parameterType:
+        name: Variant
+        isExternal: true
+    - id: FieldNo
+      description: The number of the field
+      parameterType:
+        name: Integer
+        isExternal: true
+  summary: >-
+    Checks if a field value from any record based on a field number is not empty
+
+    This behaves the as TestField, but returns an Error message with a Navigate action to the source record / field
+  uid: M:Codeunit::ESCA_Field_Functions.CheckMandatoryField(Variant,Integer)
+  name: CheckMandatoryField
+commentId: O:Codeunit::ESCA Field Functions
+uid: O:Codeunit::ESCA_Field_Functions
+name: '"ESCA Field Functions"'

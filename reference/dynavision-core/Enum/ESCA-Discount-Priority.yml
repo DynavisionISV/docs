@@ -1,0 +1,25 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"ESCA Discount Priority"'
+alId: ID 71096613
+baseKind: Enum
+kind: Enum
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Enum](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-extensible-enums)'
+objectProperties:
+- name: Access
+  value: Public
+  promoted: false
+- name: Extensible
+  value: "False"
+  promoted: true
+enumValues:
+- uid: E:Enum::ESCA_Discount_Priority.Line_Discount_%
+  name: '"Line Discount %"'
+- uid: E:Enum::ESCA_Discount_Priority.Line_Discount_Amount
+  name: '"Line Discount Amount"'
+commentId: O:Enum::ESCA Discount Priority
+uid: O:Enum::ESCA_Discount_Priority
+name: '"ESCA Discount Priority"'

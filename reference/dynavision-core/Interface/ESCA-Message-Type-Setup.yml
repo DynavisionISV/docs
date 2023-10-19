@@ -1,0 +1,66 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"ESCA Message Type Setup"'
+baseKind: Interface
+kind: Interface
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Interface](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-interfaces-in-al)'
+objectProperties:
+- name: Access
+  value: Public
+  promoted: false
+- name: Access
+  value: Public
+  promoted: false
+methods:
+- syntax:
+    content: 'procedure SupportsSetup(): Boolean'
+    return:
+      description: True if the message type contains a separate setup table
+      returnType:
+        name: Boolean
+        isExternal: true
+  summary: >-
+    Indicates if the message type contains an additional setup table with settings specific to the message type
+
+    This is used to store extra settings that are too specific to maintain on the message type record itself
+  uid: M:ESCA_Message_Type_Setup.SupportsSetup:Boolean
+  name: SupportsSetup
+- syntax:
+    content: 'procedure CreateSetup(MessageTypeCode: Code[30])'
+    parameters:
+    - id: MessageTypeCode
+      description: The code of the message type
+      parameterType:
+        name: Code[30]
+        isExternal: true
+  summary: This will create a record in the additional setup table. Applied upon creation of the message type record.
+  uid: M:ESCA_Message_Type_Setup.CreateSetup(Code[30])
+  name: CreateSetup
+- syntax:
+    content: 'procedure DeleteSetup(MessageTypeCode: Code[30])'
+    parameters:
+    - id: MessageTypeCode
+      description: The code of the message type
+      parameterType:
+        name: Code[30]
+        isExternal: true
+  summary: This should delete the record in the additional setup table. Applied upon deletion of the message type record.
+  uid: M:ESCA_Message_Type_Setup.DeleteSetup(Code[30])
+  name: DeleteSetup
+- syntax:
+    content: 'procedure ShowSetup(MessageTypeCode: Code[30])'
+    parameters:
+    - id: MessageTypeCode
+      description: The code of the message type
+      parameterType:
+        name: Code[30]
+        isExternal: true
+  summary: This will show the page with the additional setup. This is available via a 'Setup' action on the message type card.
+  uid: M:ESCA_Message_Type_Setup.ShowSetup(Code[30])
+  name: ShowSetup
+commentId: O:ESCA Message Type Setup
+uid: O:ESCA_Message_Type_Setup
+name: '"ESCA Message Type Setup"'

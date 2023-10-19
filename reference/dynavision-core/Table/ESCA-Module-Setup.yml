@@ -1,0 +1,116 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"ESCA Module Setup"'
+alId: ID 71096575
+baseKind: Table
+kind: Table
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Table](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-table-object)'
+objectProperties:
+- name: Access
+  value: Public
+  promoted: false
+- name: Caption
+  value: Module Setup
+  promoted: false
+- name: DataCaptionFields
+  value: "1"
+  promoted: false
+- name: DataClassification
+  value: SystemMetadata
+  promoted: false
+- name: ObsoleteReason
+  value: Replaced by a new company-wide 'Module' table
+  promoted: false
+- name: ObsoleteState
+  value: Pending
+  promoted: false
+- name: ObsoleteTag
+  value: "20.0"
+  promoted: false
+fields:
+- type:
+    name: Code[50]
+    isExternal: true
+  uid: F:Table::ESCA_Module_Setup.Registration_Key[50]
+  name: '"Registration Key"'
+- type:
+    name: Date
+    isExternal: true
+  uid: F:Table::ESCA_Module_Setup.Installation_Date
+  name: '"Installation Date"'
+- type:
+    name: Date
+    isExternal: true
+  uid: F:Table::ESCA_Module_Setup.Active_Until
+  name: '"Active Until"'
+- type:
+    name: Boolean
+    isExternal: true
+  uid: F:Table::ESCA_Module_Setup.Active
+  name: Active
+- type:
+    xref: O:Enum::ESCA_Module
+    name: '"ESCA Module"'
+    isExternal: false
+  uid: F:Table::ESCA_Module_Setup.Module
+  name: Module
+- type:
+    name: Date
+    isExternal: true
+  uid: F:Table::ESCA_Module_Setup.Last_Check_Reg._Key_Webservice
+  name: '"Last Check Reg. Key Webservice"'
+- type:
+    name: Guid
+    isExternal: true
+  uid: F:Table::ESCA_Module_Setup.Subscription_Id
+  name: '"Subscription Id"'
+- type:
+    name: Guid
+    isExternal: true
+  uid: F:Table::ESCA_Module_Setup.App_ID
+  name: '"App ID"'
+- type:
+    name: Text[50]
+    isExternal: true
+  uid: F:Table::ESCA_Module_Setup.App_Name[50]
+  name: '"App Name"'
+- type:
+    name: Guid
+    isExternal: true
+  uid: F:Table::ESCA_Module_Setup.SystemId
+  name: SystemId
+- type:
+    name: DateTime
+    isExternal: true
+  uid: F:Table::ESCA_Module_Setup.SystemCreatedAt
+  name: SystemCreatedAt
+- type:
+    name: Guid
+    isExternal: true
+  uid: F:Table::ESCA_Module_Setup.SystemCreatedBy
+  name: SystemCreatedBy
+- type:
+    name: DateTime
+    isExternal: true
+  uid: F:Table::ESCA_Module_Setup.SystemModifiedAt
+  name: SystemModifiedAt
+- type:
+    name: Guid
+    isExternal: true
+  uid: F:Table::ESCA_Module_Setup.SystemModifiedBy
+  name: SystemModifiedBy
+- type:
+    name: BigInteger
+    isExternal: true
+  uid: F:Table::ESCA_Module_Setup.SystemRowVersion
+  name: SystemRowVersion
+commentId: O:Table::ESCA Module Setup
+uid: O:Table::ESCA_Module_Setup
+name: '"ESCA Module Setup"'
+obsoletion:
+  state: pending
+  reason: Replaced by a new company-wide 'Module' table
+  version: "20.0"

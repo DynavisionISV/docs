@@ -1,0 +1,100 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"ESCA APS Table Mapping"'
+alId: ID 71096608
+baseKind: Table
+kind: Table
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Table](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-table-object)'
+objectProperties:
+- name: Access
+  value: Public
+  promoted: false
+- name: Caption
+  value: Attribute Printing Set Table Mapping
+  promoted: false
+- name: DrillDownPageId
+  value: ESCA APS Table Mappings
+  promoted: false
+  xrefType:
+    xref: O:Page::ESCA_APS_Table_Mappings
+    name: '"ESCA APS Table Mappings"'
+    isExternal: false
+- name: LookupPageId
+  value: ESCA APS Table Mappings
+  promoted: false
+  xrefType:
+    xref: O:Page::ESCA_APS_Table_Mappings
+    name: '"ESCA APS Table Mappings"'
+    isExternal: false
+fields:
+- type:
+    name: Integer
+    isExternal: true
+  uid: F:Table::ESCA_APS_Table_Mapping.Entry_No.
+  name: '"Entry No."'
+- type:
+    name: Integer
+    isExternal: true
+  uid: F:Table::ESCA_APS_Table_Mapping.From_Table_No.
+  name: '"From Table No."'
+- type:
+    name: Text[249]
+    isExternal: true
+  uid: F:Table::ESCA_APS_Table_Mapping.From_Table_Caption[249]
+  name: '"From Table Caption"'
+- type:
+    name: Integer
+    isExternal: true
+  uid: F:Table::ESCA_APS_Table_Mapping.To_Table_No.
+  name: '"To Table No."'
+- type:
+    name: Text[249]
+    isExternal: true
+  uid: F:Table::ESCA_APS_Table_Mapping.To_Table_Caption[249]
+  name: '"To Table Caption"'
+- type:
+    name: Code[20]
+    isExternal: true
+  uid: F:Table::ESCA_APS_Table_Mapping.Table_Mapping_Code[20]
+  name: '"Table Mapping Code"'
+- type:
+    name: Text[50]
+    isExternal: true
+  uid: F:Table::ESCA_APS_Table_Mapping.Table_Mapping_Description[50]
+  name: '"Table Mapping Description"'
+- type:
+    name: Guid
+    isExternal: true
+  uid: F:Table::ESCA_APS_Table_Mapping.SystemId
+  name: SystemId
+- type:
+    name: DateTime
+    isExternal: true
+  uid: F:Table::ESCA_APS_Table_Mapping.SystemCreatedAt
+  name: SystemCreatedAt
+- type:
+    name: Guid
+    isExternal: true
+  uid: F:Table::ESCA_APS_Table_Mapping.SystemCreatedBy
+  name: SystemCreatedBy
+- type:
+    name: DateTime
+    isExternal: true
+  uid: F:Table::ESCA_APS_Table_Mapping.SystemModifiedAt
+  name: SystemModifiedAt
+- type:
+    name: Guid
+    isExternal: true
+  uid: F:Table::ESCA_APS_Table_Mapping.SystemModifiedBy
+  name: SystemModifiedBy
+- type:
+    name: BigInteger
+    isExternal: true
+  uid: F:Table::ESCA_APS_Table_Mapping.SystemRowVersion
+  name: SystemRowVersion
+commentId: O:Table::ESCA APS Table Mapping
+uid: O:Table::ESCA_APS_Table_Mapping
+name: '"ESCA APS Table Mapping"'

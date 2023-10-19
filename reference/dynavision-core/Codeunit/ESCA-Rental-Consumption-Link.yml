@@ -1,0 +1,17 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"ESCA Rental Consumption Link"'
+alId: ID 71096605
+baseKind: Codeunit
+kind: Codeunit
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Codeunit](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-codeunit-object)'
+objectProperties:
+- name: Access
+  value: Public
+  promoted: false
+commentId: O:Codeunit::ESCA Rental Consumption Link
+uid: O:Codeunit::ESCA_Rental_Consumption_Link
+name: '"ESCA Rental Consumption Link"'

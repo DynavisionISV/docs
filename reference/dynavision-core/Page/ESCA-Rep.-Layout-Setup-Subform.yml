@@ -1,0 +1,50 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"ESCA Rep. Layout Setup Subform"'
+alId: ID 71096610
+baseKind: Page
+kind: Page
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+sourceTableType:
+  xref: O:Table::ESCA_Report_Layout_Setup_Line
+  name: '"ESCA Report Layout Setup Line"'
+  isExternal: false
+seeAlso:
+- '[Page](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-object)'
+objectProperties:
+- name: ApplicationArea
+  value: '#All'
+  promoted: false
+- name: Caption
+  value: Report Layout Setup Subform
+  promoted: false
+- name: PageType
+  value: ListPart
+  promoted: true
+- name: SourceTable
+  value: "71096597"
+  promoted: true
+  xrefType:
+    xref: O:Table::ESCA_Report_Layout_Setup_Line
+    name: '"ESCA Report Layout Setup Line"'
+    isExternal: false
+- name: SourceTableView
+  value: sorting(Order) order(ascending)
+  promoted: false
+- name: ObsoleteReason
+  value: Not used and incompatible with new Report Layout Setup approach
+  promoted: false
+- name: ObsoleteState
+  value: Pending
+  promoted: false
+- name: ObsoleteTag
+  value: "23.0"
+  promoted: false
+commentId: O:Page::ESCA Rep# Layout Setup Subform
+uid: O:Page::ESCA_Rep#_Layout_Setup_Subform
+name: '"ESCA Rep. Layout Setup Subform"'
+obsoletion:
+  state: pending
+  reason: Not used and incompatible with new Report Layout Setup approach
+  version: "23.0"

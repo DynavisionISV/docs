@@ -1,0 +1,23 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"ESCA Email Body Type"'
+alId: ID 71096642
+baseKind: Enum
+kind: Enum
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Enum](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-extensible-enums)'
+objectProperties:
+- name: Access
+  value: Public
+  promoted: false
+- name: Extensible
+  value: "False"
+  promoted: true
+enumValues:
+- uid: E:Enum::ESCA_Email_Body_Type.Word_Template
+  name: '"Word Template"'
+commentId: O:Enum::ESCA Email Body Type
+uid: O:Enum::ESCA_Email_Body_Type
+name: '"ESCA Email Body Type"'

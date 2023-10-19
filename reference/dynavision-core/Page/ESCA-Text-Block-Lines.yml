@@ -1,0 +1,37 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"ESCA Text Block Lines"'
+alId: ID 71096665
+baseKind: Page
+kind: Page
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+sourceTableType:
+  xref: O:Table::ESCA_Text_Block_Line
+  name: '"ESCA Text Block Line"'
+  isExternal: false
+seeAlso:
+- '[Page](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-object)'
+objectProperties:
+- name: ApplicationArea
+  value: '#All'
+  promoted: false
+- name: Caption
+  value: Text Block Lines
+  promoted: false
+- name: PageType
+  value: ListPart
+  promoted: true
+- name: SourceTable
+  value: "71096630"
+  promoted: true
+  xrefType:
+    xref: O:Table::ESCA_Text_Block_Line
+    name: '"ESCA Text Block Line"'
+    isExternal: false
+- name: SourceTableView
+  value: sorting(Code, "Sequence No.") order(ascending)
+  promoted: false
+commentId: O:Page::ESCA Text Block Lines
+uid: O:Page::ESCA_Text_Block_Lines
+name: '"ESCA Text Block Lines"'

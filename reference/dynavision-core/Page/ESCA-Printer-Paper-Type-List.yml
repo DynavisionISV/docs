@@ -1,0 +1,35 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"ESCA Printer Paper Type List"'
+alId: ID 71096606
+baseKind: Page
+kind: Page
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+sourceTableType:
+  name: '"ESCA Printer Paper Type"'
+  isExternal: true
+seeAlso:
+- '[Page](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-object)'
+objectProperties:
+- name: ApplicationArea
+  value: '#All'
+  promoted: false
+- name: Caption
+  value: Paper Types
+  promoted: false
+- name: Editable
+  value: "False"
+  promoted: false
+- name: PageType
+  value: List
+  promoted: true
+- name: SourceTable
+  value: "71096600"
+  promoted: true
+- name: UsageCategory
+  value: None
+  promoted: false
+commentId: O:Page::ESCA Printer Paper Type List
+uid: O:Page::ESCA_Printer_Paper_Type_List
+name: '"ESCA Printer Paper Type List"'

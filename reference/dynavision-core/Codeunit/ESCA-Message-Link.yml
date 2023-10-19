@@ -1,0 +1,201 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"ESCA Message Link"'
+alId: ID 71177010
+baseKind: Codeunit
+kind: Codeunit
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Codeunit](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-codeunit-object)'
+objectProperties:
+- name: Access
+  value: Public
+  promoted: false
+methods:
+- syntax:
+    content: 'procedure GetNoOfMessages(Source: Variant): Integer'
+    parameters:
+    - id: Source
+      description: The source (record) to count the number of messages for
+      parameterType:
+        name: Variant
+        isExternal: true
+    return:
+      description: The number of unique messages linked to the source
+      returnType:
+        name: Integer
+        isExternal: true
+  summary: Return the number of unique messages for a given source (record)
+  uid: M:Codeunit::ESCA_Message_Link.GetNoOfMessages(Variant):Integer
+  name: GetNoOfMessages
+- syntax:
+    content: 'procedure GetNoOfMessages(SourceTableNo: Integer, SourceSystemId: Guid): Integer'
+    parameters:
+    - id: SourceTableNo
+      description: The Table Number of the record to count the number of messages for
+      parameterType:
+        name: Integer
+        isExternal: true
+    - id: SourceSystemId
+      description: The SystemId of the record to count the number of messages for
+      parameterType:
+        name: Guid
+        isExternal: true
+    return:
+      description: The number of unique messages linked to the source
+      returnType:
+        name: Integer
+        isExternal: true
+  summary: Return the number of unique messages for a given source (record)
+  uid: M:Codeunit::ESCA_Message_Link.GetNoOfMessages(Integer,Guid):Integer
+  name: GetNoOfMessages
+- syntax:
+    content: 'procedure HasMessages(Source: Variant, MessageType: Enum "ESCA Message Type", Direction: Enum "ESCA Message Direction"): Boolean'
+    parameters:
+    - id: Source
+      description: The source (record) to find the linked messages for
+      parameterType:
+        name: Variant
+        isExternal: true
+    - id: MessageType
+      description: (Optional) Indicates to filter messages only for the given message type
+      parameterType:
+        xref: O:Enum::ESCA_Message_Type
+        name: '"ESCA Message Type"'
+        isExternal: false
+    - id: Direction
+      description: Indicates to search for incoming or outgoing messages
+      parameterType:
+        xref: O:Enum::ESCA_Message_Direction
+        name: '"ESCA Message Direction"'
+        isExternal: false
+    return:
+      description: True if any messages are linked to the source
+      returnType:
+        name: Boolean
+        isExternal: true
+  summary: Return if the given source (record) has any linked messages for a given direction / message type
+  uid: M:Codeunit::ESCA_Message_Link.HasMessages(Variant,Enum::ESCA_Message_Type,Enum::ESCA_Message_Direction):Boolean
+  name: HasMessages
+- syntax:
+    content: 'procedure HasMessages(SourceTableNo: Integer, SourceSystemId: Guid, MessageType: Enum "ESCA Message Type", Direction: Enum "ESCA Message Direction"): Boolean'
+    parameters:
+    - id: SourceTableNo
+      description: The Table Number of the record to find the linked messages for
+      parameterType:
+        name: Integer
+        isExternal: true
+    - id: SourceSystemId
+      description: The SystemId of the record to find the linked messages for
+      parameterType:
+        name: Guid
+        isExternal: true
+    - id: MessageType
+      description: (Optional) Indicates to filter messages only for the given message type
+      parameterType:
+        xref: O:Enum::ESCA_Message_Type
+        name: '"ESCA Message Type"'
+        isExternal: false
+    - id: Direction
+      description: Indicates to search for incoming or outgoing messages
+      parameterType:
+        xref: O:Enum::ESCA_Message_Direction
+        name: '"ESCA Message Direction"'
+        isExternal: false
+    return:
+      description: True if any messages are linked to the source
+      returnType:
+        name: Boolean
+        isExternal: true
+  summary: Return if the given source (record) has any linked messages for a given direction / message type
+  uid: M:Codeunit::ESCA_Message_Link.HasMessages(Integer,Guid,Enum::ESCA_Message_Type,Enum::ESCA_Message_Direction):Boolean
+  name: HasMessages
+- syntax:
+    content: 'procedure GetNoOfMessagesPerStatus(Source: Variant): Text'
+    parameters:
+    - id: Source
+      description: The source (record) to count the number of messages for
+      parameterType:
+        name: Variant
+        isExternal: true
+    return:
+      description: The number of unique messages per status linked to the source
+      returnType:
+        name: Text
+        isExternal: true
+  summary: Return the number of unique messages per status for a given source (record) in a specific text format
+  uid: M:Codeunit::ESCA_Message_Link.GetNoOfMessagesPerStatus(Variant):Text
+  name: GetNoOfMessagesPerStatus
+- syntax:
+    content: 'procedure IsBasedOnIncomingMessage(Source: Variant): Boolean'
+    parameters:
+    - id: Source
+      description: The source (record) to verify
+      parameterType:
+        name: Variant
+        isExternal: true
+    return:
+      description: True if the source has been created based on an incoming message
+      returnType:
+        name: Boolean
+        isExternal: true
+  summary: Return if a record has been created based on an incoming message
+  uid: M:Codeunit::ESCA_Message_Link.IsBasedOnIncomingMessage(Variant):Boolean
+  name: IsBasedOnIncomingMessage
+- syntax:
+    content: 'procedure IsBasedOnIncomingMessage(SourceTableNo: Integer, SourceSystemId: Guid): Boolean'
+    parameters:
+    - id: SourceTableNo
+      description: The Table Number of the record to verify
+      parameterType:
+        name: Integer
+        isExternal: true
+    - id: SourceSystemId
+      description: The SystemId of the record to verify
+      parameterType:
+        name: Guid
+        isExternal: true
+    return:
+      description: True if the source has been created based on an incoming message
+      returnType:
+        name: Boolean
+        isExternal: true
+  summary: Return if a record has been created based on an incoming message
+  uid: M:Codeunit::ESCA_Message_Link.IsBasedOnIncomingMessage(Integer,Guid):Boolean
+  name: IsBasedOnIncomingMessage
+- syntax:
+    content: 'procedure ShowMessages(Source: Variant)'
+    parameters:
+    - id: Source
+      description: The source (record) to show messages for
+      parameterType:
+        name: Variant
+        isExternal: true
+  summary: Shows the list of messages for a given source (record)
+  uid: M:Codeunit::ESCA_Message_Link.ShowMessages(Variant)
+  name: ShowMessages
+- syntax:
+    content: 'procedure ShowMessages(SourceTableNo: Integer, SourceSystemId: Guid): Integer'
+    parameters:
+    - id: SourceTableNo
+      description: The Table Number of the record to show messages for
+      parameterType:
+        name: Integer
+        isExternal: true
+    - id: SourceSystemId
+      description: The SystemId of the record to show messages for
+      parameterType:
+        name: Guid
+        isExternal: true
+    return:
+      description: ""
+      returnType:
+        name: Integer
+        isExternal: true
+  summary: Shows the list of messages for a given source (record)
+  uid: M:Codeunit::ESCA_Message_Link.ShowMessages(Integer,Guid):Integer
+  name: ShowMessages
+commentId: O:Codeunit::ESCA Message Link
+uid: O:Codeunit::ESCA_Message_Link
+name: '"ESCA Message Link"'

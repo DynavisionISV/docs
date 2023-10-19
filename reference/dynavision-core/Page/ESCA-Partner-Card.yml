@@ -1,0 +1,37 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"ESCA Partner Card"'
+alId: ID 71096631
+baseKind: Page
+kind: Page
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+sourceTableType:
+  xref: O:Table::ESCA_Partner
+  name: '"ESCA Partner"'
+  isExternal: false
+seeAlso:
+- '[Page](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-object)'
+objectProperties:
+- name: ApplicationArea
+  value: '#All'
+  promoted: false
+- name: Caption
+  value: Partner Card
+  promoted: false
+- name: PageType
+  value: Card
+  promoted: true
+- name: SourceTable
+  value: "71096598"
+  promoted: true
+  xrefType:
+    xref: O:Table::ESCA_Partner
+    name: '"ESCA Partner"'
+    isExternal: false
+- name: UsageCategory
+  value: None
+  promoted: false
+commentId: O:Page::ESCA Partner Card
+uid: O:Page::ESCA_Partner_Card
+name: '"ESCA Partner Card"'

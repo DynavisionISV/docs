@@ -1,0 +1,22 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"ESCA VAT Posting Setup"'
+alId: ID 71096625
+baseKind: Table
+kind: TableExtension
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+extends:
+  name: '"VAT Posting Setup"'
+  isExternal: true
+seeAlso:
+- '[Table Extension](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-table-ext-object)'
+fields:
+- type:
+    name: Code[20]
+    isExternal: true
+  uid: F:TableExtension::ESCA_VAT_Posting_Setup.ESCA_VAT_Ident._(No_Paym_Disc)[20]
+  name: '"ESCA VAT Ident. (No Paym Disc)"'
+commentId: O:TableExtension::ESCA VAT Posting Setup
+uid: O:TableExtension::ESCA_VAT_Posting_Setup
+name: '"ESCA VAT Posting Setup"'

@@ -1,0 +1,37 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"ESCA Partner Message Types"'
+alId: ID 71096630
+baseKind: Page
+kind: Page
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+sourceTableType:
+  xref: O:Table::ESCA_Partner_Message_Type
+  name: '"ESCA Partner Message Type"'
+  isExternal: false
+seeAlso:
+- '[Page](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-object)'
+objectProperties:
+- name: ApplicationArea
+  value: '#All'
+  promoted: false
+- name: Caption
+  value: Partner Message Types
+  promoted: false
+- name: PageType
+  value: List
+  promoted: true
+- name: SourceTable
+  value: "71096610"
+  promoted: true
+  xrefType:
+    xref: O:Table::ESCA_Partner_Message_Type
+    name: '"ESCA Partner Message Type"'
+    isExternal: false
+- name: UsageCategory
+  value: None
+  promoted: false
+commentId: O:Page::ESCA Partner Message Types
+uid: O:Page::ESCA_Partner_Message_Types
+name: '"ESCA Partner Message Types"'

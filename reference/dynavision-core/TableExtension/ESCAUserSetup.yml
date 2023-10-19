@@ -1,0 +1,22 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: ESCAUserSetup
+alId: ID 71096605
+baseKind: Table
+kind: TableExtension
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+extends:
+  name: '"User Setup"'
+  isExternal: true
+seeAlso:
+- '[Table Extension](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-table-ext-object)'
+fields:
+- type:
+    name: Code[20]
+    isExternal: true
+  uid: F:TableExtension::ESCAUserSetup.ESCA_Preferred_Scanner[20]
+  name: '"ESCA Preferred Scanner"'
+commentId: O:TableExtension::ESCAUserSetup
+uid: O:TableExtension::ESCAUserSetup
+name: ESCAUserSetup

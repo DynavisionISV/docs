@@ -1,0 +1,16 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"ESCA Purchase Header"'
+alId: ID 71096617
+baseKind: Table
+kind: TableExtension
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+extends:
+  name: '"Purchase Header"'
+  isExternal: true
+seeAlso:
+- '[Table Extension](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-table-ext-object)'
+commentId: O:TableExtension::ESCA Purchase Header
+uid: O:TableExtension::ESCA_Purchase_Header
+name: '"ESCA Purchase Header"'

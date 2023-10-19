@@ -1,0 +1,35 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"ESCA PageMetadata List"'
+alId: ID 71096584
+baseKind: Page
+kind: Page
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+sourceTableType:
+  name: '"Page Metadata"'
+  isExternal: true
+seeAlso:
+- '[Page](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-object)'
+objectProperties:
+- name: ApplicationArea
+  value: '#All'
+  promoted: false
+- name: Caption
+  value: PageMetadata
+  promoted: false
+- name: PageType
+  value: List
+  promoted: true
+- name: SourceTable
+  value: "2000000138"
+  promoted: true
+  xrefType:
+    name: '"Page Metadata"'
+    isExternal: true
+- name: UsageCategory
+  value: None
+  promoted: false
+commentId: O:Page::ESCA PageMetadata List
+uid: O:Page::ESCA_PageMetadata_List
+name: '"ESCA PageMetadata List"'

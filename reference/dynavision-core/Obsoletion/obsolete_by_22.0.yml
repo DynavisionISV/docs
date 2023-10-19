@@ -1,0 +1,27 @@
+﻿### YamlMime:BusinessCentralObsoletionList
+uid: N:Module::Dynavision_Core_obsolete_by_22.0
+tag: "22.0"
+groups:
+- uid: N:Module::Dynavision_Core_obsolete_by_22.0#22.0
+  groupName: "22.0"
+  symbols:
+  - kind: Codeunit
+    xref: O:Codeunit::ESCA_Price_Sim#_Events_Light
+    name: Codeunit 71096656 "ESCA Price Sim. Events Light"
+    reason: Replaced by Sales Simulation usage
+  - kind: Field
+    xref: F:TableExtension::ESCACompanyInformation.ESCA_Default_Language_Dutch[10]
+    name: '"ESCA Default Language Dutch": Code[10]'
+    reason: Language is auto defined based on localisation. Either the Add Language action is to be used to insert text constant translations
+  - kind: Field
+    xref: F:TableExtension::ESCACompanyInformation.ESCA_Default_Language_French[10]
+    name: '"ESCA Default Language French": Code[10]'
+    reason: Language is auto defined based on localisation. Either the Add Language action is to be used to insert text constant translations
+  - kind: Field
+    xref: F:TableExtension::ESCACompanyInformation.ESCA_Default_Language_English[10]
+    name: '"ESCA Default Language English": Code[10]'
+    reason: Language is auto defined based on localisation. Either the Add Language action is to be used to insert text constant translations
+  - kind: Field
+    xref: F:TableExtension::ESCACompanyInformation.ESCA_Default_Language_German[10]
+    name: '"ESCA Default Language German": Code[10]'
+    reason: Language is auto defined based on localisation. Either the Add Language action is to be used to insert text constant translations

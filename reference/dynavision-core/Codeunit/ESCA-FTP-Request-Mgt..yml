@@ -1,0 +1,66 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"ESCA FTP Request Mgt."'
+alId: ID 71096617
+baseKind: Codeunit
+kind: Codeunit
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Codeunit](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-codeunit-object)'
+objectProperties:
+- name: Access
+  value: Public
+  promoted: false
+- name: TableNo
+  value: ESCA FTP Setup
+  promoted: false
+  xrefType:
+    xref: O:Table::ESCA_FTP_Setup
+    name: '"ESCA FTP Setup"'
+    isExternal: false
+methods:
+- syntax:
+    content: 'procedure UploadFile(FTPCode: Code[20], FTPPath: Text, TempBlob: Codeunit "Temp Blob", FileName: Text[250], HideNotification: Boolean, var FTPRequest: Record "ESCA FTP Request"): Boolean'
+    parameters:
+    - id: FTPCode
+      description: The code representing the FTP setup
+      parameterType:
+        name: Code[20]
+        isExternal: true
+    - id: FTPPath
+      description: The path on the FTP server where the file will be uploaded
+      parameterType:
+        name: Text
+        isExternal: true
+    - id: TempBlob
+      description: The codeunit containing the file contents stream
+      parameterType:
+        name: '"Temp Blob"'
+        isExternal: true
+    - id: FileName
+      description: The name of the file to be uploaded
+      parameterType:
+        name: Text[250]
+        isExternal: true
+    - id: HideNotification
+      description: A flag indicating whether to hide the notification after upload process
+      parameterType:
+        name: Boolean
+        isExternal: true
+    - id: FTPRequest
+      description: A reference to the FTP request record
+      parameterType:
+        name: Record "ESCA FTP Request"
+        isExternal: true
+    return:
+      description: A boolean value indicating the success of the upload
+      returnType:
+        name: Boolean
+        isExternal: true
+  summary: Uploads a file to an FTP server.
+  uid: M:Codeunit::ESCA_FTP_Request_Mgt#.UploadFile(Code[20],Text,Codeunit::Temp_Blob,Text[250],Boolean,ESCA_FTP_Request@):Boolean
+  name: UploadFile
+commentId: O:Codeunit::ESCA FTP Request Mgt#
+uid: O:Codeunit::ESCA_FTP_Request_Mgt#
+name: '"ESCA FTP Request Mgt."'

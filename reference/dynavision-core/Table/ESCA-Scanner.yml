@@ -1,0 +1,90 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"ESCA Scanner"'
+alId: ID 71096579
+baseKind: Table
+kind: Table
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Table](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-table-object)'
+objectProperties:
+- name: Access
+  value: Public
+  promoted: false
+- name: Caption
+  value: Scanner
+  promoted: false
+- name: DrillDownPageId
+  value: ESCA Scanners
+  promoted: false
+  xrefType:
+    xref: O:Page::ESCA_Scanners
+    name: '"ESCA Scanners"'
+    isExternal: false
+- name: LookupPageId
+  value: ESCA Scanners
+  promoted: false
+  xrefType:
+    xref: O:Page::ESCA_Scanners
+    name: '"ESCA Scanners"'
+    isExternal: false
+fields:
+- type:
+    name: Code[20]
+    isExternal: true
+  uid: F:Table::ESCA_Scanner.Code[20]
+  name: Code
+- type:
+    name: Text[50]
+    isExternal: true
+  uid: F:Table::ESCA_Scanner.Description[50]
+  name: Description
+- type:
+    name: '"ESCA Scanner Type"'
+    isExternal: true
+  uid: F:Table::ESCA_Scanner.Scanner_Type
+  name: '"Scanner Type"'
+- type:
+    name: Text[1]
+    isExternal: true
+  uid: F:Table::ESCA_Scanner.Decimal_Delimiter[1]
+  name: '"Decimal Delimiter"'
+- type:
+    name: Integer
+    isExternal: true
+  uid: F:Table::ESCA_Scanner.Scanner_Input_Speed
+  name: '"Scanner Input Speed"'
+- type:
+    name: Guid
+    isExternal: true
+  uid: F:Table::ESCA_Scanner.SystemId
+  name: SystemId
+- type:
+    name: DateTime
+    isExternal: true
+  uid: F:Table::ESCA_Scanner.SystemCreatedAt
+  name: SystemCreatedAt
+- type:
+    name: Guid
+    isExternal: true
+  uid: F:Table::ESCA_Scanner.SystemCreatedBy
+  name: SystemCreatedBy
+- type:
+    name: DateTime
+    isExternal: true
+  uid: F:Table::ESCA_Scanner.SystemModifiedAt
+  name: SystemModifiedAt
+- type:
+    name: Guid
+    isExternal: true
+  uid: F:Table::ESCA_Scanner.SystemModifiedBy
+  name: SystemModifiedBy
+- type:
+    name: BigInteger
+    isExternal: true
+  uid: F:Table::ESCA_Scanner.SystemRowVersion
+  name: SystemRowVersion
+commentId: O:Table::ESCA Scanner
+uid: O:Table::ESCA_Scanner
+name: '"ESCA Scanner"'

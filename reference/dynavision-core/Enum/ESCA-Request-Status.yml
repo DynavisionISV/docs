@@ -1,0 +1,29 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"ESCA Request Status"'
+alId: ID 71096586
+baseKind: Enum
+kind: Enum
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Enum](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-extensible-enums)'
+objectProperties:
+- name: Access
+  value: Public
+  promoted: false
+- name: Extensible
+  value: "False"
+  promoted: true
+enumValues:
+- uid: E:Enum::ESCA_Request_Status.New
+  name: New
+- uid: E:Enum::ESCA_Request_Status.In_Queue
+  name: '"In Queue"'
+- uid: E:Enum::ESCA_Request_Status.Successful
+  name: Successful
+- uid: E:Enum::ESCA_Request_Status.Error
+  name: Error
+commentId: O:Enum::ESCA Request Status
+uid: O:Enum::ESCA_Request_Status
+name: '"ESCA Request Status"'

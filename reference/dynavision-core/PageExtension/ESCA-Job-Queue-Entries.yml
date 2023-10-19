@@ -1,0 +1,16 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"ESCA Job Queue Entries"'
+alId: ID 71096671
+baseKind: Page
+kind: PageExtension
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+extends:
+  name: '"Job Queue Entries"'
+  isExternal: true
+seeAlso:
+- '[Page Extension](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-ext-object)'
+commentId: O:PageExtension::ESCA Job Queue Entries
+uid: O:PageExtension::ESCA_Job_Queue_Entries
+name: '"ESCA Job Queue Entries"'

@@ -1,0 +1,36 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"ESCA Price Sim. Events Light"'
+alId: ID 71096656
+baseKind: Codeunit
+kind: Codeunit
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Codeunit](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-codeunit-object)'
+objectProperties:
+- name: Access
+  value: Public
+  promoted: false
+- name: EventSubscriberInstance
+  value: Manual
+  promoted: false
+- name: SingleInstance
+  value: "True"
+  promoted: false
+- name: ObsoleteState
+  value: Pending
+  promoted: false
+- name: ObsoleteTag
+  value: "22.0"
+  promoted: false
+- name: ObsoleteReason
+  value: Replaced by Sales Simulation usage
+  promoted: false
+commentId: O:Codeunit::ESCA Price Sim# Events Light
+uid: O:Codeunit::ESCA_Price_Sim#_Events_Light
+name: '"ESCA Price Sim. Events Light"'
+obsoletion:
+  state: pending
+  reason: Replaced by Sales Simulation usage
+  version: "22.0"

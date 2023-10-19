@@ -1,0 +1,16 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"ESCA Posted Sales Shipment"'
+alId: ID 71096633
+baseKind: Page
+kind: PageExtension
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+extends:
+  name: '"Posted Sales Shipment"'
+  isExternal: true
+seeAlso:
+- '[Page Extension](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-ext-object)'
+commentId: O:PageExtension::ESCA Posted Sales Shipment
+uid: O:PageExtension::ESCA_Posted_Sales_Shipment
+name: '"ESCA Posted Sales Shipment"'

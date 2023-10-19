@@ -1,0 +1,37 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"ESCA Scanner Tests"'
+alId: ID 71096595
+baseKind: Page
+kind: Page
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+sourceTableType:
+  xref: O:Table::ESCA_Scanned_Data
+  name: '"ESCA Scanned Data"'
+  isExternal: false
+seeAlso:
+- '[Page](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-object)'
+objectProperties:
+- name: ApplicationArea
+  value: '#All'
+  promoted: false
+- name: Caption
+  value: Test Barcode Scanner
+  promoted: false
+- name: PageType
+  value: List
+  promoted: true
+- name: SourceTable
+  value: "71096578"
+  promoted: true
+  xrefType:
+    xref: O:Table::ESCA_Scanned_Data
+    name: '"ESCA Scanned Data"'
+    isExternal: false
+- name: UsageCategory
+  value: Tasks
+  promoted: false
+commentId: O:Page::ESCA Scanner Tests
+uid: O:Page::ESCA_Scanner_Tests
+name: '"ESCA Scanner Tests"'

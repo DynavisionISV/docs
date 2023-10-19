@@ -1,0 +1,43 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"ESCA Source Documents"'
+alId: ID 71177009
+baseKind: Page
+kind: Page
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+sourceTableType:
+  xref: O:Table::ESCA_Source_Document
+  name: '"ESCA Source Document"'
+  isExternal: false
+seeAlso:
+- '[Page](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-object)'
+objectProperties:
+- name: ApplicationArea
+  value: '#All'
+  promoted: false
+- name: Caption
+  value: Source Documents
+  promoted: false
+- name: PageType
+  value: List
+  promoted: true
+- name: SourceTable
+  value: "71096649"
+  promoted: true
+  xrefType:
+    xref: O:Table::ESCA_Source_Document
+    name: '"ESCA Source Document"'
+    isExternal: false
+- name: UsageCategory
+  value: None
+  promoted: false
+- name: InsertAllowed
+  value: "False"
+  promoted: false
+- name: DeleteAllowed
+  value: "False"
+  promoted: false
+commentId: O:Page::ESCA Source Documents
+uid: O:Page::ESCA_Source_Documents
+name: '"ESCA Source Documents"'

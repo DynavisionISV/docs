@@ -1,0 +1,41 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"ESCA Legend List"'
+alId: ID 71096622
+baseKind: Page
+kind: Page
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+sourceTableType:
+  name: '"ESCA Legend"'
+  isExternal: true
+seeAlso:
+- '[Page](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-object)'
+objectProperties:
+- name: ApplicationArea
+  value: '#All'
+  promoted: false
+- name: Caption
+  value: Legend
+  promoted: false
+- name: DeleteAllowed
+  value: "False"
+  promoted: false
+- name: Editable
+  value: "False"
+  promoted: false
+- name: InsertAllowed
+  value: "False"
+  promoted: false
+- name: PageType
+  value: Worksheet
+  promoted: true
+- name: SourceTable
+  value: "71096604"
+  promoted: true
+- name: UsageCategory
+  value: None
+  promoted: false
+commentId: O:Page::ESCA Legend List
+uid: O:Page::ESCA_Legend_List
+name: '"ESCA Legend List"'

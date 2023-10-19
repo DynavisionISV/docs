@@ -1,0 +1,61 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: ESCAItemLedgerEntryCompanion
+alId: ID 71096586
+baseKind: Table
+kind: Table
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Table](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-table-object)'
+objectProperties:
+- name: Access
+  value: Public
+  promoted: false
+- name: Caption
+  value: Item Ledger Entry Companion
+  promoted: false
+fields:
+- type:
+    name: Integer
+    isExternal: true
+  uid: F:Table::ESCAItemLedgerEntryCompanion.Item_Ledger_Entry_No.
+  name: '"Item Ledger Entry No."'
+- type:
+    name: Code[10]
+    isExternal: true
+  uid: F:Table::ESCAItemLedgerEntryCompanion.Reason_Code[10]
+  name: '"Reason Code"'
+- type:
+    name: Guid
+    isExternal: true
+  uid: F:Table::ESCAItemLedgerEntryCompanion.SystemId
+  name: SystemId
+- type:
+    name: DateTime
+    isExternal: true
+  uid: F:Table::ESCAItemLedgerEntryCompanion.SystemCreatedAt
+  name: SystemCreatedAt
+- type:
+    name: Guid
+    isExternal: true
+  uid: F:Table::ESCAItemLedgerEntryCompanion.SystemCreatedBy
+  name: SystemCreatedBy
+- type:
+    name: DateTime
+    isExternal: true
+  uid: F:Table::ESCAItemLedgerEntryCompanion.SystemModifiedAt
+  name: SystemModifiedAt
+- type:
+    name: Guid
+    isExternal: true
+  uid: F:Table::ESCAItemLedgerEntryCompanion.SystemModifiedBy
+  name: SystemModifiedBy
+- type:
+    name: BigInteger
+    isExternal: true
+  uid: F:Table::ESCAItemLedgerEntryCompanion.SystemRowVersion
+  name: SystemRowVersion
+commentId: O:Table::ESCAItemLedgerEntryCompanion
+uid: O:Table::ESCAItemLedgerEntryCompanion
+name: ESCAItemLedgerEntryCompanion

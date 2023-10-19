@@ -1,0 +1,50 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"ESCA Message Types"'
+alId: ID 71096629
+baseKind: Page
+kind: Page
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+sourceTableType:
+  xref: O:Table::ESCA_Message_Type
+  name: '"ESCA Message Type"'
+  isExternal: false
+seeAlso:
+- '[Page](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-object)'
+objectProperties:
+- name: AdditionalSearchTerms
+  value: import template,data exchange,intercompany
+  promoted: false
+- name: ApplicationArea
+  value: '#All'
+  promoted: false
+- name: Caption
+  value: Message Types
+  promoted: false
+- name: CardPageId
+  value: ESCA Message Type Card
+  promoted: false
+  xrefType:
+    xref: O:Page::ESCA_Message_Type_Card
+    name: '"ESCA Message Type Card"'
+    isExternal: false
+- name: Editable
+  value: "False"
+  promoted: false
+- name: PageType
+  value: List
+  promoted: true
+- name: SourceTable
+  value: "71096599"
+  promoted: true
+  xrefType:
+    xref: O:Table::ESCA_Message_Type
+    name: '"ESCA Message Type"'
+    isExternal: false
+- name: UsageCategory
+  value: Administration
+  promoted: false
+commentId: O:Page::ESCA Message Types
+uid: O:Page::ESCA_Message_Types
+name: '"ESCA Message Types"'

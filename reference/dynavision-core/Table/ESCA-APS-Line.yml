@@ -1,0 +1,136 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"ESCA APS Line"'
+alId: ID 71096606
+baseKind: Table
+kind: Table
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Table](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-table-object)'
+objectProperties:
+- name: Access
+  value: Public
+  promoted: false
+- name: Caption
+  value: Attribute Printing Set Line
+  promoted: false
+fields:
+- type:
+    name: Code[20]
+    isExternal: true
+  uid: F:Table::ESCA_APS_Line.APS_Code[20]
+  name: '"APS Code"'
+- type:
+    name: Integer
+    isExternal: true
+  uid: F:Table::ESCA_APS_Line.Line_No.
+  name: '"Line No."'
+- type:
+    name: Text[250]
+    isExternal: true
+  uid: F:Table::ESCA_APS_Line.Item_Attribute_Name[250]
+  name: '"Item Attribute Name"'
+- type:
+    name: Text[250]
+    isExternal: true
+  uid: F:Table::ESCA_APS_Line.Item_Attribute_Value_Filter[250]
+  name: '"Item Attribute Value Filter"'
+- type:
+    name: Integer
+    isExternal: true
+  uid: F:Table::ESCA_APS_Line.Item_Attribute_ID
+  name: '"Item Attribute ID"'
+- type:
+    name: Option
+    isExternal: true
+  uid: F:Table::ESCA_APS_Line.Item_Attribute_Type
+  name: '"Item Attribute Type"'
+- type:
+    name: Integer
+    isExternal: true
+  uid: F:Table::ESCA_APS_Line.Value_Table_No.
+  name: '"Value Table No."'
+- type:
+    name: Text[249]
+    isExternal: true
+  uid: F:Table::ESCA_APS_Line.Value_Table_Caption[249]
+  name: '"Value Table Caption"'
+- type:
+    name: Integer
+    isExternal: true
+  uid: F:Table::ESCA_APS_Line.Value_Field_No.
+  name: '"Value Field No."'
+- type:
+    name: Text[80]
+    isExternal: true
+  uid: F:Table::ESCA_APS_Line.Value_Field_Caption[80]
+  name: '"Value Field Caption"'
+- type:
+    name: Text[250]
+    isExternal: true
+  uid: F:Table::ESCA_APS_Line.Value_Field_Filter[250]
+  name: '"Value Field Filter"'
+- type:
+    name: '"ESCA APS Location"'
+    isExternal: true
+  uid: F:Table::ESCA_APS_Line.Location
+  name: Location
+- type:
+    name: Code[20]
+    isExternal: true
+  uid: F:Table::ESCA_APS_Line.Display_As[20]
+  name: '"Display As"'
+- type:
+    name: Media
+    isExternal: true
+  uid: F:Table::ESCA_APS_Line.Picture
+  name: Picture
+- type:
+    name: Text[250]
+    isExternal: true
+  uid: F:Table::ESCA_APS_Line.Picture_Name[250]
+  name: '"Picture Name"'
+- type:
+    name: '"ESCA APS Picture Size"'
+    isExternal: true
+  uid: F:Table::ESCA_APS_Line.Picture_Size
+  name: '"Picture Size"'
+- type:
+    name: Integer
+    isExternal: true
+  uid: F:Table::ESCA_APS_Line.Sequence_No.
+  name: '"Sequence No."'
+- type:
+    name: Guid
+    isExternal: true
+  uid: F:Table::ESCA_APS_Line.SystemId
+  name: SystemId
+- type:
+    name: DateTime
+    isExternal: true
+  uid: F:Table::ESCA_APS_Line.SystemCreatedAt
+  name: SystemCreatedAt
+- type:
+    name: Guid
+    isExternal: true
+  uid: F:Table::ESCA_APS_Line.SystemCreatedBy
+  name: SystemCreatedBy
+- type:
+    name: DateTime
+    isExternal: true
+  uid: F:Table::ESCA_APS_Line.SystemModifiedAt
+  name: SystemModifiedAt
+- type:
+    name: Guid
+    isExternal: true
+  uid: F:Table::ESCA_APS_Line.SystemModifiedBy
+  name: SystemModifiedBy
+- type:
+    name: BigInteger
+    isExternal: true
+  uid: F:Table::ESCA_APS_Line.SystemRowVersion
+  name: SystemRowVersion
+commentId: O:Table::ESCA APS Line
+uid: O:Table::ESCA_APS_Line
+name: '"ESCA APS Line"'

@@ -1,0 +1,23 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"ESCA Feature Type"'
+alId: ID 71096626
+baseKind: Enum
+kind: Enum
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Enum](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-extensible-enums)'
+objectProperties:
+- name: Access
+  value: Public
+  promoted: false
+- name: Extensible
+  value: "True"
+  promoted: true
+enumValues:
+- uid: E:Enum::ESCA_Feature_Type._
+  name: '" "'
+commentId: O:Enum::ESCA Feature Type
+uid: O:Enum::ESCA_Feature_Type
+name: '"ESCA Feature Type"'

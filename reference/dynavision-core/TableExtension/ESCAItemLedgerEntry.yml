@@ -1,0 +1,22 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: ESCAItemLedgerEntry
+alId: ID 71096603
+baseKind: Table
+kind: TableExtension
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+extends:
+  name: '"Item Ledger Entry"'
+  isExternal: true
+seeAlso:
+- '[Table Extension](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-table-ext-object)'
+fields:
+- type:
+    name: '"ESCA Item Type"'
+    isExternal: true
+  uid: F:TableExtension::ESCAItemLedgerEntry.ESCA_Item_Type
+  name: '"ESCA Item Type"'
+commentId: O:TableExtension::ESCAItemLedgerEntry
+uid: O:TableExtension::ESCAItemLedgerEntry
+name: ESCAItemLedgerEntry

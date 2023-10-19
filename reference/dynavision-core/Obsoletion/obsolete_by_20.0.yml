@@ -1,0 +1,15 @@
+﻿### YamlMime:BusinessCentralObsoletionList
+uid: N:Module::Dynavision_Core_obsolete_by_20.0
+tag: "20.0"
+groups:
+- uid: N:Module::Dynavision_Core_obsolete_by_20.0#20.0
+  groupName: "20.0"
+  symbols:
+  - kind: Method
+    xref: M:Codeunit::ESCA_Report_Functions.CreateVATClauseTable(VAT_Amount_Line@,VAT_Clause@,Variant)
+    name: 'CreateVATClauseTable(var TempVatAmountLine: Record 290 "VAT Amount Line" temporary, var TempVATClause: Record 560 "VAT Clause" temporary, RecordVariant: Variant)'
+    reason: Removed and replaced by GetVATClauseTexts (supporting extended texts) in Dynavision Layouts
+  - kind: Table
+    xref: O:Table::ESCA_Module_Setup
+    name: Table 71096575 "ESCA Module Setup"
+    reason: Replaced by a new company-wide 'Module' table

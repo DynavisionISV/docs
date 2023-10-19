@@ -1,0 +1,52 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"ESCA GetPrice For Item"'
+alId: ID 71096599
+baseKind: Page
+kind: Page
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+sourceTableType:
+  xref: O:Table::ESCA_Price_Simulation_Line
+  name: '"ESCA Price Simulation Line"'
+  isExternal: false
+seeAlso:
+- '[Page](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-object)'
+objectProperties:
+- name: ApplicationArea
+  value: '#All'
+  promoted: false
+- name: AutoSplitKey
+  value: "True"
+  promoted: false
+- name: Caption
+  value: Sales Price Simulation
+  promoted: false
+- name: DataCaptionFields
+  value: 2,4
+  promoted: false
+- name: DeleteAllowed
+  value: "False"
+  promoted: false
+- name: InsertAllowed
+  value: "False"
+  promoted: false
+- name: PageType
+  value: ListPlus
+  promoted: true
+- name: SourceTable
+  value: "71096588"
+  promoted: true
+  xrefType:
+    xref: O:Table::ESCA_Price_Simulation_Line
+    name: '"ESCA Price Simulation Line"'
+    isExternal: false
+- name: SourceTableTemporary
+  value: "True"
+  promoted: false
+- name: UsageCategory
+  value: Tasks
+  promoted: false
+commentId: O:Page::ESCA GetPrice For Item
+uid: O:Page::ESCA_GetPrice_For_Item
+name: '"ESCA GetPrice For Item"'

@@ -1,0 +1,17 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: Dynavision Core by Dynavision (22.0.7.0)
+baseKind: Module
+kind: Module
+objectProperties:
+- name: Version
+  value: 22.0.7.0
+  promoted: false
+- name: Publisher
+  value: Dynavision
+  promoted: false
+- name: Brief
+  value: Dynavision Core
+  promoted: false
+summary: https://www.dynavision.be/
+uid: N:Module::Dynavision_Core
+name: Dynavision Core

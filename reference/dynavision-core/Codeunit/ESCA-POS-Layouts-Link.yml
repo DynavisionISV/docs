@@ -1,0 +1,17 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"ESCA POS Layouts Link"'
+alId: ID 71096626
+baseKind: Codeunit
+kind: Codeunit
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Codeunit](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-codeunit-object)'
+objectProperties:
+- name: Access
+  value: Public
+  promoted: false
+commentId: O:Codeunit::ESCA POS Layouts Link
+uid: O:Codeunit::ESCA_POS_Layouts_Link
+name: '"ESCA POS Layouts Link"'

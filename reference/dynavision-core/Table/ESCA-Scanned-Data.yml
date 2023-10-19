@@ -1,0 +1,80 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"ESCA Scanned Data"'
+alId: ID 71096578
+baseKind: Table
+kind: Table
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Table](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-table-object)'
+objectProperties:
+- name: Access
+  value: Public
+  promoted: false
+- name: Caption
+  value: Scanned Data
+  promoted: false
+- name: DrillDownPageId
+  value: ESCA Scanner Tests
+  promoted: false
+  xrefType:
+    xref: O:Page::ESCA_Scanner_Tests
+    name: '"ESCA Scanner Tests"'
+    isExternal: false
+- name: LookupPageId
+  value: ESCA Scanner Tests
+  promoted: false
+  xrefType:
+    xref: O:Page::ESCA_Scanner_Tests
+    name: '"ESCA Scanner Tests"'
+    isExternal: false
+fields:
+- type:
+    name: Integer
+    isExternal: true
+  uid: F:Table::ESCA_Scanned_Data.Entry_No.
+  name: '"Entry No."'
+- type:
+    name: Text[250]
+    isExternal: true
+  uid: F:Table::ESCA_Scanned_Data.Data[250]
+  name: Data
+- type:
+    name: Text[50]
+    isExternal: true
+  uid: F:Table::ESCA_Scanned_Data.Manual_Data[50]
+  name: '"Manual Data"'
+- type:
+    name: Guid
+    isExternal: true
+  uid: F:Table::ESCA_Scanned_Data.SystemId
+  name: SystemId
+- type:
+    name: DateTime
+    isExternal: true
+  uid: F:Table::ESCA_Scanned_Data.SystemCreatedAt
+  name: SystemCreatedAt
+- type:
+    name: Guid
+    isExternal: true
+  uid: F:Table::ESCA_Scanned_Data.SystemCreatedBy
+  name: SystemCreatedBy
+- type:
+    name: DateTime
+    isExternal: true
+  uid: F:Table::ESCA_Scanned_Data.SystemModifiedAt
+  name: SystemModifiedAt
+- type:
+    name: Guid
+    isExternal: true
+  uid: F:Table::ESCA_Scanned_Data.SystemModifiedBy
+  name: SystemModifiedBy
+- type:
+    name: BigInteger
+    isExternal: true
+  uid: F:Table::ESCA_Scanned_Data.SystemRowVersion
+  name: SystemRowVersion
+commentId: O:Table::ESCA Scanned Data
+uid: O:Table::ESCA_Scanned_Data
+name: '"ESCA Scanned Data"'

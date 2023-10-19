@@ -1,0 +1,61 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"ESCA Partner API"'
+alId: ID 71096642
+baseKind: Page
+kind: Page
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+sourceTableType:
+  xref: O:Table::ESCA_Partner
+  name: '"ESCA Partner"'
+  isExternal: false
+seeAlso:
+- '[Page](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-object)'
+objectProperties:
+- name: APIGroup
+  value: core
+  promoted: false
+- name: APIPublisher
+  value: dynavision
+  promoted: false
+- name: APIVersion
+  value: "'v1.0'"
+  promoted: false
+- name: ApplicationArea
+  value: '#All'
+  promoted: false
+- name: Caption
+  value: Partner API
+  promoted: false
+- name: DelayedInsert
+  value: "True"
+  promoted: false
+- name: DeleteAllowed
+  value: "False"
+  promoted: false
+- name: EntityName
+  value: partner
+  promoted: false
+- name: EntitySetName
+  value: partners
+  promoted: false
+- name: InsertAllowed
+  value: "False"
+  promoted: false
+- name: ModifyAllowed
+  value: "False"
+  promoted: false
+- name: PageType
+  value: API
+  promoted: true
+- name: SourceTable
+  value: "71096598"
+  promoted: true
+  xrefType:
+    xref: O:Table::ESCA_Partner
+    name: '"ESCA Partner"'
+    isExternal: false
+commentId: O:Page::ESCA Partner API
+uid: O:Page::ESCA_Partner_API
+name: '"ESCA Partner API"'

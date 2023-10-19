@@ -1,0 +1,22 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: ESCAResource
+alId: ID 71096618
+baseKind: Table
+kind: TableExtension
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+extends:
+  name: Resource
+  isExternal: true
+seeAlso:
+- '[Table Extension](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-table-ext-object)'
+fields:
+- type:
+    name: Boolean
+    isExternal: true
+  uid: F:TableExtension::ESCAResource.ESCA_No_Payment_Discount
+  name: '"ESCA No Payment Discount"'
+commentId: O:TableExtension::ESCAResource
+uid: O:TableExtension::ESCAResource
+name: ESCAResource

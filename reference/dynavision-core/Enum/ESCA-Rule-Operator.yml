@@ -1,0 +1,60 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"ESCA Rule Operator"'
+alId: ID 71096621
+baseKind: Enum
+kind: Enum
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Enum](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-extensible-enums)'
+objectProperties:
+- name: Access
+  value: Public
+  promoted: false
+- name: DefaultImplementation
+  value: "71177047"
+  promoted: false
+- name: Extensible
+  value: "False"
+  promoted: true
+- name: UnknownValueImplementation
+  value: "71177047"
+  promoted: false
+enumValues:
+- uid: E:Enum::ESCA_Rule_Operator.Must_not_be_empty
+  name: '"Must not be empty"'
+- uid: E:Enum::ESCA_Rule_Operator.Must_be_empty
+  name: '"Must be empty"'
+- uid: E:Enum::ESCA_Rule_Operator.Equals
+  name: Equals
+- uid: E:Enum::ESCA_Rule_Operator.Does_not_equal
+  name: '"Does not equal"'
+- uid: E:Enum::ESCA_Rule_Operator.Is_greater_than
+  name: '"Is greater than"'
+- uid: E:Enum::ESCA_Rule_Operator.Is_greater_than_or_equal_to
+  name: '"Is greater than or equal to"'
+- uid: E:Enum::ESCA_Rule_Operator.Is_less_than
+  name: '"Is less than"'
+- uid: E:Enum::ESCA_Rule_Operator.Is_less_than_or_equal_to
+  name: '"Is less than or equal to"'
+- uid: E:Enum::ESCA_Rule_Operator.Begins_with
+  name: '"Begins with"'
+- uid: E:Enum::ESCA_Rule_Operator.Does_not_begin_with
+  name: '"Does not begin with"'
+- uid: E:Enum::ESCA_Rule_Operator.Ends_with
+  name: '"Ends with"'
+- uid: E:Enum::ESCA_Rule_Operator.Does_not_end_with
+  name: '"Does not end with"'
+- uid: E:Enum::ESCA_Rule_Operator.Contains
+  name: Contains
+- uid: E:Enum::ESCA_Rule_Operator.Does_not_contain
+  name: '"Does not contain"'
+- uid: E:Enum::ESCA_Rule_Operator.Regex_match
+  name: '"Regex match"'
+implements:
+- name: '"ESCA Rule Operator"'
+  isExternal: true
+commentId: O:Enum::ESCA Rule Operator
+uid: O:Enum::ESCA_Rule_Operator
+name: '"ESCA Rule Operator"'

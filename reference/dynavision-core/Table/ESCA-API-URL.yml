@@ -1,0 +1,106 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"ESCA API URL"'
+alId: ID 71096583
+baseKind: Table
+kind: Table
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Table](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-table-object)'
+objectProperties:
+- name: Access
+  value: Public
+  promoted: false
+- name: Caption
+  value: API URL
+  promoted: false
+- name: DrillDownPageId
+  value: ESCA API URL
+  promoted: false
+  xrefType:
+    xref: O:Page::ESCA_API_URL
+    name: '"ESCA API URL"'
+    isExternal: false
+- name: LookupPageId
+  value: ESCA API URL
+  promoted: false
+  xrefType:
+    xref: O:Page::ESCA_API_URL
+    name: '"ESCA API URL"'
+    isExternal: false
+fields:
+- type:
+    name: Code[20]
+    isExternal: true
+  uid: F:Table::ESCA_API_URL.Code[20]
+  name: Code
+- type:
+    name: Text[250]
+    isExternal: true
+  uid: F:Table::ESCA_API_URL.URL[250]
+  name: URL
+- type:
+    name: Code[20]
+    isExternal: true
+  uid: F:Table::ESCA_API_URL.Authorization_Code[20]
+  name: '"Authorization Code"'
+- type:
+    name: Text[20]
+    isExternal: true
+  uid: F:Table::ESCA_API_URL.CultureInfo[20]
+  name: CultureInfo
+- type:
+    name: Integer
+    isExternal: true
+  uid: F:Table::ESCA_API_URL.Source_Table_No.
+  name: '"Source Table No."'
+- type:
+    name: Text[30]
+    isExternal: true
+  uid: F:Table::ESCA_API_URL.Company_Name[30]
+  name: '"Company Name"'
+- type:
+    name: Integer
+    isExternal: true
+  uid: F:Table::ESCA_API_URL.API_Page_Id
+  name: '"API Page Id"'
+- type:
+    xref: O:Enum::ESCA_Module
+    name: '"ESCA Module"'
+    isExternal: false
+  uid: F:Table::ESCA_API_URL.Module
+  name: Module
+- type:
+    name: Guid
+    isExternal: true
+  uid: F:Table::ESCA_API_URL.SystemId
+  name: SystemId
+- type:
+    name: DateTime
+    isExternal: true
+  uid: F:Table::ESCA_API_URL.SystemCreatedAt
+  name: SystemCreatedAt
+- type:
+    name: Guid
+    isExternal: true
+  uid: F:Table::ESCA_API_URL.SystemCreatedBy
+  name: SystemCreatedBy
+- type:
+    name: DateTime
+    isExternal: true
+  uid: F:Table::ESCA_API_URL.SystemModifiedAt
+  name: SystemModifiedAt
+- type:
+    name: Guid
+    isExternal: true
+  uid: F:Table::ESCA_API_URL.SystemModifiedBy
+  name: SystemModifiedBy
+- type:
+    name: BigInteger
+    isExternal: true
+  uid: F:Table::ESCA_API_URL.SystemRowVersion
+  name: SystemRowVersion
+commentId: O:Table::ESCA API URL
+uid: O:Table::ESCA_API_URL
+name: '"ESCA API URL"'

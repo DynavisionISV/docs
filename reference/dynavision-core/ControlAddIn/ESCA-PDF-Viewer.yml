@@ -1,0 +1,40 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"ESCA PDF Viewer"'
+baseKind: ControlAddIn
+kind: ControlAddIn
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[ControlAddIn](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-control-addin-object)'
+methods:
+- syntax:
+    content: 'procedure LoadPDF(PDFDocument: Text)'
+    parameters:
+    - id: PDFDocument
+      parameterType:
+        name: Text
+        isExternal: true
+  uid: M:ESCA_PDF_Viewer.LoadPDF(Text)
+  name: LoadPDF
+- syntax:
+    content: 'procedure SetHeight(NewHeight: Integer)'
+    parameters:
+    - id: NewHeight
+      parameterType:
+        name: Integer
+        isExternal: true
+  uid: M:ESCA_PDF_Viewer.SetHeight(Integer)
+  name: SetHeight
+- syntax:
+    content: 'procedure SetNothingToDisplayCaption(NewNothingToDisplayCaption: Text)'
+    parameters:
+    - id: NewNothingToDisplayCaption
+      parameterType:
+        name: Text
+        isExternal: true
+  uid: M:ESCA_PDF_Viewer.SetNothingToDisplayCaption(Text)
+  name: SetNothingToDisplayCaption
+commentId: O:ESCA PDF Viewer
+uid: O:ESCA_PDF_Viewer
+name: '"ESCA PDF Viewer"'

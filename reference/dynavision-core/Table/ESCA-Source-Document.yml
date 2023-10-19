@@ -1,0 +1,176 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"ESCA Source Document"'
+alId: ID 71096649
+baseKind: Table
+kind: Table
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Table](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-table-object)'
+objectProperties:
+- name: Access
+  value: Public
+  promoted: false
+- name: Caption
+  value: Source Document
+  promoted: false
+- name: DataClassification
+  value: SystemMetadata
+  promoted: false
+- name: LookupPageId
+  value: ESCA Source Documents
+  promoted: false
+  xrefType:
+    xref: O:Page::ESCA_Source_Documents
+    name: '"ESCA Source Documents"'
+    isExternal: false
+- name: DrillDownPageId
+  value: ESCA Source Documents
+  promoted: false
+  xrefType:
+    xref: O:Page::ESCA_Source_Documents
+    name: '"ESCA Source Documents"'
+    isExternal: false
+- name: TableType
+  value: Temporary
+  promoted: false
+fields:
+- type:
+    name: Integer
+    isExternal: true
+  uid: F:Table::ESCA_Source_Document.Source_Type
+  name: '"Source Type"'
+- type:
+    name: Integer
+    isExternal: true
+  uid: F:Table::ESCA_Source_Document.Source_Subtype
+  name: '"Source Subtype"'
+- type:
+    name: Code[20]
+    isExternal: true
+  uid: F:Table::ESCA_Source_Document.Source_No.[20]
+  name: '"Source No."'
+- type:
+    name: '"Warehouse Request Source Document"'
+    isExternal: true
+  uid: F:Table::ESCA_Source_Document.Source_Document
+  name: '"Source Document"'
+- type:
+    name: Code[10]
+    isExternal: true
+  uid: F:Table::ESCA_Source_Document.Location_Code[10]
+  name: '"Location Code"'
+- type:
+    name: '"Warehouse Destination Type"'
+    isExternal: true
+  uid: F:Table::ESCA_Source_Document.Destination_Type
+  name: '"Destination Type"'
+- type:
+    name: Code[20]
+    isExternal: true
+  uid: F:Table::ESCA_Source_Document.Destination_No.[20]
+  name: '"Destination No."'
+- type:
+    name: Code[35]
+    isExternal: true
+  uid: F:Table::ESCA_Source_Document.External_Document_No.[35]
+  name: '"External Document No."'
+- type:
+    name: Text[35]
+    isExternal: true
+  uid: F:Table::ESCA_Source_Document.Your_Reference[35]
+  name: '"Your Reference"'
+- type:
+    name: Code[20]
+    isExternal: true
+  uid: F:Table::ESCA_Source_Document.Ship-to_Code[20]
+  name: '"Ship-to Code"'
+- type:
+    name: Text[100]
+    isExternal: true
+  uid: F:Table::ESCA_Source_Document.Ship-to_Name[100]
+  name: '"Ship-to Name"'
+- type:
+    name: Text[50]
+    isExternal: true
+  uid: F:Table::ESCA_Source_Document.Ship-to_Name_2[50]
+  name: '"Ship-to Name 2"'
+- type:
+    name: Text[100]
+    isExternal: true
+  uid: F:Table::ESCA_Source_Document.Ship-to_Address[100]
+  name: '"Ship-to Address"'
+- type:
+    name: Text[50]
+    isExternal: true
+  uid: F:Table::ESCA_Source_Document.Ship-to_Address_2[50]
+  name: '"Ship-to Address 2"'
+- type:
+    name: Text[30]
+    isExternal: true
+  uid: F:Table::ESCA_Source_Document.Ship-to_City[30]
+  name: '"Ship-to City"'
+- type:
+    name: Code[20]
+    isExternal: true
+  uid: F:Table::ESCA_Source_Document.Ship-to_Post_Code[20]
+  name: '"Ship-to Post Code"'
+- type:
+    name: Text[30]
+    isExternal: true
+  uid: F:Table::ESCA_Source_Document.Ship-to_County[30]
+  name: '"Ship-to County"'
+- type:
+    name: Code[10]
+    isExternal: true
+  uid: F:Table::ESCA_Source_Document.Ship-to_Country/Region_Code[10]
+  name: '"Ship-to Country/Region Code"'
+- type:
+    name: Text[100]
+    isExternal: true
+  uid: F:Table::ESCA_Source_Document.Ship-to_Contact[100]
+  name: '"Ship-to Contact"'
+- type:
+    name: Decimal
+    isExternal: true
+  uid: F:Table::ESCA_Source_Document.Volume
+  name: Volume
+- type:
+    name: Decimal
+    isExternal: true
+  uid: F:Table::ESCA_Source_Document.Gross_Weight
+  name: '"Gross Weight"'
+- type:
+    name: Guid
+    isExternal: true
+  uid: F:Table::ESCA_Source_Document.SystemId
+  name: SystemId
+- type:
+    name: DateTime
+    isExternal: true
+  uid: F:Table::ESCA_Source_Document.SystemCreatedAt
+  name: SystemCreatedAt
+- type:
+    name: Guid
+    isExternal: true
+  uid: F:Table::ESCA_Source_Document.SystemCreatedBy
+  name: SystemCreatedBy
+- type:
+    name: DateTime
+    isExternal: true
+  uid: F:Table::ESCA_Source_Document.SystemModifiedAt
+  name: SystemModifiedAt
+- type:
+    name: Guid
+    isExternal: true
+  uid: F:Table::ESCA_Source_Document.SystemModifiedBy
+  name: SystemModifiedBy
+- type:
+    name: BigInteger
+    isExternal: true
+  uid: F:Table::ESCA_Source_Document.SystemRowVersion
+  name: SystemRowVersion
+commentId: O:Table::ESCA Source Document
+uid: O:Table::ESCA_Source_Document
+name: '"ESCA Source Document"'

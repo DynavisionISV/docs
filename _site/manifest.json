@@ -1,0 +1,4316 @@
+{
+  "homepages": [],
+  "source_base_path": "C:/Projects/Dynavision/Docs/Output",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Codeunit/ESCA-API-Communication-Events.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Codeunit/ESCA-API-Communication-Events.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Codeunit/ESCA-APS-Get-Field-Value.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Codeunit/ESCA-APS-Get-Field-Value.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Codeunit/ESCA-APS-Get-Linked-Items.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Codeunit/ESCA-APS-Get-Linked-Items.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Codeunit/ESCA-APS-Get-Result.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Codeunit/ESCA-APS-Get-Result.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Codeunit/ESCA-Admin-Module-Link.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Codeunit/ESCA-Admin-Module-Link.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Codeunit/ESCA-Advanced-Finance-BE-Link.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Codeunit/ESCA-Advanced-Finance-BE-Link.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Codeunit/ESCA-Advanced-Finance-Link.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Codeunit/ESCA-Advanced-Finance-Link.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Codeunit/ESCA-Advanced-Promotions-Link.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Codeunit/ESCA-Advanced-Promotions-Link.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Codeunit/ESCA-Advanced-Sync-Link.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Codeunit/ESCA-Advanced-Sync-Link.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Codeunit/ESCA-Advanced-Units-Link.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Codeunit/ESCA-Advanced-Units-Link.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Codeunit/ESCA-Application-Data-Mgt.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Codeunit/ESCA-Application-Data-Mgt.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Codeunit/ESCA-Appsis-Finance-Link.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Codeunit/ESCA-Appsis-Finance-Link.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Codeunit/ESCA-Barcode-Functions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Codeunit/ESCA-Barcode-Functions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Codeunit/ESCA-Contrib.-and-Declar.-Link.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Codeunit/ESCA-Contrib.-and-Declar.-Link.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Codeunit/ESCA-Copy-Item-Management.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Codeunit/ESCA-Copy-Item-Management.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Codeunit/ESCA-Cross-Selling-Link.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Codeunit/ESCA-Cross-Selling-Link.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Codeunit/ESCA-DM-Base-Link.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Codeunit/ESCA-DM-Base-Link.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Codeunit/ESCA-Disable-Release.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Codeunit/ESCA-Disable-Release.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Codeunit/ESCA-Discount-Priority-Mgt..yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Codeunit/ESCA-Discount-Priority-Mgt..html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Codeunit/ESCA-Dynamic-Fields.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Codeunit/ESCA-Dynamic-Fields.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Codeunit/ESCA-Elfsquad-Connector-Link.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Codeunit/ESCA-Elfsquad-Connector-Link.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Codeunit/ESCA-Excise-Duties-Link.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Codeunit/ESCA-Excise-Duties-Link.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Codeunit/ESCA-FTP-Request-Mgt..yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Codeunit/ESCA-FTP-Request-Mgt..html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Codeunit/ESCA-Field-Functions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Codeunit/ESCA-Field-Functions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Codeunit/ESCA-Field-Info.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Codeunit/ESCA-Field-Info.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Codeunit/ESCA-General-Management.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Codeunit/ESCA-General-Management.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Codeunit/ESCA-Generic-Field-Value.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Codeunit/ESCA-Generic-Field-Value.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Codeunit/ESCA-Get-Data-Links.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Codeunit/ESCA-Get-Data-Links.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Codeunit/ESCA-Get-Report-Address-Data.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Codeunit/ESCA-Get-Report-Address-Data.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Codeunit/ESCA-Graydon-Link.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Codeunit/ESCA-Graydon-Link.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Codeunit/ESCA-Installer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Codeunit/ESCA-Installer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Codeunit/ESCA-Item-Import-Link.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Codeunit/ESCA-Item-Import-Link.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Codeunit/ESCA-JQ-Recipient-Type.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Codeunit/ESCA-JQ-Recipient-Type.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Codeunit/ESCA-Message-Link.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Codeunit/ESCA-Message-Link.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Codeunit/ESCA-Message-Setup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Codeunit/ESCA-Message-Setup.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Codeunit/ESCA-Message.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Codeunit/ESCA-Message.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Codeunit/ESCA-Module-Permission.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Codeunit/ESCA-Module-Permission.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Codeunit/ESCA-Module-Setup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Codeunit/ESCA-Module-Setup.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Codeunit/ESCA-NP-Retail-Connector-Link.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Codeunit/ESCA-NP-Retail-Connector-Link.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Codeunit/ESCA-Numpad-Tools.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Codeunit/ESCA-Numpad-Tools.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Codeunit/ESCA-POM-Payment-Service-Link.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Codeunit/ESCA-POM-Payment-Service-Link.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Codeunit/ESCA-POS-Layouts-Link.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Codeunit/ESCA-POS-Layouts-Link.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Codeunit/ESCA-POS-Link.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Codeunit/ESCA-POS-Link.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Codeunit/ESCA-Planning-n-Dispatch-Link.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Codeunit/ESCA-Planning-n-Dispatch-Link.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Codeunit/ESCA-Pmt-Discount-Events.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Codeunit/ESCA-Pmt-Discount-Events.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Codeunit/ESCA-Pmt-Discount-Purchase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Codeunit/ESCA-Pmt-Discount-Purchase.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Codeunit/ESCA-Posting-Subscribers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Codeunit/ESCA-Posting-Subscribers.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Codeunit/ESCA-Price-Data-Store.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Codeunit/ESCA-Price-Data-Store.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Codeunit/ESCA-Price-Sim.-Events-Light.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Codeunit/ESCA-Price-Sim.-Events-Light.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Codeunit/ESCA-Pricing-Link.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Codeunit/ESCA-Pricing-Link.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Codeunit/ESCA-Prik&Tik-Connector-Link.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Codeunit/ESCA-Prik&Tik-Connector-Link.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Codeunit/ESCA-PrintNodeFunctions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Codeunit/ESCA-PrintNodeFunctions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Codeunit/ESCA-Printer-Provider-Mgt..yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Codeunit/ESCA-Printer-Provider-Mgt..html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Codeunit/ESCA-Project-Manufact.-Link.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Codeunit/ESCA-Project-Manufact.-Link.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Codeunit/ESCA-Purch.-Disc.Priority-Mgt..yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Codeunit/ESCA-Purch.-Disc.Priority-Mgt..html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Codeunit/ESCA-Purch.-Proc.-Center-Link.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Codeunit/ESCA-Purch.-Proc.-Center-Link.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Codeunit/ESCA-Recreate-Lines-Management.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Codeunit/ESCA-Recreate-Lines-Management.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Codeunit/ESCA-Related-Settings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Codeunit/ESCA-Related-Settings.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Codeunit/ESCA-Rental-Consumption-Link.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Codeunit/ESCA-Rental-Consumption-Link.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Codeunit/ESCA-Report-Datastore.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Codeunit/ESCA-Report-Datastore.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Codeunit/ESCA-Report-Functions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Codeunit/ESCA-Report-Functions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Codeunit/ESCA-Report-Layout-Publishers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Codeunit/ESCA-Report-Layout-Publishers.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Codeunit/ESCA-Reports-Link.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Codeunit/ESCA-Reports-Link.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Codeunit/ESCA-Reusable-Packaging-Link.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Codeunit/ESCA-Reusable-Packaging-Link.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Codeunit/ESCA-Ruling.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Codeunit/ESCA-Ruling.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Codeunit/ESCA-Sales-Price-Sim.-Events.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Codeunit/ESCA-Sales-Price-Sim.-Events.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Codeunit/ESCA-Sales-Price-Simulation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Codeunit/ESCA-Sales-Price-Simulation.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Codeunit/ESCA-Sales-Simulation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Codeunit/ESCA-Sales-Simulation.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Codeunit/ESCA-Scanner-Management.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Codeunit/ESCA-Scanner-Management.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Codeunit/ESCA-Send-FTP-Request-Queue.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Codeunit/ESCA-Send-FTP-Request-Queue.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Codeunit/ESCA-Sort-Functions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Codeunit/ESCA-Sort-Functions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Codeunit/ESCA-Split-Bin-Content.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Codeunit/ESCA-Split-Bin-Content.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Codeunit/ESCA-Sync-Link.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Codeunit/ESCA-Sync-Link.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Codeunit/ESCA-Text-Block-Formatter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Codeunit/ESCA-Text-Block-Formatter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Codeunit/ESCA-Text-Constant-Page-Mgt..yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Codeunit/ESCA-Text-Constant-Page-Mgt..html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Codeunit/ESCA-Text-Constant.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Codeunit/ESCA-Text-Constant.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Codeunit/ESCA-Trade-Link.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Codeunit/ESCA-Trade-Link.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Codeunit/ESCA-Trade-Message-Type.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Codeunit/ESCA-Trade-Message-Type.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Codeunit/ESCA-Warehouse-Event-Mgt..yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Codeunit/ESCA-Warehouse-Event-Mgt..html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Codeunit/ESCA-Web-Request-Handler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Codeunit/ESCA-Web-Request-Handler.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Codeunit/ESCA-XML-Dom-Management.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Codeunit/ESCA-XML-Dom-Management.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/ControlAddIn/ESCA-Color-Picker.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/ControlAddIn/ESCA-Color-Picker.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/ControlAddIn/ESCA-ControlAddin-Numpad.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/ControlAddIn/ESCA-ControlAddin-Numpad.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/ControlAddIn/ESCA-Custom-OK-Cancel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/ControlAddIn/ESCA-Custom-OK-Cancel.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/ControlAddIn/ESCA-Open-New-Window.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/ControlAddIn/ESCA-Open-New-Window.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/ControlAddIn/ESCA-Open-Popup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/ControlAddIn/ESCA-Open-Popup.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/ControlAddIn/ESCA-PDF-Viewer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/ControlAddIn/ESCA-PDF-Viewer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/ControlAddIn/ESCA-Ping-Pong.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/ControlAddIn/ESCA-Ping-Pong.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/ControlAddIn/ESCABeeper.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/ControlAddIn/ESCABeeper.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/ControlAddIn/ESCAScannerInterface.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/ControlAddIn/ESCAScannerInterface.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Enum/ESCA-Address-Type.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Enum/ESCA-Address-Type.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Enum/ESCA-App-Publisher.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Enum/ESCA-App-Publisher.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Enum/ESCA-Blank-Yes-No.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Enum/ESCA-Blank-Yes-No.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Enum/ESCA-Communication-Method.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Enum/ESCA-Communication-Method.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Enum/ESCA-Data-Link-Provider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Enum/ESCA-Data-Link-Provider.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Enum/ESCA-Discount-Priority.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Enum/ESCA-Discount-Priority.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Enum/ESCA-Email-Body-Type.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Enum/ESCA-Email-Body-Type.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Enum/ESCA-FTP-Request-Type.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Enum/ESCA-FTP-Request-Type.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Enum/ESCA-FTP-Type.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Enum/ESCA-FTP-Type.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Enum/ESCA-Feature-Type.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Enum/ESCA-Feature-Type.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Enum/ESCA-JQ-Report-Recipient-Type.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Enum/ESCA-JQ-Report-Recipient-Type.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Enum/ESCA-Message-Direction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Enum/ESCA-Message-Direction.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Enum/ESCA-Message-Format.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Enum/ESCA-Message-Format.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Enum/ESCA-Message-Type.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Enum/ESCA-Message-Type.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Enum/ESCA-Module.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Enum/ESCA-Module.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Enum/ESCA-Operation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Enum/ESCA-Operation.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Enum/ESCA-Partner-Source-Type.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Enum/ESCA-Partner-Source-Type.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Enum/ESCA-Request-Status.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Enum/ESCA-Request-Status.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Enum/ESCA-Rule-Operator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Enum/ESCA-Rule-Operator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Enum/ESCA-Ruleset-Event.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Enum/ESCA-Ruleset-Event.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Enum/ESCA-Text-Block-Separator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Enum/ESCA-Text-Block-Separator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Enum/ESCA-Text-Block-Title-Type.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Enum/ESCA-Text-Block-Title-Type.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Enum/ESCA-Unit-of-Measure-Option.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Enum/ESCA-Unit-of-Measure-Option.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Enum/ESCA-Yes-No.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Enum/ESCA-Yes-No.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/EnumExtension/ESCA-Email-Scenario.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/EnumExtension/ESCA-Email-Scenario.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Interface/ESCA-Authentication-Type.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Interface/ESCA-Authentication-Type.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Interface/ESCA-Data-Link-Provider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Interface/ESCA-Data-Link-Provider.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Interface/ESCA-License-Per-Company.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Interface/ESCA-License-Per-Company.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Interface/ESCA-License-Validator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Interface/ESCA-License-Validator.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Interface/ESCA-Message-API.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Interface/ESCA-Message-API.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Interface/ESCA-Message-Format.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Interface/ESCA-Message-Format.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Interface/ESCA-Message-Request-API.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Interface/ESCA-Message-Request-API.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Interface/ESCA-Message-Type-Setup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Interface/ESCA-Message-Type-Setup.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Interface/ESCA-Message-Type.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Interface/ESCA-Message-Type.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Interface/ESCA-Module.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Interface/ESCA-Module.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Module/Dynavision-Core.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Module/Dynavision-Core.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralObsoletionList",
+      "source_relative_path": "reference/dynavision-core/Obsoletion/obsolete_by_20.0.5.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Obsoletion/obsolete_by_20.0.5.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralObsoletionList",
+      "source_relative_path": "reference/dynavision-core/Obsoletion/obsolete_by_20.0.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Obsoletion/obsolete_by_20.0.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralObsoletionList",
+      "source_relative_path": "reference/dynavision-core/Obsoletion/obsolete_by_21.0.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Obsoletion/obsolete_by_21.0.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralObsoletionList",
+      "source_relative_path": "reference/dynavision-core/Obsoletion/obsolete_by_22.0.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Obsoletion/obsolete_by_22.0.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralObsoletionList",
+      "source_relative_path": "reference/dynavision-core/Obsoletion/obsolete_by_23.0.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Obsoletion/obsolete_by_23.0.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralObsoletionList",
+      "source_relative_path": "reference/dynavision-core/Obsoletion/obsolete_by_[Untagged].yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Obsoletion/obsolete_by_[Untagged].html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Page/ESCA-API-URL.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Page/ESCA-API-URL.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Page/ESCA-APS-Card.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Page/ESCA-APS-Card.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Page/ESCA-APS-Lines.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Page/ESCA-APS-Lines.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Page/ESCA-APS-List.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Page/ESCA-APS-List.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Page/ESCA-APS-Table-Mappings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Page/ESCA-APS-Table-Mappings.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Page/ESCA-Activate-Trial.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Page/ESCA-Activate-Trial.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Page/ESCA-Advanced-Field-Filters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Page/ESCA-Advanced-Field-Filters.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Page/ESCA-Auth.-Setup-Card.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Page/ESCA-Auth.-Setup-Card.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Page/ESCA-Auth.-Setup-List.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Page/ESCA-Auth.-Setup-List.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Page/ESCA-Authorization-Setup-Card.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Page/ESCA-Authorization-Setup-Card.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Page/ESCA-Authorization-Setup-List.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Page/ESCA-Authorization-Setup-List.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Page/ESCA-Barcode-Test.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Page/ESCA-Barcode-Test.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Page/ESCA-Companies.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Page/ESCA-Companies.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Page/ESCA-Company-Footer-Picture.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Page/ESCA-Company-Footer-Picture.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Page/ESCA-Copy-Item-Buffer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Page/ESCA-Copy-Item-Buffer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Page/ESCA-Create-API-URL-Wizard.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Page/ESCA-Create-API-URL-Wizard.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Page/ESCA-Data-Link-Apps.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Page/ESCA-Data-Link-Apps.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Page/ESCA-Data-Links.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Page/ESCA-Data-Links.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Page/ESCA-Dynamic-Field-Card.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Page/ESCA-Dynamic-Field-Card.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Page/ESCA-Dynamic-Fields-Buffer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Page/ESCA-Dynamic-Fields-Buffer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Page/ESCA-Dynamic-Fields.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Page/ESCA-Dynamic-Fields.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Page/ESCA-Dynavision-Setup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Page/ESCA-Dynavision-Setup.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Page/ESCA-Email-Settings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Page/ESCA-Email-Settings.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Page/ESCA-FTP-Request-File-Subform.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Page/ESCA-FTP-Request-File-Subform.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Page/ESCA-FTP-Requests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Page/ESCA-FTP-Requests.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Page/ESCA-FTP-Setup-List.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Page/ESCA-FTP-Setup-List.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Page/ESCA-Features.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Page/ESCA-Features.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Page/ESCA-Field-Factbox.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Page/ESCA-Field-Factbox.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Page/ESCA-Field-List.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Page/ESCA-Field-List.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Page/ESCA-Field-Value-Lookup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Page/ESCA-Field-Value-Lookup.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Page/ESCA-Fields.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Page/ESCA-Fields.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Page/ESCA-Get-Access-Token-Wizard.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Page/ESCA-Get-Access-Token-Wizard.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Page/ESCA-GetPrice-For-Item.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Page/ESCA-GetPrice-For-Item.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Page/ESCA-Item-API.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Page/ESCA-Item-API.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Page/ESCA-Item-Advanced-Filters.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Page/ESCA-Item-Advanced-Filters.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Page/ESCA-Item-Ledg.-Entry-Comp-API.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Page/ESCA-Item-Ledg.-Entry-Comp-API.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Page/ESCA-JQ-Entries-Per-Comp.-List.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Page/ESCA-JQ-Entries-Per-Comp.-List.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Page/ESCA-JQ-Recipient-Reports.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Page/ESCA-JQ-Recipient-Reports.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Page/ESCA-JQ-Report-Delivery-Card.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Page/ESCA-JQ-Report-Delivery-Card.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Page/ESCA-JQ-Report-Recipients.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Page/ESCA-JQ-Report-Recipients.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Page/ESCA-Legend-List.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Page/ESCA-Legend-List.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Page/ESCA-Manual-Input-Std.-Dialog.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Page/ESCA-Manual-Input-Std.-Dialog.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Page/ESCA-Message-API.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Page/ESCA-Message-API.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Page/ESCA-Message-Links.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Page/ESCA-Message-Links.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Page/ESCA-Message-Type-API.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Page/ESCA-Message-Type-API.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Page/ESCA-Message-Type-Card.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Page/ESCA-Message-Type-Card.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Page/ESCA-Message-Type-Fields.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Page/ESCA-Message-Type-Fields.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Page/ESCA-Message-Types.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Page/ESCA-Message-Types.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Page/ESCA-Messages.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Page/ESCA-Messages.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Page/ESCA-Module-Setup-SubPage.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Page/ESCA-Module-Setup-SubPage.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Page/ESCA-Move-FTP-File.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Page/ESCA-Move-FTP-File.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Page/ESCA-Open-Hyperlink.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Page/ESCA-Open-Hyperlink.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Page/ESCA-PDF-Viewer-Factbox.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Page/ESCA-PDF-Viewer-Factbox.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Page/ESCA-PDF-Viewer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Page/ESCA-PDF-Viewer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Page/ESCA-PageMetadata-List.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Page/ESCA-PageMetadata-List.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Page/ESCA-Partner-API.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Page/ESCA-Partner-API.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Page/ESCA-Partner-Card.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Page/ESCA-Partner-Card.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Page/ESCA-Partner-Mappings-ListPart.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Page/ESCA-Partner-Mappings-ListPart.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Page/ESCA-Partner-Mappings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Page/ESCA-Partner-Mappings.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Page/ESCA-Partner-Message-Types.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Page/ESCA-Partner-Message-Types.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Page/ESCA-Partners.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Page/ESCA-Partners.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Page/ESCA-Price-List-Management.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Page/ESCA-Price-List-Management.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Page/ESCA-PrintNode-Printer-List.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Page/ESCA-PrintNode-Printer-List.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Page/ESCA-PrintNode-Setup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Page/ESCA-PrintNode-Setup.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Page/ESCA-Printer-Paper-Type-List.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Page/ESCA-Printer-Paper-Type-List.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Page/ESCA-Related-Settings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Page/ESCA-Related-Settings.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Page/ESCA-Rep.-Layout-Setup-Subform.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Page/ESCA-Rep.-Layout-Setup-Subform.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Page/ESCA-Report-Layout-Setup-Card.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Page/ESCA-Report-Layout-Setup-Card.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Page/ESCA-Report-Layout-Setup-List.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Page/ESCA-Report-Layout-Setup-List.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Page/ESCA-Respons.-Center-Picture.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Page/ESCA-Respons.-Center-Picture.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Page/ESCA-Ruleset-Results.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Page/ESCA-Ruleset-Results.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Page/ESCA-Ruleset-Rules.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Page/ESCA-Ruleset-Rules.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Page/ESCA-Rulesets.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Page/ESCA-Rulesets.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Page/ESCA-Run-Object.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Page/ESCA-Run-Object.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Page/ESCA-Sales-Line-Factbox.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Page/ESCA-Sales-Line-Factbox.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Page/ESCA-Sales-Lines-Subform.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Page/ESCA-Sales-Lines-Subform.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Page/ESCA-Scanner-Tests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Page/ESCA-Scanner-Tests.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Page/ESCA-Scanners.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Page/ESCA-Scanners.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Page/ESCA-Source-Documents.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Page/ESCA-Source-Documents.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Page/ESCA-Table-Mapping-Lines-Wiz..yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Page/ESCA-Table-Mapping-Lines-Wiz..html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Page/ESCA-Table-Mapping-Lines.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Page/ESCA-Table-Mapping-Lines.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Page/ESCA-Table-Mappings-Wizard.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Page/ESCA-Table-Mappings-Wizard.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Page/ESCA-Table-Mappings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Page/ESCA-Table-Mappings.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Page/ESCA-Temp-Price-List-Lines.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Page/ESCA-Temp-Price-List-Lines.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Page/ESCA-Temp-Sales-Line-Info.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Page/ESCA-Temp-Sales-Line-Info.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Page/ESCA-Terms-and-Conditions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Page/ESCA-Terms-and-Conditions.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Page/ESCA-Text-Block-Card.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Page/ESCA-Text-Block-Card.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Page/ESCA-Text-Block-Lines.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Page/ESCA-Text-Block-Lines.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Page/ESCA-Text-Block-List.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Page/ESCA-Text-Block-List.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Page/ESCA-Text-Const.-Lang..yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Page/ESCA-Text-Const.-Lang..html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Page/ESCA-Text-Constant-Data.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Page/ESCA-Text-Constant-Data.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Page/ESCA-Text-Constant-List.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Page/ESCA-Text-Constant-List.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Page/ESCA-Trade-Message-Type-Card.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Page/ESCA-Trade-Message-Type-Card.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Page/ESCA-Web-Request-Log-Factbox.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Page/ESCA-Web-Request-Log-Factbox.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Page/ESCA-Web-Request-Log-List.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Page/ESCA-Web-Request-Log-List.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/PageExtension/ESCA-ConfigPackages.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/PageExtension/ESCA-ConfigPackages.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/PageExtension/ESCA-Contact-Card.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/PageExtension/ESCA-Contact-Card.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/PageExtension/ESCA-Contact-List.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/PageExtension/ESCA-Contact-List.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/PageExtension/ESCA-Customer-Card.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/PageExtension/ESCA-Customer-Card.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/PageExtension/ESCA-Customer-List.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/PageExtension/ESCA-Customer-List.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/PageExtension/ESCA-DataExchDefList.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/PageExtension/ESCA-DataExchDefList.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/PageExtension/ESCA-Document-Att.-Factbox.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/PageExtension/ESCA-Document-Att.-Factbox.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/PageExtension/ESCA-Employee-Card.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/PageExtension/ESCA-Employee-Card.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/PageExtension/ESCA-Employee-List.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/PageExtension/ESCA-Employee-List.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/PageExtension/ESCA-Filter-Items-by-Attribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/PageExtension/ESCA-Filter-Items-by-Attribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/PageExtension/ESCA-Job-Queue-Entries.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/PageExtension/ESCA-Job-Queue-Entries.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/PageExtension/ESCA-Job-Queue-Entry-Card.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/PageExtension/ESCA-Job-Queue-Entry-Card.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/PageExtension/ESCA-O365-Activities.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/PageExtension/ESCA-O365-Activities.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/PageExtension/ESCA-Posted-Purch.-Credit-Memo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/PageExtension/ESCA-Posted-Purch.-Credit-Memo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/PageExtension/ESCA-Posted-Purchase-Invoice.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/PageExtension/ESCA-Posted-Purchase-Invoice.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/PageExtension/ESCA-Posted-Purchase-Receipt.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/PageExtension/ESCA-Posted-Purchase-Receipt.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/PageExtension/ESCA-Posted-Return-Shipment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/PageExtension/ESCA-Posted-Return-Shipment.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/PageExtension/ESCA-Posted-Sales-Credit-Memo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/PageExtension/ESCA-Posted-Sales-Credit-Memo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/PageExtension/ESCA-Posted-Sales-Invoice.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/PageExtension/ESCA-Posted-Sales-Invoice.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/PageExtension/ESCA-Posted-Sales-Shipment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/PageExtension/ESCA-Posted-Sales-Shipment.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/PageExtension/ESCA-Purchase-Credit-Memo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/PageExtension/ESCA-Purchase-Credit-Memo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/PageExtension/ESCA-Purchase-Invoice.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/PageExtension/ESCA-Purchase-Invoice.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/PageExtension/ESCA-Purchase-Order.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/PageExtension/ESCA-Purchase-Order.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/PageExtension/ESCA-Purchase-Return-Order.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/PageExtension/ESCA-Purchase-Return-Order.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/PageExtension/ESCA-Sales-Credit-Memo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/PageExtension/ESCA-Sales-Credit-Memo.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/PageExtension/ESCA-Sales-Invoice.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/PageExtension/ESCA-Sales-Invoice.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/PageExtension/ESCA-Sales-Order.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/PageExtension/ESCA-Sales-Order.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/PageExtension/ESCA-Sales-Return-Order.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/PageExtension/ESCA-Sales-Return-Order.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/PageExtension/ESCA-Salesperson-Purch.-Card.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/PageExtension/ESCA-Salesperson-Purch.-Card.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/PageExtension/ESCA-Salespersons-Purchasers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/PageExtension/ESCA-Salespersons-Purchasers.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/PageExtension/ESCA-Schedule-a-Report.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/PageExtension/ESCA-Schedule-a-Report.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/PageExtension/ESCA-Transfer-Order.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/PageExtension/ESCA-Transfer-Order.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/PageExtension/ESCA-User-Card.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/PageExtension/ESCA-User-Card.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/PageExtension/ESCA-Users.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/PageExtension/ESCA-Users.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/PageExtension/ESCA-VAT-Posting-Setup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/PageExtension/ESCA-VAT-Posting-Setup.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/PageExtension/ESCA-Vendor-Card.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/PageExtension/ESCA-Vendor-Card.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/PageExtension/ESCA-Vendor-List.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/PageExtension/ESCA-Vendor-List.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/PageExtension/ESCAChartOfAccounts.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/PageExtension/ESCAChartOfAccounts.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/PageExtension/ESCACompanyInformation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/PageExtension/ESCACompanyInformation.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/PageExtension/ESCACopyItem.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/PageExtension/ESCACopyItem.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/PageExtension/ESCADocumentAttachmentDetails.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/PageExtension/ESCADocumentAttachmentDetails.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/PageExtension/ESCAExtendedTextList.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/PageExtension/ESCAExtendedTextList.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/PageExtension/ESCAFixedAssetCard.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/PageExtension/ESCAFixedAssetCard.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/PageExtension/ESCAFixedAssetList.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/PageExtension/ESCAFixedAssetList.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/PageExtension/ESCAGLAccountCard.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/PageExtension/ESCAGLAccountCard.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/PageExtension/ESCAGLAccountList.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/PageExtension/ESCAGLAccountList.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/PageExtension/ESCAGeneralLederSetup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/PageExtension/ESCAGeneralLederSetup.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/PageExtension/ESCAInvtMovementSubform.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/PageExtension/ESCAInvtMovementSubform.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/PageExtension/ESCAInvtPickSubform.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/PageExtension/ESCAInvtPickSubform.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/PageExtension/ESCAInvtPutawaySubform.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/PageExtension/ESCAInvtPutawaySubform.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/PageExtension/ESCAInvtReceiptSubform.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/PageExtension/ESCAInvtReceiptSubform.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/PageExtension/ESCAInvtShipmentSubform.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/PageExtension/ESCAInvtShipmentSubform.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/PageExtension/ESCAItemCard.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/PageExtension/ESCAItemCard.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/PageExtension/ESCAItemCharges.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/PageExtension/ESCAItemCharges.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/PageExtension/ESCAItemLedgerEntries.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/PageExtension/ESCAItemLedgerEntries.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/PageExtension/ESCAItemLedgerEntriesPreview.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/PageExtension/ESCAItemLedgerEntriesPreview.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/PageExtension/ESCAItemList.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/PageExtension/ESCAItemList.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/PageExtension/ESCAPaymentMethods.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/PageExtension/ESCAPaymentMethods.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/PageExtension/ESCAPaymentTerms.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/PageExtension/ESCAPaymentTerms.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/PageExtension/ESCAPostedInvtPickLines.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/PageExtension/ESCAPostedInvtPickLines.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/PageExtension/ESCAPostedInvtPickSubform.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/PageExtension/ESCAPostedInvtPickSubform.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/PageExtension/ESCAPostedInvtPutawayLines.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/PageExtension/ESCAPostedInvtPutawayLines.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/PageExtension/ESCAPostedInvtPutawaySubform.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/PageExtension/ESCAPostedInvtPutawaySubform.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/PageExtension/ESCAPostedInvtReceiptSubform.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/PageExtension/ESCAPostedInvtReceiptSubform.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/PageExtension/ESCAPostedInvtShipmentSubform.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/PageExtension/ESCAPostedInvtShipmentSubform.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/PageExtension/ESCAPostedPurchCrMemoSubform.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/PageExtension/ESCAPostedPurchCrMemoSubform.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/PageExtension/ESCAPostedPurchInvoiceSubform.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/PageExtension/ESCAPostedPurchInvoiceSubform.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/PageExtension/ESCAPostedPurchaseRcptSubform.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/PageExtension/ESCAPostedPurchaseRcptSubform.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/PageExtension/ESCAPostedReturnReceiptSubform.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/PageExtension/ESCAPostedReturnReceiptSubform.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/PageExtension/ESCAPostedReturnShipmentLines.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/PageExtension/ESCAPostedReturnShipmentLines.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/PageExtension/ESCAPostedReturnShipmentSubfrm.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/PageExtension/ESCAPostedReturnShipmentSubfrm.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/PageExtension/ESCAPostedSalesCrMemoSubform.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/PageExtension/ESCAPostedSalesCrMemoSubform.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/PageExtension/ESCAPostedSalesInv.Update.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/PageExtension/ESCAPostedSalesInv.Update.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/PageExtension/ESCAPostedSalesInvoiceLines.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/PageExtension/ESCAPostedSalesInvoiceLines.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/PageExtension/ESCAPostedSalesInvoiceSubform.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/PageExtension/ESCAPostedSalesInvoiceSubform.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/PageExtension/ESCAPostedSalesShptSubform.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/PageExtension/ESCAPostedSalesShptSubform.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/PageExtension/ESCAPostedTransferReceiptLines.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/PageExtension/ESCAPostedTransferReceiptLines.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/PageExtension/ESCAPostedTransferShipmntLines.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/PageExtension/ESCAPostedTransferShipmntLines.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/PageExtension/ESCAPostedWhseReceiptLines.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/PageExtension/ESCAPostedWhseReceiptLines.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/PageExtension/ESCAPostedWhseReceiptSubform.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/PageExtension/ESCAPostedWhseReceiptSubform.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/PageExtension/ESCAPostedWhseShipmentLines.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/PageExtension/ESCAPostedWhseShipmentLines.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/PageExtension/ESCAPostedWhseShipmentSubform.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/PageExtension/ESCAPostedWhseShipmentSubform.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/PageExtension/ESCAPrinterSelections.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/PageExtension/ESCAPrinterSelections.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/PageExtension/ESCAPurchCrMemoSubform.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/PageExtension/ESCAPurchCrMemoSubform.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/PageExtension/ESCAPurchInvoiceSubform.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/PageExtension/ESCAPurchInvoiceSubform.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/PageExtension/ESCAPurchaseOrderSubform.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/PageExtension/ESCAPurchaseOrderSubform.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/PageExtension/ESCAPurchaseQuoteSubform.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/PageExtension/ESCAPurchaseQuoteSubform.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/PageExtension/ESCAPurchaseReturnOrderSubform.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/PageExtension/ESCAPurchaseReturnOrderSubform.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/PageExtension/ESCAResourceCard.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/PageExtension/ESCAResourceCard.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/PageExtension/ESCAResourceList.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/PageExtension/ESCAResourceList.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/PageExtension/ESCAResponsibilityCenter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/PageExtension/ESCAResponsibilityCenter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/PageExtension/ESCASalesCrMemoSubform.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/PageExtension/ESCASalesCrMemoSubform.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/PageExtension/ESCASalesInvoiceSubform.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/PageExtension/ESCASalesInvoiceSubform.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/PageExtension/ESCASalesLines.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/PageExtension/ESCASalesLines.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/PageExtension/ESCASalesOrderSubform.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/PageExtension/ESCASalesOrderSubform.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/PageExtension/ESCASalesQuoteSubform.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/PageExtension/ESCASalesQuoteSubform.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/PageExtension/ESCASalesReturnOrderSubform.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/PageExtension/ESCASalesReturnOrderSubform.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/PageExtension/ESCATransferOrderSubform.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/PageExtension/ESCATransferOrderSubform.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/PageExtension/ESCAUserSetup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/PageExtension/ESCAUserSetup.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/PageExtension/ESCAVATProductPostingGroups.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/PageExtension/ESCAVATProductPostingGroups.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/PageExtension/ESCAWhseReceiptLines.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/PageExtension/ESCAWhseReceiptLines.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/PageExtension/ESCAWhseShipmentLines.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/PageExtension/ESCAWhseShipmentLines.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/PermissionSetExtension/ESCA-D365-BUS-FULL-ACCESS.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/PermissionSetExtension/ESCA-D365-BUS-FULL-ACCESS.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/PermissionSetExtension/ESCA-D365-SETUP.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/PermissionSetExtension/ESCA-D365-SETUP.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/PermissionSetExtension/ESCA-D365-TEAM-MEMBER.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/PermissionSetExtension/ESCA-D365-TEAM-MEMBER.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Report/ESCA-Import-Messages.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Report/ESCA-Import-Messages.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Report/ESCA-Render-Barcode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Report/ESCA-Render-Barcode.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/ReportExtension/ESCAWhseGetBinContent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/ReportExtension/ESCAWhseGetBinContent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Table/ESCA-API-URL.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Table/ESCA-API-URL.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Table/ESCA-APS-Line.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Table/ESCA-APS-Line.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Table/ESCA-APS-Table-Mapping.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Table/ESCA-APS-Table-Mapping.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Table/ESCA-APS.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Table/ESCA-APS.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Table/ESCA-Auth.-Setup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Table/ESCA-Auth.-Setup.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Table/ESCA-Authorization-Setup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Table/ESCA-Authorization-Setup.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Table/ESCA-Dynavision-Setup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Table/ESCA-Dynavision-Setup.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Table/ESCA-FTP-Request-File.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Table/ESCA-FTP-Request-File.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Table/ESCA-FTP-Request.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Table/ESCA-FTP-Request.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Table/ESCA-FTP-Setup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Table/ESCA-FTP-Setup.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Table/ESCA-Feature.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Table/ESCA-Feature.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Table/ESCA-Field-Value.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Table/ESCA-Field-Value.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Table/ESCA-Message-Type.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Table/ESCA-Message-Type.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Table/ESCA-Message.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Table/ESCA-Message.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Table/ESCA-Module-Setup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Table/ESCA-Module-Setup.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Table/ESCA-Partner-Mapping.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Table/ESCA-Partner-Mapping.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Table/ESCA-Partner-Message-Type.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Table/ESCA-Partner-Message-Type.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Table/ESCA-Partner.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Table/ESCA-Partner.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Table/ESCA-Price-Simulation-Line.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Table/ESCA-Price-Simulation-Line.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Table/ESCA-PrintNode-Printer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Table/ESCA-PrintNode-Printer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Table/ESCA-PrintNode-Setup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Table/ESCA-PrintNode-Setup.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Table/ESCA-Report-Address-Buffer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Table/ESCA-Report-Address-Buffer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Table/ESCA-Report-Layout-Setup-Line.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Table/ESCA-Report-Layout-Setup-Line.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Table/ESCA-Report-Layout-Setup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Table/ESCA-Report-Layout-Setup.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Table/ESCA-Rule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Table/ESCA-Rule.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Table/ESCA-Ruleset.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Table/ESCA-Ruleset.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Table/ESCA-Scanned-Data.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Table/ESCA-Scanned-Data.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Table/ESCA-Scanner.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Table/ESCA-Scanner.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Table/ESCA-Source-Document.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Table/ESCA-Source-Document.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Table/ESCA-Table-Mapping-Line.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Table/ESCA-Table-Mapping-Line.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Table/ESCA-Table-Mapping.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Table/ESCA-Table-Mapping.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Table/ESCA-Text-Block-Line.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Table/ESCA-Text-Block-Line.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Table/ESCA-Text-Block.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Table/ESCA-Text-Block.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Table/ESCA-Text-Constant-Data.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Table/ESCA-Text-Constant-Data.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Table/ESCA-Text-Constant.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Table/ESCA-Text-Constant.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Table/ESCA-Trade-Message-Type.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Table/ESCA-Trade-Message-Type.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Table/ESCA-Web-Request-Log.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Table/ESCA-Web-Request-Log.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/Table/ESCAItemLedgerEntryCompanion.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/Table/ESCAItemLedgerEntryCompanion.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/TableExtension/ESCA-Activities-Cue.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/TableExtension/ESCA-Activities-Cue.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/TableExtension/ESCA-Customer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/TableExtension/ESCA-Customer.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/TableExtension/ESCA-Document-Attachment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/TableExtension/ESCA-Document-Attachment.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/TableExtension/ESCA-Item.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/TableExtension/ESCA-Item.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/TableExtension/ESCA-Job-Queue-Entry.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/TableExtension/ESCA-Job-Queue-Entry.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/TableExtension/ESCA-Location.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/TableExtension/ESCA-Location.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/TableExtension/ESCA-Purchase-Header.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/TableExtension/ESCA-Purchase-Header.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/TableExtension/ESCA-Sales-Header.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/TableExtension/ESCA-Sales-Header.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/TableExtension/ESCA-Shipping-Agent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/TableExtension/ESCA-Shipping-Agent.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/TableExtension/ESCA-Transfer-Header.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/TableExtension/ESCA-Transfer-Header.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/TableExtension/ESCA-VAT-Posting-Setup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/TableExtension/ESCA-VAT-Posting-Setup.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/TableExtension/ESCA-Vendor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/TableExtension/ESCA-Vendor.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/TableExtension/ESCACompanyInformation.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/TableExtension/ESCACompanyInformation.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/TableExtension/ESCAFixedAsset.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/TableExtension/ESCAFixedAsset.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/TableExtension/ESCAGLAccount.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/TableExtension/ESCAGLAccount.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/TableExtension/ESCAGeneralLedgerSetup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/TableExtension/ESCAGeneralLedgerSetup.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/TableExtension/ESCAInvtDocumentLine.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/TableExtension/ESCAInvtDocumentLine.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/TableExtension/ESCAInvtReceiptLine.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/TableExtension/ESCAInvtReceiptLine.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/TableExtension/ESCAInvtShipmentLine.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/TableExtension/ESCAInvtShipmentLine.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/TableExtension/ESCAItemAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/TableExtension/ESCAItemAttribute.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/TableExtension/ESCAItemCharge.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/TableExtension/ESCAItemCharge.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/TableExtension/ESCAItemJournalLine.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/TableExtension/ESCAItemJournalLine.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/TableExtension/ESCAItemLedgerEntry.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/TableExtension/ESCAItemLedgerEntry.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/TableExtension/ESCAPaymentMethod.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/TableExtension/ESCAPaymentMethod.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/TableExtension/ESCAPaymentTerms.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/TableExtension/ESCAPaymentTerms.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/TableExtension/ESCAPostedInvtPickLine.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/TableExtension/ESCAPostedInvtPickLine.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/TableExtension/ESCAPostedInvtPutAwayLine.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/TableExtension/ESCAPostedInvtPutAwayLine.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/TableExtension/ESCAPostedWhseReceiptLine.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/TableExtension/ESCAPostedWhseReceiptLine.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/TableExtension/ESCAPostedWhseShipmentLine.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/TableExtension/ESCAPostedWhseShipmentLine.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/TableExtension/ESCAPrinterSelection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/TableExtension/ESCAPrinterSelection.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/TableExtension/ESCAPurchCrMemoLine.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/TableExtension/ESCAPurchCrMemoLine.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/TableExtension/ESCAPurchInvLine.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/TableExtension/ESCAPurchInvLine.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/TableExtension/ESCAPurchRcptLine.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/TableExtension/ESCAPurchRcptLine.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/TableExtension/ESCAPurchaseLine.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/TableExtension/ESCAPurchaseLine.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/TableExtension/ESCAPurchaseLineArchive.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/TableExtension/ESCAPurchaseLineArchive.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/TableExtension/ESCARegisteredWhseActivityLine.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/TableExtension/ESCARegisteredWhseActivityLine.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/TableExtension/ESCAResource.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/TableExtension/ESCAResource.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/TableExtension/ESCAResponsibilityCenter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/TableExtension/ESCAResponsibilityCenter.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/TableExtension/ESCAReturnReceiptLine.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/TableExtension/ESCAReturnReceiptLine.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/TableExtension/ESCAReturnShipmentLine.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/TableExtension/ESCAReturnShipmentLine.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/TableExtension/ESCASalesCrMemoLine.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/TableExtension/ESCASalesCrMemoLine.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/TableExtension/ESCASalesInvoiceHeader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/TableExtension/ESCASalesInvoiceHeader.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/TableExtension/ESCASalesInvoiceLine.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/TableExtension/ESCASalesInvoiceLine.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/TableExtension/ESCASalesLine.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/TableExtension/ESCASalesLine.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/TableExtension/ESCASalesLineArchive.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/TableExtension/ESCASalesLineArchive.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/TableExtension/ESCASalesShipmentLine.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/TableExtension/ESCASalesShipmentLine.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/TableExtension/ESCAServiceInvoiceHeader.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/TableExtension/ESCAServiceInvoiceHeader.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/TableExtension/ESCATransferLine.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/TableExtension/ESCATransferLine.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/TableExtension/ESCATransferReceiptLine.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/TableExtension/ESCATransferReceiptLine.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/TableExtension/ESCATransferShipmentLine.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/TableExtension/ESCATransferShipmentLine.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/TableExtension/ESCAUserSetup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/TableExtension/ESCAUserSetup.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/TableExtension/ESCAVATProductPostingGroup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/TableExtension/ESCAVATProductPostingGroup.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/TableExtension/ESCAWarehouseActivityLine.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/TableExtension/ESCAWarehouseActivityLine.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/TableExtension/ESCAWarehouseReceiptLine.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/TableExtension/ESCAWarehouseReceiptLine.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "BusinessCentralApplicationObject",
+      "source_relative_path": "reference/dynavision-core/TableExtension/ESCAWarehouseShipmentLine.yml",
+      "output": {
+        ".html": {
+          "relative_path": "reference/dynavision-core/TableExtension/ESCAWarehouseShipmentLine.html"
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
+        }
+      },
+      "version": ""
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

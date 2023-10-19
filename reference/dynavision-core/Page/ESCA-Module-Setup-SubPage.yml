@@ -1,0 +1,35 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"ESCA Module Setup SubPage"'
+alId: ID 71096575
+baseKind: Page
+kind: Page
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+sourceTableType:
+  name: '"ESCA Module"'
+  isExternal: true
+seeAlso:
+- '[Page](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-object)'
+objectProperties:
+- name: ApplicationArea
+  value: '#All'
+  promoted: false
+- name: Caption
+  value: Modules
+  promoted: false
+- name: DeleteAllowed
+  value: "False"
+  promoted: false
+- name: PageType
+  value: ListPart
+  promoted: true
+- name: SourceTable
+  value: "71096602"
+  promoted: true
+- name: SourceTableView
+  value: sorting("App Name")
+  promoted: false
+commentId: O:Page::ESCA Module Setup SubPage
+uid: O:Page::ESCA_Module_Setup_SubPage
+name: '"ESCA Module Setup SubPage"'

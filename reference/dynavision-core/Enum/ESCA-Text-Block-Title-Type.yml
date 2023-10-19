@@ -1,0 +1,27 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"ESCA Text Block Title Type"'
+alId: ID 71096632
+baseKind: Enum
+kind: Enum
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Enum](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-extensible-enums)'
+objectProperties:
+- name: Access
+  value: Public
+  promoted: false
+- name: Extensible
+  value: "False"
+  promoted: true
+enumValues:
+- uid: E:Enum::ESCA_Text_Block_Title_Type.None
+  name: None
+- uid: E:Enum::ESCA_Text_Block_Title_Type.Text_Constant
+  name: '"Text Constant"'
+- uid: E:Enum::ESCA_Text_Block_Title_Type.Free_Text
+  name: '"Free Text"'
+commentId: O:Enum::ESCA Text Block Title Type
+uid: O:Enum::ESCA_Text_Block_Title_Type
+name: '"ESCA Text Block Title Type"'

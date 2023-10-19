@@ -1,0 +1,30 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"ESCA Sales Simulation"'
+alId: ID 71177438
+baseKind: Codeunit
+kind: Codeunit
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Codeunit](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-codeunit-object)'
+objectProperties:
+- name: Access
+  value: Public
+  promoted: false
+- name: EventSubscriberInstance
+  value: Manual
+  promoted: false
+- name: SingleInstance
+  value: "True"
+  promoted: false
+- name: TableNo
+  value: ESCA Price Simulation Line
+  promoted: false
+  xrefType:
+    xref: O:Table::ESCA_Price_Simulation_Line
+    name: '"ESCA Price Simulation Line"'
+    isExternal: false
+commentId: O:Codeunit::ESCA Sales Simulation
+uid: O:Codeunit::ESCA_Sales_Simulation
+name: '"ESCA Sales Simulation"'

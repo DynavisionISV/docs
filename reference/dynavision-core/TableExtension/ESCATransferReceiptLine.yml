@@ -1,0 +1,22 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: ESCATransferReceiptLine
+alId: ID 71096578
+baseKind: Table
+kind: TableExtension
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+extends:
+  name: '"Transfer Receipt Line"'
+  isExternal: true
+seeAlso:
+- '[Table Extension](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-table-ext-object)'
+fields:
+- type:
+    name: '"ESCA Item Type"'
+    isExternal: true
+  uid: F:TableExtension::ESCATransferReceiptLine.ESCA_Item_Type
+  name: '"ESCA Item Type"'
+commentId: O:TableExtension::ESCATransferReceiptLine
+uid: O:TableExtension::ESCATransferReceiptLine
+name: ESCATransferReceiptLine

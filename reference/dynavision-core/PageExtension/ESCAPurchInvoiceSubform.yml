@@ -1,0 +1,16 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: ESCAPurchInvoiceSubform
+alId: ID 71096578
+baseKind: Page
+kind: PageExtension
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+extends:
+  name: '"Purch. Invoice Subform"'
+  isExternal: true
+seeAlso:
+- '[Page Extension](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-ext-object)'
+commentId: O:PageExtension::ESCAPurchInvoiceSubform
+uid: O:PageExtension::ESCAPurchInvoiceSubform
+name: ESCAPurchInvoiceSubform

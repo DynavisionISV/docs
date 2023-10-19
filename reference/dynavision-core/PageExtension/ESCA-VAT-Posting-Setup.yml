@@ -1,0 +1,16 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"ESCA VAT Posting Setup"'
+alId: ID 71096657
+baseKind: Page
+kind: PageExtension
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+extends:
+  name: '"VAT Posting Setup"'
+  isExternal: true
+seeAlso:
+- '[Page Extension](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-ext-object)'
+commentId: O:PageExtension::ESCA VAT Posting Setup
+uid: O:PageExtension::ESCA_VAT_Posting_Setup
+name: '"ESCA VAT Posting Setup"'

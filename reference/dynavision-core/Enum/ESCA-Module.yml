@@ -1,0 +1,38 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"ESCA Module"'
+alId: ID 71096575
+baseKind: Enum
+kind: Enum
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Enum](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-extensible-enums)'
+objectProperties:
+- name: Access
+  value: Public
+  promoted: false
+- name: DefaultImplementation
+  value: 71096647,71096647
+  promoted: false
+- name: Extensible
+  value: "True"
+  promoted: true
+- name: UnknownValueImplementation
+  value: 71096647,71096647
+  promoted: false
+enumValues:
+- uid: E:Enum::ESCA_Module.Core
+  name: Core
+- uid: E:Enum::ESCA_Module.Connect
+  name: Connect
+implements:
+- xref: O:ESCA_Module
+  name: '"ESCA Module"'
+  isExternal: false
+- xref: O:ESCA_License_Per_Company
+  name: '"ESCA License Per Company"'
+  isExternal: false
+commentId: O:Enum::ESCA Module
+uid: O:Enum::ESCA_Module
+name: '"ESCA Module"'

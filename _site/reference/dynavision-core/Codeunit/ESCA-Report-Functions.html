@@ -1,0 +1,2531 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title> </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content=" ">
+      
+      <link rel="icon" href="../../../favicon.ico">
+      <link rel="stylesheet" href="../../../public/docfx.min.css">
+      <link rel="stylesheet" href="../../../public/main.css">
+      <meta name="docfx:navrel" content="../../../toc.html">
+      <meta name="docfx:tocrel" content="../../../toc.html">
+      
+      
+      
+      
+      
+  </head>
+
+  <script type="module">
+    import options from './../../../public/main.js'
+    import { init } from './../../../public/docfx.min.js'
+    init(options)
+  </script>
+
+  <script>
+    const theme = localStorage.getItem('theme') || 'auto'
+    document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+  </script>
+
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="../../../index.html">
+            <img id="logo" class="svg" src="../../../public/aldoc_logo.svg" alt="Documentation">
+            Documentation
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+      <div class="toc-offcanvas">
+        <div class="offcanvas-md offcanvas-start" tabindex="-1" id="tocOffcanvas" aria-labelledby="tocOffcanvasLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="tocOffcanvasLabel">Table of Contents</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" data-bs-target="#tocOffcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <nav class="toc" id="toc"></nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="actionbar">
+          <button class="btn btn-lg border-0 d-md-none" style="margin-top: -.65em; margin-left: -.8em" type="button" data-bs-toggle="offcanvas" data-bs-target="#tocOffcanvas" aria-controls="tocOffcanvas" aria-expanded="false" aria-label="Show table of contents">
+            <i class="bi bi-list"></i>
+          </button>
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="O:Codeunit::ESCA_Report_Functions">
+  <h1>Codeunit &quot;ESCA Report Functions&quot;</h1>
+
+
+<div class="font-style-italic">ID 71096674</div>
+
+
+
+
+
+
+
+
+  	<h2 id="properties">Properties</h2>
+
+  	<table class="table">
+  		<thead>
+  			<tr>
+  				<th>Name</th>
+  				<th>Value</th>
+  			</tr>
+  		</thead>
+  		<tbody>
+  			<tr>
+  					<td>Access</td>
+  					<td class="font-style-italic">
+							Public
+  					</td>
+  			</tr>
+  		</tbody>
+  	</table>
+  	<h2 id="methods">Methods</h2>
+   <h3 class="memberNameHolder">FormatAddressLists</h3>
+   <div class="memberInfo">
+
+   		<div class="summaryHolder">
+   			<div class="summary">
+				<p>Format the addresses for a source record based on the settings on the report layout setup</p>
+
+   			</div>
+   		</div>
+
+   		<pre><code dir="ltr" class="hljs lang-al">procedure FormatAddressLists(RecordVariant: Variant, LanguageCode: Code[10], ReportLayoutSetup: Record &quot;ESCA Report Layout Setup&quot;, var TopLeftAddress: List of [Text], var TopRightAddress: List of [Text], var BottomLeftAddress: List of [Text])</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								RecordVariant
+   							</td>
+   							<td class="font-style-italic">
+Variant                 </td>
+   							<td>
+								<p>Source record for which the addresses should be formatted</p>
+
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								LanguageCode
+   							</td>
+   							<td class="font-style-italic">
+Code[10]                 </td>
+   							<td>
+								<p>Code of the language to use</p>
+
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								ReportLayoutSetup
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;ESCA Report Layout Setup&quot;                 </td>
+   							<td>
+								<p>Setup containing the address positions</p>
+
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								TopLeftAddress
+   							</td>
+   							<td class="font-style-italic">
+List of [Text]                 </td>
+   							<td>
+								<p>List of addresses to be displayed on the top left</p>
+
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								TopRightAddress
+   							</td>
+   							<td class="font-style-italic">
+List of [Text]                 </td>
+   							<td>
+								<p>List of addresses to be displayed on the top right</p>
+
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								BottomLeftAddress
+   							</td>
+   							<td class="font-style-italic">
+List of [Text]                 </td>
+   							<td>
+								<p>List of addresses to be displayed on the bottom left</p>
+
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">ConvertAddressListToText</h3>
+   <div class="memberInfo">
+
+   		<div class="summaryHolder">
+   			<div class="summary">
+				<p>Converts a list of addresses to a text</p>
+
+   			</div>
+   		</div>
+
+   		<pre><code dir="ltr" class="hljs lang-al">procedure ConvertAddressListToText(var List: List of [Text]): Text</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								List
+   							</td>
+   							<td class="font-style-italic">
+List of [Text]                 </td>
+   							<td>
+								<p>List containing the addresses to convert</p>
+
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+   			<h4>Returns</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   					<tr>
+   						<td>
+Text               </td>
+   						<td>
+							<p>The text representation of the address list</p>
+
+   						</td>
+   					</tr>
+   				</tbody>
+   			</table>
+
+
+   </div>
+   <h3 class="memberNameHolder">HandleVATText</h3>
+   <div class="memberInfo">
+
+   		<div class="summaryHolder">
+   			<div class="summary">
+				<p>Adds a caption to a VAT Text if not already present</p>
+
+   			</div>
+   		</div>
+
+   		<pre><code dir="ltr" class="hljs lang-al">procedure HandleVATText(LanguageCode: Code[10], var VATText: Text)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								LanguageCode
+   							</td>
+   							<td class="font-style-italic">
+Code[10]                 </td>
+   							<td>
+								<p>Code of the language use</p>
+
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								VATText
+   							</td>
+   							<td class="font-style-italic">
+Text                 </td>
+   							<td>
+								<p>Text to add the VAT caption to</p>
+
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">FormatVATText</h3>
+   <div class="memberInfo">
+
+   		<div class="summaryHolder">
+   			<div class="summary">
+				<p>Adds caption to the VAT Texts if not already present</p>
+
+   			</div>
+   		</div>
+
+   		<pre><code dir="ltr" class="hljs lang-al">procedure FormatVATText(LanguageCode: Code[10], var BillToVATText: Text, var SellToVATText: Text, var ShipToVATText: Text, var CompanyVATText: Text)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								LanguageCode
+   							</td>
+   							<td class="font-style-italic">
+Code[10]                 </td>
+   							<td>
+								<p>Code of the language to use</p>
+
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								BillToVATText
+   							</td>
+   							<td class="font-style-italic">
+Text                 </td>
+   							<td>
+								<p>Bill-to VAT text</p>
+
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								SellToVATText
+   							</td>
+   							<td class="font-style-italic">
+Text                 </td>
+   							<td>
+								<p>Sell-to VAT text</p>
+
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								ShipToVATText
+   							</td>
+   							<td class="font-style-italic">
+Text                 </td>
+   							<td>
+								<p>Ship-to VAT text</p>
+
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								CompanyVATText
+   							</td>
+   							<td class="font-style-italic">
+Text                 </td>
+   							<td>
+								<p>Company VAT text</p>
+
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">GetValueAtIndex</h3>
+   <div class="memberInfo">
+
+   		<div class="summaryHolder">
+   			<div class="summary">
+				<p>Retrieves the value from a list identified by an index</p>
+
+   			</div>
+   		</div>
+
+   		<pre><code dir="ltr" class="hljs lang-al">procedure GetValueAtIndex(List: List of [Text], index: Integer): Text</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								List
+   							</td>
+   							<td class="font-style-italic">
+List of [Text]                 </td>
+   							<td>
+								<p>List to search</p>
+
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								index
+   							</td>
+   							<td class="font-style-italic">
+Integer                 </td>
+   							<td>
+								<p>Index of the value to retrieve</p>
+
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+   			<h4>Returns</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   					<tr>
+   						<td>
+Text               </td>
+   						<td>
+							<p>Value retrieved from the list by index</p>
+
+   						</td>
+   					</tr>
+   				</tbody>
+   			</table>
+
+
+   </div>
+   <h3 class="memberNameHolder">SetupHeaderFields</h3>
+   <div class="memberInfo">
+
+   		<div class="summaryHolder">
+   			<div class="summary">
+				<p>Retrieves the header fields for a specific record</p>
+
+   			</div>
+   		</div>
+
+   		<pre><code dir="ltr" class="hljs lang-al">procedure SetupHeaderFields(RecordVariant: Variant, ReportLayoutSetup: Record &quot;ESCA Report Layout Setup&quot;, LanguageCode: Code[10], var HeaderFields: List of [Text], var HeaderValues: List of [Text])</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								RecordVariant
+   							</td>
+   							<td class="font-style-italic">
+Variant                 </td>
+   							<td>
+								<blockquote>
+<p>Source record for which the headers should be retrieved</p>
+</blockquote>
+
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								ReportLayoutSetup
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;ESCA Report Layout Setup&quot;                 </td>
+   							<td>
+								<p>Setup containing the header layout setup</p>
+
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								LanguageCode
+   							</td>
+   							<td class="font-style-italic">
+Code[10]                 </td>
+   							<td>
+								<p>Code of the language to use</p>
+
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								HeaderFields
+   							</td>
+   							<td class="font-style-italic">
+List of [Text]                 </td>
+   							<td>
+								<p>List of retrieved header titles</p>
+
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								HeaderValues
+   							</td>
+   							<td class="font-style-italic">
+List of [Text]                 </td>
+   							<td>
+								<p>List of retrieved header values</p>
+
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">FormatDecimalValue</h3>
+   <div class="memberInfo">
+
+   		<div class="summaryHolder">
+   			<div class="summary">
+				<p>Return a text formatted decimal according to a specified formatting structure</p>
+
+   			</div>
+   		</div>
+
+   		<pre><code dir="ltr" class="hljs lang-al">procedure FormatDecimalValue(var DecimalValue: Decimal, FormattingStructure: Text[500], BlankZero: Boolean): Text</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								DecimalValue
+   							</td>
+   							<td class="font-style-italic">
+Decimal                 </td>
+   							<td>
+								<p>Decimal to format</p>
+
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								FormattingStructure
+   							</td>
+   							<td class="font-style-italic">
+Text[500]                 </td>
+   							<td>
+								<p>Format string to format the decimal</p>
+
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								BlankZero
+   							</td>
+   							<td class="font-style-italic">
+Boolean                 </td>
+   							<td>
+								<p>Indicates if zero's should be displayed as an empty text</p>
+
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+   			<h4>Returns</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   					<tr>
+   						<td>
+Text               </td>
+   						<td>
+							<p>A text formatted decimal</p>
+
+   						</td>
+   					</tr>
+   				</tbody>
+   			</table>
+
+
+   </div>
+   <h3 class="memberNameHolder">ReturnLineVat</h3>
+   <div class="memberInfo">
+
+   		<div class="summaryHolder">
+   			<div class="summary">
+				<p>Returns formatted VAT Amount</p>
+
+   			</div>
+   		</div>
+
+   		<pre><code dir="ltr" class="hljs lang-al">procedure ReturnLineVat(Vat: Decimal, ReportLayoutSetup: Record &quot;ESCA Report Layout Setup&quot;): Text</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								Vat
+   							</td>
+   							<td class="font-style-italic">
+Decimal                 </td>
+   							<td>
+								<p>VAT amount</p>
+
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								ReportLayoutSetup
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;ESCA Report Layout Setup&quot;                 </td>
+   							<td>
+								<p>Layout setup record</p>
+
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+   			<h4>Returns</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   					<tr>
+   						<td>
+Text               </td>
+   						<td>
+							<p>Text representing VAT amount</p>
+
+   						</td>
+   					</tr>
+   				</tbody>
+   			</table>
+
+
+   </div>
+   <h3 class="memberNameHolder">ReturnUnitOfMeasure</h3>
+   <div class="memberInfo">
+
+   		<div class="summaryHolder">
+   			<div class="summary">
+				<p>Retrieves the unit of measure representation for a specific language</p>
+
+   			</div>
+   		</div>
+
+   		<pre><code dir="ltr" class="hljs lang-al">procedure ReturnUnitOfMeasure(UnitOfMeasureCode: Code[10], LanguageCode: Code[10]): Text</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								UnitOfMeasureCode
+   							</td>
+   							<td class="font-style-italic">
+Code[10]                 </td>
+   							<td>
+								<p>Code of the unit of measure to use</p>
+
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								LanguageCode
+   							</td>
+   							<td class="font-style-italic">
+Code[10]                 </td>
+   							<td>
+								<p>Code of the language to use</p>
+
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+   			<h4>Returns</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   					<tr>
+   						<td>
+Text               </td>
+   						<td>
+							<p>Text representing the unit of measure</p>
+
+   						</td>
+   					</tr>
+   				</tbody>
+   			</table>
+
+
+   </div>
+   <h3 class="memberNameHolder">AddItemTrackingText</h3>
+   <div class="memberInfo">
+
+   		<div class="summaryHolder">
+   			<div class="summary">
+				<p>Composes a list of item tracking texts based on the tracking specification</p>
+
+   			</div>
+   		</div>
+
+   		<pre><code dir="ltr" class="hljs lang-al">procedure AddItemTrackingText(var ItemTrackingText: List of [Text], var TempTrackingSpecification: Record &quot;Tracking Specification&quot; temporary, LanguageCode: Code[10])</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								ItemTrackingText
+   							</td>
+   							<td class="font-style-italic">
+List of [Text]                 </td>
+   							<td>
+								<p>List of item tracking texts</p>
+
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								TempTrackingSpecification
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;Tracking Specification&quot; temporary                 </td>
+   							<td>
+								<p>Tracking specification to use</p>
+
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								LanguageCode
+   							</td>
+   							<td class="font-style-italic">
+Code[10]                 </td>
+   							<td>
+								<p>Code of the language to use</p>
+
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">AddItemAttributesText</h3>
+   <div class="memberInfo">
+
+   		<div class="summaryHolder">
+   			<div class="summary">
+				<p>Composes a list of item attribute texts for a for an item no.</p>
+
+   			</div>
+   		</div>
+
+   		<pre><code dir="ltr" class="hljs lang-al">procedure AddItemAttributesText(var ItemAttributesText: List of [Text], itemNo: Code[20], LanguageCode: Code[10])</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								ItemAttributesText
+   							</td>
+   							<td class="font-style-italic">
+List of [Text]                 </td>
+   							<td>
+								<p>List of item attribute texts</p>
+
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								itemNo
+   							</td>
+   							<td class="font-style-italic">
+Code[20]                 </td>
+   							<td>
+								<p>The item no. to use</p>
+
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								LanguageCode
+   							</td>
+   							<td class="font-style-italic">
+Code[10]                 </td>
+   							<td>
+								<p>Code of the language to use</p>
+
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">GetCurrencySymbol</h3>
+   <div class="memberInfo">
+
+   		<div class="summaryHolder">
+   			<div class="summary">
+				<p>Return the Currency Symbol for a specific Currency (Local Currency Symbol on G/L Setup is used as fallback)</p>
+
+   			</div>
+   		</div>
+
+   		<pre><code dir="ltr" class="hljs lang-al">procedure GetCurrencySymbol(CurrencyCode: Code[10]): Text</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								CurrencyCode
+   							</td>
+   							<td class="font-style-italic">
+Code[10]                 </td>
+   							<td>
+								<p>Code[20].</p>
+
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+   			<h4>Returns</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   					<tr>
+   						<td>
+Text               </td>
+   						<td>
+							<p>Text</p>
+
+   						</td>
+   					</tr>
+   				</tbody>
+   			</table>
+
+
+   </div>
+   <h3 class="memberNameHolder">AddItemWeightText</h3>
+   <div class="memberInfo">
+
+   		<div class="summaryHolder">
+   			<div class="summary">
+				<p>Composes a list of item weight texts for a quantity/weight combination</p>
+
+   			</div>
+   		</div>
+
+   		<pre><code dir="ltr" class="hljs lang-al">procedure AddItemWeightText(var ItemWeightText: List of [Text], LanguageCode: Code[10], Quantity: Decimal, Weight: Decimal)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								ItemWeightText
+   							</td>
+   							<td class="font-style-italic">
+List of [Text]                 </td>
+   							<td>
+								<p>List of item weight texts</p>
+
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								LanguageCode
+   							</td>
+   							<td class="font-style-italic">
+Code[10]                 </td>
+   							<td>
+								<p>Code of the language to use</p>
+
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								Quantity
+   							</td>
+   							<td class="font-style-italic">
+Decimal                 </td>
+   							<td>
+								<p>Quantity to use</p>
+
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								Weight
+   							</td>
+   							<td class="font-style-italic">
+Decimal                 </td>
+   							<td>
+								<p>Weight to use</p>
+
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">AddLineToVatSummaryForVariant</h3>
+   <div class="memberInfo">
+
+   		<div class="summaryHolder">
+   			<div class="summary">
+				<p>Adds a document line to the vat summary</p>
+
+   			</div>
+   		</div>
+
+   		<pre><code dir="ltr" class="hljs lang-al">procedure AddLineToVatSummaryForVariant(RecordVariant: Variant, var TempVatAmountLine: Record &quot;VAT Amount Line&quot; temporary)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								RecordVariant
+   							</td>
+   							<td class="font-style-italic">
+Variant                 </td>
+   							<td>
+								<p>Source record the document line to add</p>
+
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								TempVatAmountLine
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;VAT Amount Line&quot; temporary                 </td>
+   							<td>
+								<p>The vat summary</p>
+
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">CreateVATTable</h3>
+   <div class="memberInfo">
+
+   		<div class="summaryHolder">
+   			<div class="summary">
+				<p>Generates a vat and totals table for the specified vat amount lines</p>
+
+   			</div>
+   		</div>
+
+   		<pre><code dir="ltr" class="hljs lang-al">procedure CreateVATTable(var TempVatAmountLine: Record &quot;VAT Amount Line&quot; temporary, var VATTable: array[3, 5] of Text, var TotalTable: array[2, 5] of Text, DecimalFormatting: Text[500], LanguageCode: Code[10])</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								TempVatAmountLine
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;VAT Amount Line&quot; temporary                 </td>
+   							<td>
+								<p>Vat amount lines to use</p>
+
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								VATTable
+   							</td>
+   							<td class="font-style-italic">
+array[3, 5] of Text                 </td>
+   							<td>
+								<p>Generated vat table</p>
+
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								TotalTable
+   							</td>
+   							<td class="font-style-italic">
+array[2, 5] of Text                 </td>
+   							<td>
+								<p>Generated totals table</p>
+
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								DecimalFormatting
+   							</td>
+   							<td class="font-style-italic">
+Text[500]                 </td>
+   							<td>
+								<p>Format string used to format decimals</p>
+
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								LanguageCode
+   							</td>
+   							<td class="font-style-italic">
+Code[10]                 </td>
+   							<td>
+								<p>Code of the language to use</p>
+
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">CreateVATTableLCY</h3>
+   <div class="memberInfo">
+
+   		<div class="summaryHolder">
+   			<div class="summary">
+				<p>Generates a LCY vat table for the specified vat amount lines</p>
+
+   			</div>
+   		</div>
+
+   		<pre><code dir="ltr" class="hljs lang-al">procedure CreateVATTableLCY(var TempVatAmountLine: Record &quot;VAT Amount Line&quot; temporary, var VATTableLCY: array[2, 5] of Text, DecimalFormatting: Text[500], LanguageCode: Code[10], PostingDate: Date, CurrencyCode: Code[10], CurrencyFactor: Decimal)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								TempVatAmountLine
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;VAT Amount Line&quot; temporary                 </td>
+   							<td>
+								<p>Vat amount lines to use</p>
+
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								VATTableLCY
+   							</td>
+   							<td class="font-style-italic">
+array[2, 5] of Text                 </td>
+   							<td>
+								<p>Generated vat table</p>
+
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								DecimalFormatting
+   							</td>
+   							<td class="font-style-italic">
+Text[500]                 </td>
+   							<td>
+								<p>Format string used to format decimals</p>
+
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								LanguageCode
+   							</td>
+   							<td class="font-style-italic">
+Code[10]                 </td>
+   							<td>
+								<p>Code of the language to use</p>
+
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								PostingDate
+   							</td>
+   							<td class="font-style-italic">
+Date                 </td>
+   							<td>
+								<p>PostingDate to use</p>
+
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								CurrencyCode
+   							</td>
+   							<td class="font-style-italic">
+Code[10]                 </td>
+   							<td>
+								<p>CurrencyCode to use</p>
+
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								CurrencyFactor
+   							</td>
+   							<td class="font-style-italic">
+Decimal                 </td>
+   							<td>
+								<p>CurrencyFactor to use</p>
+
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">CreateVATTable</h3>
+   <div class="memberInfo">
+
+   		<div class="summaryHolder">
+   			<div class="summary">
+				<p>Generates a vat, vat lcy and totals table for the specified vat amount lines</p>
+
+   			</div>
+   		</div>
+
+   		<pre><code dir="ltr" class="hljs lang-al">procedure CreateVATTable(var TempVatAmountLine: Record &quot;VAT Amount Line&quot; temporary, var VATTable: array[3, 5] of Text, var TotalTable: array[2, 5] of Text, DecimalFormatting: Text[500], LanguageCode: Code[10], var VATTableLCY: array[2, 5] of Text, PostingDate: Date, CurrencyCode: Code[10], CurrencyFactor: Decimal)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								TempVatAmountLine
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;VAT Amount Line&quot; temporary                 </td>
+   							<td>
+								<p>Vat amount lines to use</p>
+
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								VATTable
+   							</td>
+   							<td class="font-style-italic">
+array[3, 5] of Text                 </td>
+   							<td>
+								<p>Generated vat table</p>
+
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								TotalTable
+   							</td>
+   							<td class="font-style-italic">
+array[2, 5] of Text                 </td>
+   							<td>
+								<p>Generated totals table</p>
+
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								DecimalFormatting
+   							</td>
+   							<td class="font-style-italic">
+Text[500]                 </td>
+   							<td>
+								<p>Format string used to format decimals</p>
+
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								LanguageCode
+   							</td>
+   							<td class="font-style-italic">
+Code[10]                 </td>
+   							<td>
+								<p>Code of the language to use</p>
+
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								VATTableLCY
+   							</td>
+   							<td class="font-style-italic">
+array[2, 5] of Text                 </td>
+   							<td>
+								<p>Generated vat lcy table</p>
+
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								PostingDate
+   							</td>
+   							<td class="font-style-italic">
+Date                 </td>
+   							<td>
+								<p>PostingDate to use</p>
+
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								CurrencyCode
+   							</td>
+   							<td class="font-style-italic">
+Code[10]                 </td>
+   							<td>
+								<p>CurrencyCode to use</p>
+
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								CurrencyFactor
+   							</td>
+   							<td class="font-style-italic">
+Decimal                 </td>
+   							<td>
+								<p>CurrencyFactor to use</p>
+
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">CalculateLineStyle</h3>
+   <div class="memberInfo">
+
+   		<div class="summaryHolder">
+   			<div class="summary">
+				<p>Calculates the line style for a source record based on the values of the bold/italic/underline fields</p>
+
+   			</div>
+   		</div>
+
+   		<pre><code dir="ltr" class="hljs lang-al">procedure CalculateLineStyle(RecordVariant: Variant, var Bold: Boolean, var Italic: Boolean, var UnderLine: Boolean)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								RecordVariant
+   							</td>
+   							<td class="font-style-italic">
+Variant                 </td>
+   							<td>
+								<p>Source record to calculate the line style for</p>
+
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								Bold
+   							</td>
+   							<td class="font-style-italic">
+Boolean                 </td>
+   							<td>
+								<p>Indicates if the line should have a bold style</p>
+
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								Italic
+   							</td>
+   							<td class="font-style-italic">
+Boolean                 </td>
+   							<td>
+								<p>Indicates if the line should have an italic style</p>
+
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								UnderLine
+   							</td>
+   							<td class="font-style-italic">
+Boolean                 </td>
+   							<td>
+								<p>Indicates if the line should have an underline style</p>
+
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">ReturnPaymentTermsDescription</h3>
+   <div class="memberInfo">
+
+   		<div class="summaryHolder">
+   			<div class="summary">
+				<p>Returns the payment description and optionally the payment discount.</p>
+
+   			</div>
+   		</div>
+
+   		<pre><code dir="ltr" class="hljs lang-al">procedure ReturnPaymentTermsDescription(PaymentTermsCaption: Text, PrintPaymentDiscount: Boolean, PaymentDiscountTextConstant: Text, PaymentTermsCode: Code[10], LanguageCode: Code[10], PmtDiscountDate: Date, PaymentDiscountTotalAmount: Decimal, PaymentDiscountAmount: Decimal, CurrencySignTotals: Text, TaxableAmountMinusDiscount: Decimal): Text</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								PaymentTermsCaption
+   							</td>
+   							<td class="font-style-italic">
+Text                 </td>
+   							<td>
+								<p>Text.</p>
+
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								PrintPaymentDiscount
+   							</td>
+   							<td class="font-style-italic">
+Boolean                 </td>
+   							<td>
+								<p>Boolean.</p>
+
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								PaymentDiscountTextConstant
+   							</td>
+   							<td class="font-style-italic">
+Text                 </td>
+   							<td>
+								<p>Text.</p>
+
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								PaymentTermsCode
+   							</td>
+   							<td class="font-style-italic">
+Code[10]                 </td>
+   							<td>
+								<p>Code[10].</p>
+
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								LanguageCode
+   							</td>
+   							<td class="font-style-italic">
+Code[10]                 </td>
+   							<td>
+								<p>Code[10].</p>
+
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								PmtDiscountDate
+   							</td>
+   							<td class="font-style-italic">
+Date                 </td>
+   							<td>
+								<p>Date.</p>
+
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								PaymentDiscountTotalAmount
+   							</td>
+   							<td class="font-style-italic">
+Decimal                 </td>
+   							<td>
+								<p>Decimal.</p>
+
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								PaymentDiscountAmount
+   							</td>
+   							<td class="font-style-italic">
+Decimal                 </td>
+   							<td>
+								<p>Decimal.</p>
+
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								CurrencySignTotals
+   							</td>
+   							<td class="font-style-italic">
+Text                 </td>
+   							<td>
+								<p>Text.</p>
+
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								TaxableAmountMinusDiscount
+   							</td>
+   							<td class="font-style-italic">
+Decimal                 </td>
+   							<td>
+								<p>Decimal.</p>
+
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+   			<h4>Returns</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   					<tr>
+   						<td>
+Text               </td>
+   						<td>
+							<p>PaymentTermsDescription: Text</p>
+
+   						</td>
+   					</tr>
+   				</tbody>
+   			</table>
+
+
+   </div>
+   <h3 class="memberNameHolder">ReturnPaymentMethodDescription</h3>
+   <div class="memberInfo">
+
+   		<div class="summaryHolder">
+   			<div class="summary">
+				<p>Returns the payment method description based on the set code on the document</p>
+
+   			</div>
+   		</div>
+
+   		<pre><code dir="ltr" class="hljs lang-al">procedure ReturnPaymentMethodDescription(PaymentMethodCaption: Text, PaymentMethodCode: Code[10], LanguageCode: Code[10]): Text</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								PaymentMethodCaption
+   							</td>
+   							<td class="font-style-italic">
+Text                 </td>
+   							<td>
+								<p>Text.</p>
+
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								PaymentMethodCode
+   							</td>
+   							<td class="font-style-italic">
+Code[10]                 </td>
+   							<td>
+								<p>Code[10].</p>
+
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								LanguageCode
+   							</td>
+   							<td class="font-style-italic">
+Code[10]                 </td>
+   							<td>
+								<p>Code[10].</p>
+
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+   			<h4>Returns</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   					<tr>
+   						<td>
+Text               </td>
+   						<td>
+							<p>PaymentMethodDescription: Text</p>
+
+   						</td>
+   					</tr>
+   				</tbody>
+   			</table>
+
+
+   </div>
+   <h3 class="memberNameHolder">ReturnShipmentMethodDescription</h3>
+   <div class="memberInfo">
+
+   		<div class="summaryHolder">
+   			<div class="summary">
+				<p>Returns the shipment method description based on the set code on the document</p>
+
+   			</div>
+   		</div>
+
+   		<pre><code dir="ltr" class="hljs lang-al">procedure ReturnShipmentMethodDescription(ShipmentMethodCaption: Text, ShipmentMethodCode: Code[10], LanguageCode: Code[10]): Text</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								ShipmentMethodCaption
+   							</td>
+   							<td class="font-style-italic">
+Text                 </td>
+   							<td>
+								<p>Text.</p>
+
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								ShipmentMethodCode
+   							</td>
+   							<td class="font-style-italic">
+Code[10]                 </td>
+   							<td>
+								<p>Code[10].</p>
+
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								LanguageCode
+   							</td>
+   							<td class="font-style-italic">
+Code[10]                 </td>
+   							<td>
+								<p>Code[10].</p>
+
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+   			<h4>Returns</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   					<tr>
+   						<td>
+Text               </td>
+   						<td>
+							<p>ShipmentMethodDescription: Text</p>
+
+   						</td>
+   					</tr>
+   				</tbody>
+   			</table>
+
+
+   </div>
+   <h3 class="memberNameHolder">CalculatePaymentDiscount</h3>
+   <div class="memberInfo">
+
+   		<div class="summaryHolder">
+   			<div class="summary">
+				<p>Calculates the payment discount for a source record</p>
+
+   			</div>
+   		</div>
+
+   		<pre><code dir="ltr" class="hljs lang-al">procedure CalculatePaymentDiscount(RecordVariant: Variant, var PaymentDiscountAmount: Decimal, var PaymentDiscountTotalAmount: Decimal, var PaymentDiscountDate: Date)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								RecordVariant
+   							</td>
+   							<td class="font-style-italic">
+Variant                 </td>
+   							<td>
+								<p>Source record to calculate the payment discount for</p>
+
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								PaymentDiscountAmount
+   							</td>
+   							<td class="font-style-italic">
+Decimal                 </td>
+   							<td>
+								<p>Calculated payment discount amount</p>
+
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								PaymentDiscountTotalAmount
+   							</td>
+   							<td class="font-style-italic">
+Decimal                 </td>
+   							<td>
+								<p>Calculated payment discount total amount</p>
+
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								PaymentDiscountDate
+   							</td>
+   							<td class="font-style-italic">
+Date                 </td>
+   							<td>
+								<p>Retrieved payment discount date</p>
+
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">DefineLogoSource</h3>
+   <div class="memberInfo">
+
+   		<div class="summaryHolder">
+   			<div class="summary">
+				<p>Calculates the (footer) picture for a source record</p>
+
+   			</div>
+   		</div>
+
+   		<pre><code dir="ltr" class="hljs lang-al">procedure DefineLogoSource(var CompanyInformation: Record &quot;Company Information&quot;, RecordVariant: Variant)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								CompanyInformation
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;Company Information&quot;                 </td>
+   							<td>
+								<p>Company information record containing the pictures in the picture/footer picture fields</p>
+
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								RecordVariant
+   							</td>
+   							<td class="font-style-italic">
+Variant                 </td>
+   							<td>
+								<p>Source record to calculate the (footer) picture for</p>
+
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">GetDefaultLanguageCode</h3>
+   <div class="memberInfo">
+
+   		<div class="summaryHolder">
+   			<div class="summary">
+				<p>Retrieves the default language code if not other language code is specified</p>
+
+   			</div>
+   		</div>
+
+   		<pre><code dir="ltr" class="hljs lang-al">procedure GetDefaultLanguageCode(): Code[10]</code></pre>
+
+
+   			<h4>Returns</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   					<tr>
+   						<td>
+Code[10]               </td>
+   						<td>
+							
+   						</td>
+   					</tr>
+   				</tbody>
+   			</table>
+
+
+   </div>
+   <h3 class="memberNameHolder">CalculateLinkedEmpties</h3>
+   <div class="memberInfo">
+
+   		<div class="summaryHolder">
+   			<div class="summary">
+				<p>Calculates the empties price/total for a given source record</p>
+
+   			</div>
+   		</div>
+
+   		<pre><code dir="ltr" class="hljs lang-al">procedure CalculateLinkedEmpties(RecordVariant: Variant, var EmptiesPrice: Decimal, var EmptiesTotal: Decimal)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								RecordVariant
+   							</td>
+   							<td class="font-style-italic">
+Variant                 </td>
+   							<td>
+								<p>Source record to calculate the empties for</p>
+
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								EmptiesPrice
+   							</td>
+   							<td class="font-style-italic">
+Decimal                 </td>
+   							<td>
+								<p>Calculated empties price</p>
+
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								EmptiesTotal
+   							</td>
+   							<td class="font-style-italic">
+Decimal                 </td>
+   							<td>
+								<p>Calculated empties total</p>
+
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">CalculateEmptiesTotals</h3>
+   <div class="memberInfo">
+
+   		<div class="summaryHolder">
+   			<div class="summary">
+				<p>Calculates an array of empties totals for a source record</p>
+
+   			</div>
+   		</div>
+
+   		<pre><code dir="ltr" class="hljs lang-al">procedure CalculateEmptiesTotals(RecordVariant: Variant, var EmptiesArray: array[2, 3] of Decimal, QuantityFieldNo: Integer, UnitPriceOrCostFieldNo: Integer)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								RecordVariant
+   							</td>
+   							<td class="font-style-italic">
+Variant                 </td>
+   							<td>
+								<p>Source record to calculate the empties totals for</p>
+
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								EmptiesArray
+   							</td>
+   							<td class="font-style-italic">
+array[2, 3] of Decimal                 </td>
+   							<td>
+								<p>Array containing the empties totals</p>
+
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								QuantityFieldNo
+   							</td>
+   							<td class="font-style-italic">
+Integer                 </td>
+   							<td>
+								<p>Quantity to add</p>
+
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								UnitPriceOrCostFieldNo
+   							</td>
+   							<td class="font-style-italic">
+Integer                 </td>
+   							<td>
+								<p>No. of the field of the unit price/cost</p>
+
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">FormatValueForEmpties</h3>
+   <div class="memberInfo">
+
+   		<div class="summaryHolder">
+   			<div class="summary">
+				<p>Return a text formatted decimal according to a specified formatting structure</p>
+
+   			</div>
+   		</div>
+
+   		<pre><code dir="ltr" class="hljs lang-al">procedure FormatValueForEmpties(DecimalValue: Decimal, FormattingStructure: Text[500], BlankZero: Boolean, Currency: Text): Text</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								DecimalValue
+   							</td>
+   							<td class="font-style-italic">
+Decimal                 </td>
+   							<td>
+								<p>Decimal to format</p>
+
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								FormattingStructure
+   							</td>
+   							<td class="font-style-italic">
+Text[500]                 </td>
+   							<td>
+								<p>Format string to use</p>
+
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								BlankZero
+   							</td>
+   							<td class="font-style-italic">
+Boolean                 </td>
+   							<td>
+								<p>Indicates if zero's should be displayed as an empty text</p>
+
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								Currency
+   							</td>
+   							<td class="font-style-italic">
+Text                 </td>
+   							<td>
+								<p>Currency value to display</p>
+
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+   			<h4>Returns</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   					<tr>
+   						<td>
+Text               </td>
+   						<td>
+							<p>A text formatted decimal</p>
+
+   						</td>
+   					</tr>
+   				</tbody>
+   			</table>
+
+
+   </div>
+   <h3 class="memberNameHolder">CalculateLinkedEmptiesQuantity</h3>
+   <div class="memberInfo">
+
+   		<div class="summaryHolder">
+   			<div class="summary">
+				<p>Calculate the linked empties quantity for a source record</p>
+
+   			</div>
+   		</div>
+
+   		<pre><code dir="ltr" class="hljs lang-al">procedure CalculateLinkedEmptiesQuantity(RecordVariant: Variant, var EmptiesQuantity: Decimal, var EmptiesTotal: Decimal)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								RecordVariant
+   							</td>
+   							<td class="font-style-italic">
+Variant                 </td>
+   							<td>
+								<p>Source record to calculate the linked quantities for</p>
+
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								EmptiesQuantity
+   							</td>
+   							<td class="font-style-italic">
+Decimal                 </td>
+   							<td>
+								<p>Calculated linked empties quantity</p>
+
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								EmptiesTotal
+   							</td>
+   							<td class="font-style-italic">
+Decimal                 </td>
+   							<td>
+								<p>Calculated linked empties total</p>
+
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">GetPopupComments</h3>
+   <div class="memberInfo">
+
+   		<div class="summaryHolder">
+   			<div class="summary">
+				<p>Retrieve the popup comments for a document of document line</p>
+
+   			</div>
+   		</div>
+
+   		<pre><code dir="ltr" class="hljs lang-al">procedure GetPopupComments(RecordVariant: Variant, DocumentOrLineVariant: Variant, var PopUpComments: List of [Text], LinkFieldNo: Integer)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								RecordVariant
+   							</td>
+   							<td class="font-style-italic">
+Variant                 </td>
+   							<td>
+								<p>No. of the source table where the popup comments should be checked</p>
+
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								DocumentOrLineVariant
+   							</td>
+   							<td class="font-style-italic">
+Variant                 </td>
+   							<td>
+								<p>Document or document line to retrieve the popup comments for</p>
+
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								PopUpComments
+   							</td>
+   							<td class="font-style-italic">
+List of [Text]                 </td>
+   							<td>
+								<p>Retrieved popup comments</p>
+
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								LinkFieldNo
+   							</td>
+   							<td class="font-style-italic">
+Integer                 </td>
+   							<td>
+								<p>Field no. of the document/document line where the link for the popup comment is stored</p>
+
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">GetExciseFields</h3>
+   <div class="memberInfo">
+
+   		<div class="summaryHolder">
+   			<div class="summary">
+				<p>Fill the ExciseFieldsFieldInfo param with field info from the Excise Module</p>
+
+   			</div>
+   		</div>
+
+   		<pre><code dir="ltr" class="hljs lang-al">procedure GetExciseFields(SourceVariant: Variant, var ExciseFieldsFieldInfo: Codeunit &quot;ESCA Field Info&quot;)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								SourceVariant
+   							</td>
+   							<td class="font-style-italic">
+Variant                 </td>
+   							<td>
+								<p>Record to which fields of the Excise Module are linked</p>
+
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								ExciseFieldsFieldInfo
+   							</td>
+   							<td class="font-style-italic">
+<a class="xref" href="ESCA-Field-Info.html">&quot;ESCA Field Info&quot;</a>                 </td>
+   							<td>
+								<p>ESCR Field Info codeunit containing the requested field info</p>
+
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">GetSelectedBarcodeFont</h3>
+   <div class="memberInfo">
+
+   		<div class="summaryHolder">
+   			<div class="summary">
+				<p>Calculates the barcode font name for a selected Barcode Symbology</p>
+
+   			</div>
+   		</div>
+
+   		<pre><code dir="ltr" class="hljs lang-al">procedure GetSelectedBarcodeFont(var SelectedBarcodeFont: Text, BarcodeFont: Enum &quot;Barcode Symbology&quot;, TextBelowBarcode: Boolean)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								SelectedBarcodeFont
+   							</td>
+   							<td class="font-style-italic">
+Text                 </td>
+   							<td>
+								<p>Calculated barcode font name</p>
+
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								BarcodeFont
+   							</td>
+   							<td class="font-style-italic">
+&quot;Barcode Symbology&quot;                 </td>
+   							<td>
+								<p>Barcode Symbology to calculate the font name for</p>
+
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								TextBelowBarcode
+   							</td>
+   							<td class="font-style-italic">
+Boolean                 </td>
+   							<td>
+								<p>Indicates if the text below the barcode should be printed or not</p>
+
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">SetReportLayoutSetup</h3>
+   <div class="memberInfo">
+
+   		<div class="summaryHolder">
+   			<div class="summary">
+				<p>Sets the report layout setup record used by the following procedures:</p>
+<ul>
+<li>AddItemWeightText</li>
+<li>CalculatePaymentDiscount</li>
+<li>DefineLogoSource</li>
+</ul>
+
+   			</div>
+   		</div>
+
+   		<pre><code dir="ltr" class="hljs lang-al">procedure SetReportLayoutSetup(var NewReportLayoutSetup: Record &quot;ESCA Report Layout Setup&quot;)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								NewReportLayoutSetup
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;ESCA Report Layout Setup&quot;                 </td>
+   							<td>
+								<p>The report layout setup record to set</p>
+
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+   <h3 class="memberNameHolder">CreateVATClauseTable</h3>
+   <div class="memberInfo">
+    	<div class="CAUTION alert alert-danger alert-is-danger">
+    		<h5 class="alert-title">Obsolete</h5>
+    			<p>This element will become obsolete from version 20.0. Removed and replaced by GetVATClauseTexts (supporting extended texts) in Dynavision Layouts</p>
+    	</div>
+
+   		<div class="summaryHolder">
+   			<div class="summary">
+				<p>Generates a vat clause table based on vat amount lines</p>
+
+   			</div>
+   		</div>
+
+   		<pre><code dir="ltr" class="hljs lang-al">[Obsolete(Removed and replaced by GetVATClauseTexts (supporting extended texts) in Dynavision Layouts,20.0)]
+procedure CreateVATClauseTable(var TempVatAmountLine: Record &quot;VAT Amount Line&quot; temporary, var TempVATClause: Record &quot;VAT Clause&quot; temporary, RecordVariant: Variant)</code></pre>
+
+   			<h4>Parameters</h4>
+   			<table class="table">
+   				<thead>
+   					<tr>
+   						<th>Name</th>
+   						<th>Type</th>
+   						<th>Description</th>
+   					</tr>
+   				</thead>
+   				<tbody>
+   						<tr>
+   							<td>
+								TempVatAmountLine
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;VAT Amount Line&quot; temporary                 </td>
+   							<td>
+								<p>Vat amount lines to use</p>
+
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								TempVATClause
+   							</td>
+   							<td class="font-style-italic">
+Record &quot;VAT Clause&quot; temporary                 </td>
+   							<td>
+								<p>Generated vat clause table</p>
+
+   							</td>
+   						</tr>
+   						<tr>
+   							<td>
+								RecordVariant
+   							</td>
+   							<td class="font-style-italic">
+Variant                 </td>
+   							<td>
+								<p>Source record to retrieve the vat clause description for</p>
+
+   							</td>
+   						</tr>
+   				</tbody>
+   			</table>
+
+
+
+   </div>
+
+  	<h2 id="see-also">See also</h2>
+  	<ul>
+  			<li><p><a href="https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-codeunit-object">Codeunit</a></p>
+</li>
+  	</ul>
+</article>
+
+        <div class="contribution d-print-none">
+        </div>
+
+        
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+
+    <footer class="border-top">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          Made with <a href="https://go.microsoft.com/fwlink/?linkid=2247728">ALDoc</a> and <a href="https://dotnet.github.io/docfx">DocFx</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

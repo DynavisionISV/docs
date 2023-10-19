@@ -1,0 +1,20 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"ESCA D365 TEAM MEMBER"'
+alId: ID 71096577
+baseKind: PermissionSet
+kind: PermissionSetExtension
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+extends:
+  name: '"D365 TEAM MEMBER"'
+  isExternal: true
+seeAlso:
+- '[Permission Set Extension](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-permissionset-ext-object)'
+objectProperties:
+- name: IncludedPermissionSets
+  value: '"ESCA Core, View"'
+  promoted: false
+commentId: O:PermissionSetExtension::ESCA D365 TEAM MEMBER
+uid: O:PermissionSetExtension::ESCA_D365_TEAM_MEMBER
+name: '"ESCA D365 TEAM MEMBER"'

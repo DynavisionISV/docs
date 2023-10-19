@@ -1,0 +1,17 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"ESCA Application Data Mgt"'
+alId: ID 71096649
+baseKind: Codeunit
+kind: Codeunit
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Codeunit](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-codeunit-object)'
+objectProperties:
+- name: Access
+  value: Public
+  promoted: false
+commentId: O:Codeunit::ESCA Application Data Mgt
+uid: O:Codeunit::ESCA_Application_Data_Mgt
+name: '"ESCA Application Data Mgt"'

@@ -1,0 +1,22 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: ESCAInvtReceiptLine
+alId: ID 71096602
+baseKind: Table
+kind: TableExtension
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+extends:
+  name: '"Invt. Receipt Line"'
+  isExternal: true
+seeAlso:
+- '[Table Extension](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-table-ext-object)'
+fields:
+- type:
+    name: '"ESCA Item Type"'
+    isExternal: true
+  uid: F:TableExtension::ESCAInvtReceiptLine.ESCA_Item_Type
+  name: '"ESCA Item Type"'
+commentId: O:TableExtension::ESCAInvtReceiptLine
+uid: O:TableExtension::ESCAInvtReceiptLine
+name: ESCAInvtReceiptLine

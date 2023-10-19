@@ -1,0 +1,131 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"ESCA FTP Request"'
+alId: ID 71096591
+baseKind: Table
+kind: Table
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Table](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-table-object)'
+objectProperties:
+- name: Access
+  value: Public
+  promoted: false
+- name: Caption
+  value: FTP Request
+  promoted: false
+- name: DataClassification
+  value: SystemMetadata
+  promoted: false
+- name: DrillDownPageId
+  value: ESCA FTP Requests
+  promoted: false
+  xrefType:
+    xref: O:Page::ESCA_FTP_Requests
+    name: '"ESCA FTP Requests"'
+    isExternal: false
+- name: LookupPageId
+  value: ESCA FTP Requests
+  promoted: false
+  xrefType:
+    xref: O:Page::ESCA_FTP_Requests
+    name: '"ESCA FTP Requests"'
+    isExternal: false
+fields:
+- type:
+    name: Integer
+    isExternal: true
+  uid: F:Table::ESCA_FTP_Request.Entry_No.
+  name: '"Entry No."'
+- type:
+    name: Code[20]
+    isExternal: true
+  uid: F:Table::ESCA_FTP_Request.FTP_Code[20]
+  name: '"FTP Code"'
+- type:
+    name: DateTime
+    isExternal: true
+  uid: F:Table::ESCA_FTP_Request.Request_Sent
+  name: '"Request Sent"'
+- type:
+    name: DateTime
+    isExternal: true
+  uid: F:Table::ESCA_FTP_Request.Reply_Received
+  name: '"Reply Received"'
+- type:
+    name: Text[2048]
+    isExternal: true
+  uid: F:Table::ESCA_FTP_Request.Error_Message[2048]
+  name: '"Error Message"'
+- type:
+    xref: O:Enum::ESCA_Request_Status
+    name: '"ESCA Request Status"'
+    isExternal: false
+  uid: F:Table::ESCA_FTP_Request.Status
+  name: Status
+- type:
+    xref: O:Enum::ESCA_FTP_Request_Type
+    name: '"ESCA FTP Request Type"'
+    isExternal: false
+  uid: F:Table::ESCA_FTP_Request.FTP_Request_Type
+  name: '"FTP Request Type"'
+- type:
+    xref: O:Enum::ESCA_FTP_Type
+    name: '"ESCA FTP Type"'
+    isExternal: false
+  uid: F:Table::ESCA_FTP_Request.FTP_Type
+  name: '"FTP Type"'
+- type:
+    name: Text[2048]
+    isExternal: true
+  uid: F:Table::ESCA_FTP_Request.From_File_Path[2048]
+  name: '"From File Path"'
+- type:
+    name: Text[2048]
+    isExternal: true
+  uid: F:Table::ESCA_FTP_Request.To_File_Path[2048]
+  name: '"To File Path"'
+- type:
+    name: Text[250]
+    isExternal: true
+  uid: F:Table::ESCA_FTP_Request.FTP_Path[250]
+  name: '"FTP Path"'
+- type:
+    name: Text[100]
+    isExternal: true
+  uid: F:Table::ESCA_FTP_Request.File_Filter[100]
+  name: '"File Filter"'
+- type:
+    name: Guid
+    isExternal: true
+  uid: F:Table::ESCA_FTP_Request.SystemId
+  name: SystemId
+- type:
+    name: DateTime
+    isExternal: true
+  uid: F:Table::ESCA_FTP_Request.SystemCreatedAt
+  name: SystemCreatedAt
+- type:
+    name: Guid
+    isExternal: true
+  uid: F:Table::ESCA_FTP_Request.SystemCreatedBy
+  name: SystemCreatedBy
+- type:
+    name: DateTime
+    isExternal: true
+  uid: F:Table::ESCA_FTP_Request.SystemModifiedAt
+  name: SystemModifiedAt
+- type:
+    name: Guid
+    isExternal: true
+  uid: F:Table::ESCA_FTP_Request.SystemModifiedBy
+  name: SystemModifiedBy
+- type:
+    name: BigInteger
+    isExternal: true
+  uid: F:Table::ESCA_FTP_Request.SystemRowVersion
+  name: SystemRowVersion
+commentId: O:Table::ESCA FTP Request
+uid: O:Table::ESCA_FTP_Request
+name: '"ESCA FTP Request"'

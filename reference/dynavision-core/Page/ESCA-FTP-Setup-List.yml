@@ -1,0 +1,40 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"ESCA FTP Setup List"'
+alId: ID 71096605
+baseKind: Page
+kind: Page
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+sourceTableType:
+  xref: O:Table::ESCA_FTP_Setup
+  name: '"ESCA FTP Setup"'
+  isExternal: false
+seeAlso:
+- '[Page](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-object)'
+objectProperties:
+- name: AdditionalSearchTerms
+  value: FTP Code
+  promoted: false
+- name: ApplicationArea
+  value: '#All'
+  promoted: false
+- name: Caption
+  value: FTP Setup
+  promoted: false
+- name: PageType
+  value: List
+  promoted: true
+- name: SourceTable
+  value: "71096590"
+  promoted: true
+  xrefType:
+    xref: O:Table::ESCA_FTP_Setup
+    name: '"ESCA FTP Setup"'
+    isExternal: false
+- name: UsageCategory
+  value: Lists
+  promoted: false
+commentId: O:Page::ESCA FTP Setup List
+uid: O:Page::ESCA_FTP_Setup_List
+name: '"ESCA FTP Setup List"'

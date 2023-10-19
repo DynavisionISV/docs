@@ -1,0 +1,35 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"ESCA Advanced Field Filters"'
+alId: ID 71096666
+baseKind: Page
+kind: Page
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+sourceTableType:
+  name: '"ESCA Advanced Field Filter"'
+  isExternal: true
+seeAlso:
+- '[Page](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-object)'
+objectProperties:
+- name: ApplicationArea
+  value: '#All'
+  promoted: false
+- name: Caption
+  value: Advanced Field Filters
+  promoted: false
+- name: PageType
+  value: List
+  promoted: true
+- name: PopulateAllFields
+  value: "True"
+  promoted: false
+- name: SourceTable
+  value: "71096635"
+  promoted: true
+- name: UsageCategory
+  value: None
+  promoted: false
+commentId: O:Page::ESCA Advanced Field Filters
+uid: O:Page::ESCA_Advanced_Field_Filters
+name: '"ESCA Advanced Field Filters"'

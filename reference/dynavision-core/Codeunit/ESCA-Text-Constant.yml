@@ -1,0 +1,39 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"ESCA Text Constant"'
+alId: ID 71096640
+baseKind: Codeunit
+kind: Codeunit
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Codeunit](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-codeunit-object)'
+objectProperties:
+- name: Access
+  value: Public
+  promoted: false
+methods:
+- syntax:
+    content: 'procedure ReturnTextConstant(ConstantCode: Code[20], LanguageCode: Code[10]): Text'
+    parameters:
+    - id: ConstantCode
+      description: Code[20].
+      parameterType:
+        name: Code[20]
+        isExternal: true
+    - id: LanguageCode
+      description: Code[10].
+      parameterType:
+        name: Code[10]
+        isExternal: true
+    return:
+      description: Text
+      returnType:
+        name: Text
+        isExternal: true
+  summary: Return the Label of a TextConstant for a specific Language; if the TextConstant doesn't exist the hardcoded value will be taken
+  uid: M:Codeunit::ESCA_Text_Constant.ReturnTextConstant(Code[20],Code[10]):Text
+  name: ReturnTextConstant
+commentId: O:Codeunit::ESCA Text Constant
+uid: O:Codeunit::ESCA_Text_Constant
+name: '"ESCA Text Constant"'

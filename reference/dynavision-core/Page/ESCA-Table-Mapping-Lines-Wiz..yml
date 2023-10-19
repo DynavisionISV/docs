@@ -1,0 +1,59 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"ESCA Table Mapping Lines Wiz."'
+alId: ID 71096591
+baseKind: Page
+kind: Page
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+sourceTableType:
+  xref: O:Table::ESCA_Table_Mapping_Line
+  name: '"ESCA Table Mapping Line"'
+  isExternal: false
+seeAlso:
+- '[Page](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-object)'
+objectProperties:
+- name: ApplicationArea
+  value: '#All'
+  promoted: false
+- name: Caption
+  value: " "
+  promoted: false
+- name: Description
+  value: _TableMapping
+  promoted: false
+- name: ObsoleteReason
+  value: No longer used by Promotions app
+  promoted: false
+- name: ObsoleteState
+  value: Pending
+  promoted: false
+- name: ObsoleteTag
+  value: 20.0.5
+  promoted: false
+- name: PageType
+  value: ListPart
+  promoted: true
+- name: SourceTable
+  value: "71096585"
+  promoted: true
+  xrefType:
+    xref: O:Table::ESCA_Table_Mapping_Line
+    name: '"ESCA Table Mapping Line"'
+    isExternal: false
+- name: SourceTableTemporary
+  value: "True"
+  promoted: false
+- name: SourceTableView
+  value: sorting("Step No.")
+  promoted: false
+- name: UsageCategory
+  value: None
+  promoted: false
+commentId: O:Page::ESCA Table Mapping Lines Wiz#
+uid: O:Page::ESCA_Table_Mapping_Lines_Wiz#
+name: '"ESCA Table Mapping Lines Wiz."'
+obsoletion:
+  state: pending
+  reason: No longer used by Promotions app
+  version: 20.0.5

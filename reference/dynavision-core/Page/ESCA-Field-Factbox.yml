@@ -1,0 +1,44 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"ESCA Field Factbox"'
+alId: ID 71096593
+baseKind: Page
+kind: Page
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+sourceTableType:
+  name: Field
+  isExternal: true
+seeAlso:
+- '[Page](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-object)'
+objectProperties:
+- name: ApplicationArea
+  value: '#All'
+  promoted: false
+- name: Caption
+  value: Field Factbox
+  promoted: false
+- name: DeleteAllowed
+  value: "False"
+  promoted: false
+- name: Editable
+  value: "False"
+  promoted: false
+- name: InsertAllowed
+  value: "False"
+  promoted: false
+- name: ModifyAllowed
+  value: "False"
+  promoted: false
+- name: PageType
+  value: ListPart
+  promoted: true
+- name: SourceTable
+  value: "2000000041"
+  promoted: true
+  xrefType:
+    name: Field
+    isExternal: true
+commentId: O:Page::ESCA Field Factbox
+uid: O:Page::ESCA_Field_Factbox
+name: '"ESCA Field Factbox"'

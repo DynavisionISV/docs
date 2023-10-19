@@ -1,0 +1,23 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"ESCA Move FTP File"'
+alId: ID 71096628
+baseKind: Page
+kind: Page
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Page](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-object)'
+objectProperties:
+- name: ApplicationArea
+  value: '#All'
+  promoted: false
+- name: Caption
+  value: Move FTP File
+  promoted: false
+- name: PageType
+  value: StandardDialog
+  promoted: true
+commentId: O:Page::ESCA Move FTP File
+uid: O:Page::ESCA_Move_FTP_File
+name: '"ESCA Move FTP File"'

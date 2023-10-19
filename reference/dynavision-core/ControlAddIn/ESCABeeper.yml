@@ -1,0 +1,12 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: ESCABeeper
+baseKind: ControlAddIn
+kind: ControlAddIn
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[ControlAddIn](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-control-addin-object)'
+commentId: O:ESCABeeper
+uid: O:ESCABeeper
+name: ESCABeeper

@@ -1,0 +1,38 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"ESCA Run Object"'
+alId: ID 71096607
+baseKind: Page
+kind: Page
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+sourceTableType:
+  name: '"ESCA Run Object"'
+  isExternal: true
+seeAlso:
+- '[Page](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-object)'
+objectProperties:
+- name: AdditionalSearchTerms
+  value: Session,Metadata,Table,Page,Codeunit,AllObj,Field
+  promoted: false
+- name: ApplicationArea
+  value: '#All'
+  promoted: false
+- name: Caption
+  value: Run Object
+  promoted: false
+- name: PageType
+  value: List
+  promoted: true
+- name: SourceTable
+  value: "71096592"
+  promoted: true
+- name: SourceTableView
+  value: sorting(Group)
+  promoted: false
+- name: UsageCategory
+  value: Tasks
+  promoted: false
+commentId: O:Page::ESCA Run Object
+uid: O:Page::ESCA_Run_Object
+name: '"ESCA Run Object"'

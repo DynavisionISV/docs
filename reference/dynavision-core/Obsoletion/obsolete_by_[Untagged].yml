@@ -1,0 +1,11 @@
+﻿### YamlMime:BusinessCentralObsoletionList
+uid: N:Module::Dynavision_Core_obsolete_by_[Untagged]
+tag: '[Untagged]'
+groups:
+- uid: N:Module::Dynavision_Core_obsolete_by_[Untagged]#
+  groupName: ""
+  symbols:
+  - kind: Table
+    xref: O:Table::ESCA_Dynavision_Setup
+    name: Table 71096587 "ESCA Dynavision Setup"
+    reason: Replaced by a new company-wide 'Module Registration Setup' table

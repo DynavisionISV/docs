@@ -1,0 +1,40 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"ESCA Field Value Lookup"'
+alId: ID 71096598
+baseKind: Page
+kind: Page
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+sourceTableType:
+  xref: O:Table::ESCA_Field_Value
+  name: '"ESCA Field Value"'
+  isExternal: false
+seeAlso:
+- '[Page](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-object)'
+objectProperties:
+- name: ApplicationArea
+  value: '#All'
+  promoted: false
+- name: Caption
+  value: Choose Field Value
+  promoted: false
+- name: PageType
+  value: List
+  promoted: true
+- name: SourceTable
+  value: "71096580"
+  promoted: true
+  xrefType:
+    xref: O:Table::ESCA_Field_Value
+    name: '"ESCA Field Value"'
+    isExternal: false
+- name: SourceTableTemporary
+  value: "True"
+  promoted: false
+- name: UsageCategory
+  value: None
+  promoted: false
+commentId: O:Page::ESCA Field Value Lookup
+uid: O:Page::ESCA_Field_Value_Lookup
+name: '"ESCA Field Value Lookup"'

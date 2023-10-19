@@ -1,0 +1,88 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"ESCA Text Constant"'
+alId: ID 71096593
+baseKind: Table
+kind: Table
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Table](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-table-object)'
+objectProperties:
+- name: Access
+  value: Public
+  promoted: false
+- name: Caption
+  value: Text Constant
+  promoted: false
+- name: DrillDownPageId
+  value: ESCA Text Constant List
+  promoted: false
+  xrefType:
+    xref: O:Page::ESCA_Text_Constant_List
+    name: '"ESCA Text Constant List"'
+    isExternal: false
+- name: LookupPageId
+  value: ESCA Text Constant List
+  promoted: false
+  xrefType:
+    xref: O:Page::ESCA_Text_Constant_List
+    name: '"ESCA Text Constant List"'
+    isExternal: false
+- name: DataClassification
+  value: SystemMetadata
+  promoted: false
+fields:
+- type:
+    name: Code[20]
+    isExternal: true
+  uid: F:Table::ESCA_Text_Constant.Code[20]
+  name: Code
+- type:
+    name: Text[120]
+    isExternal: true
+  uid: F:Table::ESCA_Text_Constant.Description[120]
+  name: Description
+- type:
+    name: Integer
+    isExternal: true
+  uid: F:Table::ESCA_Text_Constant.Table_No.
+  name: '"Table No."'
+- type:
+    name: Integer
+    isExternal: true
+  uid: F:Table::ESCA_Text_Constant.Field_No.
+  name: '"Field No."'
+- type:
+    name: Guid
+    isExternal: true
+  uid: F:Table::ESCA_Text_Constant.SystemId
+  name: SystemId
+- type:
+    name: DateTime
+    isExternal: true
+  uid: F:Table::ESCA_Text_Constant.SystemCreatedAt
+  name: SystemCreatedAt
+- type:
+    name: Guid
+    isExternal: true
+  uid: F:Table::ESCA_Text_Constant.SystemCreatedBy
+  name: SystemCreatedBy
+- type:
+    name: DateTime
+    isExternal: true
+  uid: F:Table::ESCA_Text_Constant.SystemModifiedAt
+  name: SystemModifiedAt
+- type:
+    name: Guid
+    isExternal: true
+  uid: F:Table::ESCA_Text_Constant.SystemModifiedBy
+  name: SystemModifiedBy
+- type:
+    name: BigInteger
+    isExternal: true
+  uid: F:Table::ESCA_Text_Constant.SystemRowVersion
+  name: SystemRowVersion
+commentId: O:Table::ESCA Text Constant
+uid: O:Table::ESCA_Text_Constant
+name: '"ESCA Text Constant"'

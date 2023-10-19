@@ -1,0 +1,20 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"ESCA Advanced Units Link"'
+alId: ID 71096625
+baseKind: Codeunit
+kind: Codeunit
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Codeunit](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-codeunit-object)'
+objectProperties:
+- name: Access
+  value: Public
+  promoted: false
+- name: SingleInstance
+  value: "True"
+  promoted: false
+commentId: O:Codeunit::ESCA Advanced Units Link
+uid: O:Codeunit::ESCA_Advanced_Units_Link
+name: '"ESCA Advanced Units Link"'

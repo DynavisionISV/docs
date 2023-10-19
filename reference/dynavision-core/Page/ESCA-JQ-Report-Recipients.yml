@@ -1,0 +1,35 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"ESCA JQ Report Recipients"'
+alId: ID 71096671
+baseKind: Page
+kind: Page
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+sourceTableType:
+  name: '"ESCA JQ Report Recipient"'
+  isExternal: true
+seeAlso:
+- '[Page](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-object)'
+objectProperties:
+- name: ApplicationArea
+  value: '#All'
+  promoted: false
+- name: Caption
+  value: Job Queue Report Recipients
+  promoted: false
+- name: DelayedInsert
+  value: "True"
+  promoted: false
+- name: PageType
+  value: ListPart
+  promoted: true
+- name: SourceTable
+  value: "71096637"
+  promoted: true
+- name: UsageCategory
+  value: None
+  promoted: false
+commentId: O:Page::ESCA JQ Report Recipients
+uid: O:Page::ESCA_JQ_Report_Recipients
+name: '"ESCA JQ Report Recipients"'

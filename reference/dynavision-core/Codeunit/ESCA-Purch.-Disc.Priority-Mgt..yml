@@ -1,0 +1,17 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"ESCA Purch. Disc.Priority Mgt."'
+alId: ID 71177458
+baseKind: Codeunit
+kind: Codeunit
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Codeunit](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-codeunit-object)'
+objectProperties:
+- name: Access
+  value: Public
+  promoted: false
+commentId: O:Codeunit::ESCA Purch# Disc#Priority Mgt#
+uid: O:Codeunit::ESCA_Purch#_Disc#Priority_Mgt#
+name: '"ESCA Purch. Disc.Priority Mgt."'

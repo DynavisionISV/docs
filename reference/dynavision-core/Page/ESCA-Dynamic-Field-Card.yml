@@ -1,0 +1,32 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"ESCA Dynamic Field Card"'
+alId: ID 71096667
+baseKind: Page
+kind: Page
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+sourceTableType:
+  name: '"ESCA Dynamic Field"'
+  isExternal: true
+seeAlso:
+- '[Page](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-object)'
+objectProperties:
+- name: ApplicationArea
+  value: '#All'
+  promoted: false
+- name: Caption
+  value: Dynamic Field
+  promoted: false
+- name: PageType
+  value: Card
+  promoted: true
+- name: SourceTable
+  value: "71096636"
+  promoted: true
+- name: UsageCategory
+  value: None
+  promoted: false
+commentId: O:Page::ESCA Dynamic Field Card
+uid: O:Page::ESCA_Dynamic_Field_Card
+name: '"ESCA Dynamic Field Card"'

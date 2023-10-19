@@ -1,0 +1,20 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"ESCA PrintNodeFunctions"'
+alId: ID 71096592
+baseKind: Codeunit
+kind: Codeunit
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Codeunit](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-codeunit-object)'
+objectProperties:
+- name: Access
+  value: Public
+  promoted: false
+implements:
+- name: '"ESCA IPrinter Provider"'
+  isExternal: true
+commentId: O:Codeunit::ESCA PrintNodeFunctions
+uid: O:Codeunit::ESCA_PrintNodeFunctions
+name: '"ESCA PrintNodeFunctions"'

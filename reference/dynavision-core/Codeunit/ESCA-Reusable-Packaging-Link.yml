@@ -1,0 +1,34 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"ESCA Reusable Packaging Link"'
+alId: ID 71096582
+baseKind: Codeunit
+kind: Codeunit
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Codeunit](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-codeunit-object)'
+objectProperties:
+- name: Access
+  value: Public
+  promoted: false
+methods:
+- syntax:
+    content: 'procedure AttachReusablePackagingToLine(var RecordRef: RecordRef): Boolean'
+    parameters:
+    - id: RecordRef
+      description: RecordRef of the normal line
+      parameterType:
+        name: RecordRef
+        isExternal: true
+    return:
+      description: Is the attachment successfully added
+      returnType:
+        name: Boolean
+        isExternal: true
+  summary: Attach Reusable Packaging to an existing line
+  uid: M:Codeunit::ESCA_Reusable_Packaging_Link.AttachReusablePackagingToLine(RecordRef@):Boolean
+  name: AttachReusablePackagingToLine
+commentId: O:Codeunit::ESCA Reusable Packaging Link
+uid: O:Codeunit::ESCA_Reusable_Packaging_Link
+name: '"ESCA Reusable Packaging Link"'

@@ -1,0 +1,38 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"ESCA Companies"'
+alId: ID 71096586
+baseKind: Page
+kind: Page
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+sourceTableType:
+  name: Company
+  isExternal: true
+seeAlso:
+- '[Page](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-object)'
+objectProperties:
+- name: ApplicationArea
+  value: '#All'
+  promoted: false
+- name: Caption
+  value: Companies
+  promoted: false
+- name: PageType
+  value: List
+  promoted: true
+- name: SourceTable
+  value: "2000000006"
+  promoted: true
+  xrefType:
+    name: Company
+    isExternal: true
+- name: SourceTableTemporary
+  value: "True"
+  promoted: false
+- name: UsageCategory
+  value: None
+  promoted: false
+commentId: O:Page::ESCA Companies
+uid: O:Page::ESCA_Companies
+name: '"ESCA Companies"'

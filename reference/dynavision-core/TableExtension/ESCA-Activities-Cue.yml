@@ -1,0 +1,27 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"ESCA Activities Cue"'
+alId: ID 71096616
+baseKind: Table
+kind: TableExtension
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+extends:
+  name: '"Activities Cue"'
+  isExternal: true
+seeAlso:
+- '[Table Extension](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-table-ext-object)'
+fields:
+- type:
+    name: Integer
+    isExternal: true
+  uid: F:TableExtension::ESCA_Activities_Cue.ESCA_Messages_in_Error
+  name: '"ESCA Messages in Error"'
+- type:
+    name: Integer
+    isExternal: true
+  uid: F:TableExtension::ESCA_Activities_Cue.ESCA_Messages_to_Process
+  name: '"ESCA Messages to Process"'
+commentId: O:TableExtension::ESCA Activities Cue
+uid: O:TableExtension::ESCA_Activities_Cue
+name: '"ESCA Activities Cue"'

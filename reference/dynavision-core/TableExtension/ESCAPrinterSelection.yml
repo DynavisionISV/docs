@@ -1,0 +1,22 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: ESCAPrinterSelection
+alId: ID 71096604
+baseKind: Table
+kind: TableExtension
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+extends:
+  name: '"Printer Selection"'
+  isExternal: true
+seeAlso:
+- '[Table Extension](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-table-ext-object)'
+fields:
+- type:
+    name: '"ESCA Printer Provider"'
+    isExternal: true
+  uid: F:TableExtension::ESCAPrinterSelection.ESCA_Printer_Provider
+  name: '"ESCA Printer Provider"'
+commentId: O:TableExtension::ESCAPrinterSelection
+uid: O:TableExtension::ESCAPrinterSelection
+name: ESCAPrinterSelection

@@ -1,0 +1,88 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"ESCA Text Block"'
+alId: ID 71096629
+baseKind: Table
+kind: Table
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Table](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-table-object)'
+objectProperties:
+- name: Access
+  value: Public
+  promoted: false
+- name: Caption
+  value: Text Block
+  promoted: false
+- name: DataClassification
+  value: CustomerContent
+  promoted: false
+- name: DrillDownPageId
+  value: ESCA Text Block List
+  promoted: false
+  xrefType:
+    xref: O:Page::ESCA_Text_Block_List
+    name: '"ESCA Text Block List"'
+    isExternal: false
+- name: LookupPageId
+  value: ESCA Text Block Card
+  promoted: false
+  xrefType:
+    xref: O:Page::ESCA_Text_Block_Card
+    name: '"ESCA Text Block Card"'
+    isExternal: false
+fields:
+- type:
+    name: Code[30]
+    isExternal: true
+  uid: F:Table::ESCA_Text_Block.Code[30]
+  name: Code
+- type:
+    name: Text[100]
+    isExternal: true
+  uid: F:Table::ESCA_Text_Block.Description[100]
+  name: Description
+- type:
+    name: Integer
+    isExternal: true
+  uid: F:Table::ESCA_Text_Block.Table_No.
+  name: '"Table No."'
+- type:
+    name: Integer
+    isExternal: true
+  uid: F:Table::ESCA_Text_Block.Lines
+  name: Lines
+- type:
+    name: Guid
+    isExternal: true
+  uid: F:Table::ESCA_Text_Block.SystemId
+  name: SystemId
+- type:
+    name: DateTime
+    isExternal: true
+  uid: F:Table::ESCA_Text_Block.SystemCreatedAt
+  name: SystemCreatedAt
+- type:
+    name: Guid
+    isExternal: true
+  uid: F:Table::ESCA_Text_Block.SystemCreatedBy
+  name: SystemCreatedBy
+- type:
+    name: DateTime
+    isExternal: true
+  uid: F:Table::ESCA_Text_Block.SystemModifiedAt
+  name: SystemModifiedAt
+- type:
+    name: Guid
+    isExternal: true
+  uid: F:Table::ESCA_Text_Block.SystemModifiedBy
+  name: SystemModifiedBy
+- type:
+    name: BigInteger
+    isExternal: true
+  uid: F:Table::ESCA_Text_Block.SystemRowVersion
+  name: SystemRowVersion
+commentId: O:Table::ESCA Text Block
+uid: O:Table::ESCA_Text_Block
+name: '"ESCA Text Block"'

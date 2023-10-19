@@ -1,0 +1,37 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"ESCA Text Const. Lang."'
+alId: ID 71096614
+baseKind: Page
+kind: Page
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+sourceTableType:
+  xref: O:Table::ESCA_Text_Constant_Data
+  name: '"ESCA Text Constant Data"'
+  isExternal: false
+seeAlso:
+- '[Page](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-object)'
+objectProperties:
+- name: ApplicationArea
+  value: '#All'
+  promoted: false
+- name: Caption
+  value: Languages
+  promoted: false
+- name: DelayedInsert
+  value: "True"
+  promoted: false
+- name: PageType
+  value: ListPart
+  promoted: true
+- name: SourceTable
+  value: "71096594"
+  promoted: true
+  xrefType:
+    xref: O:Table::ESCA_Text_Constant_Data
+    name: '"ESCA Text Constant Data"'
+    isExternal: false
+commentId: O:Page::ESCA Text Const# Lang#
+uid: O:Page::ESCA_Text_Const#_Lang#
+name: '"ESCA Text Const. Lang."'

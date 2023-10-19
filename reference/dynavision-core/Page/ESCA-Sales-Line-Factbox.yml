@@ -1,0 +1,23 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"ESCA Sales Line Factbox"'
+alId: ID 71096602
+baseKind: Page
+kind: Page
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Page](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-object)'
+objectProperties:
+- name: Caption
+  value: Simulated Price Info
+  promoted: false
+- name: Editable
+  value: "False"
+  promoted: false
+- name: PageType
+  value: CardPart
+  promoted: true
+commentId: O:Page::ESCA Sales Line Factbox
+uid: O:Page::ESCA_Sales_Line_Factbox
+name: '"ESCA Sales Line Factbox"'

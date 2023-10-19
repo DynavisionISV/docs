@@ -1,0 +1,41 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"ESCA Company Footer Picture"'
+alId: ID 71096609
+baseKind: Page
+kind: Page
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+sourceTableType:
+  name: '"Company Information"'
+  isExternal: true
+seeAlso:
+- '[Page](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-object)'
+objectProperties:
+- name: ApplicationArea
+  value: '#All'
+  promoted: false
+- name: Caption
+  value: Company Footer Picture
+  promoted: false
+- name: DeleteAllowed
+  value: "False"
+  promoted: false
+- name: InsertAllowed
+  value: "False"
+  promoted: false
+- name: PageType
+  value: CardPart
+  promoted: true
+- name: SourceTable
+  value: "79"
+  promoted: true
+  xrefType:
+    name: '"Company Information"'
+    isExternal: true
+- name: UsageCategory
+  value: None
+  promoted: false
+commentId: O:Page::ESCA Company Footer Picture
+uid: O:Page::ESCA_Company_Footer_Picture
+name: '"ESCA Company Footer Picture"'

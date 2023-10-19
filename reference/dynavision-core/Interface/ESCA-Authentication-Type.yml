@@ -1,0 +1,106 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"ESCA Authentication Type"'
+baseKind: Interface
+kind: Interface
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Interface](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-interfaces-in-al)'
+objectProperties:
+- name: Access
+  value: Public
+  promoted: false
+- name: Access
+  value: Public
+  promoted: false
+methods:
+- syntax:
+    content: 'procedure ApplyDefaultSettings(var AuthSetup: Record "ESCA Auth. Setup")'
+    parameters:
+    - id: AuthSetup
+      description: The Auth. Setup record to apply the default settings to
+      parameterType:
+        name: Record "ESCA Auth. Setup"
+        isExternal: true
+  summary: Applies a group of default settings when assigning an Authentication Type to a Auth. Setup record
+  uid: M:ESCA_Authentication_Type.ApplyDefaultSettings(ESCA_Auth._Setup@)
+  name: ApplyDefaultSettings
+- syntax:
+    content: 'procedure CheckSettings(AuthSetup: Record "ESCA Auth. Setup")'
+    parameters:
+    - id: AuthSetup
+      description: The Auth. Setup record to check required settings
+      parameterType:
+        name: Record "ESCA Auth. Setup"
+        isExternal: true
+  summary: >-
+    Allows to perform a set of checks on mandatory fields
+
+    These checks are performed when composing an API call or executing the 'Test Connection' action
+  uid: M:ESCA_Authentication_Type.CheckSettings(ESCA_Auth._Setup)
+  name: CheckSettings
+- syntax:
+    content: 'procedure IsTestConnectionAvailable(): Boolean'
+    return:
+      description: True if a test connection can be made
+      returnType:
+        name: Boolean
+        isExternal: true
+  summary: Indicates if the authentication type support the 'Test Connection' action
+  uid: M:ESCA_Authentication_Type.IsTestConnectionAvailable:Boolean
+  name: IsTestConnectionAvailable
+- syntax:
+    content: 'procedure TestConnection(var AuthSetup: Record "ESCA Auth. Setup"): Boolean'
+    parameters:
+    - id: AuthSetup
+      description: The Auth. Setup record to test the connection
+      parameterType:
+        name: Record "ESCA Auth. Setup"
+        isExternal: true
+    return:
+      description: True if the connection could be successfully made
+      returnType:
+        name: Boolean
+        isExternal: true
+  summary: >-
+    Test the connection.
+
+    E.g. Can be used to test if an access token can be acquired, ...
+  uid: M:ESCA_Authentication_Type.TestConnection(ESCA_Auth._Setup@):Boolean
+  name: TestConnection
+- syntax:
+    content: 'procedure GetAuthenticationString(var AuthSetup: Record "ESCA Auth. Setup"): Text'
+    parameters:
+    - id: AuthSetup
+      description: The Auth. Setup record to get the Authorization string for
+      parameterType:
+        name: Record "ESCA Auth. Setup"
+        isExternal: true
+    return:
+      description: The 'Authorization' string to include in the message request header
+      returnType:
+        name: Text
+        isExternal: true
+  summary: Returns a string to use in the 'Authorization' message request header
+  uid: M:ESCA_Authentication_Type.GetAuthenticationString(ESCA_Auth._Setup@):Text
+  name: GetAuthenticationString
+- syntax:
+    content: 'procedure IsInitializationNeeded(AuthSetup: Record "ESCA Auth. Setup"): Boolean'
+    parameters:
+    - id: AuthSetup
+      description: The Auth. Setup record
+      parameterType:
+        name: Record "ESCA Auth. Setup"
+        isExternal: true
+    return:
+      description: True if additional steps are required before the Auth. Setup is ready to use
+      returnType:
+        name: Boolean
+        isExternal: true
+  summary: Indicates if additional steps (e.g. grant consent, ...) are required before the Auth. Setup is ready to use.
+  uid: M:ESCA_Authentication_Type.IsInitializationNeeded(ESCA_Auth._Setup):Boolean
+  name: IsInitializationNeeded
+commentId: O:ESCA Authentication Type
+uid: O:ESCA_Authentication_Type
+name: '"ESCA Authentication Type"'

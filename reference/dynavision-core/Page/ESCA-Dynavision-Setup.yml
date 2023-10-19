@@ -1,0 +1,38 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"ESCA Dynavision Setup"'
+alId: ID 71096585
+baseKind: Page
+kind: Page
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+sourceTableType:
+  name: '"ESCA Module Registration Setup"'
+  isExternal: true
+seeAlso:
+- '[Page](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-object)'
+objectProperties:
+- name: AdditionalSearchTerms
+  value: Module Registration Setup,AppSis setup,App Registration,License,Activate Trial
+  promoted: false
+- name: ApplicationArea
+  value: '#All'
+  promoted: false
+- name: Caption
+  value: Dynavision Setup
+  promoted: false
+- name: PageType
+  value: Card
+  promoted: true
+- name: Permissions
+  value: tabledata "ESCA Module Registration Setup" = RI
+  promoted: false
+- name: SourceTable
+  value: "71096603"
+  promoted: true
+- name: UsageCategory
+  value: Administration
+  promoted: false
+commentId: O:Page::ESCA Dynavision Setup
+uid: O:Page::ESCA_Dynavision_Setup
+name: '"ESCA Dynavision Setup"'

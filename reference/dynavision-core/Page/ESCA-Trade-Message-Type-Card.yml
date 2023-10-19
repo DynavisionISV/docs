@@ -1,0 +1,46 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"ESCA Trade Message Type Card"'
+alId: ID 71096637
+baseKind: Page
+kind: Page
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+sourceTableType:
+  xref: O:Table::ESCA_Trade_Message_Type
+  name: '"ESCA Trade Message Type"'
+  isExternal: false
+seeAlso:
+- '[Page](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-object)'
+objectProperties:
+- name: ApplicationArea
+  value: '#All'
+  promoted: false
+- name: Caption
+  value: Trade Message Type
+  promoted: false
+- name: DataCaptionFields
+  value: "1"
+  promoted: false
+- name: DeleteAllowed
+  value: "False"
+  promoted: false
+- name: InsertAllowed
+  value: "False"
+  promoted: false
+- name: PageType
+  value: Card
+  promoted: true
+- name: SourceTable
+  value: "71096615"
+  promoted: true
+  xrefType:
+    xref: O:Table::ESCA_Trade_Message_Type
+    name: '"ESCA Trade Message Type"'
+    isExternal: false
+- name: UsageCategory
+  value: None
+  promoted: false
+commentId: O:Page::ESCA Trade Message Type Card
+uid: O:Page::ESCA_Trade_Message_Type_Card
+name: '"ESCA Trade Message Type Card"'

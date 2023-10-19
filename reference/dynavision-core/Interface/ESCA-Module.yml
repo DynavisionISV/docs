@@ -1,0 +1,40 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"ESCA Module"'
+baseKind: Interface
+kind: Interface
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Interface](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-interfaces-in-al)'
+objectProperties:
+- name: Access
+  value: Public
+  promoted: false
+- name: Access
+  value: Public
+  promoted: false
+methods:
+- syntax:
+    content: 'procedure GetAppTypeId(): Guid'
+    return:
+      description: The app id
+      returnType:
+        name: Guid
+        isExternal: true
+  summary: Returns the Id of the app registering the module
+  uid: M:ESCA_Module.GetAppTypeId:Guid
+  name: GetAppTypeId
+- syntax:
+    content: 'procedure GetAppName(): Text[50]'
+    return:
+      description: The app name
+      returnType:
+        name: Text[50]
+        isExternal: true
+  summary: Returns the Name of the app registering the module
+  uid: M:ESCA_Module.GetAppName:Text[50]
+  name: GetAppName
+commentId: O:ESCA Module
+uid: O:ESCA_Module
+name: '"ESCA Module"'

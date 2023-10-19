@@ -1,0 +1,30 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"ESCA License Validator"'
+baseKind: Interface
+kind: Interface
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Interface](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-interfaces-in-al)'
+objectProperties:
+- name: Access
+  value: Public
+  promoted: false
+- name: Access
+  value: Public
+  promoted: false
+methods:
+- syntax:
+    content: 'procedure GetLicenseValidatorEndpoint(): Text'
+    return:
+      description: The url of the license validator service endpoint
+      returnType:
+        name: Text
+        isExternal: true
+  summary: Returns the license validator service endpoint that is used to perform license checks
+  uid: M:ESCA_License_Validator.GetLicenseValidatorEndpoint:Text
+  name: GetLicenseValidatorEndpoint
+commentId: O:ESCA License Validator
+uid: O:ESCA_License_Validator
+name: '"ESCA License Validator"'

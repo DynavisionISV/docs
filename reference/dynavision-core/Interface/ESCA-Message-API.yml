@@ -1,0 +1,33 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"ESCA Message API"'
+baseKind: Interface
+kind: Interface
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Interface](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-interfaces-in-al)'
+objectProperties:
+- name: Access
+  value: Public
+  promoted: false
+- name: Access
+  value: Public
+  promoted: false
+methods:
+- syntax:
+    content: 'procedure SupportsMessageAPI(): Boolean'
+    return:
+      description: True if the message api is supported
+      returnType:
+        name: Boolean
+        isExternal: true
+  summary: >-
+    Indicates if the message api is supported
+
+    If supported, a json body will be composed in the format supported by the message api
+  uid: M:ESCA_Message_API.SupportsMessageAPI:Boolean
+  name: SupportsMessageAPI
+commentId: O:ESCA Message API
+uid: O:ESCA_Message_API
+name: '"ESCA Message API"'

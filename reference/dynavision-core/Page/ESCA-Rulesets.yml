@@ -1,0 +1,46 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"ESCA Rulesets"'
+alId: ID 71096652
+baseKind: Page
+kind: Page
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+sourceTableType:
+  xref: O:Table::ESCA_Ruleset
+  name: '"ESCA Ruleset"'
+  isExternal: false
+seeAlso:
+- '[Page](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-object)'
+objectProperties:
+- name: AdditionalSearchTerms
+  value: Rules,mandatory fields,check fields,required fields
+  promoted: false
+- name: ApplicationArea
+  value: '#All'
+  promoted: false
+- name: Caption
+  value: Rulesets
+  promoted: false
+- name: DelayedInsert
+  value: "True"
+  promoted: false
+- name: PageType
+  value: List
+  promoted: true
+- name: PopulateAllFields
+  value: "True"
+  promoted: false
+- name: SourceTable
+  value: "71096625"
+  promoted: true
+  xrefType:
+    xref: O:Table::ESCA_Ruleset
+    name: '"ESCA Ruleset"'
+    isExternal: false
+- name: UsageCategory
+  value: Administration
+  promoted: false
+commentId: O:Page::ESCA Rulesets
+uid: O:Page::ESCA_Rulesets
+name: '"ESCA Rulesets"'

@@ -1,0 +1,109 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"ESCA Module Permission"'
+alId: ID 71096602
+baseKind: Codeunit
+kind: Codeunit
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Codeunit](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-codeunit-object)'
+objectProperties:
+- name: Access
+  value: Public
+  promoted: false
+- name: Permissions
+  value: tabledata "ESCA Module Registration Setup" = RI
+  promoted: false
+- name: SingleInstance
+  value: "True"
+  promoted: false
+methods:
+- syntax:
+    content: 'procedure TestModuleActive(Module: Enum "ESCA Module"): Boolean'
+    parameters:
+    - id: Module
+      description: The Module enum
+      parameterType:
+        xref: O:Enum::ESCA_Module
+        name: '"ESCA Module"'
+        isExternal: false
+    return:
+      description: True if active
+      returnType:
+        name: Boolean
+        isExternal: true
+  summary: >-
+    Returns whether a module is active or not
+
+    Use to skip business logic, hide actions, set fields non-editable, ... for features of non-active modules
+  uid: M:Codeunit::ESCA_Module_Permission.TestModuleActive(Enum::ESCA_Module):Boolean
+  name: TestModuleActive
+- syntax:
+    content: 'procedure TestModuleActiveWithError(Module: Enum "ESCA Module"): Boolean'
+    parameters:
+    - id: Module
+      description: The Module enum
+      parameterType:
+        xref: O:Enum::ESCA_Module
+        name: '"ESCA Module"'
+        isExternal: false
+    return:
+      description: True if active
+      returnType:
+        name: Boolean
+        isExternal: true
+  summary: >-
+    Returns whether a module is active and raises an error if inactive
+
+    Use to show an error and prevent running business logic, calling actions, ... for features of non-active modules
+  uid: M:Codeunit::ESCA_Module_Permission.TestModuleActiveWithError(Enum::ESCA_Module):Boolean
+  name: TestModuleActiveWithError
+- syntax:
+    content: 'procedure TestModuleActiveWithNotification(Module: Enum "ESCA Module"): Boolean'
+    parameters:
+    - id: Module
+      description: The Module enum
+      parameterType:
+        xref: O:Enum::ESCA_Module
+        name: '"ESCA Module"'
+        isExternal: false
+    return:
+      description: True if active
+      returnType:
+        name: Boolean
+        isExternal: true
+  summary: >-
+    Returns whether a module is active and show a notification if inactive
+
+    Use to show a notification and inform users when opening custom product pages, ... for features of non-active modules
+  uid: M:Codeunit::ESCA_Module_Permission.TestModuleActiveWithNotification(Enum::ESCA_Module):Boolean
+  name: TestModuleActiveWithNotification
+- syntax:
+    content: 'procedure TestModuleActiveWithNotification(Module: Enum "ESCA Module", CheckUser: Boolean): Boolean'
+    parameters:
+    - id: Module
+      description: The Module enum
+      parameterType:
+        xref: O:Enum::ESCA_Module
+        name: '"ESCA Module"'
+        isExternal: false
+    - id: CheckUser
+      description: Indicates to check if the user is part of the module's User Group
+      parameterType:
+        name: Boolean
+        isExternal: true
+    return:
+      description: True if active
+      returnType:
+        name: Boolean
+        isExternal: true
+  summary: >-
+    Returns whether a module is active and show a notification if inactive
+
+    Use to show a notification and inform users when opening custom product pages, ... for features of non-active modules
+  uid: M:Codeunit::ESCA_Module_Permission.TestModuleActiveWithNotification(Enum::ESCA_Module,Boolean):Boolean
+  name: TestModuleActiveWithNotification
+commentId: O:Codeunit::ESCA Module Permission
+uid: O:Codeunit::ESCA_Module_Permission
+name: '"ESCA Module Permission"'

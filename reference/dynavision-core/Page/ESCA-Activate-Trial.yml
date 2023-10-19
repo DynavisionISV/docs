@@ -1,0 +1,47 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"ESCA Activate Trial"'
+alId: ID 71096620
+baseKind: Page
+kind: Page
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+sourceTableType:
+  name: '"ESCA Module Registration Setup"'
+  isExternal: true
+seeAlso:
+- '[Page](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-object)'
+objectProperties:
+- name: ApplicationArea
+  value: '#All'
+  promoted: false
+- name: Caption
+  value: Activate Trial
+  promoted: false
+- name: DeleteAllowed
+  value: "False"
+  promoted: false
+- name: InsertAllowed
+  value: "False"
+  promoted: false
+- name: LinksAllowed
+  value: "False"
+  promoted: false
+- name: PageType
+  value: StandardDialog
+  promoted: true
+- name: Permissions
+  value: tabledata "ESCA Module Registration Setup" = RIM
+  promoted: false
+- name: ShowFilter
+  value: "False"
+  promoted: false
+- name: SourceTable
+  value: "71096603"
+  promoted: true
+- name: UsageCategory
+  value: None
+  promoted: false
+commentId: O:Page::ESCA Activate Trial
+uid: O:Page::ESCA_Activate_Trial
+name: '"ESCA Activate Trial"'

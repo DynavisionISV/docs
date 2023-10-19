@@ -1,0 +1,346 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"ESCA XML Dom Management"'
+alId: ID 71096595
+baseKind: Codeunit
+kind: Codeunit
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Codeunit](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-codeunit-object)'
+objectProperties:
+- name: Access
+  value: Public
+  promoted: false
+methods:
+- syntax:
+    content: 'procedure AddElementText(var XmlNode: XmlNode, NodeName: Text, NodeText: Text)'
+    parameters:
+    - id: XmlNode
+      description: An instance of the XmlNode data type
+      parameterType:
+        name: XmlNode
+        isExternal: true
+    - id: NodeName
+      description: The name of the new XmlNode
+      parameterType:
+        name: Text
+        isExternal: true
+    - id: NodeText
+      description: The value of the new XmlNode
+      parameterType:
+        name: Text
+        isExternal: true
+  summary: Adds a new XmlNode to the current XmlNode
+  uid: M:Codeunit::ESCA_XML_Dom_Management.AddElementText(XmlNode@,Text,Text)
+  name: AddElementText
+- syntax:
+    content: 'procedure AddElement(var XmlNode: XmlNode, NodeName: Text, Value: Variant)'
+    parameters:
+    - id: XmlNode
+      description: An instance of the XmlNode data type
+      parameterType:
+        name: XmlNode
+        isExternal: true
+    - id: NodeName
+      description: The name of the new XmlNode
+      parameterType:
+        name: Text
+        isExternal: true
+    - id: Value
+      description: The value of the new XmlNode
+      parameterType:
+        name: Variant
+        isExternal: true
+  summary: Adds a new XmlNode to the current XmlNode
+  uid: M:Codeunit::ESCA_XML_Dom_Management.AddElement(XmlNode@,Text,Variant)
+  name: AddElement
+- syntax:
+    content: 'procedure AddElementOptional(var XmlNode: XmlNode, NodeName: Text, Value: Variant)'
+    parameters:
+    - id: XmlNode
+      description: An instance of the XmlNode data type
+      parameterType:
+        name: XmlNode
+        isExternal: true
+    - id: NodeName
+      description: The name of the new XmlNode
+      parameterType:
+        name: Text
+        isExternal: true
+    - id: Value
+      description: The value of the new XmlNode
+      parameterType:
+        name: Variant
+        isExternal: true
+  summary: Adds an optional XmlNode to the current XmlNode. If the value is empty, the node will not be added.
+  uid: M:Codeunit::ESCA_XML_Dom_Management.AddElementOptional(XmlNode@,Text,Variant)
+  name: AddElementOptional
+- syntax:
+    content: 'procedure AddElement(var XmlNode: XmlNode, NodeName: Text, NodeText: Text, NameSpace: Text, var CreatedNode: XmlNode): Boolean'
+    parameters:
+    - id: XmlNode
+      description: An instance of the XmlNode data type
+      parameterType:
+        name: XmlNode
+        isExternal: true
+    - id: NodeName
+      description: The name of the new XmlNode
+      parameterType:
+        name: Text
+        isExternal: true
+    - id: NodeText
+      description: The text of the new XmlNode
+      parameterType:
+        name: Text
+        isExternal: true
+    - id: NameSpace
+      description: The namespace for the new XmlNode
+      parameterType:
+        name: Text
+        isExternal: true
+    - id: CreatedNode
+      description: The created XmlNode
+      parameterType:
+        name: XmlNode
+        isExternal: true
+    return:
+      description: True if the XmlNode was successfully created
+      returnType:
+        name: Boolean
+        isExternal: true
+  summary: Adds a new XmlNode to the current XmlNode
+  uid: M:Codeunit::ESCA_XML_Dom_Management.AddElement(XmlNode@,Text,Text,Text,XmlNode@):Boolean
+  name: AddElement
+- syntax:
+    content: 'procedure AddRootElement(var XmlDocument: XmlDocument, NodeName: Text, var CreatedNode: XmlNode): Boolean'
+    parameters:
+    - id: XmlDocument
+      description: An instance of the XmlDocument data type
+      parameterType:
+        name: XmlDocument
+        isExternal: true
+    - id: NodeName
+      description: The name of the new XmlNode
+      parameterType:
+        name: Text
+        isExternal: true
+    - id: CreatedNode
+      description: The created XmlNode
+      parameterType:
+        name: XmlNode
+        isExternal: true
+    return:
+      description: True if the XmlNode was successfully created
+      returnType:
+        name: Boolean
+        isExternal: true
+  summary: Adds a new XmlNode to the current XmlNode
+  uid: M:Codeunit::ESCA_XML_Dom_Management.AddRootElement(XmlDocument@,Text,XmlNode@):Boolean
+  name: AddRootElement
+- syntax:
+    content: 'procedure FindNode(XMLNode: XmlNode, NodePath: Text): Boolean'
+    parameters:
+    - id: XMLNode
+      description: An instance of the XmlNode data type
+      parameterType:
+        name: XmlNode
+        isExternal: true
+    - id: NodePath
+      description: The XPath expression.
+      parameterType:
+        name: Text
+        isExternal: true
+    return:
+      description: True if a XmlNode was found matching the XPath expression.
+      returnType:
+        name: Boolean
+        isExternal: true
+  summary: Returns if a XmlNode was found matching the XPath expression.
+  uid: M:Codeunit::ESCA_XML_Dom_Management.FindNode(XmlNode,Text):Boolean
+  name: FindNode
+- syntax:
+    content: 'procedure GetNodeText(XMLNode: XmlNode, NodePath: Text): Text'
+    parameters:
+    - id: XMLNode
+      description: An instance of the XmlNode data type
+      parameterType:
+        name: XmlNode
+        isExternal: true
+    - id: NodePath
+      description: The XPath expression.
+      parameterType:
+        name: Text
+        isExternal: true
+    return:
+      description: The InnerText of the XmlNode matching the XPath expression
+      returnType:
+        name: Text
+        isExternal: true
+  summary: Returns the InnerText of the XmlNode matching the XPath expression.
+  uid: M:Codeunit::ESCA_XML_Dom_Management.GetNodeText(XmlNode,Text):Text
+  name: GetNodeText
+- syntax:
+    content: 'procedure GetNodeText(XMLNode: XmlNode, NodePath: Text, MaxLength: Integer): Text'
+    parameters:
+    - id: XMLNode
+      description: An instance of the XmlNode data type
+      parameterType:
+        name: XmlNode
+        isExternal: true
+    - id: NodePath
+      description: The XPath expression.
+      parameterType:
+        name: Text
+        isExternal: true
+    - id: MaxLength
+      description: The maximum length to truncate the InnerText result
+      parameterType:
+        name: Integer
+        isExternal: true
+    return:
+      description: The truncated InnerText of the XmlNode matching the XPath expression
+      returnType:
+        name: Text
+        isExternal: true
+  summary: Returns the InnerText of the XmlNode matching the XPath expression.
+  uid: M:Codeunit::ESCA_XML_Dom_Management.GetNodeText(XmlNode,Text,Integer):Text
+  name: GetNodeText
+- syntax:
+    content: 'procedure GetNodeBoolean(XMLNode: XmlNode, NodePath: Text): Boolean'
+    parameters:
+    - id: XMLNode
+      description: An instance of the XmlNode data type
+      parameterType:
+        name: XmlNode
+        isExternal: true
+    - id: NodePath
+      description: The XPath expression.
+      parameterType:
+        name: Text
+        isExternal: true
+    return:
+      description: The InnerText as boolean of the XmlNode matching the XPath expression
+      returnType:
+        name: Boolean
+        isExternal: true
+  summary: Returns the InnerText as boolean of the XmlNode matching the XPath expression.
+  uid: M:Codeunit::ESCA_XML_Dom_Management.GetNodeBoolean(XmlNode,Text):Boolean
+  name: GetNodeBoolean
+- syntax:
+    content: 'procedure GetNodeInteger(XMLNode: XmlNode, NodePath: Text): Integer'
+    parameters:
+    - id: XMLNode
+      description: An instance of the XmlNode data type
+      parameterType:
+        name: XmlNode
+        isExternal: true
+    - id: NodePath
+      description: The XPath expression.
+      parameterType:
+        name: Text
+        isExternal: true
+    return:
+      description: The InnerText as decimal of the XmlNode matching the XPath expression
+      returnType:
+        name: Integer
+        isExternal: true
+  summary: Returns the InnerText as integer of the XmlNode matching the XPath expression.
+  uid: M:Codeunit::ESCA_XML_Dom_Management.GetNodeInteger(XmlNode,Text):Integer
+  name: GetNodeInteger
+- syntax:
+    content: 'procedure GetNodeDecimal(XMLNode: XmlNode, NodePath: Text): Decimal'
+    parameters:
+    - id: XMLNode
+      description: An instance of the XmlNode data type
+      parameterType:
+        name: XmlNode
+        isExternal: true
+    - id: NodePath
+      description: The XPath expression.
+      parameterType:
+        name: Text
+        isExternal: true
+    return:
+      description: The InnerText as decimal of the XmlNode matching the XPath expression
+      returnType:
+        name: Decimal
+        isExternal: true
+  summary: Returns the InnerText as decimal of the XmlNode matching the XPath expression.
+  uid: M:Codeunit::ESCA_XML_Dom_Management.GetNodeDecimal(XmlNode,Text):Decimal
+  name: GetNodeDecimal
+- syntax:
+    content: 'procedure GetNodeDate(XMLRootNode: XmlNode, NodePath: Text): Date'
+    parameters:
+    - id: XMLRootNode
+      parameterType:
+        name: XmlNode
+        isExternal: true
+    - id: NodePath
+      description: The XPath expression.
+      parameterType:
+        name: Text
+        isExternal: true
+    return:
+      description: The InnerText as date of the XmlNode matching the XPath expression
+      returnType:
+        name: Date
+        isExternal: true
+  summary: Returns the InnerText as date of the XmlNode matching the XPath expression.
+  uid: M:Codeunit::ESCA_XML_Dom_Management.GetNodeDate(XmlNode,Text):Date
+  name: GetNodeDate
+- syntax:
+    content: 'procedure FindNodes(XmlNode: XmlNode, NodePath: Text, var XmlNodeList: XmlNodeList): Boolean'
+    parameters:
+    - id: XmlNode
+      description: An instance of the XmlNode data type
+      parameterType:
+        name: XmlNode
+        isExternal: true
+    - id: NodePath
+      description: The XPath expression.
+      parameterType:
+        name: Text
+        isExternal: true
+    - id: XmlNodeList
+      description: A list of nodes matching the XPath expression.
+      parameterType:
+        name: XmlNodeList
+        isExternal: true
+    return:
+      description: True if the nodes matching the XPath expression have been found
+      returnType:
+        name: Boolean
+        isExternal: true
+  summary: Selects a list of nodes matching the XPath expression.
+  uid: M:Codeunit::ESCA_XML_Dom_Management.FindNodes(XmlNode,Text,XmlNodeList@):Boolean
+  name: FindNodes
+- syntax:
+    content: 'procedure AddDeclaration(var XmlDocument: XmlDocument, Version: Text, Encoding: Text, Standalone: Text)'
+    parameters:
+    - id: XmlDocument
+      description: '>An instance of the XmlDocument data type'
+      parameterType:
+        name: XmlDocument
+        isExternal: true
+    - id: Version
+      description: The version of the XML, usually "1.0".
+      parameterType:
+        name: Text
+        isExternal: true
+    - id: Encoding
+      description: The encoding for the XML document.
+      parameterType:
+        name: Text
+        isExternal: true
+    - id: Standalone
+      description: A string containing "yes" or "no" that specifies whether the XML is standalone or requires external entities to be resolved.
+      parameterType:
+        name: Text
+        isExternal: true
+  summary: Sets the XML declaration for this document.
+  uid: M:Codeunit::ESCA_XML_Dom_Management.AddDeclaration(XmlDocument@,Text,Text,Text)
+  name: AddDeclaration
+commentId: O:Codeunit::ESCA XML Dom Management
+uid: O:Codeunit::ESCA_XML_Dom_Management
+name: '"ESCA XML Dom Management"'

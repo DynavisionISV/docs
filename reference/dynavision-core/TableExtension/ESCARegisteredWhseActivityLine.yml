@@ -1,0 +1,22 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: ESCARegisteredWhseActivityLine
+alId: ID 71096593
+baseKind: Table
+kind: TableExtension
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+extends:
+  name: '"Registered Whse. Activity Line"'
+  isExternal: true
+seeAlso:
+- '[Table Extension](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-table-ext-object)'
+fields:
+- type:
+    name: '"ESCA Item Type"'
+    isExternal: true
+  uid: F:TableExtension::ESCARegisteredWhseActivityLine.ESCA_Item_Type
+  name: '"ESCA Item Type"'
+commentId: O:TableExtension::ESCARegisteredWhseActivityLine
+uid: O:TableExtension::ESCARegisteredWhseActivityLine
+name: ESCARegisteredWhseActivityLine

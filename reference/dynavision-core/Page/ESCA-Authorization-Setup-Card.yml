@@ -1,0 +1,50 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"ESCA Authorization Setup Card"'
+alId: ID 71096582
+baseKind: Page
+kind: Page
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+sourceTableType:
+  xref: O:Table::ESCA_Authorization_Setup
+  name: '"ESCA Authorization Setup"'
+  isExternal: false
+seeAlso:
+- '[Page](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-object)'
+objectProperties:
+- name: ApplicationArea
+  value: '#All'
+  promoted: false
+- name: Caption
+  value: Authorization Setup Card
+  promoted: false
+- name: ObsoleteReason
+  value: Replaced by new authorization setup framework
+  promoted: false
+- name: ObsoleteState
+  value: Pending
+  promoted: false
+- name: ObsoleteTag
+  value: "21.0"
+  promoted: false
+- name: PageType
+  value: Card
+  promoted: true
+- name: SourceTable
+  value: "71096581"
+  promoted: true
+  xrefType:
+    xref: O:Table::ESCA_Authorization_Setup
+    name: '"ESCA Authorization Setup"'
+    isExternal: false
+- name: UsageCategory
+  value: None
+  promoted: false
+commentId: O:Page::ESCA Authorization Setup Card
+uid: O:Page::ESCA_Authorization_Setup_Card
+name: '"ESCA Authorization Setup Card"'
+obsoletion:
+  state: pending
+  reason: Replaced by new authorization setup framework
+  version: "21.0"

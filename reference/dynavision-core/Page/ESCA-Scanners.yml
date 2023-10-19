@@ -1,0 +1,37 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"ESCA Scanners"'
+alId: ID 71096597
+baseKind: Page
+kind: Page
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+sourceTableType:
+  xref: O:Table::ESCA_Scanner
+  name: '"ESCA Scanner"'
+  isExternal: false
+seeAlso:
+- '[Page](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-object)'
+objectProperties:
+- name: ApplicationArea
+  value: '#All'
+  promoted: false
+- name: Caption
+  value: Scanners
+  promoted: false
+- name: PageType
+  value: List
+  promoted: true
+- name: SourceTable
+  value: "71096579"
+  promoted: true
+  xrefType:
+    xref: O:Table::ESCA_Scanner
+    name: '"ESCA Scanner"'
+    isExternal: false
+- name: UsageCategory
+  value: Tasks
+  promoted: false
+commentId: O:Page::ESCA Scanners
+uid: O:Page::ESCA_Scanners
+name: '"ESCA Scanners"'

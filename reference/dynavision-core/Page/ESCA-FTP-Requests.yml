@@ -1,0 +1,43 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"ESCA FTP Requests"'
+alId: ID 71096603
+baseKind: Page
+kind: Page
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+sourceTableType:
+  xref: O:Table::ESCA_FTP_Request
+  name: '"ESCA FTP Request"'
+  isExternal: false
+seeAlso:
+- '[Page](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-object)'
+objectProperties:
+- name: ApplicationArea
+  value: '#All'
+  promoted: false
+- name: Caption
+  value: FTP Requests
+  promoted: false
+- name: PageType
+  value: List
+  promoted: true
+- name: SourceTable
+  value: "71096591"
+  promoted: true
+  xrefType:
+    xref: O:Table::ESCA_FTP_Request
+    name: '"ESCA FTP Request"'
+    isExternal: false
+- name: SourceTableView
+  value: sorting("Entry No.") order(descending)
+  promoted: false
+- name: UsageCategory
+  value: Lists
+  promoted: false
+- name: InsertAllowed
+  value: "False"
+  promoted: false
+commentId: O:Page::ESCA FTP Requests
+uid: O:Page::ESCA_FTP_Requests
+name: '"ESCA FTP Requests"'

@@ -1,0 +1,32 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"ESCA Item"'
+alId: ID 71096575
+baseKind: Table
+kind: TableExtension
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+extends:
+  name: Item
+  isExternal: true
+seeAlso:
+- '[Table Extension](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-table-ext-object)'
+fields:
+- type:
+    name: '"ESCA Item Type"'
+    isExternal: true
+  uid: F:TableExtension::ESCA_Item.ESCA_Item_Type
+  name: '"ESCA Item Type"'
+- type:
+    name: Integer
+    isExternal: true
+  uid: F:TableExtension::ESCA_Item.ESCA_Units_Of_Measure
+  name: '"ESCA Units Of Measure"'
+- type:
+    name: Boolean
+    isExternal: true
+  uid: F:TableExtension::ESCA_Item.ESCA_No_Payment_Discount
+  name: '"ESCA No Payment Discount"'
+commentId: O:TableExtension::ESCA Item
+uid: O:TableExtension::ESCA_Item
+name: '"ESCA Item"'

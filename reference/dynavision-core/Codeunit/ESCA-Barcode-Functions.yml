@@ -1,0 +1,202 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"ESCA Barcode Functions"'
+alId: ID 71177152
+baseKind: Codeunit
+kind: Codeunit
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Codeunit](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-codeunit-object)'
+objectProperties:
+- name: Access
+  value: Public
+  promoted: false
+methods:
+- syntax:
+    content: 'procedure GetEncodedBarcode(InputText: Text, ReportLayoutSetup: Record "ESCA Report Layout Setup", var TempBlob: Codeunit "Temp Blob")'
+    parameters:
+    - id: InputText
+      description: The text to encode
+      parameterType:
+        name: Text
+        isExternal: true
+    - id: ReportLayoutSetup
+      description: The report layout setup record containing the barcode symbology
+      parameterType:
+        name: Record "ESCA Report Layout Setup"
+        isExternal: true
+    - id: TempBlob
+      description: A TempBlob containing the encoded barcode in base64 / PDF format
+      parameterType:
+        name: '"Temp Blob"'
+        isExternal: true
+  summary: Encodes an input text into a barcode as specified in the report layout setup.
+  uid: M:Codeunit::ESCA_Barcode_Functions.GetEncodedBarcode(Text,ESCA_Report_Layout_Setup,Codeunit::Temp_Blob@)
+  name: GetEncodedBarcode
+- syntax:
+    content: 'procedure GetEncoded1DBarcode(InputText: Text, BarcodeSymbology: Enum "Barcode Symbology", HumanReadable: Boolean, var TempBlob: Codeunit "Temp Blob")'
+    parameters:
+    - id: InputText
+      description: The text to encode
+      parameterType:
+        name: Text
+        isExternal: true
+    - id: BarcodeSymbology
+      description: The barcode symbology
+      parameterType:
+        name: '"Barcode Symbology"'
+        isExternal: true
+    - id: HumanReadable
+      description: Use the human readable version of the barcode font, if supported
+      parameterType:
+        name: Boolean
+        isExternal: true
+    - id: TempBlob
+      description: A TempBlob containing the encoded barcode in base64 / PDF format
+      parameterType:
+        name: '"Temp Blob"'
+        isExternal: true
+  summary: Encodes an input text into a 1D barcode
+  uid: M:Codeunit::ESCA_Barcode_Functions.GetEncoded1DBarcode(Text,Enum::Barcode_Symbology,Boolean,Codeunit::Temp_Blob@)
+  name: GetEncoded1DBarcode
+- syntax:
+    content: 'procedure GetEncoded2DBarcode(InputText: Text, BarcodeSymbology: Enum "Barcode Symbology 2D", var TempBlob: Codeunit "Temp Blob")'
+    parameters:
+    - id: InputText
+      description: The text to encode
+      parameterType:
+        name: Text
+        isExternal: true
+    - id: BarcodeSymbology
+      description: The barcode symbology
+      parameterType:
+        name: '"Barcode Symbology 2D"'
+        isExternal: true
+    - id: TempBlob
+      description: '>A TempBlob containing the encoded barcode in base64 / PDF format'
+      parameterType:
+        name: '"Temp Blob"'
+        isExternal: true
+  summary: Encodes an input text into a 2D barcode
+  uid: M:Codeunit::ESCA_Barcode_Functions.GetEncoded2DBarcode(Text,Enum::Barcode_Symbology_2D,Codeunit::Temp_Blob@)
+  name: GetEncoded2DBarcode
+- syntax:
+    content: 'procedure GetEncodedBarcode(InputText: Text, ReportLayoutSetup: Record "ESCA Report Layout Setup"): Text'
+    parameters:
+    - id: InputText
+      description: The text to encode
+      parameterType:
+        name: Text
+        isExternal: true
+    - id: ReportLayoutSetup
+      description: The report layout setup record containing the barcode symbology
+      parameterType:
+        name: Record "ESCA Report Layout Setup"
+        isExternal: true
+    return:
+      description: The encoded barcode
+      returnType:
+        name: Text
+        isExternal: true
+  summary: Encodes an input text into a barcode as specified in the report layout setup.
+  uid: M:Codeunit::ESCA_Barcode_Functions.GetEncodedBarcode(Text,ESCA_Report_Layout_Setup):Text
+  name: GetEncodedBarcode
+- syntax:
+    content: 'procedure Get1DEncodedBarcode(InputText: Text, BarcodeSymbology: Enum "Barcode Symbology"): Text'
+    parameters:
+    - id: InputText
+      description: The text to encode
+      parameterType:
+        name: Text
+        isExternal: true
+    - id: BarcodeSymbology
+      description: The barcode symbology
+      parameterType:
+        name: '"Barcode Symbology"'
+        isExternal: true
+    return:
+      description: The encoded barcode
+      returnType:
+        name: Text
+        isExternal: true
+  summary: Encodes an input text into a 1D barcode
+  uid: M:Codeunit::ESCA_Barcode_Functions.Get1DEncodedBarcode(Text,Enum::Barcode_Symbology):Text
+  name: Get1DEncodedBarcode
+- syntax:
+    content: 'procedure Get2DEncodedBarcode(InputText: Text, BarcodeSymbology2D: Enum "Barcode Symbology 2D"): Text'
+    parameters:
+    - id: InputText
+      description: The text to encode
+      parameterType:
+        name: Text
+        isExternal: true
+    - id: BarcodeSymbology2D
+      description: The barcode symbology
+      parameterType:
+        name: '"Barcode Symbology 2D"'
+        isExternal: true
+    return:
+      description: The encoded barcode
+      returnType:
+        name: Text
+        isExternal: true
+  summary: Encodes an input text into a 2D barcode
+  uid: M:Codeunit::ESCA_Barcode_Functions.Get2DEncodedBarcode(Text,Enum::Barcode_Symbology_2D):Text
+  name: Get2DEncodedBarcode
+- syntax:
+    content: 'procedure GetBarcodeFont(ReportLayoutSetup: Record "ESCA Report Layout Setup"): Text'
+    parameters:
+    - id: ReportLayoutSetup
+      description: The report layout setup record containing the barcode symbology
+      parameterType:
+        name: Record "ESCA Report Layout Setup"
+        isExternal: true
+    return:
+      description: The default barcode font for the barcode symbology
+      returnType:
+        name: Text
+        isExternal: true
+  summary: Returns the default barcode font for the barcode symbology specified in the report layout setup.
+  uid: M:Codeunit::ESCA_Barcode_Functions.GetBarcodeFont(ESCA_Report_Layout_Setup):Text
+  name: GetBarcodeFont
+- syntax:
+    content: 'procedure Get1DBarcodeFont(BarcodeSymbology: Enum "Barcode Symbology", HumanReadable: Boolean): Text'
+    parameters:
+    - id: BarcodeSymbology
+      description: The barcode symbology
+      parameterType:
+        name: '"Barcode Symbology"'
+        isExternal: true
+    - id: HumanReadable
+      description: Use the human readable version of the barcode font, if supported
+      parameterType:
+        name: Boolean
+        isExternal: true
+    return:
+      description: The default barcode font for the barcode symbology
+      returnType:
+        name: Text
+        isExternal: true
+  summary: Returns the default barcode font for a 1D barcode symbology
+  uid: M:Codeunit::ESCA_Barcode_Functions.Get1DBarcodeFont(Enum::Barcode_Symbology,Boolean):Text
+  name: Get1DBarcodeFont
+- syntax:
+    content: 'procedure Get2DBarcodeFont(BarcodeSymbology2D: Enum "Barcode Symbology 2D"): Text'
+    parameters:
+    - id: BarcodeSymbology2D
+      description: The barcode symbology
+      parameterType:
+        name: '"Barcode Symbology 2D"'
+        isExternal: true
+    return:
+      description: The default barcode font for the barcode symbology
+      returnType:
+        name: Text
+        isExternal: true
+  summary: Returns the default barcode font for a 2D barcode symbology
+  uid: M:Codeunit::ESCA_Barcode_Functions.Get2DBarcodeFont(Enum::Barcode_Symbology_2D):Text
+  name: Get2DBarcodeFont
+commentId: O:Codeunit::ESCA Barcode Functions
+uid: O:Codeunit::ESCA_Barcode_Functions
+name: '"ESCA Barcode Functions"'

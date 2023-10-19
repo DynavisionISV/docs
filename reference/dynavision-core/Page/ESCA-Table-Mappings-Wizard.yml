@@ -1,0 +1,56 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"ESCA Table Mappings Wizard"'
+alId: ID 71096590
+baseKind: Page
+kind: Page
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+sourceTableType:
+  xref: O:Table::ESCA_Table_Mapping
+  name: '"ESCA Table Mapping"'
+  isExternal: false
+seeAlso:
+- '[Page](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-object)'
+objectProperties:
+- name: ApplicationArea
+  value: '#All'
+  promoted: false
+- name: Caption
+  value: " "
+  promoted: false
+- name: Description
+  value: _TableMapping
+  promoted: false
+- name: ObsoleteReason
+  value: No longer used by Promotions app
+  promoted: false
+- name: ObsoleteState
+  value: Pending
+  promoted: false
+- name: ObsoleteTag
+  value: 20.0.5
+  promoted: false
+- name: PageType
+  value: ListPart
+  promoted: true
+- name: SourceTable
+  value: "71096584"
+  promoted: true
+  xrefType:
+    xref: O:Table::ESCA_Table_Mapping
+    name: '"ESCA Table Mapping"'
+    isExternal: false
+- name: SourceTableTemporary
+  value: "True"
+  promoted: false
+- name: UsageCategory
+  value: None
+  promoted: false
+commentId: O:Page::ESCA Table Mappings Wizard
+uid: O:Page::ESCA_Table_Mappings_Wizard
+name: '"ESCA Table Mappings Wizard"'
+obsoletion:
+  state: pending
+  reason: No longer used by Promotions app
+  version: 20.0.5

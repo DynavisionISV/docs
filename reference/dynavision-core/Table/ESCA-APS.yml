@@ -1,0 +1,75 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"ESCA APS"'
+alId: ID 71096607
+baseKind: Table
+kind: Table
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Table](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-table-object)'
+objectProperties:
+- name: Access
+  value: Public
+  promoted: false
+- name: Caption
+  value: Attribute Printing Set
+  promoted: false
+- name: DrillDownPageId
+  value: ESCA APS List
+  promoted: false
+  xrefType:
+    xref: O:Page::ESCA_APS_List
+    name: '"ESCA APS List"'
+    isExternal: false
+- name: LookupPageId
+  value: ESCA APS List
+  promoted: false
+  xrefType:
+    xref: O:Page::ESCA_APS_List
+    name: '"ESCA APS List"'
+    isExternal: false
+fields:
+- type:
+    name: Code[20]
+    isExternal: true
+  uid: F:Table::ESCA_APS.Code[20]
+  name: Code
+- type:
+    name: Text[50]
+    isExternal: true
+  uid: F:Table::ESCA_APS.Description[50]
+  name: Description
+- type:
+    name: Guid
+    isExternal: true
+  uid: F:Table::ESCA_APS.SystemId
+  name: SystemId
+- type:
+    name: DateTime
+    isExternal: true
+  uid: F:Table::ESCA_APS.SystemCreatedAt
+  name: SystemCreatedAt
+- type:
+    name: Guid
+    isExternal: true
+  uid: F:Table::ESCA_APS.SystemCreatedBy
+  name: SystemCreatedBy
+- type:
+    name: DateTime
+    isExternal: true
+  uid: F:Table::ESCA_APS.SystemModifiedAt
+  name: SystemModifiedAt
+- type:
+    name: Guid
+    isExternal: true
+  uid: F:Table::ESCA_APS.SystemModifiedBy
+  name: SystemModifiedBy
+- type:
+    name: BigInteger
+    isExternal: true
+  uid: F:Table::ESCA_APS.SystemRowVersion
+  name: SystemRowVersion
+commentId: O:Table::ESCA APS
+uid: O:Table::ESCA_APS
+name: '"ESCA APS"'

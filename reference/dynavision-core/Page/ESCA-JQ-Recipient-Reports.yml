@@ -1,0 +1,44 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"ESCA JQ Recipient Reports"'
+alId: ID 71096674
+baseKind: Page
+kind: Page
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+sourceTableType:
+  name: '"Job Queue Entry"'
+  isExternal: true
+seeAlso:
+- '[Page](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-object)'
+objectProperties:
+- name: ApplicationArea
+  value: '#All'
+  promoted: false
+- name: Caption
+  value: Job Queue Reports
+  promoted: false
+- name: DeleteAllowed
+  value: "False"
+  promoted: false
+- name: InsertAllowed
+  value: "False"
+  promoted: false
+- name: PageType
+  value: List
+  promoted: true
+- name: SourceTable
+  value: "472"
+  promoted: true
+  xrefType:
+    name: '"Job Queue Entry"'
+    isExternal: true
+- name: SourceTableView
+  value: where("Recurring Job" = const(true), "Object Type to Run" = const(Report), "Report Output Type" = filter(<> "None (Processing only)" & <> Print))
+  promoted: false
+- name: UsageCategory
+  value: None
+  promoted: false
+commentId: O:Page::ESCA JQ Recipient Reports
+uid: O:Page::ESCA_JQ_Recipient_Reports
+name: '"ESCA JQ Recipient Reports"'

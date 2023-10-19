@@ -1,0 +1,47 @@
+﻿### YamlMime:BusinessCentralObsoletionList
+uid: N:Module::Dynavision_Core_obsolete_by_21.0
+tag: "21.0"
+groups:
+- uid: N:Module::Dynavision_Core_obsolete_by_21.0#21.0
+  groupName: "21.0"
+  symbols:
+  - kind: Field
+    xref: F:Table::ESCA_Report_Layout_Setup.Print_Discount_%
+    name: '"Print Discount %": Boolean'
+    reason: Replaced by Print Discount Type
+  - kind: Table
+    xref: O:Table::ESCA_Authorization_Setup
+    name: Table 71096581 "ESCA Authorization Setup"
+    reason: Replaced by new authorization setup framework
+  - kind: Field
+    xref: F:TableExtension::ESCAReturnReceiptLine.ESCA_Excl._From_Paym._Discount
+    name: '"ESCA Excl. From Paym. Discount": Boolean'
+    reason: Replaced by ESCA No Payment Discount
+  - kind: Field
+    xref: F:TableExtension::ESCASalesCrMemoLine.ESCA_Excl._From_Paym._Discount
+    name: '"ESCA Excl. From Paym. Discount": Boolean'
+    reason: Replaced by ESCA No Payment Discount
+  - kind: Field
+    xref: F:TableExtension::ESCASalesInvoiceLine.ESCA_Excl._From_Paym._Discount
+    name: '"ESCA Excl. From Paym. Discount": Boolean'
+    reason: Replaced by ESCA No Payment Discount
+  - kind: Field
+    xref: F:TableExtension::ESCASalesLineArchive.ESCA_Excl._From_Paym._Discount
+    name: '"ESCA Excl. From Paym. Discount": Boolean'
+    reason: Replaced by ESCA No Payment Discount
+  - kind: Field
+    xref: F:TableExtension::ESCASalesShipmentLine.ESCA_Excl._From_Paym._Discount
+    name: '"ESCA Excl. From Paym. Discount": Boolean'
+    reason: Replaced by ESCA No Payment Discount
+  - kind: Page
+    xref: O:Page::ESCA_Authorization_Setup_Card
+    name: Page 71096582 "ESCA Authorization Setup Card"
+    reason: Replaced by new authorization setup framework
+  - kind: Page
+    xref: O:Page::ESCA_Authorization_Setup_List
+    name: Page 71096583 "ESCA Authorization Setup List"
+    reason: Replaced by new authorization setup framework
+  - kind: Page
+    xref: O:Page::ESCA_Get_Access_Token_Wizard
+    name: Page 71096580 "ESCA Get Access Token Wizard"
+    reason: Replaced by new authorization setup framework

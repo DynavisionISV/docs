@@ -1,0 +1,37 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"ESCA Text Block Separator"'
+alId: ID 71096630
+baseKind: Enum
+kind: Enum
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Enum](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-extensible-enums)'
+objectProperties:
+- name: Access
+  value: Public
+  promoted: false
+- name: Extensible
+  value: "True"
+  promoted: true
+enumValues:
+- uid: E:Enum::ESCA_Text_Block_Separator.None
+  name: None
+- uid: E:Enum::ESCA_Text_Block_Separator.New_line
+  name: '"New line"'
+- uid: E:Enum::ESCA_Text_Block_Separator.Space
+  name: Space
+- uid: E:Enum::ESCA_Text_Block_Separator.Comma
+  name: Comma
+- uid: E:Enum::ESCA_Text_Block_Separator.Semicolon
+  name: Semicolon
+- uid: E:Enum::ESCA_Text_Block_Separator.Colon
+  name: Colon
+- uid: E:Enum::ESCA_Text_Block_Separator.Dash
+  name: Dash
+- uid: E:Enum::ESCA_Text_Block_Separator.Dash_With_Spaces
+  name: '"Dash With Spaces"'
+commentId: O:Enum::ESCA Text Block Separator
+uid: O:Enum::ESCA_Text_Block_Separator
+name: '"ESCA Text Block Separator"'

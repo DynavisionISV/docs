@@ -1,0 +1,71 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"ESCA FTP Request File"'
+alId: ID 71096589
+baseKind: Table
+kind: Table
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Table](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-table-object)'
+objectProperties:
+- name: Access
+  value: Public
+  promoted: false
+- name: Caption
+  value: FTP Request File
+  promoted: false
+fields:
+- type:
+    name: Integer
+    isExternal: true
+  uid: F:Table::ESCA_FTP_Request_File.Request_Entry_No.
+  name: '"Request Entry No."'
+- type:
+    name: Integer
+    isExternal: true
+  uid: F:Table::ESCA_FTP_Request_File.Line_No.
+  name: '"Line No."'
+- type:
+    name: Text[250]
+    isExternal: true
+  uid: F:Table::ESCA_FTP_Request_File.File_Name[250]
+  name: '"File Name"'
+- type:
+    name: Blob
+    isExternal: true
+  uid: F:Table::ESCA_FTP_Request_File.Blob
+  name: Blob
+- type:
+    name: Guid
+    isExternal: true
+  uid: F:Table::ESCA_FTP_Request_File.SystemId
+  name: SystemId
+- type:
+    name: DateTime
+    isExternal: true
+  uid: F:Table::ESCA_FTP_Request_File.SystemCreatedAt
+  name: SystemCreatedAt
+- type:
+    name: Guid
+    isExternal: true
+  uid: F:Table::ESCA_FTP_Request_File.SystemCreatedBy
+  name: SystemCreatedBy
+- type:
+    name: DateTime
+    isExternal: true
+  uid: F:Table::ESCA_FTP_Request_File.SystemModifiedAt
+  name: SystemModifiedAt
+- type:
+    name: Guid
+    isExternal: true
+  uid: F:Table::ESCA_FTP_Request_File.SystemModifiedBy
+  name: SystemModifiedBy
+- type:
+    name: BigInteger
+    isExternal: true
+  uid: F:Table::ESCA_FTP_Request_File.SystemRowVersion
+  name: SystemRowVersion
+commentId: O:Table::ESCA FTP Request File
+uid: O:Table::ESCA_FTP_Request_File
+name: '"ESCA FTP Request File"'

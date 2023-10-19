@@ -1,0 +1,56 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"ESCA Report Layout Setup List"'
+alId: ID 71096615
+baseKind: Page
+kind: Page
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+sourceTableType:
+  xref: O:Table::ESCA_Report_Layout_Setup
+  name: '"ESCA Report Layout Setup"'
+  isExternal: false
+seeAlso:
+- '[Page](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-object)'
+objectProperties:
+- name: ApplicationArea
+  value: '#All'
+  promoted: false
+- name: Caption
+  value: Report Layout Setup
+  promoted: false
+- name: CardPageId
+  value: ESCA Report Layout Setup Card
+  promoted: false
+  xrefType:
+    xref: O:Page::ESCA_Report_Layout_Setup_Card
+    name: '"ESCA Report Layout Setup Card"'
+    isExternal: false
+- name: PageType
+  value: List
+  promoted: true
+- name: SourceTable
+  value: "71096595"
+  promoted: true
+  xrefType:
+    xref: O:Table::ESCA_Report_Layout_Setup
+    name: '"ESCA Report Layout Setup"'
+    isExternal: false
+- name: UsageCategory
+  value: Lists
+  promoted: false
+- name: InsertAllowed
+  value: "False"
+  promoted: false
+- name: DeleteAllowed
+  value: "True"
+  promoted: false
+- name: ModifyAllowed
+  value: "False"
+  promoted: false
+- name: SourceTableView
+  value: sorting("New Report Id", Version)
+  promoted: false
+commentId: O:Page::ESCA Report Layout Setup List
+uid: O:Page::ESCA_Report_Layout_Setup_List
+name: '"ESCA Report Layout Setup List"'

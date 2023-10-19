@@ -1,0 +1,16 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: ESCAWhseGetBinContent
+alId: ID 71096575
+baseKind: Report
+kind: ReportExtension
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+extends:
+  name: '"Whse. Get Bin Content"'
+  isExternal: true
+seeAlso:
+- '[Report](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-report-ext-object)'
+commentId: O:ReportExtension::ESCAWhseGetBinContent
+uid: O:ReportExtension::ESCAWhseGetBinContent
+name: ESCAWhseGetBinContent

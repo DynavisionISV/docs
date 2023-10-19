@@ -1,0 +1,213 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"ESCA Message"'
+alId: ID 71177004
+baseKind: Codeunit
+kind: Codeunit
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Codeunit](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-codeunit-object)'
+objectProperties:
+- name: Access
+  value: Public
+  promoted: false
+methods:
+- syntax:
+    content: procedure Clear()
+  summary: Clears all the global variables
+  uid: M:Codeunit::ESCA_Message.Clear
+  name: Clear
+- syntax:
+    content: 'procedure SetSource(NewSource: Variant)'
+    parameters:
+    - id: NewSource
+      description: The source / record(s) used to send a message
+      parameterType:
+        name: Variant
+        isExternal: true
+  summary: Sets the source / record(s) triggering the sending of the message. These sources will be used to build the message content.
+  uid: M:Codeunit::ESCA_Message.SetSource(Variant)
+  name: SetSource
+- syntax:
+    content: 'procedure SetPartnerCode(NewPartnerCode: Code[30])'
+    parameters:
+    - id: NewPartnerCode
+      description: The code of the partner to whom to send the message
+      parameterType:
+        name: Code[30]
+        isExternal: true
+  summary: Sets the code of the partner to whom to send the message. This will be used to filter the message types to send.
+  uid: M:Codeunit::ESCA_Message.SetPartnerCode(Code[30])
+  name: SetPartnerCode
+- syntax:
+    content: 'procedure SetMessageTypeCode(NewMessageTypeCode: Code[30])'
+    parameters:
+    - id: NewMessageTypeCode
+      description: The code of the message type to send
+      parameterType:
+        name: Code[30]
+        isExternal: true
+  summary: Sets the message type code of the message to send. This will be used to filter the message types to send.
+  uid: M:Codeunit::ESCA_Message.SetMessageTypeCode(Code[30])
+  name: SetMessageTypeCode
+- syntax:
+    content: 'procedure SetMessageType(NewMessageType: Enum "ESCA Message Type")'
+    parameters:
+    - id: NewMessageType
+      description: The message type of the message to send
+      parameterType:
+        xref: O:Enum::ESCA_Message_Type
+        name: '"ESCA Message Type"'
+        isExternal: false
+  summary: Sets the message type of the message to send. This will be used to filter the message types to send.
+  uid: M:Codeunit::ESCA_Message.SetMessageType(Enum::ESCA_Message_Type)
+  name: SetMessageType
+- syntax:
+    content: 'procedure SetCommunicationMethod(NewCommunicationMethod: Enum "ESCA Communication Method")'
+    parameters:
+    - id: NewCommunicationMethod
+      description: The communication method of the message to send
+      parameterType:
+        xref: O:Enum::ESCA_Communication_Method
+        name: '"ESCA Communication Method"'
+        isExternal: false
+  summary: Sets the communication method of the message to send.
+  uid: M:Codeunit::ESCA_Message.SetCommunicationMethod(Enum::ESCA_Communication_Method)
+  name: SetCommunicationMethod
+- syntax:
+    content: 'procedure SetOperation(NewOperation: Enum "ESCA Operation")'
+    parameters:
+    - id: NewOperation
+      description: The operation performed on the source (record)
+      parameterType:
+        xref: O:Enum::ESCA_Operation
+        name: '"ESCA Operation"'
+        isExternal: false
+  summary: Sets the operation performed on the source (record). This is logged in the message link record and can be included in the message contents.
+  uid: M:Codeunit::ESCA_Message.SetOperation(Enum::ESCA_Operation)
+  name: SetOperation
+- syntax:
+    content: 'procedure SetTempBlob(NewTempBlob: Codeunit "Temp Blob")'
+    parameters:
+    - id: NewTempBlob
+      description: A temp blob containing the message content as blob
+      parameterType:
+        name: '"Temp Blob"'
+        isExternal: true
+  summary: Sets the message content of the message to send.
+  uid: M:Codeunit::ESCA_Message.SetTempBlob(Codeunit::Temp_Blob)
+  name: SetTempBlob
+- syntax:
+    content: 'procedure SetAutoSend(NewAutoSend: Boolean)'
+    parameters:
+    - id: NewAutoSend
+      description: True if sending messages is triggered via an automatic process
+      parameterType:
+        name: Boolean
+        isExternal: true
+  summary: >-
+    Sets whether sending messages is triggered via an automatic process or not (manual)
+
+    If NewAutoSend is set, only message types with the 'Auto Send' setting will be considered
+  uid: M:Codeunit::ESCA_Message.SetAutoSend(Boolean)
+  name: SetAutoSend
+- syntax:
+    content: 'procedure SetTestMessage(NewTestMessage: Boolean)'
+    parameters:
+    - id: NewTestMessage
+      description: True if the message is a test message
+      parameterType:
+        name: Boolean
+        isExternal: true
+  summary: >-
+    Sets whether the message is a test message
+
+    If NewTestMessage is set, the message is not processed on the receiving end
+  uid: M:Codeunit::ESCA_Message.SetTestMessage(Boolean)
+  name: SetTestMessage
+- syntax:
+    content: 'procedure Send(NewSource: Variant, NewMessageType: Enum "ESCA Message Type"): Integer'
+    parameters:
+    - id: NewSource
+      description: The source / record(s) used to send a message
+      parameterType:
+        name: Variant
+        isExternal: true
+    - id: NewMessageType
+      description: The message type of the message to send
+      parameterType:
+        xref: O:Enum::ESCA_Message_Type
+        name: '"ESCA Message Type"'
+        isExternal: false
+    return:
+      description: The entry number of the created message record.
+      returnType:
+        name: Integer
+        isExternal: true
+  summary: Sends the message
+  uid: M:Codeunit::ESCA_Message.Send(Variant,Enum::ESCA_Message_Type):Integer
+  name: Send
+- syntax:
+    content: 'procedure SendAutomatically(NewSource: Variant, NewMessageType: Enum "ESCA Message Type"): Integer'
+    parameters:
+    - id: NewSource
+      description: The source / record(s) used to send a message
+      parameterType:
+        name: Variant
+        isExternal: true
+    - id: NewMessageType
+      description: The message type of the message to send
+      parameterType:
+        xref: O:Enum::ESCA_Message_Type
+        name: '"ESCA Message Type"'
+        isExternal: false
+    return:
+      description: The entry number of the created message record.
+      returnType:
+        name: Integer
+        isExternal: true
+  summary: Sends the message triggered by an automatic process (Release, post, ...)
+  uid: M:Codeunit::ESCA_Message.SendAutomatically(Variant,Enum::ESCA_Message_Type):Integer
+  name: SendAutomatically
+- syntax:
+    content: 'procedure SendAutomatically(NewSource: Variant, NewMessageType: Enum "ESCA Message Type", NewOperation: Enum "ESCA Operation"): Integer'
+    parameters:
+    - id: NewSource
+      description: The source / record(s) used to send a message
+      parameterType:
+        name: Variant
+        isExternal: true
+    - id: NewMessageType
+      description: The message type of the message to send
+      parameterType:
+        xref: O:Enum::ESCA_Message_Type
+        name: '"ESCA Message Type"'
+        isExternal: false
+    - id: NewOperation
+      description: The operation performed on the source (record)
+      parameterType:
+        xref: O:Enum::ESCA_Operation
+        name: '"ESCA Operation"'
+        isExternal: false
+    return:
+      description: The entry number of the created message record.
+      returnType:
+        name: Integer
+        isExternal: true
+  summary: Sends the message triggered by an automatic process (Release, post, ...)
+  uid: M:Codeunit::ESCA_Message.SendAutomatically(Variant,Enum::ESCA_Message_Type,Enum::ESCA_Operation):Integer
+  name: SendAutomatically
+- syntax:
+    content: 'procedure Send(): Integer'
+    return:
+      description: The entry number of the created message record.
+      returnType:
+        name: Integer
+        isExternal: true
+  summary: Sends the message (using the pre-defined global variables)
+  uid: M:Codeunit::ESCA_Message.Send:Integer
+  name: Send
+commentId: O:Codeunit::ESCA Message
+uid: O:Codeunit::ESCA_Message
+name: '"ESCA Message"'

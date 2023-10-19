@@ -1,0 +1,35 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"ESCA Email Settings"'
+alId: ID 71177001
+baseKind: Page
+kind: Page
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+sourceTableType:
+  name: '"ESCA Email Setting"'
+  isExternal: true
+seeAlso:
+- '[Page](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-object)'
+objectProperties:
+- name: ApplicationArea
+  value: '#All'
+  promoted: false
+- name: Caption
+  value: Email Settings
+  promoted: false
+- name: PageType
+  value: List
+  promoted: true
+- name: PopulateAllFields
+  value: "True"
+  promoted: false
+- name: SourceTable
+  value: "71096639"
+  promoted: true
+- name: UsageCategory
+  value: None
+  promoted: false
+commentId: O:Page::ESCA Email Settings
+uid: O:Page::ESCA_Email_Settings
+name: '"ESCA Email Settings"'

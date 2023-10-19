@@ -1,0 +1,32 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"ESCA FTP Request Type"'
+alId: ID 71096585
+baseKind: Enum
+kind: Enum
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Enum](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-extensible-enums)'
+objectProperties:
+- name: Access
+  value: Public
+  promoted: false
+- name: Extensible
+  value: "False"
+  promoted: true
+enumValues:
+- uid: E:Enum::ESCA_FTP_Request_Type.Download_File
+  name: '"Download File"'
+- uid: E:Enum::ESCA_FTP_Request_Type.Download_&amp;_Delete_File
+  name: '"Download & Delete File"'
+- uid: E:Enum::ESCA_FTP_Request_Type.Upload_File
+  name: '"Upload File"'
+- uid: E:Enum::ESCA_FTP_Request_Type.Move_File
+  name: '"Move File"'
+implements:
+- name: '"ESCA FTP Request"'
+  isExternal: true
+commentId: O:Enum::ESCA FTP Request Type
+uid: O:Enum::ESCA_FTP_Request_Type
+name: '"ESCA FTP Request Type"'

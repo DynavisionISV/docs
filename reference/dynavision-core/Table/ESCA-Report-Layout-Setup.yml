@@ -1,0 +1,612 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"ESCA Report Layout Setup"'
+alId: ID 71096595
+baseKind: Table
+kind: Table
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Table](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-table-object)'
+objectProperties:
+- name: Access
+  value: Public
+  promoted: false
+- name: Caption
+  value: Report Layout Setup
+  promoted: false
+- name: DataCaptionFields
+  value: "93"
+  promoted: false
+- name: DrillDownPageId
+  value: ESCA Report Layout Setup Card
+  promoted: false
+  xrefType:
+    xref: O:Page::ESCA_Report_Layout_Setup_Card
+    name: '"ESCA Report Layout Setup Card"'
+    isExternal: false
+- name: LookupPageId
+  value: ESCA Report Layout Setup List
+  promoted: false
+  xrefType:
+    xref: O:Page::ESCA_Report_Layout_Setup_List
+    name: '"ESCA Report Layout Setup List"'
+    isExternal: false
+methods:
+- syntax:
+    content: 'procedure GetBarcode(InputText: Text, var EncodedBarcode: Text, var BarcodeFont: Text)'
+    parameters:
+    - id: InputText
+      description: The text to encode
+      parameterType:
+        name: Text
+        isExternal: true
+    - id: EncodedBarcode
+      description: Returns the encoded barcode
+      parameterType:
+        name: Text
+        isExternal: true
+    - id: BarcodeFont
+      description: Returns the default barcode font
+      parameterType:
+        name: Text
+        isExternal: true
+  summary: Encodes an input text into a barcode and returns the default barcode font
+  uid: M:Table::ESCA_Report_Layout_Setup.GetBarcode(Text,Text@,Text@)
+  name: GetBarcode
+fields:
+- type:
+    name: Integer
+    isExternal: true
+  uid: F:Table::ESCA_Report_Layout_Setup.Report_ID
+  name: '"Report ID"'
+- type:
+    name: Integer
+    isExternal: true
+  uid: F:Table::ESCA_Report_Layout_Setup.New_Report_ID
+  name: '"New Report ID"'
+- type:
+    name: Integer
+    isExternal: true
+  uid: F:Table::ESCA_Report_Layout_Setup.Version
+  name: Version
+- type:
+    name: Text[250]
+    isExternal: true
+  uid: F:Table::ESCA_Report_Layout_Setup.Description[250]
+  name: Description
+- type:
+    name: Integer
+    isExternal: true
+  uid: F:Table::ESCA_Report_Layout_Setup.Table_ID
+  name: '"Table ID"'
+- type:
+    name: Text[30]
+    isExternal: true
+  uid: F:Table::ESCA_Report_Layout_Setup.Report_Name[30]
+  name: '"Report Name"'
+- type:
+    name: Text[30]
+    isExternal: true
+  uid: F:Table::ESCA_Report_Layout_Setup.Table_Name[30]
+  name: '"Table Name"'
+- type:
+    xref: O:Enum::ESCA_Address_Type
+    name: '"ESCA Address Type"'
+    isExternal: false
+  uid: F:Table::ESCA_Report_Layout_Setup.Top-Left_Address
+  name: '"Top-Left Address"'
+- type:
+    xref: O:Enum::ESCA_Address_Type
+    name: '"ESCA Address Type"'
+    isExternal: false
+  uid: F:Table::ESCA_Report_Layout_Setup.Top-Right_Address
+  name: '"Top-Right Address"'
+- type:
+    xref: O:Enum::ESCA_Address_Type
+    name: '"ESCA Address Type"'
+    isExternal: false
+  uid: F:Table::ESCA_Report_Layout_Setup.Bottom-Left_Address
+  name: '"Bottom-Left Address"'
+- type:
+    name: Code[20]
+    isExternal: true
+  uid: F:Table::ESCA_Report_Layout_Setup.Header_Field_1_Title[20]
+  name: '"Header Field 1 Title"'
+- type:
+    name: Code[20]
+    isExternal: true
+  uid: F:Table::ESCA_Report_Layout_Setup.Header_Field_2_Title[20]
+  name: '"Header Field 2 Title"'
+- type:
+    name: Code[20]
+    isExternal: true
+  uid: F:Table::ESCA_Report_Layout_Setup.Header_Field_3_Title[20]
+  name: '"Header Field 3 Title"'
+- type:
+    name: Code[20]
+    isExternal: true
+  uid: F:Table::ESCA_Report_Layout_Setup.Header_Field_4_Title[20]
+  name: '"Header Field 4 Title"'
+- type:
+    name: Code[20]
+    isExternal: true
+  uid: F:Table::ESCA_Report_Layout_Setup.Header_Field_5_Title[20]
+  name: '"Header Field 5 Title"'
+- type:
+    name: Code[20]
+    isExternal: true
+  uid: F:Table::ESCA_Report_Layout_Setup.Header_Field_6_Title[20]
+  name: '"Header Field 6 Title"'
+- type:
+    name: Integer
+    isExternal: true
+  uid: F:Table::ESCA_Report_Layout_Setup.Header_Field_1_Value
+  name: '"Header Field 1 Value"'
+- type:
+    name: Integer
+    isExternal: true
+  uid: F:Table::ESCA_Report_Layout_Setup.Header_Field_2_Value
+  name: '"Header Field 2 Value"'
+- type:
+    name: Integer
+    isExternal: true
+  uid: F:Table::ESCA_Report_Layout_Setup.Header_Field_3_Value
+  name: '"Header Field 3 Value"'
+- type:
+    name: Integer
+    isExternal: true
+  uid: F:Table::ESCA_Report_Layout_Setup.Header_Field_4_Value
+  name: '"Header Field 4 Value"'
+- type:
+    name: Integer
+    isExternal: true
+  uid: F:Table::ESCA_Report_Layout_Setup.Header_Field_5_Value
+  name: '"Header Field 5 Value"'
+- type:
+    name: Integer
+    isExternal: true
+  uid: F:Table::ESCA_Report_Layout_Setup.Header_Field_6_Value
+  name: '"Header Field 6 Value"'
+- type:
+    name: Code[20]
+    isExternal: true
+  uid: F:Table::ESCA_Report_Layout_Setup.Top-Left_Address_Title[20]
+  name: '"Top-Left Address Title"'
+- type:
+    name: Code[20]
+    isExternal: true
+  uid: F:Table::ESCA_Report_Layout_Setup.Top-Right_Address_Title[20]
+  name: '"Top-Right Address Title"'
+- type:
+    name: Code[20]
+    isExternal: true
+  uid: F:Table::ESCA_Report_Layout_Setup.Bottom-Left_Address_Title[20]
+  name: '"Bottom-Left Address Title"'
+- type:
+    name: '"ESCA Lines Or Totals"'
+    isExternal: true
+  uid: F:Table::ESCA_Report_Layout_Setup.Print_Weights
+  name: '"Print Weights"'
+- type:
+    name: Boolean
+    isExternal: true
+  uid: F:Table::ESCA_Report_Layout_Setup.Print_Attributes
+  name: '"Print Attributes"'
+- type:
+    name: '"ESCA Lines Or Totals"'
+    isExternal: true
+  uid: F:Table::ESCA_Report_Layout_Setup.Print_Prices
+  name: '"Print Prices"'
+- type:
+    name: Boolean
+    isExternal: true
+  uid: F:Table::ESCA_Report_Layout_Setup.Print_Discount_%
+  name: '"Print Discount %"'
+  obsoletion:
+    state: pending
+    reason: Replaced by Print Discount Type
+    version: "21.0"
+- type:
+    name: '"ESCA Logo Source"'
+    isExternal: true
+  uid: F:Table::ESCA_Report_Layout_Setup.Logo_Source
+  name: '"Logo Source"'
+- type:
+    name: Boolean
+    isExternal: true
+  uid: F:Table::ESCA_Report_Layout_Setup.Print_Company_Footer
+  name: '"Print Company Footer"'
+- type:
+    name: '"ESCA Lines Or Totals"'
+    isExternal: true
+  uid: F:Table::ESCA_Report_Layout_Setup.Print_Intrastat
+  name: '"Print Intrastat"'
+- type:
+    name: Boolean
+    isExternal: true
+  uid: F:Table::ESCA_Report_Layout_Setup.Print_Item_Tracking
+  name: '"Print Item Tracking"'
+- type:
+    name: '"ESCA Lines Or Totals"'
+    isExternal: true
+  uid: F:Table::ESCA_Report_Layout_Setup.Print_Currency_Symbol
+  name: '"Print Currency Symbol"'
+- type:
+    name: Boolean
+    isExternal: true
+  uid: F:Table::ESCA_Report_Layout_Setup.Print_Work_Description
+  name: '"Print Work Description"'
+- type:
+    name: Boolean
+    isExternal: true
+  uid: F:Table::ESCA_Report_Layout_Setup.Top-Left_VAT_No.
+  name: '"Top-Left VAT No."'
+- type:
+    name: Boolean
+    isExternal: true
+  uid: F:Table::ESCA_Report_Layout_Setup.Top-Right_VAT_No.
+  name: '"Top-Right VAT No."'
+- type:
+    name: Boolean
+    isExternal: true
+  uid: F:Table::ESCA_Report_Layout_Setup.Bottom-Left_VAT_No.
+  name: '"Bottom-Left VAT No."'
+- type:
+    name: Boolean
+    isExternal: true
+  uid: F:Table::ESCA_Report_Layout_Setup.Print_Service_Faults
+  name: '"Print Service Faults"'
+- type:
+    name: Boolean
+    isExternal: true
+  uid: F:Table::ESCA_Report_Layout_Setup.Print_Service_Solutions
+  name: '"Print Service Solutions"'
+- type:
+    name: Boolean
+    isExternal: true
+  uid: F:Table::ESCA_Report_Layout_Setup.Release_Document_On_Printing
+  name: '"Release Document On Printing"'
+- type:
+    name: Option
+    isExternal: true
+  uid: F:Table::ESCA_Report_Layout_Setup.Logo_Position
+  name: '"Logo Position"'
+- type:
+    name: Code[20]
+    isExternal: true
+  uid: F:Table::ESCA_Report_Layout_Setup.Header_Text[20]
+  name: '"Header Text"'
+- type:
+    name: Code[20]
+    isExternal: true
+  uid: F:Table::ESCA_Report_Layout_Setup.Footer_Text[20]
+  name: '"Footer Text"'
+- type:
+    name: Boolean
+    isExternal: true
+  uid: F:Table::ESCA_Report_Layout_Setup.Print_Copy_in_Default_Language
+  name: '"Print Copy in Default Language"'
+- type:
+    name: Text[249]
+    isExternal: true
+  uid: F:Table::ESCA_Report_Layout_Setup.Header_Field_1_Caption[249]
+  name: '"Header Field 1 Caption"'
+- type:
+    name: Text[249]
+    isExternal: true
+  uid: F:Table::ESCA_Report_Layout_Setup.Header_Field_2_Caption[249]
+  name: '"Header Field 2 Caption"'
+- type:
+    name: Text[249]
+    isExternal: true
+  uid: F:Table::ESCA_Report_Layout_Setup.Header_Field_3_Caption[249]
+  name: '"Header Field 3 Caption"'
+- type:
+    name: Text[249]
+    isExternal: true
+  uid: F:Table::ESCA_Report_Layout_Setup.Header_Field_4_Caption[249]
+  name: '"Header Field 4 Caption"'
+- type:
+    name: Text[249]
+    isExternal: true
+  uid: F:Table::ESCA_Report_Layout_Setup.Header_Field_5_Caption[249]
+  name: '"Header Field 5 Caption"'
+- type:
+    name: Text[249]
+    isExternal: true
+  uid: F:Table::ESCA_Report_Layout_Setup.Header_Field_6_Caption[249]
+  name: '"Header Field 6 Caption"'
+- type:
+    name: Integer
+    isExternal: true
+  uid: F:Table::ESCA_Report_Layout_Setup.Copy_From_Report_ID
+  name: '"Copy From Report ID"'
+  obsoletion:
+    state: pending
+    reason: Replaced by presenting the user a lookup page instead to select the report layout setup to copy from
+    version: "23.0"
+- type:
+    name: Code[20]
+    isExternal: true
+  uid: F:Table::ESCA_Report_Layout_Setup.Document_Title[20]
+  name: '"Document Title"'
+- type:
+    name: Boolean
+    isExternal: true
+  uid: F:Table::ESCA_Report_Layout_Setup.Top-Left_Bank_info.
+  name: '"Top-Left Bank info."'
+- type:
+    name: Boolean
+    isExternal: true
+  uid: F:Table::ESCA_Report_Layout_Setup.Top-Right_Bank_info.
+  name: '"Top-Right Bank info."'
+- type:
+    name: Boolean
+    isExternal: true
+  uid: F:Table::ESCA_Report_Layout_Setup.Bottom-Left_Bank_info.
+  name: '"Bottom-Left Bank info."'
+- type:
+    name: '"ESCA Include Comments"'
+    isExternal: true
+  uid: F:Table::ESCA_Report_Layout_Setup.Include_Comments
+  name: '"Include Comments"'
+- type:
+    name: '"ESCA Document Title Position"'
+    isExternal: true
+  uid: F:Table::ESCA_Report_Layout_Setup.Document_Title_Position
+  name: '"Document Title Position"'
+- type:
+    name: Text[500]
+    isExternal: true
+  uid: F:Table::ESCA_Report_Layout_Setup.Quantity_Formatting[500]
+  name: '"Quantity Formatting"'
+- type:
+    name: Text[500]
+    isExternal: true
+  uid: F:Table::ESCA_Report_Layout_Setup.Price_Formatting[500]
+  name: '"Price Formatting"'
+- type:
+    name: Text[100]
+    isExternal: true
+  uid: F:Table::ESCA_Report_Layout_Setup.Font[100]
+  name: Font
+- type:
+    name: Text[7]
+    isExternal: true
+  uid: F:Table::ESCA_Report_Layout_Setup.Theme_Color[7]
+  name: '"Theme Color"'
+- type:
+    name: Boolean
+    isExternal: true
+  uid: F:Table::ESCA_Report_Layout_Setup.Header_Allignment_Vertical
+  name: '"Header Allignment Vertical"'
+- type:
+    name: Boolean
+    isExternal: true
+  uid: F:Table::ESCA_Report_Layout_Setup.Use_Gross_Weight
+  name: '"Use Gross Weight"'
+- type:
+    name: Boolean
+    isExternal: true
+  uid: F:Table::ESCA_Report_Layout_Setup.Print_VAT_Summary
+  name: '"Print VAT Summary"'
+- type:
+    name: Boolean
+    isExternal: true
+  uid: F:Table::ESCA_Report_Layout_Setup.Force_Report
+  name: '"Force Report"'
+  obsoletion:
+    state: pending
+    reason: Redundant field, replaced by Substitute Report
+    version: "23.0"
+- type:
+    name: Integer
+    isExternal: true
+  uid: F:Table::ESCA_Report_Layout_Setup.Substitute_Report
+  name: '"Substitute Report"'
+- type:
+    name: Text[500]
+    isExternal: true
+  uid: F:Table::ESCA_Report_Layout_Setup.Discount_Formatting[500]
+  name: '"Discount Formatting"'
+- type:
+    name: Boolean
+    isExternal: true
+  uid: F:Table::ESCA_Report_Layout_Setup.Print_VAT_in_lines
+  name: '"Print VAT in lines"'
+- type:
+    name: Boolean
+    isExternal: true
+  uid: F:Table::ESCA_Report_Layout_Setup.Draw_Line_in_table
+  name: '"Draw Line in table"'
+- type:
+    name: Boolean
+    isExternal: true
+  uid: F:Table::ESCA_Report_Layout_Setup.Print_Payment_Discount
+  name: '"Print Payment Discount"'
+- type:
+    name: Code[20]
+    isExternal: true
+  uid: F:Table::ESCA_Report_Layout_Setup.Payment_Discount_TextConstant[20]
+  name: '"Payment Discount TextConstant"'
+- type:
+    name: Boolean
+    isExternal: true
+  uid: F:Table::ESCA_Report_Layout_Setup.Define_Line_Fields
+  name: '"Define Line Fields"'
+  obsoletion:
+    state: pending
+    reason: Not used and incompatible with new Report Layout Setup approach
+    version: "23.0"
+- type:
+    name: Integer
+    isExternal: true
+  uid: F:Table::ESCA_Report_Layout_Setup.Line_Table_ID
+  name: '"Line Table ID"'
+  obsoletion:
+    state: pending
+    reason: Not used and incompatible with new Report Layout Setup approach
+    version: "23.0"
+- type:
+    name: Text[30]
+    isExternal: true
+  uid: F:Table::ESCA_Report_Layout_Setup.Line_Table_Name[30]
+  name: '"Line Table Name"'
+  obsoletion:
+    state: pending
+    reason: Not used and incompatible with new Report Layout Setup approach
+    version: "23.0"
+- type:
+    name: Boolean
+    isExternal: true
+  uid: F:Table::ESCA_Report_Layout_Setup.Keep_Empty_VAT_Clause
+  name: '"Keep Empty VAT Clause"'
+- type:
+    name: Code[10]
+    isExternal: true
+  uid: F:Table::ESCA_Report_Layout_Setup.Weight_UOM[10]
+  name: '"Weight UOM"'
+- type:
+    name: Boolean
+    isExternal: true
+  uid: F:Table::ESCA_Report_Layout_Setup.Print_Pop_Up_Comments
+  name: '"Print Pop Up Comments"'
+- type:
+    name: Code[20]
+    isExternal: true
+  uid: F:Table::ESCA_Report_Layout_Setup.APS_Code[20]
+  name: '"APS Code"'
+- type:
+    name: '"ESCA Header Or Footer"'
+    isExternal: true
+  uid: F:Table::ESCA_Report_Layout_Setup.Print_Payment_Terms
+  name: '"Print Payment Terms"'
+- type:
+    name: '"ESCA Header Or Footer"'
+    isExternal: true
+  uid: F:Table::ESCA_Report_Layout_Setup.Print_Shipment_Method
+  name: '"Print Shipment Method"'
+- type:
+    name: '"ESCA Header Or Footer"'
+    isExternal: true
+  uid: F:Table::ESCA_Report_Layout_Setup.Print_Payment_Method
+  name: '"Print Payment Method"'
+- type:
+    name: Text[500]
+    isExternal: true
+  uid: F:Table::ESCA_Report_Layout_Setup.VAT_Formatting[500]
+  name: '"VAT Formatting"'
+- type:
+    name: Boolean
+    isExternal: true
+  uid: F:Table::ESCA_Report_Layout_Setup.Top-Left_EORI_No.
+  name: '"Top-Left EORI No."'
+- type:
+    name: Boolean
+    isExternal: true
+  uid: F:Table::ESCA_Report_Layout_Setup.Top-Right_EORI_No.
+  name: '"Top-Right EORI No."'
+- type:
+    name: Boolean
+    isExternal: true
+  uid: F:Table::ESCA_Report_Layout_Setup.Bottom-Left_EORI_No.
+  name: '"Bottom-Left EORI No."'
+- type:
+    name: Boolean
+    isExternal: true
+  uid: F:Table::ESCA_Report_Layout_Setup.Print_Description_2
+  name: '"Print Description 2"'
+- type:
+    name: Boolean
+    isExternal: true
+  uid: F:Table::ESCA_Report_Layout_Setup.Prioritize_Item_Reference
+  name: '"Prioritize Item Reference"'
+- type:
+    name: '"ESCA Print Discount Type"'
+    isExternal: true
+  uid: F:Table::ESCA_Report_Layout_Setup.Print_Discount_Type
+  name: '"Print Discount Type"'
+- type:
+    name: Text[249]
+    isExternal: true
+  uid: F:Table::ESCA_Report_Layout_Setup.Report_Caption[249]
+  name: '"Report Caption"'
+- type:
+    name: Code[30]
+    isExternal: true
+  uid: F:Table::ESCA_Report_Layout_Setup.Top-Left_Address_Block_Code[30]
+  name: '"Top-Left Address Block Code"'
+- type:
+    name: Code[30]
+    isExternal: true
+  uid: F:Table::ESCA_Report_Layout_Setup.Top-Right_Address_Block_Code[30]
+  name: '"Top-Right Address Block Code"'
+- type:
+    name: Code[30]
+    isExternal: true
+  uid: F:Table::ESCA_Report_Layout_Setup.Bottom-Left_Address_Block_Code[30]
+  name: '"Bottom-Left Address Block Code"'
+- type:
+    name: '"ESCA Intrastat Totals Format"'
+    isExternal: true
+  uid: F:Table::ESCA_Report_Layout_Setup.Intrastat_Totals_Format
+  name: '"Intrastat Totals Format"'
+- type:
+    name: Text[7]
+    isExternal: true
+  uid: F:Table::ESCA_Report_Layout_Setup.Row_Stripe_Color[7]
+  name: '"Row Stripe Color"'
+- type:
+    name: '"ESCA Barcode Type"'
+    isExternal: true
+  uid: F:Table::ESCA_Report_Layout_Setup.Barcode_Type
+  name: '"Barcode Type"'
+- type:
+    name: '"Barcode Symbology"'
+    isExternal: true
+  uid: F:Table::ESCA_Report_Layout_Setup.Default_Barcode_Font
+  name: '"Default Barcode Font"'
+- type:
+    name: Boolean
+    isExternal: true
+  uid: F:Table::ESCA_Report_Layout_Setup.Text_Below_Barcode
+  name: '"Text Below Barcode"'
+- type:
+    name: '"Barcode Symbology 2D"'
+    isExternal: true
+  uid: F:Table::ESCA_Report_Layout_Setup.Barcode_Symbology_2D
+  name: '"Barcode Symbology 2D"'
+- type:
+    name: Guid
+    isExternal: true
+  uid: F:Table::ESCA_Report_Layout_Setup.SystemId
+  name: SystemId
+- type:
+    name: DateTime
+    isExternal: true
+  uid: F:Table::ESCA_Report_Layout_Setup.SystemCreatedAt
+  name: SystemCreatedAt
+- type:
+    name: Guid
+    isExternal: true
+  uid: F:Table::ESCA_Report_Layout_Setup.SystemCreatedBy
+  name: SystemCreatedBy
+- type:
+    name: DateTime
+    isExternal: true
+  uid: F:Table::ESCA_Report_Layout_Setup.SystemModifiedAt
+  name: SystemModifiedAt
+- type:
+    name: Guid
+    isExternal: true
+  uid: F:Table::ESCA_Report_Layout_Setup.SystemModifiedBy
+  name: SystemModifiedBy
+- type:
+    name: BigInteger
+    isExternal: true
+  uid: F:Table::ESCA_Report_Layout_Setup.SystemRowVersion
+  name: SystemRowVersion
+commentId: O:Table::ESCA Report Layout Setup
+uid: O:Table::ESCA_Report_Layout_Setup
+name: '"ESCA Report Layout Setup"'

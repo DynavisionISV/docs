@@ -1,0 +1,35 @@
+﻿### YamlMime:BusinessCentralObsoletionList
+uid: N:Module::Dynavision_Core_obsolete_by_23.0
+tag: "23.0"
+groups:
+- uid: N:Module::Dynavision_Core_obsolete_by_23.0#23.0
+  groupName: "23.0"
+  symbols:
+  - kind: Field
+    xref: F:Table::ESCA_Report_Layout_Setup.Copy_From_Report_ID
+    name: '"Copy From Report ID": Integer'
+    reason: Replaced by presenting the user a lookup page instead to select the report layout setup to copy from
+  - kind: Field
+    xref: F:Table::ESCA_Report_Layout_Setup.Force_Report
+    name: '"Force Report": Boolean'
+    reason: Redundant field, replaced by Substitute Report
+  - kind: Field
+    xref: F:Table::ESCA_Report_Layout_Setup.Define_Line_Fields
+    name: '"Define Line Fields": Boolean'
+    reason: Not used and incompatible with new Report Layout Setup approach
+  - kind: Field
+    xref: F:Table::ESCA_Report_Layout_Setup.Line_Table_ID
+    name: '"Line Table ID": Integer'
+    reason: Not used and incompatible with new Report Layout Setup approach
+  - kind: Field
+    xref: F:Table::ESCA_Report_Layout_Setup.Line_Table_Name[30]
+    name: '"Line Table Name": Text[30]'
+    reason: Not used and incompatible with new Report Layout Setup approach
+  - kind: Table
+    xref: O:Table::ESCA_Report_Layout_Setup_Line
+    name: Table 71096597 "ESCA Report Layout Setup Line"
+    reason: Not used and incompatible with new Report Layout Setup approach
+  - kind: Page
+    xref: O:Page::ESCA_Rep#_Layout_Setup_Subform
+    name: Page 71096610 "ESCA Rep. Layout Setup Subform"
+    reason: Not used and incompatible with new Report Layout Setup approach

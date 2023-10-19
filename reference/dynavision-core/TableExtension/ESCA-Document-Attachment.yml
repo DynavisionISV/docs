@@ -1,0 +1,27 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"ESCA Document Attachment"'
+alId: ID 71096632
+baseKind: Table
+kind: TableExtension
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+extends:
+  name: '"Document Attachment"'
+  isExternal: true
+seeAlso:
+- '[Table Extension](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-table-ext-object)'
+fields:
+- type:
+    name: Guid
+    isExternal: true
+  uid: F:TableExtension::ESCA_Document_Attachment.ESCA_Source_System_ID
+  name: '"ESCA Source System ID"'
+- type:
+    name: '"Report Selection Usage"'
+    isExternal: true
+  uid: F:TableExtension::ESCA_Document_Attachment.ESCA_Report_Usage
+  name: '"ESCA Report Usage"'
+commentId: O:TableExtension::ESCA Document Attachment
+uid: O:TableExtension::ESCA_Document_Attachment
+name: '"ESCA Document Attachment"'

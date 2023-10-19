@@ -1,0 +1,26 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"ESCA Barcode Test"'
+alId: ID 71096639
+baseKind: Page
+kind: Page
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Page](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-object)'
+objectProperties:
+- name: ApplicationArea
+  value: '#All'
+  promoted: false
+- name: Caption
+  value: Barcode Test
+  promoted: false
+- name: PageType
+  value: Card
+  promoted: true
+- name: UsageCategory
+  value: Tasks
+  promoted: false
+commentId: O:Page::ESCA Barcode Test
+uid: O:Page::ESCA_Barcode_Test
+name: '"ESCA Barcode Test"'

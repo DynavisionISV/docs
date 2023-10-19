@@ -1,0 +1,44 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"ESCA Copy Item Buffer"'
+alId: ID 71096621
+baseKind: Page
+kind: Page
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+sourceTableType:
+  name: '"ESCA Copy Item Buffer Check"'
+  isExternal: true
+seeAlso:
+- '[Page](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-object)'
+objectProperties:
+- name: ApplicationArea
+  value: '#All'
+  promoted: false
+- name: Caption
+  value: Copy Item Buffer Check
+  promoted: false
+- name: DeleteAllowed
+  value: "False"
+  promoted: false
+- name: Editable
+  value: "True"
+  promoted: false
+- name: InsertAllowed
+  value: "False"
+  promoted: false
+- name: PageType
+  value: Worksheet
+  promoted: true
+- name: SourceTable
+  value: "71096596"
+  promoted: true
+- name: SourceTableTemporary
+  value: "True"
+  promoted: false
+- name: UsageCategory
+  value: None
+  promoted: false
+commentId: O:Page::ESCA Copy Item Buffer
+uid: O:Page::ESCA_Copy_Item_Buffer
+name: '"ESCA Copy Item Buffer"'

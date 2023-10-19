@@ -1,0 +1,102 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"ESCA Partner Mapping"'
+alId: ID 71096612
+baseKind: Table
+kind: Table
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Table](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-table-object)'
+objectProperties:
+- name: Access
+  value: Public
+  promoted: false
+- name: Caption
+  value: Partner Mapping
+  promoted: false
+- name: DataClassification
+  value: CustomerContent
+  promoted: false
+- name: DrillDownPageId
+  value: ESCA Partner Mappings
+  promoted: false
+  xrefType:
+    xref: O:Page::ESCA_Partner_Mappings
+    name: '"ESCA Partner Mappings"'
+    isExternal: false
+- name: LookupPageId
+  value: ESCA Partner Mappings
+  promoted: false
+  xrefType:
+    xref: O:Page::ESCA_Partner_Mappings
+    name: '"ESCA Partner Mappings"'
+    isExternal: false
+methods:
+- syntax:
+    content: 'procedure AddToTempTable(SourceType: Enum "ESCA Partner Source Type", SourceCode: Code[20])'
+    parameters:
+    - id: SourceType
+      description: The partner source type
+      parameterType:
+        xref: O:Enum::ESCA_Partner_Source_Type
+        name: '"ESCA Partner Source Type"'
+        isExternal: false
+    - id: SourceCode
+      description: The code of the source record
+      parameterType:
+        name: Code[20]
+        isExternal: true
+  summary: Adds a combination of source type / source code as temporary record to the partner mapping table
+  uid: M:Table::ESCA_Partner_Mapping.AddToTempTable(Enum::ESCA_Partner_Source_Type,Code[20])
+  name: AddToTempTable
+fields:
+- type:
+    xref: O:Enum::ESCA_Partner_Source_Type
+    name: '"ESCA Partner Source Type"'
+    isExternal: false
+  uid: F:Table::ESCA_Partner_Mapping.Source_Type
+  name: '"Source Type"'
+- type:
+    name: Code[20]
+    isExternal: true
+  uid: F:Table::ESCA_Partner_Mapping.Source_Code[20]
+  name: '"Source Code"'
+- type:
+    name: Code[30]
+    isExternal: true
+  uid: F:Table::ESCA_Partner_Mapping.Partner_Code[30]
+  name: '"Partner Code"'
+- type:
+    name: Guid
+    isExternal: true
+  uid: F:Table::ESCA_Partner_Mapping.SystemId
+  name: SystemId
+- type:
+    name: DateTime
+    isExternal: true
+  uid: F:Table::ESCA_Partner_Mapping.SystemCreatedAt
+  name: SystemCreatedAt
+- type:
+    name: Guid
+    isExternal: true
+  uid: F:Table::ESCA_Partner_Mapping.SystemCreatedBy
+  name: SystemCreatedBy
+- type:
+    name: DateTime
+    isExternal: true
+  uid: F:Table::ESCA_Partner_Mapping.SystemModifiedAt
+  name: SystemModifiedAt
+- type:
+    name: Guid
+    isExternal: true
+  uid: F:Table::ESCA_Partner_Mapping.SystemModifiedBy
+  name: SystemModifiedBy
+- type:
+    name: BigInteger
+    isExternal: true
+  uid: F:Table::ESCA_Partner_Mapping.SystemRowVersion
+  name: SystemRowVersion
+commentId: O:Table::ESCA Partner Mapping
+uid: O:Table::ESCA_Partner_Mapping
+name: '"ESCA Partner Mapping"'

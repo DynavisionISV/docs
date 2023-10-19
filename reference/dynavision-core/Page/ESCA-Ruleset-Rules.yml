@@ -1,0 +1,37 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"ESCA Ruleset Rules"'
+alId: ID 71096653
+baseKind: Page
+kind: Page
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+sourceTableType:
+  xref: O:Table::ESCA_Rule
+  name: '"ESCA Rule"'
+  isExternal: false
+seeAlso:
+- '[Page](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-object)'
+objectProperties:
+- name: ApplicationArea
+  value: '#All'
+  promoted: false
+- name: Caption
+  value: Rules
+  promoted: false
+- name: DelayedInsert
+  value: "True"
+  promoted: false
+- name: PageType
+  value: ListPart
+  promoted: true
+- name: SourceTable
+  value: "71096626"
+  promoted: true
+  xrefType:
+    xref: O:Table::ESCA_Rule
+    name: '"ESCA Rule"'
+    isExternal: false
+commentId: O:Page::ESCA Ruleset Rules
+uid: O:Page::ESCA_Ruleset_Rules
+name: '"ESCA Ruleset Rules"'

@@ -1,0 +1,142 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"ESCA Ruleset"'
+alId: ID 71096625
+baseKind: Table
+kind: Table
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Table](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-table-object)'
+objectProperties:
+- name: Access
+  value: Public
+  promoted: false
+- name: Caption
+  value: Ruleset
+  promoted: false
+- name: DataClassification
+  value: SystemMetadata
+  promoted: false
+- name: DrillDownPageId
+  value: ESCA Rulesets
+  promoted: false
+  xrefType:
+    xref: O:Page::ESCA_Rulesets
+    name: '"ESCA Rulesets"'
+    isExternal: false
+- name: LookupPageId
+  value: ESCA Rulesets
+  promoted: false
+  xrefType:
+    xref: O:Page::ESCA_Rulesets
+    name: '"ESCA Rulesets"'
+    isExternal: false
+methods:
+- syntax:
+    content: 'procedure Create(NewEvent: Enum "ESCA Ruleset Event", NewLinkCode: Code[30], NewTableNo: Integer, IsEnabled: Boolean, var Ruleset: Record "ESCA Ruleset"): Boolean'
+    parameters:
+    - id: NewEvent
+      description: The event that causes the ruleset to be checked
+      parameterType:
+        xref: O:Enum::ESCA_Ruleset_Event
+        name: '"ESCA Ruleset Event"'
+        isExternal: false
+    - id: NewLinkCode
+      description: The code used to identify a specific event source
+      parameterType:
+        name: Code[30]
+        isExternal: true
+    - id: NewTableNo
+      description: The table no. of the source that can trigger the ruleset
+      parameterType:
+        name: Integer
+        isExternal: true
+    - id: IsEnabled
+      description: Specifies if the ruleset is active or not
+      parameterType:
+        name: Boolean
+        isExternal: true
+    - id: Ruleset
+      description: The created ruleset
+      parameterType:
+        name: Record "ESCA Ruleset"
+        isExternal: true
+    return:
+      description: True if the ruleset was successfully created
+      returnType:
+        name: Boolean
+        isExternal: true
+  summary: Creates a new ruleset
+  uid: M:Table::ESCA_Ruleset.Create(Enum::ESCA_Ruleset_Event,Code[30],Integer,Boolean,ESCA_Ruleset@):Boolean
+  name: Create
+fields:
+- type:
+    name: Integer
+    isExternal: true
+  uid: F:Table::ESCA_Ruleset.Id
+  name: Id
+- type:
+    xref: O:Enum::ESCA_Ruleset_Event
+    name: '"ESCA Ruleset Event"'
+    isExternal: false
+  uid: F:Table::ESCA_Ruleset.Event
+  name: '"Event"'
+- type:
+    name: Integer
+    isExternal: true
+  uid: F:Table::ESCA_Ruleset.Table_No.
+  name: '"Table No."'
+- type:
+    name: Text[249]
+    isExternal: true
+  uid: F:Table::ESCA_Ruleset.Table_Caption[249]
+  name: '"Table Caption"'
+- type:
+    name: Blob
+    isExternal: true
+  uid: F:Table::ESCA_Ruleset.Conditions
+  name: Conditions
+- type:
+    name: Code[30]
+    isExternal: true
+  uid: F:Table::ESCA_Ruleset.Link_Code[30]
+  name: '"Link Code"'
+- type:
+    name: Boolean
+    isExternal: true
+  uid: F:Table::ESCA_Ruleset.Enabled
+  name: Enabled
+- type:
+    name: Guid
+    isExternal: true
+  uid: F:Table::ESCA_Ruleset.SystemId
+  name: SystemId
+- type:
+    name: DateTime
+    isExternal: true
+  uid: F:Table::ESCA_Ruleset.SystemCreatedAt
+  name: SystemCreatedAt
+- type:
+    name: Guid
+    isExternal: true
+  uid: F:Table::ESCA_Ruleset.SystemCreatedBy
+  name: SystemCreatedBy
+- type:
+    name: DateTime
+    isExternal: true
+  uid: F:Table::ESCA_Ruleset.SystemModifiedAt
+  name: SystemModifiedAt
+- type:
+    name: Guid
+    isExternal: true
+  uid: F:Table::ESCA_Ruleset.SystemModifiedBy
+  name: SystemModifiedBy
+- type:
+    name: BigInteger
+    isExternal: true
+  uid: F:Table::ESCA_Ruleset.SystemRowVersion
+  name: SystemRowVersion
+commentId: O:Table::ESCA Ruleset
+uid: O:Table::ESCA_Ruleset
+name: '"ESCA Ruleset"'

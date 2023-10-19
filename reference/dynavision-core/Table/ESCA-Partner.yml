@@ -1,0 +1,209 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"ESCA Partner"'
+alId: ID 71096598
+baseKind: Table
+kind: Table
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Table](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-table-object)'
+objectProperties:
+- name: Access
+  value: Public
+  promoted: false
+- name: Caption
+  value: Partner
+  promoted: false
+- name: DataClassification
+  value: CustomerContent
+  promoted: false
+- name: DrillDownPageId
+  value: ESCA Partners
+  promoted: false
+  xrefType:
+    xref: O:Page::ESCA_Partners
+    name: '"ESCA Partners"'
+    isExternal: false
+- name: LookupPageId
+  value: ESCA Partners
+  promoted: false
+  xrefType:
+    xref: O:Page::ESCA_Partners
+    name: '"ESCA Partners"'
+    isExternal: false
+methods:
+- syntax:
+    content: 'procedure GetPartnerForVendor(VendorNo: Code[20]): Boolean'
+    parameters:
+    - id: VendorNo
+      description: The vendor number to search the partner for
+      parameterType:
+        name: Code[20]
+        isExternal: true
+    return:
+      description: True if the partner for the vendor is found
+      returnType:
+        name: Boolean
+        isExternal: true
+  summary: Sets the current record to the partner linked to the Vendor Number
+  uid: M:Table::ESCA_Partner.GetPartnerForVendor(Code[20]):Boolean
+  name: GetPartnerForVendor
+- syntax:
+    content: 'procedure GetPartnerForCustomer(CustomerNo: Code[20]): Boolean'
+    parameters:
+    - id: CustomerNo
+      description: The customer number to search the partner for
+      parameterType:
+        name: Code[20]
+        isExternal: true
+    return:
+      description: True if the partner for the customer is found
+      returnType:
+        name: Boolean
+        isExternal: true
+  summary: Sets the current record to the partner linked to the Customer Number
+  uid: M:Table::ESCA_Partner.GetPartnerForCustomer(Code[20]):Boolean
+  name: GetPartnerForCustomer
+- syntax:
+    content: 'procedure GetPartnerForLocation(LocationCode: Code[10]): Boolean'
+    parameters:
+    - id: LocationCode
+      description: The location code to search the partner for
+      parameterType:
+        name: Code[10]
+        isExternal: true
+    return:
+      description: True if the partner for the location is found
+      returnType:
+        name: Boolean
+        isExternal: true
+  summary: Sets the current record to the partner linked to the Location Code
+  uid: M:Table::ESCA_Partner.GetPartnerForLocation(Code[10]):Boolean
+  name: GetPartnerForLocation
+- syntax:
+    content: 'procedure GetPartnerForShippingAgent(ShippingAgentCode: Code[10]): Boolean'
+    parameters:
+    - id: ShippingAgentCode
+      description: The shipping agent code to search the partner for
+      parameterType:
+        name: Code[10]
+        isExternal: true
+    return:
+      description: True if the partner for the shipping agent is found
+      returnType:
+        name: Boolean
+        isExternal: true
+  summary: Sets the current record to the partner linked to the Shipping Agent Code
+  uid: M:Table::ESCA_Partner.GetPartnerForShippingAgent(Code[10]):Boolean
+  name: GetPartnerForShippingAgent
+- syntax:
+    content: 'procedure GetCustomerNo(): Code[20]'
+    return:
+      description: The number of the customer
+      returnType:
+        name: Code[20]
+        isExternal: true
+  summary: Returns the customer number for the partner (based on the partner mapping contents)
+  uid: M:Table::ESCA_Partner.GetCustomerNo:Code[20]
+  name: GetCustomerNo
+- syntax:
+    content: 'procedure GetVendorNo(): Code[20]'
+    return:
+      description: The number of the vendor
+      returnType:
+        name: Code[20]
+        isExternal: true
+  summary: Returns the vendor number for the partner (based on the partner mapping contents)
+  uid: M:Table::ESCA_Partner.GetVendorNo:Code[20]
+  name: GetVendorNo
+fields:
+- type:
+    name: Code[30]
+    isExternal: true
+  uid: F:Table::ESCA_Partner.Code[30]
+  name: Code
+- type:
+    name: Text[100]
+    isExternal: true
+  uid: F:Table::ESCA_Partner.Name[100]
+  name: Name
+- type:
+    name: Boolean
+    isExternal: true
+  uid: F:Table::ESCA_Partner.Blocked
+  name: Blocked
+- type:
+    xref: O:Enum::ESCA_Communication_Method
+    name: '"ESCA Communication Method"'
+    isExternal: false
+  uid: F:Table::ESCA_Partner.Default_Communication_Method
+  name: '"Default Communication Method"'
+- type:
+    name: Text[30]
+    isExternal: true
+  uid: F:Table::ESCA_Partner.Company_Name[30]
+  name: '"Company Name"'
+- type:
+    name: Text[80]
+    isExternal: true
+  uid: F:Table::ESCA_Partner.Email[80]
+  name: Email
+- type:
+    name: Code[20]
+    isExternal: true
+  uid: F:Table::ESCA_Partner.FTP_Code[20]
+  name: '"FTP Code"'
+- type:
+    name: Code[20]
+    isExternal: true
+  uid: F:Table::ESCA_Partner.API_URL_Code[20]
+  name: '"API URL Code"'
+- type:
+    name: Text[250]
+    isExternal: true
+  uid: F:Table::ESCA_Partner.API_URL[250]
+  name: '"API URL"'
+- type:
+    name: Integer
+    isExternal: true
+  uid: F:Table::ESCA_Partner.Message_Types
+  name: '"Message Types"'
+- type:
+    name: Integer
+    isExternal: true
+  uid: F:Table::ESCA_Partner.Mappings
+  name: Mappings
+- type:
+    name: Guid
+    isExternal: true
+  uid: F:Table::ESCA_Partner.SystemId
+  name: SystemId
+- type:
+    name: DateTime
+    isExternal: true
+  uid: F:Table::ESCA_Partner.SystemCreatedAt
+  name: SystemCreatedAt
+- type:
+    name: Guid
+    isExternal: true
+  uid: F:Table::ESCA_Partner.SystemCreatedBy
+  name: SystemCreatedBy
+- type:
+    name: DateTime
+    isExternal: true
+  uid: F:Table::ESCA_Partner.SystemModifiedAt
+  name: SystemModifiedAt
+- type:
+    name: Guid
+    isExternal: true
+  uid: F:Table::ESCA_Partner.SystemModifiedBy
+  name: SystemModifiedBy
+- type:
+    name: BigInteger
+    isExternal: true
+  uid: F:Table::ESCA_Partner.SystemRowVersion
+  name: SystemRowVersion
+commentId: O:Table::ESCA Partner
+uid: O:Table::ESCA_Partner
+name: '"ESCA Partner"'

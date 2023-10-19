@@ -1,0 +1,52 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"ESCA Message Type"'
+alId: ID 71096603
+baseKind: Enum
+kind: Enum
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Enum](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-extensible-enums)'
+objectProperties:
+- name: Access
+  value: Public
+  promoted: false
+- name: DefaultImplementation
+  value: 71177006,71177006,71177006,71177006
+  promoted: false
+- name: Extensible
+  value: "True"
+  promoted: true
+- name: UnknownValueImplementation
+  value: 71177006,71177006,71177006,71177006
+  promoted: false
+enumValues:
+- uid: E:Enum::ESCA_Message_Type._
+  name: '" "'
+- uid: E:Enum::ESCA_Message_Type.Requisition
+  name: Requisition
+- uid: E:Enum::ESCA_Message_Type.Order
+  name: Order
+- uid: E:Enum::ESCA_Message_Type.Receipt
+  name: Receipt
+- uid: E:Enum::ESCA_Message_Type.Shipment
+  name: Shipment
+- uid: E:Enum::ESCA_Message_Type.Invoice
+  name: Invoice
+- uid: E:Enum::ESCA_Message_Type.Credit_Memo
+  name: '"Credit Memo"'
+implements:
+- xref: O:ESCA_Message_Type
+  name: '"ESCA Message Type"'
+  isExternal: false
+- xref: O:ESCA_Message_Type_Setup
+  name: '"ESCA Message Type Setup"'
+  isExternal: false
+- name: '"ESCA Message Type Ruleset"'
+  isExternal: true
+- name: '"ESCA Message Type Export Data"'
+  isExternal: true
+commentId: O:Enum::ESCA Message Type
+uid: O:Enum::ESCA_Message_Type
+name: '"ESCA Message Type"'

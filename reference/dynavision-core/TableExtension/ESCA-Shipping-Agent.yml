@@ -1,0 +1,16 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"ESCA Shipping Agent"'
+alId: ID 71096628
+baseKind: Table
+kind: TableExtension
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+extends:
+  name: '"Shipping Agent"'
+  isExternal: true
+seeAlso:
+- '[Table Extension](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-table-ext-object)'
+commentId: O:TableExtension::ESCA Shipping Agent
+uid: O:TableExtension::ESCA_Shipping_Agent
+name: '"ESCA Shipping Agent"'

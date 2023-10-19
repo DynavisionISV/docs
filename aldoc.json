@@ -1,0 +1,10 @@
+﻿{
+  "Modules": [
+    {
+      "AppId": "dbe4cf4c-5910-4ad1-beee-394010c59802",
+      "Name": "Dynavision Core",
+      "Publisher": "Dynavision",
+      "Version": "22.0.7.0"
+    }
+  ]
+}

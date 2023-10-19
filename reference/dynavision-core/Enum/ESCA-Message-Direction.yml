@@ -1,0 +1,25 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"ESCA Message Direction"'
+alId: ID 71096607
+baseKind: Enum
+kind: Enum
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Enum](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-extensible-enums)'
+objectProperties:
+- name: Access
+  value: Public
+  promoted: false
+- name: Extensible
+  value: "False"
+  promoted: true
+enumValues:
+- uid: E:Enum::ESCA_Message_Direction.Incoming
+  name: Incoming
+- uid: E:Enum::ESCA_Message_Direction.Outgoing
+  name: Outgoing
+commentId: O:Enum::ESCA Message Direction
+uid: O:Enum::ESCA_Message_Direction
+name: '"ESCA Message Direction"'

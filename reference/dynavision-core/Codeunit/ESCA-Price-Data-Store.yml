@@ -1,0 +1,20 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"ESCA Price Data Store"'
+alId: ID 71096616
+baseKind: Codeunit
+kind: Codeunit
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Codeunit](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-codeunit-object)'
+objectProperties:
+- name: Access
+  value: Public
+  promoted: false
+- name: SingleInstance
+  value: "True"
+  promoted: false
+commentId: O:Codeunit::ESCA Price Data Store
+uid: O:Codeunit::ESCA_Price_Data_Store
+name: '"ESCA Price Data Store"'

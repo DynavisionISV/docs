@@ -1,0 +1,37 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"ESCA Auth. Setup Card"'
+alId: ID 71096661
+baseKind: Page
+kind: Page
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+sourceTableType:
+  xref: O:Table::ESCA_Auth#_Setup
+  name: '"ESCA Auth. Setup"'
+  isExternal: false
+seeAlso:
+- '[Page](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-object)'
+objectProperties:
+- name: ApplicationArea
+  value: '#All'
+  promoted: false
+- name: Caption
+  value: Authentication Setup Card
+  promoted: false
+- name: PageType
+  value: Card
+  promoted: true
+- name: SourceTable
+  value: "71096628"
+  promoted: true
+  xrefType:
+    xref: O:Table::ESCA_Auth#_Setup
+    name: '"ESCA Auth. Setup"'
+    isExternal: false
+- name: UsageCategory
+  value: None
+  promoted: false
+commentId: O:Page::ESCA Auth# Setup Card
+uid: O:Page::ESCA_Auth#_Setup_Card
+name: '"ESCA Auth. Setup Card"'

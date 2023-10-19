@@ -1,0 +1,35 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"ESCA JQ Report Recipient Type"'
+alId: ID 71096641
+baseKind: Enum
+kind: Enum
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Enum](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-extensible-enums)'
+objectProperties:
+- name: Access
+  value: Public
+  promoted: false
+- name: Extensible
+  value: "False"
+  promoted: true
+enumValues:
+- uid: E:Enum::ESCA_JQ_Report_Recipient_Type._
+  name: '" "'
+- uid: E:Enum::ESCA_JQ_Report_Recipient_Type.Salesperson/Purchaser
+  name: '"Salesperson/Purchaser"'
+- uid: E:Enum::ESCA_JQ_Report_Recipient_Type.Customer
+  name: Customer
+- uid: E:Enum::ESCA_JQ_Report_Recipient_Type.Vendor
+  name: Vendor
+- uid: E:Enum::ESCA_JQ_Report_Recipient_Type.Contact
+  name: Contact
+- uid: E:Enum::ESCA_JQ_Report_Recipient_Type.User
+  name: User
+- uid: E:Enum::ESCA_JQ_Report_Recipient_Type.Employee
+  name: Employee
+commentId: O:Enum::ESCA JQ Report Recipient Type
+uid: O:Enum::ESCA_JQ_Report_Recipient_Type
+name: '"ESCA JQ Report Recipient Type"'

@@ -1,0 +1,19 @@
+﻿### YamlMime:BusinessCentralObsoletionList
+uid: N:Module::Dynavision_Core_obsolete_by_20.0.5
+tag: 20.0.5
+groups:
+- uid: N:Module::Dynavision_Core_obsolete_by_20.0.5#20.0.5
+  groupName: 20.0.5
+  symbols:
+  - kind: Table
+    xref: O:Table::ESCA_Table_Mapping_Line
+    name: Table 71096585 "ESCA Table Mapping Line"
+    reason: Replaced by Table Mapping Step, with a changed key supporting filters
+  - kind: Page
+    xref: O:Page::ESCA_Table_Mapping_Lines_Wiz#
+    name: Page 71096591 "ESCA Table Mapping Lines Wiz."
+    reason: No longer used by Promotions app
+  - kind: Page
+    xref: O:Page::ESCA_Table_Mappings_Wizard
+    name: Page 71096590 "ESCA Table Mappings Wizard"
+    reason: No longer used by Promotions app

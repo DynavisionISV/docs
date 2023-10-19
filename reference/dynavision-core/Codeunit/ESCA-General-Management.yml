@@ -1,0 +1,78 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"ESCA General Management"'
+alId: ID 71096591
+baseKind: Codeunit
+kind: Codeunit
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Codeunit](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-codeunit-object)'
+objectProperties:
+- name: Access
+  value: Public
+  promoted: false
+methods:
+- syntax:
+    content: 'procedure ReturnNextLineNo(Variant: Variant, Interval: Integer): Integer'
+    parameters:
+    - id: Variant
+      description: The source record
+      parameterType:
+        name: Variant
+        isExternal: true
+    - id: Interval
+      description: The interval or seed (e.g. 10.000) that is added to the last line number when proposing the new line no.
+      parameterType:
+        name: Integer
+        isExternal: true
+    return:
+      description: The next available line number
+      returnType:
+        name: Integer
+        isExternal: true
+  summary: >-
+    Returns the next available line number for any record that has a primary key with an integer as last key field
+
+    E.g. used to propose the next available line number for a sales line, purchase line, ...
+  uid: M:Codeunit::ESCA_General_Management.ReturnNextLineNo(Variant,Integer):Integer
+  name: ReturnNextLineNo
+- syntax:
+    content: 'procedure LookupFieldForTable(TableNo: Integer): Integer'
+    parameters:
+    - id: TableNo
+      description: The number of the table
+      parameterType:
+        name: Integer
+        isExternal: true
+    return:
+      description: The number of the selected field
+      returnType:
+        name: Integer
+        isExternal: true
+  summary: Show the 'Field List' page allowing to select a field for a specific table
+  uid: M:Codeunit::ESCA_General_Management.LookupFieldForTable(Integer):Integer
+  name: LookupFieldForTable
+- syntax:
+    content: 'procedure IsBELocalization(): Boolean'
+    return:
+      description: True if the current environment is running a Belgian (BE) localisation
+      returnType:
+        name: Boolean
+        isExternal: true
+  summary: Check if the current environment is running a Belgian (BE) localisation
+  uid: M:Codeunit::ESCA_General_Management.IsBELocalization:Boolean
+  name: IsBELocalization
+- syntax:
+    content: 'procedure IsNLLocalization(): Boolean'
+    return:
+      description: True if the current environment is running a Dutch (NL) localisation
+      returnType:
+        name: Boolean
+        isExternal: true
+  summary: Check if the current environment is running a Dutch (NL) localisation
+  uid: M:Codeunit::ESCA_General_Management.IsNLLocalization:Boolean
+  name: IsNLLocalization
+commentId: O:Codeunit::ESCA General Management
+uid: O:Codeunit::ESCA_General_Management
+name: '"ESCA General Management"'

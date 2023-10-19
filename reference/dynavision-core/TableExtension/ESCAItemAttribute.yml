@@ -1,0 +1,27 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: ESCAItemAttribute
+alId: ID 71096613
+baseKind: Table
+kind: TableExtension
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+extends:
+  name: '"Item Attribute"'
+  isExternal: true
+seeAlso:
+- '[Table Extension](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-table-ext-object)'
+fields:
+- type:
+    name: Boolean
+    isExternal: true
+  uid: F:TableExtension::ESCAItemAttribute.ESCA_Show_On_Layout
+  name: '"ESCA Show On Layout"'
+- type:
+    name: Integer
+    isExternal: true
+  uid: F:TableExtension::ESCAItemAttribute.ESCA_Order
+  name: '"ESCA Order"'
+commentId: O:TableExtension::ESCAItemAttribute
+uid: O:TableExtension::ESCAItemAttribute
+name: ESCAItemAttribute

@@ -1,0 +1,889 @@
+﻿items:
+- name: Overview
+  uid: N:Module::Dynavision_Core
+- name: Reference
+  items:
+  - name: permissions
+    items:
+    - name: PermissionSetExtensions
+      items:
+      - name: ESCA D365 BUS FULL ACCESS
+        uid: O:PermissionSetExtension::ESCA_D365_BUS_FULL_ACCESS
+      - name: ESCA D365 SETUP
+        uid: O:PermissionSetExtension::ESCA_D365_SETUP
+      - name: ESCA D365 TEAM MEMBER
+        uid: O:PermissionSetExtension::ESCA_D365_TEAM_MEMBER
+  - name: src
+    items:
+    - name: Tables
+      items:
+      - name: ESCA API URL
+        uid: O:Table::ESCA_API_URL
+      - name: ESCA APS
+        uid: O:Table::ESCA_APS
+      - name: ESCA APS Line
+        uid: O:Table::ESCA_APS_Line
+      - name: ESCA APS Table Mapping
+        uid: O:Table::ESCA_APS_Table_Mapping
+      - name: ESCA Auth. Setup
+        uid: O:Table::ESCA_Auth#_Setup
+      - name: ESCA Authorization Setup
+        uid: O:Table::ESCA_Authorization_Setup
+      - name: ESCA Dynavision Setup
+        uid: O:Table::ESCA_Dynavision_Setup
+      - name: ESCA Feature
+        uid: O:Table::ESCA_Feature
+      - name: ESCA Field Value
+        uid: O:Table::ESCA_Field_Value
+      - name: ESCA FTP Request
+        uid: O:Table::ESCA_FTP_Request
+      - name: ESCA FTP Request File
+        uid: O:Table::ESCA_FTP_Request_File
+      - name: ESCA FTP Setup
+        uid: O:Table::ESCA_FTP_Setup
+      - name: ESCA Message
+        uid: O:Table::ESCA_Message
+      - name: ESCA Message Type
+        uid: O:Table::ESCA_Message_Type
+      - name: ESCA Module Setup
+        uid: O:Table::ESCA_Module_Setup
+      - name: ESCA Partner
+        uid: O:Table::ESCA_Partner
+      - name: ESCA Partner Mapping
+        uid: O:Table::ESCA_Partner_Mapping
+      - name: ESCA Partner Message Type
+        uid: O:Table::ESCA_Partner_Message_Type
+      - name: ESCA Price Simulation Line
+        uid: O:Table::ESCA_Price_Simulation_Line
+      - name: ESCA PrintNode Printer
+        uid: O:Table::ESCA_PrintNode_Printer
+      - name: ESCA PrintNode Setup
+        uid: O:Table::ESCA_PrintNode_Setup
+      - name: ESCA Report Address Buffer
+        uid: O:Table::ESCA_Report_Address_Buffer
+      - name: ESCA Report Layout Setup
+        uid: O:Table::ESCA_Report_Layout_Setup
+      - name: ESCA Report Layout Setup Line
+        uid: O:Table::ESCA_Report_Layout_Setup_Line
+      - name: ESCA Rule
+        uid: O:Table::ESCA_Rule
+      - name: ESCA Ruleset
+        uid: O:Table::ESCA_Ruleset
+      - name: ESCA Scanned Data
+        uid: O:Table::ESCA_Scanned_Data
+      - name: ESCA Scanner
+        uid: O:Table::ESCA_Scanner
+      - name: ESCA Source Document
+        uid: O:Table::ESCA_Source_Document
+      - name: ESCA Table Mapping
+        uid: O:Table::ESCA_Table_Mapping
+      - name: ESCA Table Mapping Line
+        uid: O:Table::ESCA_Table_Mapping_Line
+      - name: ESCA Text Block
+        uid: O:Table::ESCA_Text_Block
+      - name: ESCA Text Block Line
+        uid: O:Table::ESCA_Text_Block_Line
+      - name: ESCA Text Constant
+        uid: O:Table::ESCA_Text_Constant
+      - name: ESCA Text Constant Data
+        uid: O:Table::ESCA_Text_Constant_Data
+      - name: ESCA Trade Message Type
+        uid: O:Table::ESCA_Trade_Message_Type
+      - name: ESCA Web Request Log
+        uid: O:Table::ESCA_Web_Request_Log
+      - name: ESCAItemLedgerEntryCompanion
+        uid: O:Table::ESCAItemLedgerEntryCompanion
+    - name: Codeunits
+      items:
+      - name: ESCA Admin Module Link
+        uid: O:Codeunit::ESCA_Admin_Module_Link
+      - name: ESCA Advanced Finance BE Link
+        uid: O:Codeunit::ESCA_Advanced_Finance_BE_Link
+      - name: ESCA Advanced Finance Link
+        uid: O:Codeunit::ESCA_Advanced_Finance_Link
+      - name: ESCA Advanced Promotions Link
+        uid: O:Codeunit::ESCA_Advanced_Promotions_Link
+      - name: ESCA Advanced Sync Link
+        uid: O:Codeunit::ESCA_Advanced_Sync_Link
+      - name: ESCA Advanced Units Link
+        uid: O:Codeunit::ESCA_Advanced_Units_Link
+      - name: ESCA API Communication Events
+        uid: O:Codeunit::ESCA_API_Communication_Events
+      - name: ESCA Application Data Mgt
+        uid: O:Codeunit::ESCA_Application_Data_Mgt
+      - name: ESCA Appsis Finance Link
+        uid: O:Codeunit::ESCA_Appsis_Finance_Link
+      - name: ESCA APS Get Field Value
+        uid: O:Codeunit::ESCA_APS_Get_Field_Value
+      - name: ESCA APS Get Linked Items
+        uid: O:Codeunit::ESCA_APS_Get_Linked_Items
+      - name: ESCA APS Get Result
+        uid: O:Codeunit::ESCA_APS_Get_Result
+      - name: ESCA Barcode Functions
+        uid: O:Codeunit::ESCA_Barcode_Functions
+      - name: ESCA Contrib. and Declar. Link
+        uid: O:Codeunit::ESCA_Contrib#_and_Declar#_Link
+      - name: ESCA Copy Item Management
+        uid: O:Codeunit::ESCA_Copy_Item_Management
+      - name: ESCA Cross-Selling Link
+        uid: O:Codeunit::ESCA_Cross-Selling_Link
+      - name: ESCA Disable Release
+        uid: O:Codeunit::ESCA_Disable_Release
+      - name: ESCA Discount Priority Mgt.
+        uid: O:Codeunit::ESCA_Discount_Priority_Mgt#
+      - name: ESCA DM Base Link
+        uid: O:Codeunit::ESCA_DM_Base_Link
+      - name: ESCA Dynamic Fields
+        uid: O:Codeunit::ESCA_Dynamic_Fields
+      - name: ESCA Elfsquad Connector Link
+        uid: O:Codeunit::ESCA_Elfsquad_Connector_Link
+      - name: ESCA Excise Duties Link
+        uid: O:Codeunit::ESCA_Excise_Duties_Link
+      - name: ESCA Field Functions
+        uid: O:Codeunit::ESCA_Field_Functions
+      - name: ESCA Field Info
+        uid: O:Codeunit::ESCA_Field_Info
+      - name: ESCA FTP Request Mgt.
+        uid: O:Codeunit::ESCA_FTP_Request_Mgt#
+      - name: ESCA General Management
+        uid: O:Codeunit::ESCA_General_Management
+      - name: ESCA Generic Field Value
+        uid: O:Codeunit::ESCA_Generic_Field_Value
+      - name: ESCA Get Data Links
+        uid: O:Codeunit::ESCA_Get_Data_Links
+      - name: ESCA Get Report Address Data
+        uid: O:Codeunit::ESCA_Get_Report_Address_Data
+      - name: ESCA Graydon Link
+        uid: O:Codeunit::ESCA_Graydon_Link
+      - name: ESCA Installer
+        uid: O:Codeunit::ESCA_Installer
+      - name: ESCA Item Import Link
+        uid: O:Codeunit::ESCA_Item_Import_Link
+      - name: ESCA JQ Recipient Type
+        uid: O:Codeunit::ESCA_JQ_Recipient_Type
+      - name: ESCA Message
+        uid: O:Codeunit::ESCA_Message
+      - name: ESCA Message Link
+        uid: O:Codeunit::ESCA_Message_Link
+      - name: ESCA Message Setup
+        uid: O:Codeunit::ESCA_Message_Setup
+      - name: ESCA Module Permission
+        uid: O:Codeunit::ESCA_Module_Permission
+      - name: ESCA Module Setup
+        uid: O:Codeunit::ESCA_Module_Setup
+      - name: ESCA NP Retail Connector Link
+        uid: O:Codeunit::ESCA_NP_Retail_Connector_Link
+      - name: ESCA Numpad Tools
+        uid: O:Codeunit::ESCA_Numpad_Tools
+      - name: ESCA Planning n Dispatch Link
+        uid: O:Codeunit::ESCA_Planning_n_Dispatch_Link
+      - name: ESCA Pmt Discount Events
+        uid: O:Codeunit::ESCA_Pmt_Discount_Events
+      - name: ESCA Pmt Discount Purchase
+        uid: O:Codeunit::ESCA_Pmt_Discount_Purchase
+      - name: ESCA POM Payment Service Link
+        uid: O:Codeunit::ESCA_POM_Payment_Service_Link
+      - name: ESCA POS Layouts Link
+        uid: O:Codeunit::ESCA_POS_Layouts_Link
+      - name: ESCA POS Link
+        uid: O:Codeunit::ESCA_POS_Link
+      - name: ESCA Posting Subscribers
+        uid: O:Codeunit::ESCA_Posting_Subscribers
+      - name: ESCA Price Data Store
+        uid: O:Codeunit::ESCA_Price_Data_Store
+      - name: ESCA Price Sim. Events Light
+        uid: O:Codeunit::ESCA_Price_Sim#_Events_Light
+      - name: ESCA Pricing Link
+        uid: O:Codeunit::ESCA_Pricing_Link
+      - name: ESCA Prik&Tik Connector Link
+        uid: O:Codeunit::ESCA_Prik&amp;Tik_Connector_Link
+      - name: ESCA Printer Provider Mgt.
+        uid: O:Codeunit::ESCA_Printer_Provider_Mgt#
+      - name: ESCA PrintNodeFunctions
+        uid: O:Codeunit::ESCA_PrintNodeFunctions
+      - name: ESCA Project Manufact. Link
+        uid: O:Codeunit::ESCA_Project_Manufact#_Link
+      - name: ESCA Purch. Disc.Priority Mgt.
+        uid: O:Codeunit::ESCA_Purch#_Disc#Priority_Mgt#
+      - name: ESCA Purch. Proc. Center Link
+        uid: O:Codeunit::ESCA_Purch#_Proc#_Center_Link
+      - name: ESCA Recreate Lines Management
+        uid: O:Codeunit::ESCA_Recreate_Lines_Management
+      - name: ESCA Related Settings
+        uid: O:Codeunit::ESCA_Related_Settings
+      - name: ESCA Rental Consumption Link
+        uid: O:Codeunit::ESCA_Rental_Consumption_Link
+      - name: ESCA Report Datastore
+        uid: O:Codeunit::ESCA_Report_Datastore
+      - name: ESCA Report Functions
+        uid: O:Codeunit::ESCA_Report_Functions
+      - name: ESCA Report Layout Publishers
+        uid: O:Codeunit::ESCA_Report_Layout_Publishers
+      - name: ESCA Reports Link
+        uid: O:Codeunit::ESCA_Reports_Link
+      - name: ESCA Reusable Packaging Link
+        uid: O:Codeunit::ESCA_Reusable_Packaging_Link
+      - name: ESCA Ruling
+        uid: O:Codeunit::ESCA_Ruling
+      - name: ESCA Sales Price Sim. Events
+        uid: O:Codeunit::ESCA_Sales_Price_Sim#_Events
+      - name: ESCA Sales Price Simulation
+        uid: O:Codeunit::ESCA_Sales_Price_Simulation
+      - name: ESCA Sales Simulation
+        uid: O:Codeunit::ESCA_Sales_Simulation
+      - name: ESCA Scanner Management
+        uid: O:Codeunit::ESCA_Scanner_Management
+      - name: ESCA Send FTP Request Queue
+        uid: O:Codeunit::ESCA_Send_FTP_Request_Queue
+      - name: ESCA Sort Functions
+        uid: O:Codeunit::ESCA_Sort_Functions
+      - name: ESCA Split Bin Content
+        uid: O:Codeunit::ESCA_Split_Bin_Content
+      - name: ESCA Sync Link
+        uid: O:Codeunit::ESCA_Sync_Link
+      - name: ESCA Text Block Formatter
+        uid: O:Codeunit::ESCA_Text_Block_Formatter
+      - name: ESCA Text Constant
+        uid: O:Codeunit::ESCA_Text_Constant
+      - name: ESCA Text Constant Page Mgt.
+        uid: O:Codeunit::ESCA_Text_Constant_Page_Mgt#
+      - name: ESCA Trade Link
+        uid: O:Codeunit::ESCA_Trade_Link
+      - name: ESCA Trade Message Type
+        uid: O:Codeunit::ESCA_Trade_Message_Type
+      - name: ESCA Warehouse Event Mgt.
+        uid: O:Codeunit::ESCA_Warehouse_Event_Mgt#
+      - name: ESCA Web Request Handler
+        uid: O:Codeunit::ESCA_Web_Request_Handler
+      - name: ESCA XML Dom Management
+        uid: O:Codeunit::ESCA_XML_Dom_Management
+    - name: Pages
+      items:
+      - name: ESCA Activate Trial
+        uid: O:Page::ESCA_Activate_Trial
+      - name: ESCA Advanced Field Filters
+        uid: O:Page::ESCA_Advanced_Field_Filters
+      - name: ESCA API URL
+        uid: O:Page::ESCA_API_URL
+      - name: ESCA APS Card
+        uid: O:Page::ESCA_APS_Card
+      - name: ESCA APS Lines
+        uid: O:Page::ESCA_APS_Lines
+      - name: ESCA APS List
+        uid: O:Page::ESCA_APS_List
+      - name: ESCA APS Table Mappings
+        uid: O:Page::ESCA_APS_Table_Mappings
+      - name: ESCA Auth. Setup Card
+        uid: O:Page::ESCA_Auth#_Setup_Card
+      - name: ESCA Auth. Setup List
+        uid: O:Page::ESCA_Auth#_Setup_List
+      - name: ESCA Authorization Setup Card
+        uid: O:Page::ESCA_Authorization_Setup_Card
+      - name: ESCA Authorization Setup List
+        uid: O:Page::ESCA_Authorization_Setup_List
+      - name: ESCA Barcode Test
+        uid: O:Page::ESCA_Barcode_Test
+      - name: ESCA Companies
+        uid: O:Page::ESCA_Companies
+      - name: ESCA Company Footer Picture
+        uid: O:Page::ESCA_Company_Footer_Picture
+      - name: ESCA Copy Item Buffer
+        uid: O:Page::ESCA_Copy_Item_Buffer
+      - name: ESCA Create API URL Wizard
+        uid: O:Page::ESCA_Create_API_URL_Wizard
+      - name: ESCA Data Link Apps
+        uid: O:Page::ESCA_Data_Link_Apps
+      - name: ESCA Data Links
+        uid: O:Page::ESCA_Data_Links
+      - name: ESCA Dynamic Field Card
+        uid: O:Page::ESCA_Dynamic_Field_Card
+      - name: ESCA Dynamic Fields
+        uid: O:Page::ESCA_Dynamic_Fields
+      - name: ESCA Dynamic Fields Buffer
+        uid: O:Page::ESCA_Dynamic_Fields_Buffer
+      - name: ESCA Dynavision Setup
+        uid: O:Page::ESCA_Dynavision_Setup
+      - name: ESCA Email Settings
+        uid: O:Page::ESCA_Email_Settings
+      - name: ESCA Features
+        uid: O:Page::ESCA_Features
+      - name: ESCA Field Factbox
+        uid: O:Page::ESCA_Field_Factbox
+      - name: ESCA Field List
+        uid: O:Page::ESCA_Field_List
+      - name: ESCA Field Value Lookup
+        uid: O:Page::ESCA_Field_Value_Lookup
+      - name: ESCA Fields
+        uid: O:Page::ESCA_Fields
+      - name: ESCA FTP Request File Subform
+        uid: O:Page::ESCA_FTP_Request_File_Subform
+      - name: ESCA FTP Requests
+        uid: O:Page::ESCA_FTP_Requests
+      - name: ESCA FTP Setup List
+        uid: O:Page::ESCA_FTP_Setup_List
+      - name: ESCA Get Access Token Wizard
+        uid: O:Page::ESCA_Get_Access_Token_Wizard
+      - name: ESCA GetPrice For Item
+        uid: O:Page::ESCA_GetPrice_For_Item
+      - name: ESCA Item Advanced Filters
+        uid: O:Page::ESCA_Item_Advanced_Filters
+      - name: ESCA Item API
+        uid: O:Page::ESCA_Item_API
+      - name: ESCA Item Ledg. Entry Comp API
+        uid: O:Page::ESCA_Item_Ledg#_Entry_Comp_API
+      - name: ESCA JQ Entries Per Comp. List
+        uid: O:Page::ESCA_JQ_Entries_Per_Comp#_List
+      - name: ESCA JQ Recipient Reports
+        uid: O:Page::ESCA_JQ_Recipient_Reports
+      - name: ESCA JQ Report Delivery Card
+        uid: O:Page::ESCA_JQ_Report_Delivery_Card
+      - name: ESCA JQ Report Recipients
+        uid: O:Page::ESCA_JQ_Report_Recipients
+      - name: ESCA Legend List
+        uid: O:Page::ESCA_Legend_List
+      - name: ESCA Manual Input Std. Dialog
+        uid: O:Page::ESCA_Manual_Input_Std#_Dialog
+      - name: ESCA Message API
+        uid: O:Page::ESCA_Message_API
+      - name: ESCA Message Links
+        uid: O:Page::ESCA_Message_Links
+      - name: ESCA Message Type API
+        uid: O:Page::ESCA_Message_Type_API
+      - name: ESCA Message Type Card
+        uid: O:Page::ESCA_Message_Type_Card
+      - name: ESCA Message Type Fields
+        uid: O:Page::ESCA_Message_Type_Fields
+      - name: ESCA Message Types
+        uid: O:Page::ESCA_Message_Types
+      - name: ESCA Messages
+        uid: O:Page::ESCA_Messages
+      - name: ESCA Module Setup SubPage
+        uid: O:Page::ESCA_Module_Setup_SubPage
+      - name: ESCA Move FTP File
+        uid: O:Page::ESCA_Move_FTP_File
+      - name: ESCA Open Hyperlink
+        uid: O:Page::ESCA_Open_Hyperlink
+      - name: ESCA PageMetadata List
+        uid: O:Page::ESCA_PageMetadata_List
+      - name: ESCA Partner API
+        uid: O:Page::ESCA_Partner_API
+      - name: ESCA Partner Card
+        uid: O:Page::ESCA_Partner_Card
+      - name: ESCA Partner Mappings
+        uid: O:Page::ESCA_Partner_Mappings
+      - name: ESCA Partner Mappings ListPart
+        uid: O:Page::ESCA_Partner_Mappings_ListPart
+      - name: ESCA Partner Message Types
+        uid: O:Page::ESCA_Partner_Message_Types
+      - name: ESCA Partners
+        uid: O:Page::ESCA_Partners
+      - name: ESCA PDF Viewer
+        uid: O:Page::ESCA_PDF_Viewer
+      - name: ESCA PDF Viewer Factbox
+        uid: O:Page::ESCA_PDF_Viewer_Factbox
+      - name: ESCA Price List Management
+        uid: O:Page::ESCA_Price_List_Management
+      - name: ESCA Printer Paper Type List
+        uid: O:Page::ESCA_Printer_Paper_Type_List
+      - name: ESCA PrintNode Printer List
+        uid: O:Page::ESCA_PrintNode_Printer_List
+      - name: ESCA PrintNode Setup
+        uid: O:Page::ESCA_PrintNode_Setup
+      - name: ESCA Related Settings
+        uid: O:Page::ESCA_Related_Settings
+      - name: ESCA Rep. Layout Setup Subform
+        uid: O:Page::ESCA_Rep#_Layout_Setup_Subform
+      - name: ESCA Report Layout Setup Card
+        uid: O:Page::ESCA_Report_Layout_Setup_Card
+      - name: ESCA Report Layout Setup List
+        uid: O:Page::ESCA_Report_Layout_Setup_List
+      - name: ESCA Respons. Center Picture
+        uid: O:Page::ESCA_Respons#_Center_Picture
+      - name: ESCA Ruleset Results
+        uid: O:Page::ESCA_Ruleset_Results
+      - name: ESCA Ruleset Rules
+        uid: O:Page::ESCA_Ruleset_Rules
+      - name: ESCA Rulesets
+        uid: O:Page::ESCA_Rulesets
+      - name: ESCA Run Object
+        uid: O:Page::ESCA_Run_Object
+      - name: ESCA Sales Line Factbox
+        uid: O:Page::ESCA_Sales_Line_Factbox
+      - name: ESCA Sales Lines Subform
+        uid: O:Page::ESCA_Sales_Lines_Subform
+      - name: ESCA Scanner Tests
+        uid: O:Page::ESCA_Scanner_Tests
+      - name: ESCA Scanners
+        uid: O:Page::ESCA_Scanners
+      - name: ESCA Source Documents
+        uid: O:Page::ESCA_Source_Documents
+      - name: ESCA Table Mapping Lines
+        uid: O:Page::ESCA_Table_Mapping_Lines
+      - name: ESCA Table Mapping Lines Wiz.
+        uid: O:Page::ESCA_Table_Mapping_Lines_Wiz#
+      - name: ESCA Table Mappings
+        uid: O:Page::ESCA_Table_Mappings
+      - name: ESCA Table Mappings Wizard
+        uid: O:Page::ESCA_Table_Mappings_Wizard
+      - name: ESCA Temp Price List Lines
+        uid: O:Page::ESCA_Temp_Price_List_Lines
+      - name: ESCA Temp Sales Line Info
+        uid: O:Page::ESCA_Temp_Sales_Line_Info
+      - name: ESCA Terms and Conditions
+        uid: O:Page::ESCA_Terms_and_Conditions
+      - name: ESCA Text Block Card
+        uid: O:Page::ESCA_Text_Block_Card
+      - name: ESCA Text Block Lines
+        uid: O:Page::ESCA_Text_Block_Lines
+      - name: ESCA Text Block List
+        uid: O:Page::ESCA_Text_Block_List
+      - name: ESCA Text Const. Lang.
+        uid: O:Page::ESCA_Text_Const#_Lang#
+      - name: ESCA Text Constant Data
+        uid: O:Page::ESCA_Text_Constant_Data
+      - name: ESCA Text Constant List
+        uid: O:Page::ESCA_Text_Constant_List
+      - name: ESCA Trade Message Type Card
+        uid: O:Page::ESCA_Trade_Message_Type_Card
+      - name: ESCA Web Request Log Factbox
+        uid: O:Page::ESCA_Web_Request_Log_Factbox
+      - name: ESCA Web Request Log List
+        uid: O:Page::ESCA_Web_Request_Log_List
+    - name: Reports
+      items:
+      - name: ESCA Import Messages
+        uid: O:Report::ESCA_Import_Messages
+      - name: ESCA Render Barcode
+        uid: O:Report::ESCA_Render_Barcode
+    - name: PageExtensions
+      items:
+      - name: ESCA ConfigPackages
+        uid: O:PageExtension::ESCA_ConfigPackages
+      - name: ESCA Contact Card
+        uid: O:PageExtension::ESCA_Contact_Card
+      - name: ESCA Contact List
+        uid: O:PageExtension::ESCA_Contact_List
+      - name: ESCA Customer Card
+        uid: O:PageExtension::ESCA_Customer_Card
+      - name: ESCA Customer List
+        uid: O:PageExtension::ESCA_Customer_List
+      - name: ESCA DataExchDefList
+        uid: O:PageExtension::ESCA_DataExchDefList
+      - name: ESCA Document Att. Factbox
+        uid: O:PageExtension::ESCA_Document_Att#_Factbox
+      - name: ESCA Employee Card
+        uid: O:PageExtension::ESCA_Employee_Card
+      - name: ESCA Employee List
+        uid: O:PageExtension::ESCA_Employee_List
+      - name: ESCA Filter Items by Attribute
+        uid: O:PageExtension::ESCA_Filter_Items_by_Attribute
+      - name: ESCA Job Queue Entries
+        uid: O:PageExtension::ESCA_Job_Queue_Entries
+      - name: ESCA Job Queue Entry Card
+        uid: O:PageExtension::ESCA_Job_Queue_Entry_Card
+      - name: ESCA O365 Activities
+        uid: O:PageExtension::ESCA_O365_Activities
+      - name: ESCA Posted Purch. Credit Memo
+        uid: O:PageExtension::ESCA_Posted_Purch#_Credit_Memo
+      - name: ESCA Posted Purchase Invoice
+        uid: O:PageExtension::ESCA_Posted_Purchase_Invoice
+      - name: ESCA Posted Purchase Receipt
+        uid: O:PageExtension::ESCA_Posted_Purchase_Receipt
+      - name: ESCA Posted Return Shipment
+        uid: O:PageExtension::ESCA_Posted_Return_Shipment
+      - name: ESCA Posted Sales Credit Memo
+        uid: O:PageExtension::ESCA_Posted_Sales_Credit_Memo
+      - name: ESCA Posted Sales Invoice
+        uid: O:PageExtension::ESCA_Posted_Sales_Invoice
+      - name: ESCA Posted Sales Shipment
+        uid: O:PageExtension::ESCA_Posted_Sales_Shipment
+      - name: ESCA Purchase Credit Memo
+        uid: O:PageExtension::ESCA_Purchase_Credit_Memo
+      - name: ESCA Purchase Invoice
+        uid: O:PageExtension::ESCA_Purchase_Invoice
+      - name: ESCA Purchase Order
+        uid: O:PageExtension::ESCA_Purchase_Order
+      - name: ESCA Purchase Return Order
+        uid: O:PageExtension::ESCA_Purchase_Return_Order
+      - name: ESCA Sales Credit Memo
+        uid: O:PageExtension::ESCA_Sales_Credit_Memo
+      - name: ESCA Sales Invoice
+        uid: O:PageExtension::ESCA_Sales_Invoice
+      - name: ESCA Sales Order
+        uid: O:PageExtension::ESCA_Sales_Order
+      - name: ESCA Sales Return Order
+        uid: O:PageExtension::ESCA_Sales_Return_Order
+      - name: ESCA Salesperson/Purch. Card
+        uid: O:PageExtension::ESCA_Salesperson/Purch#_Card
+      - name: ESCA Salespersons/Purchasers
+        uid: O:PageExtension::ESCA_Salespersons/Purchasers
+      - name: ESCA Schedule a Report
+        uid: O:PageExtension::ESCA_Schedule_a_Report
+      - name: ESCA Transfer Order
+        uid: O:PageExtension::ESCA_Transfer_Order
+      - name: ESCA User Card
+        uid: O:PageExtension::ESCA_User_Card
+      - name: ESCA Users
+        uid: O:PageExtension::ESCA_Users
+      - name: ESCA VAT Posting Setup
+        uid: O:PageExtension::ESCA_VAT_Posting_Setup
+      - name: ESCA Vendor Card
+        uid: O:PageExtension::ESCA_Vendor_Card
+      - name: ESCA Vendor List
+        uid: O:PageExtension::ESCA_Vendor_List
+      - name: ESCAChartOfAccounts
+        uid: O:PageExtension::ESCAChartOfAccounts
+      - name: ESCACompanyInformation
+        uid: O:PageExtension::ESCACompanyInformation
+      - name: ESCACopyItem
+        uid: O:PageExtension::ESCACopyItem
+      - name: ESCADocumentAttachmentDetails
+        uid: O:PageExtension::ESCADocumentAttachmentDetails
+      - name: ESCAExtendedTextList
+        uid: O:PageExtension::ESCAExtendedTextList
+      - name: ESCAFixedAssetCard
+        uid: O:PageExtension::ESCAFixedAssetCard
+      - name: ESCAFixedAssetList
+        uid: O:PageExtension::ESCAFixedAssetList
+      - name: ESCAGeneralLederSetup
+        uid: O:PageExtension::ESCAGeneralLederSetup
+      - name: ESCAGLAccountCard
+        uid: O:PageExtension::ESCAGLAccountCard
+      - name: ESCAGLAccountList
+        uid: O:PageExtension::ESCAGLAccountList
+      - name: ESCAInvtMovementSubform
+        uid: O:PageExtension::ESCAInvtMovementSubform
+      - name: ESCAInvtPickSubform
+        uid: O:PageExtension::ESCAInvtPickSubform
+      - name: ESCAInvtPutawaySubform
+        uid: O:PageExtension::ESCAInvtPutawaySubform
+      - name: ESCAInvtReceiptSubform
+        uid: O:PageExtension::ESCAInvtReceiptSubform
+      - name: ESCAInvtShipmentSubform
+        uid: O:PageExtension::ESCAInvtShipmentSubform
+      - name: ESCAItemCard
+        uid: O:PageExtension::ESCAItemCard
+      - name: ESCAItemCharges
+        uid: O:PageExtension::ESCAItemCharges
+      - name: ESCAItemLedgerEntries
+        uid: O:PageExtension::ESCAItemLedgerEntries
+      - name: ESCAItemLedgerEntriesPreview
+        uid: O:PageExtension::ESCAItemLedgerEntriesPreview
+      - name: ESCAItemList
+        uid: O:PageExtension::ESCAItemList
+      - name: ESCAPaymentMethods
+        uid: O:PageExtension::ESCAPaymentMethods
+      - name: ESCAPaymentTerms
+        uid: O:PageExtension::ESCAPaymentTerms
+      - name: ESCAPostedInvtPickLines
+        uid: O:PageExtension::ESCAPostedInvtPickLines
+      - name: ESCAPostedInvtPickSubform
+        uid: O:PageExtension::ESCAPostedInvtPickSubform
+      - name: ESCAPostedInvtPutawayLines
+        uid: O:PageExtension::ESCAPostedInvtPutawayLines
+      - name: ESCAPostedInvtPutawaySubform
+        uid: O:PageExtension::ESCAPostedInvtPutawaySubform
+      - name: ESCAPostedInvtReceiptSubform
+        uid: O:PageExtension::ESCAPostedInvtReceiptSubform
+      - name: ESCAPostedInvtShipmentSubform
+        uid: O:PageExtension::ESCAPostedInvtShipmentSubform
+      - name: ESCAPostedPurchaseRcptSubform
+        uid: O:PageExtension::ESCAPostedPurchaseRcptSubform
+      - name: ESCAPostedPurchCrMemoSubform
+        uid: O:PageExtension::ESCAPostedPurchCrMemoSubform
+      - name: ESCAPostedPurchInvoiceSubform
+        uid: O:PageExtension::ESCAPostedPurchInvoiceSubform
+      - name: ESCAPostedReturnReceiptSubform
+        uid: O:PageExtension::ESCAPostedReturnReceiptSubform
+      - name: ESCAPostedReturnShipmentLines
+        uid: O:PageExtension::ESCAPostedReturnShipmentLines
+      - name: ESCAPostedReturnShipmentSubfrm
+        uid: O:PageExtension::ESCAPostedReturnShipmentSubfrm
+      - name: ESCAPostedSalesCrMemoSubform
+        uid: O:PageExtension::ESCAPostedSalesCrMemoSubform
+      - name: ESCAPostedSalesInv.Update
+        uid: O:PageExtension::ESCAPostedSalesInv#Update
+      - name: ESCAPostedSalesInvoiceLines
+        uid: O:PageExtension::ESCAPostedSalesInvoiceLines
+      - name: ESCAPostedSalesInvoiceSubform
+        uid: O:PageExtension::ESCAPostedSalesInvoiceSubform
+      - name: ESCAPostedSalesShptSubform
+        uid: O:PageExtension::ESCAPostedSalesShptSubform
+      - name: ESCAPostedTransferReceiptLines
+        uid: O:PageExtension::ESCAPostedTransferReceiptLines
+      - name: ESCAPostedTransferShipmntLines
+        uid: O:PageExtension::ESCAPostedTransferShipmntLines
+      - name: ESCAPostedWhseReceiptLines
+        uid: O:PageExtension::ESCAPostedWhseReceiptLines
+      - name: ESCAPostedWhseReceiptSubform
+        uid: O:PageExtension::ESCAPostedWhseReceiptSubform
+      - name: ESCAPostedWhseShipmentLines
+        uid: O:PageExtension::ESCAPostedWhseShipmentLines
+      - name: ESCAPostedWhseShipmentSubform
+        uid: O:PageExtension::ESCAPostedWhseShipmentSubform
+      - name: ESCAPrinterSelections
+        uid: O:PageExtension::ESCAPrinterSelections
+      - name: ESCAPurchaseOrderSubform
+        uid: O:PageExtension::ESCAPurchaseOrderSubform
+      - name: ESCAPurchaseQuoteSubform
+        uid: O:PageExtension::ESCAPurchaseQuoteSubform
+      - name: ESCAPurchaseReturnOrderSubform
+        uid: O:PageExtension::ESCAPurchaseReturnOrderSubform
+      - name: ESCAPurchCrMemoSubform
+        uid: O:PageExtension::ESCAPurchCrMemoSubform
+      - name: ESCAPurchInvoiceSubform
+        uid: O:PageExtension::ESCAPurchInvoiceSubform
+      - name: ESCAResourceCard
+        uid: O:PageExtension::ESCAResourceCard
+      - name: ESCAResourceList
+        uid: O:PageExtension::ESCAResourceList
+      - name: ESCAResponsibilityCenter
+        uid: O:PageExtension::ESCAResponsibilityCenter
+      - name: ESCASalesCrMemoSubform
+        uid: O:PageExtension::ESCASalesCrMemoSubform
+      - name: ESCASalesInvoiceSubform
+        uid: O:PageExtension::ESCASalesInvoiceSubform
+      - name: ESCASalesLines
+        uid: O:PageExtension::ESCASalesLines
+      - name: ESCASalesOrderSubform
+        uid: O:PageExtension::ESCASalesOrderSubform
+      - name: ESCASalesQuoteSubform
+        uid: O:PageExtension::ESCASalesQuoteSubform
+      - name: ESCASalesReturnOrderSubform
+        uid: O:PageExtension::ESCASalesReturnOrderSubform
+      - name: ESCATransferOrderSubform
+        uid: O:PageExtension::ESCATransferOrderSubform
+      - name: ESCAUserSetup
+        uid: O:PageExtension::ESCAUserSetup
+      - name: ESCAVATProductPostingGroups
+        uid: O:PageExtension::ESCAVATProductPostingGroups
+      - name: ESCAWhseReceiptLines
+        uid: O:PageExtension::ESCAWhseReceiptLines
+      - name: ESCAWhseShipmentLines
+        uid: O:PageExtension::ESCAWhseShipmentLines
+    - name: TableExtensions
+      items:
+      - name: ESCA Activities Cue
+        uid: O:TableExtension::ESCA_Activities_Cue
+      - name: ESCA Customer
+        uid: O:TableExtension::ESCA_Customer
+      - name: ESCA Document Attachment
+        uid: O:TableExtension::ESCA_Document_Attachment
+      - name: ESCA Item
+        uid: O:TableExtension::ESCA_Item
+      - name: ESCA Job Queue Entry
+        uid: O:TableExtension::ESCA_Job_Queue_Entry
+      - name: ESCA Location
+        uid: O:TableExtension::ESCA_Location
+      - name: ESCA Purchase Header
+        uid: O:TableExtension::ESCA_Purchase_Header
+      - name: ESCA Sales Header
+        uid: O:TableExtension::ESCA_Sales_Header
+      - name: ESCA Shipping Agent
+        uid: O:TableExtension::ESCA_Shipping_Agent
+      - name: ESCA Transfer Header
+        uid: O:TableExtension::ESCA_Transfer_Header
+      - name: ESCA VAT Posting Setup
+        uid: O:TableExtension::ESCA_VAT_Posting_Setup
+      - name: ESCA Vendor
+        uid: O:TableExtension::ESCA_Vendor
+      - name: ESCACompanyInformation
+        uid: O:TableExtension::ESCACompanyInformation
+      - name: ESCAFixedAsset
+        uid: O:TableExtension::ESCAFixedAsset
+      - name: ESCAGeneralLedgerSetup
+        uid: O:TableExtension::ESCAGeneralLedgerSetup
+      - name: ESCAGLAccount
+        uid: O:TableExtension::ESCAGLAccount
+      - name: ESCAInvtDocumentLine
+        uid: O:TableExtension::ESCAInvtDocumentLine
+      - name: ESCAInvtReceiptLine
+        uid: O:TableExtension::ESCAInvtReceiptLine
+      - name: ESCAInvtShipmentLine
+        uid: O:TableExtension::ESCAInvtShipmentLine
+      - name: ESCAItemAttribute
+        uid: O:TableExtension::ESCAItemAttribute
+      - name: ESCAItemCharge
+        uid: O:TableExtension::ESCAItemCharge
+      - name: ESCAItemJournalLine
+        uid: O:TableExtension::ESCAItemJournalLine
+      - name: ESCAItemLedgerEntry
+        uid: O:TableExtension::ESCAItemLedgerEntry
+      - name: ESCAPaymentMethod
+        uid: O:TableExtension::ESCAPaymentMethod
+      - name: ESCAPaymentTerms
+        uid: O:TableExtension::ESCAPaymentTerms
+      - name: ESCAPostedInvtPickLine
+        uid: O:TableExtension::ESCAPostedInvtPickLine
+      - name: ESCAPostedInvtPutAwayLine
+        uid: O:TableExtension::ESCAPostedInvtPutAwayLine
+      - name: ESCAPostedWhseReceiptLine
+        uid: O:TableExtension::ESCAPostedWhseReceiptLine
+      - name: ESCAPostedWhseShipmentLine
+        uid: O:TableExtension::ESCAPostedWhseShipmentLine
+      - name: ESCAPrinterSelection
+        uid: O:TableExtension::ESCAPrinterSelection
+      - name: ESCAPurchaseLine
+        uid: O:TableExtension::ESCAPurchaseLine
+      - name: ESCAPurchaseLineArchive
+        uid: O:TableExtension::ESCAPurchaseLineArchive
+      - name: ESCAPurchCrMemoLine
+        uid: O:TableExtension::ESCAPurchCrMemoLine
+      - name: ESCAPurchInvLine
+        uid: O:TableExtension::ESCAPurchInvLine
+      - name: ESCAPurchRcptLine
+        uid: O:TableExtension::ESCAPurchRcptLine
+      - name: ESCARegisteredWhseActivityLine
+        uid: O:TableExtension::ESCARegisteredWhseActivityLine
+      - name: ESCAResource
+        uid: O:TableExtension::ESCAResource
+      - name: ESCAResponsibilityCenter
+        uid: O:TableExtension::ESCAResponsibilityCenter
+      - name: ESCAReturnReceiptLine
+        uid: O:TableExtension::ESCAReturnReceiptLine
+      - name: ESCAReturnShipmentLine
+        uid: O:TableExtension::ESCAReturnShipmentLine
+      - name: ESCASalesCrMemoLine
+        uid: O:TableExtension::ESCASalesCrMemoLine
+      - name: ESCASalesInvoiceHeader
+        uid: O:TableExtension::ESCASalesInvoiceHeader
+      - name: ESCASalesInvoiceLine
+        uid: O:TableExtension::ESCASalesInvoiceLine
+      - name: ESCASalesLine
+        uid: O:TableExtension::ESCASalesLine
+      - name: ESCASalesLineArchive
+        uid: O:TableExtension::ESCASalesLineArchive
+      - name: ESCASalesShipmentLine
+        uid: O:TableExtension::ESCASalesShipmentLine
+      - name: ESCAServiceInvoiceHeader
+        uid: O:TableExtension::ESCAServiceInvoiceHeader
+      - name: ESCATransferLine
+        uid: O:TableExtension::ESCATransferLine
+      - name: ESCATransferReceiptLine
+        uid: O:TableExtension::ESCATransferReceiptLine
+      - name: ESCATransferShipmentLine
+        uid: O:TableExtension::ESCATransferShipmentLine
+      - name: ESCAUserSetup
+        uid: O:TableExtension::ESCAUserSetup
+      - name: ESCAVATProductPostingGroup
+        uid: O:TableExtension::ESCAVATProductPostingGroup
+      - name: ESCAWarehouseActivityLine
+        uid: O:TableExtension::ESCAWarehouseActivityLine
+      - name: ESCAWarehouseReceiptLine
+        uid: O:TableExtension::ESCAWarehouseReceiptLine
+      - name: ESCAWarehouseShipmentLine
+        uid: O:TableExtension::ESCAWarehouseShipmentLine
+    - name: ControlAddIns
+      items:
+      - name: ESCA Color Picker
+        uid: O:ESCA_Color_Picker
+      - name: ESCA ControlAddin Numpad
+        uid: O:ESCA_ControlAddin_Numpad
+      - name: ESCA Custom OK Cancel
+        uid: O:ESCA_Custom_OK_Cancel
+      - name: ESCA Open New Window
+        uid: O:ESCA_Open_New_Window
+      - name: ESCA Open Popup
+        uid: O:ESCA_Open_Popup
+      - name: ESCA PDF Viewer
+        uid: O:ESCA_PDF_Viewer
+      - name: ESCA Ping Pong
+        uid: O:ESCA_Ping_Pong
+      - name: ESCABeeper
+        uid: O:ESCABeeper
+      - name: ESCAScannerInterface
+        uid: O:ESCAScannerInterface
+    - name: Enums
+      items:
+      - name: ESCA Address Type
+        uid: O:Enum::ESCA_Address_Type
+      - name: ESCA App Publisher
+        uid: O:Enum::ESCA_App_Publisher
+      - name: ESCA Blank Yes No
+        uid: O:Enum::ESCA_Blank_Yes_No
+      - name: ESCA Communication Method
+        uid: O:Enum::ESCA_Communication_Method
+      - name: ESCA Data Link Provider
+        uid: O:Enum::ESCA_Data_Link_Provider
+      - name: ESCA Discount Priority
+        uid: O:Enum::ESCA_Discount_Priority
+      - name: ESCA Email Body Type
+        uid: O:Enum::ESCA_Email_Body_Type
+      - name: ESCA Feature Type
+        uid: O:Enum::ESCA_Feature_Type
+      - name: ESCA FTP Request Type
+        uid: O:Enum::ESCA_FTP_Request_Type
+      - name: ESCA FTP Type
+        uid: O:Enum::ESCA_FTP_Type
+      - name: ESCA JQ Report Recipient Type
+        uid: O:Enum::ESCA_JQ_Report_Recipient_Type
+      - name: ESCA Message Direction
+        uid: O:Enum::ESCA_Message_Direction
+      - name: ESCA Message Format
+        uid: O:Enum::ESCA_Message_Format
+      - name: ESCA Message Type
+        uid: O:Enum::ESCA_Message_Type
+      - name: ESCA Module
+        uid: O:Enum::ESCA_Module
+      - name: ESCA Operation
+        uid: O:Enum::ESCA_Operation
+      - name: ESCA Partner Source Type
+        uid: O:Enum::ESCA_Partner_Source_Type
+      - name: ESCA Request Status
+        uid: O:Enum::ESCA_Request_Status
+      - name: ESCA Rule Operator
+        uid: O:Enum::ESCA_Rule_Operator
+      - name: ESCA Ruleset Event
+        uid: O:Enum::ESCA_Ruleset_Event
+      - name: ESCA Text Block Separator
+        uid: O:Enum::ESCA_Text_Block_Separator
+      - name: ESCA Text Block Title Type
+        uid: O:Enum::ESCA_Text_Block_Title_Type
+      - name: ESCA Unit of Measure Option
+        uid: O:Enum::ESCA_Unit_of_Measure_Option
+      - name: ESCA Yes No
+        uid: O:Enum::ESCA_Yes_No
+    - name: EnumExtensions
+      items:
+      - name: ESCA Email Scenario
+        uid: O:EnumExtension::ESCA_Email_Scenario
+    - name: Interfaces
+      items:
+      - name: ESCA Authentication Type
+        uid: O:ESCA_Authentication_Type
+      - name: ESCA Data Link Provider
+        uid: O:ESCA_Data_Link_Provider
+      - name: ESCA License Per Company
+        uid: O:ESCA_License_Per_Company
+      - name: ESCA License Validator
+        uid: O:ESCA_License_Validator
+      - name: ESCA Message API
+        uid: O:ESCA_Message_API
+      - name: ESCA Message Format
+        uid: O:ESCA_Message_Format
+      - name: ESCA Message Request API
+        uid: O:ESCA_Message_Request_API
+      - name: ESCA Message Type
+        uid: O:ESCA_Message_Type
+      - name: ESCA Message Type Setup
+        uid: O:ESCA_Message_Type_Setup
+      - name: ESCA Module
+        uid: O:ESCA_Module
+    - name: ReportExtensions
+      items:
+      - name: ESCAWhseGetBinContent
+        uid: O:ReportExtension::ESCAWhseGetBinContent
+- name: Obsoleted
+  items:
+  - name: '[Untagged]'
+    uid: N:Module::Dynavision_Core_obsolete_by_[Untagged]
+  - name: "20.0"
+    uid: N:Module::Dynavision_Core_obsolete_by_20.0
+  - name: 20.0.5
+    uid: N:Module::Dynavision_Core_obsolete_by_20.0.5
+  - name: "21.0"
+    uid: N:Module::Dynavision_Core_obsolete_by_21.0
+  - name: "22.0"
+    uid: N:Module::Dynavision_Core_obsolete_by_22.0
+  - name: "23.0"
+    uid: N:Module::Dynavision_Core_obsolete_by_23.0

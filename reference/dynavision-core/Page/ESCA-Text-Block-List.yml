@@ -1,0 +1,50 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"ESCA Text Block List"'
+alId: ID 71096663
+baseKind: Page
+kind: Page
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+sourceTableType:
+  xref: O:Table::ESCA_Text_Block
+  name: '"ESCA Text Block"'
+  isExternal: false
+seeAlso:
+- '[Page](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-object)'
+objectProperties:
+- name: AdditionalSearchTerms
+  value: Address blocks,format,report layout setup
+  promoted: false
+- name: ApplicationArea
+  value: '#All'
+  promoted: false
+- name: Caption
+  value: Text Blocks
+  promoted: false
+- name: CardPageId
+  value: ESCA Text Block Card
+  promoted: false
+  xrefType:
+    xref: O:Page::ESCA_Text_Block_Card
+    name: '"ESCA Text Block Card"'
+    isExternal: false
+- name: Editable
+  value: "False"
+  promoted: false
+- name: PageType
+  value: List
+  promoted: true
+- name: SourceTable
+  value: "71096629"
+  promoted: true
+  xrefType:
+    xref: O:Table::ESCA_Text_Block
+    name: '"ESCA Text Block"'
+    isExternal: false
+- name: UsageCategory
+  value: Administration
+  promoted: false
+commentId: O:Page::ESCA Text Block List
+uid: O:Page::ESCA_Text_Block_List
+name: '"ESCA Text Block List"'

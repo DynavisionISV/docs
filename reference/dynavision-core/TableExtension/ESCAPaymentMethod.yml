@@ -1,0 +1,22 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: ESCAPaymentMethod
+alId: ID 71096629
+baseKind: Table
+kind: TableExtension
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+extends:
+  name: '"Payment Method"'
+  isExternal: true
+seeAlso:
+- '[Table Extension](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-table-ext-object)'
+fields:
+- type:
+    name: Integer
+    isExternal: true
+  uid: F:TableExtension::ESCAPaymentMethod.ESCA_Payment_Service_Set_ID
+  name: '"ESCA Payment Service Set ID"'
+commentId: O:TableExtension::ESCAPaymentMethod
+uid: O:TableExtension::ESCAPaymentMethod
+name: ESCAPaymentMethod

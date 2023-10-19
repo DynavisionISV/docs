@@ -1,0 +1,23 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"ESCA Manual Input Std. Dialog"'
+alId: ID 71096596
+baseKind: Page
+kind: Page
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Page](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-object)'
+objectProperties:
+- name: ApplicationArea
+  value: '#All'
+  promoted: false
+- name: Caption
+  value: Scan or Input
+  promoted: false
+- name: PageType
+  value: StandardDialog
+  promoted: true
+commentId: O:Page::ESCA Manual Input Std# Dialog
+uid: O:Page::ESCA_Manual_Input_Std#_Dialog
+name: '"ESCA Manual Input Std. Dialog"'

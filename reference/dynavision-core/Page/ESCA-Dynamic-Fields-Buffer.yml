@@ -1,0 +1,38 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"ESCA Dynamic Fields Buffer"'
+alId: ID 71096669
+baseKind: Page
+kind: Page
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+sourceTableType:
+  name: '"ESCA Dynamic Field Buffer"'
+  isExternal: true
+seeAlso:
+- '[Page](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-object)'
+objectProperties:
+- name: ApplicationArea
+  value: '#All'
+  promoted: false
+- name: Caption
+  value: Dynamic Fields
+  promoted: false
+- name: DeleteAllowed
+  value: "False"
+  promoted: false
+- name: Editable
+  value: "False"
+  promoted: false
+- name: InsertAllowed
+  value: "False"
+  promoted: false
+- name: PageType
+  value: ListPart
+  promoted: true
+- name: SourceTable
+  value: "71096619"
+  promoted: true
+commentId: O:Page::ESCA Dynamic Fields Buffer
+uid: O:Page::ESCA_Dynamic_Fields_Buffer
+name: '"ESCA Dynamic Fields Buffer"'

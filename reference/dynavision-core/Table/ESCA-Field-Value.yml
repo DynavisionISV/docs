@@ -1,0 +1,64 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"ESCA Field Value"'
+alId: ID 71096580
+baseKind: Table
+kind: Table
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Table](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-table-object)'
+objectProperties:
+- name: Access
+  value: Public
+  promoted: false
+- name: Caption
+  value: Field Value
+  promoted: false
+- name: TableType
+  value: Temporary
+  promoted: false
+fields:
+- type:
+    name: Integer
+    isExternal: true
+  uid: F:Table::ESCA_Field_Value.No.
+  name: '"No."'
+- type:
+    name: Text[2048]
+    isExternal: true
+  uid: F:Table::ESCA_Field_Value.Field_Value[2048]
+  name: '"Field Value"'
+- type:
+    name: Guid
+    isExternal: true
+  uid: F:Table::ESCA_Field_Value.SystemId
+  name: SystemId
+- type:
+    name: DateTime
+    isExternal: true
+  uid: F:Table::ESCA_Field_Value.SystemCreatedAt
+  name: SystemCreatedAt
+- type:
+    name: Guid
+    isExternal: true
+  uid: F:Table::ESCA_Field_Value.SystemCreatedBy
+  name: SystemCreatedBy
+- type:
+    name: DateTime
+    isExternal: true
+  uid: F:Table::ESCA_Field_Value.SystemModifiedAt
+  name: SystemModifiedAt
+- type:
+    name: Guid
+    isExternal: true
+  uid: F:Table::ESCA_Field_Value.SystemModifiedBy
+  name: SystemModifiedBy
+- type:
+    name: BigInteger
+    isExternal: true
+  uid: F:Table::ESCA_Field_Value.SystemRowVersion
+  name: SystemRowVersion
+commentId: O:Table::ESCA Field Value
+uid: O:Table::ESCA_Field_Value
+name: '"ESCA Field Value"'

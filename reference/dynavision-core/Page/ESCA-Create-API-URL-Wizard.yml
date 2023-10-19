@@ -1,0 +1,37 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"ESCA Create API URL Wizard"'
+alId: ID 71096592
+baseKind: Page
+kind: Page
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+sourceTableType:
+  xref: O:Table::ESCA_API_URL
+  name: '"ESCA API URL"'
+  isExternal: false
+seeAlso:
+- '[Page](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-object)'
+objectProperties:
+- name: ApplicationArea
+  value: '#All'
+  promoted: false
+- name: Caption
+  value: Create API URL
+  promoted: false
+- name: PageType
+  value: NavigatePage
+  promoted: true
+- name: SourceTable
+  value: "71096583"
+  promoted: true
+  xrefType:
+    xref: O:Table::ESCA_API_URL
+    name: '"ESCA API URL"'
+    isExternal: false
+- name: SourceTableTemporary
+  value: "True"
+  promoted: false
+commentId: O:Page::ESCA Create API URL Wizard
+uid: O:Page::ESCA_Create_API_URL_Wizard
+name: '"ESCA Create API URL Wizard"'

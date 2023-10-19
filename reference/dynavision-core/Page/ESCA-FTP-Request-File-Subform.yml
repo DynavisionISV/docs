@@ -1,0 +1,40 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"ESCA FTP Request File Subform"'
+alId: ID 71096604
+baseKind: Page
+kind: Page
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+sourceTableType:
+  xref: O:Table::ESCA_FTP_Request_File
+  name: '"ESCA FTP Request File"'
+  isExternal: false
+seeAlso:
+- '[Page](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-object)'
+objectProperties:
+- name: ApplicationArea
+  value: '#All'
+  promoted: false
+- name: Caption
+  value: Files
+  promoted: false
+- name: DelayedInsert
+  value: "True"
+  promoted: false
+- name: PageType
+  value: ListPart
+  promoted: true
+- name: SourceTable
+  value: "71096589"
+  promoted: true
+  xrefType:
+    xref: O:Table::ESCA_FTP_Request_File
+    name: '"ESCA FTP Request File"'
+    isExternal: false
+- name: UsageCategory
+  value: None
+  promoted: false
+commentId: O:Page::ESCA FTP Request File Subform
+uid: O:Page::ESCA_FTP_Request_File_Subform
+name: '"ESCA FTP Request File Subform"'

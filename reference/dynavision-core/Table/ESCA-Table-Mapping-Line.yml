@@ -1,0 +1,120 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"ESCA Table Mapping Line"'
+alId: ID 71096585
+baseKind: Table
+kind: Table
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Table](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-table-object)'
+objectProperties:
+- name: Access
+  value: Public
+  promoted: false
+- name: Caption
+  value: Mapping Line
+  promoted: false
+- name: DataClassification
+  value: SystemMetadata
+  promoted: false
+- name: Description
+  value: _TableMapping
+  promoted: false
+- name: ObsoleteReason
+  value: Replaced by Table Mapping Step, with a changed key supporting filters
+  promoted: false
+- name: ObsoleteState
+  value: Pending
+  promoted: false
+- name: ObsoleteTag
+  value: 20.0.5
+  promoted: false
+fields:
+- type:
+    name: Code[20]
+    isExternal: true
+  uid: F:Table::ESCA_Table_Mapping_Line.Mapping_Code[20]
+  name: '"Mapping Code"'
+- type:
+    name: Integer
+    isExternal: true
+  uid: F:Table::ESCA_Table_Mapping_Line.From_TableNo
+  name: '"From TableNo"'
+- type:
+    name: Text[80]
+    isExternal: true
+  uid: F:Table::ESCA_Table_Mapping_Line.From_Table_Name[80]
+  name: '"From Table Name"'
+- type:
+    name: Integer
+    isExternal: true
+  uid: F:Table::ESCA_Table_Mapping_Line.To_TableNo
+  name: '"To TableNo"'
+- type:
+    name: Text[80]
+    isExternal: true
+  uid: F:Table::ESCA_Table_Mapping_Line.To_Table_Name[80]
+  name: '"To Table Name"'
+- type:
+    name: Integer
+    isExternal: true
+  uid: F:Table::ESCA_Table_Mapping_Line.From_FieldNo
+  name: '"From FieldNo"'
+- type:
+    name: Text[80]
+    isExternal: true
+  uid: F:Table::ESCA_Table_Mapping_Line.From_Field_Name[80]
+  name: '"From Field Name"'
+- type:
+    name: Integer
+    isExternal: true
+  uid: F:Table::ESCA_Table_Mapping_Line.To_FieldNo
+  name: '"To FieldNo"'
+- type:
+    name: Text[80]
+    isExternal: true
+  uid: F:Table::ESCA_Table_Mapping_Line.To_Field_Name[80]
+  name: '"To Field Name"'
+- type:
+    name: Integer
+    isExternal: true
+  uid: F:Table::ESCA_Table_Mapping_Line.Step_No.
+  name: '"Step No."'
+- type:
+    name: Guid
+    isExternal: true
+  uid: F:Table::ESCA_Table_Mapping_Line.SystemId
+  name: SystemId
+- type:
+    name: DateTime
+    isExternal: true
+  uid: F:Table::ESCA_Table_Mapping_Line.SystemCreatedAt
+  name: SystemCreatedAt
+- type:
+    name: Guid
+    isExternal: true
+  uid: F:Table::ESCA_Table_Mapping_Line.SystemCreatedBy
+  name: SystemCreatedBy
+- type:
+    name: DateTime
+    isExternal: true
+  uid: F:Table::ESCA_Table_Mapping_Line.SystemModifiedAt
+  name: SystemModifiedAt
+- type:
+    name: Guid
+    isExternal: true
+  uid: F:Table::ESCA_Table_Mapping_Line.SystemModifiedBy
+  name: SystemModifiedBy
+- type:
+    name: BigInteger
+    isExternal: true
+  uid: F:Table::ESCA_Table_Mapping_Line.SystemRowVersion
+  name: SystemRowVersion
+commentId: O:Table::ESCA Table Mapping Line
+uid: O:Table::ESCA_Table_Mapping_Line
+name: '"ESCA Table Mapping Line"'
+obsoletion:
+  state: pending
+  reason: Replaced by Table Mapping Step, with a changed key supporting filters
+  version: 20.0.5

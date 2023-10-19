@@ -1,0 +1,12 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"ESCA Custom OK Cancel"'
+baseKind: ControlAddIn
+kind: ControlAddIn
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[ControlAddIn](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-control-addin-object)'
+commentId: O:ESCA Custom OK Cancel
+uid: O:ESCA_Custom_OK_Cancel
+name: '"ESCA Custom OK Cancel"'

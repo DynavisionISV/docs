@@ -1,0 +1,155 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"ESCA Web Request Log"'
+alId: ID 71096582
+baseKind: Table
+kind: Table
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Table](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-table-object)'
+objectProperties:
+- name: Access
+  value: Public
+  promoted: false
+- name: Caption
+  value: Web Request Log
+  promoted: false
+- name: DataClassification
+  value: CustomerContent
+  promoted: false
+- name: DrillDownPageId
+  value: ESCA Web Request Log List
+  promoted: false
+  xrefType:
+    xref: O:Page::ESCA_Web_Request_Log_List
+    name: '"ESCA Web Request Log List"'
+    isExternal: false
+- name: LookupPageId
+  value: ESCA Web Request Log List
+  promoted: false
+  xrefType:
+    xref: O:Page::ESCA_Web_Request_Log_List
+    name: '"ESCA Web Request Log List"'
+    isExternal: false
+methods:
+- syntax:
+    signatures:
+    - '[NonDebuggable]'
+    content: 'procedure GetResponseBody(): Text'
+    return:
+      returnType:
+        name: Text
+        isExternal: true
+  uid: M:Table::ESCA_Web_Request_Log.GetResponseBody:Text
+  name: GetResponseBody
+- syntax:
+    content: 'procedure CreateMessage(MessageType: Record "ESCA Message Type")'
+    parameters:
+    - id: MessageType
+      description: The message type containing the required parameters to create a message for
+      parameterType:
+        name: Record "ESCA Message Type"
+        isExternal: true
+  summary: Create a message record using the response body content
+  uid: M:Table::ESCA_Web_Request_Log.CreateMessage(ESCA_Message_Type)
+  name: CreateMessage
+fields:
+- type:
+    name: Integer
+    isExternal: true
+  uid: F:Table::ESCA_Web_Request_Log.Entry_No.
+  name: '"Entry No."'
+- type:
+    name: Text[50]
+    isExternal: true
+  uid: F:Table::ESCA_Web_Request_Log.User_ID[50]
+  name: '"User ID"'
+- type:
+    name: DateTime
+    isExternal: true
+  uid: F:Table::ESCA_Web_Request_Log.Execution_Datetime
+  name: '"Execution Datetime"'
+- type:
+    name: Text[2048]
+    isExternal: true
+  uid: F:Table::ESCA_Web_Request_Log.Call_URL[2048]
+  name: '"Call URL"'
+- type:
+    name: Blob
+    isExternal: true
+  uid: F:Table::ESCA_Web_Request_Log.Call_Headers
+  name: '"Call Headers"'
+- type:
+    name: Blob
+    isExternal: true
+  uid: F:Table::ESCA_Web_Request_Log.Call_Body_Headers
+  name: '"Call Body Headers"'
+- type:
+    name: Blob
+    isExternal: true
+  uid: F:Table::ESCA_Web_Request_Log.Call_Body
+  name: '"Call Body"'
+- type:
+    name: Blob
+    isExternal: true
+  uid: F:Table::ESCA_Web_Request_Log.Call_Response_Body
+  name: '"Call Response Body"'
+- type:
+    name: Integer
+    isExternal: true
+  uid: F:Table::ESCA_Web_Request_Log.BLOB_Selection_Filter
+  name: '"BLOB Selection Filter"'
+- type:
+    name: Integer
+    isExternal: true
+  uid: F:Table::ESCA_Web_Request_Log.Status_Code
+  name: '"Status Code"'
+- type:
+    name: Text[250]
+    isExternal: true
+  uid: F:Table::ESCA_Web_Request_Log.External_ID[250]
+  name: '"External ID"'
+- type:
+    name: Integer
+    isExternal: true
+  uid: F:Table::ESCA_Web_Request_Log.Source_Table_No.
+  name: '"Source Table No."'
+- type:
+    name: Guid
+    isExternal: true
+  uid: F:Table::ESCA_Web_Request_Log.Source_System_ID
+  name: '"Source System ID"'
+- type:
+    name: Guid
+    isExternal: true
+  uid: F:Table::ESCA_Web_Request_Log.SystemId
+  name: SystemId
+- type:
+    name: DateTime
+    isExternal: true
+  uid: F:Table::ESCA_Web_Request_Log.SystemCreatedAt
+  name: SystemCreatedAt
+- type:
+    name: Guid
+    isExternal: true
+  uid: F:Table::ESCA_Web_Request_Log.SystemCreatedBy
+  name: SystemCreatedBy
+- type:
+    name: DateTime
+    isExternal: true
+  uid: F:Table::ESCA_Web_Request_Log.SystemModifiedAt
+  name: SystemModifiedAt
+- type:
+    name: Guid
+    isExternal: true
+  uid: F:Table::ESCA_Web_Request_Log.SystemModifiedBy
+  name: SystemModifiedBy
+- type:
+    name: BigInteger
+    isExternal: true
+  uid: F:Table::ESCA_Web_Request_Log.SystemRowVersion
+  name: SystemRowVersion
+commentId: O:Table::ESCA Web Request Log
+uid: O:Table::ESCA_Web_Request_Log
+name: '"ESCA Web Request Log"'

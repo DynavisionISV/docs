@@ -1,0 +1,35 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"ESCA Data Link Apps"'
+alId: ID 71177007
+baseKind: Page
+kind: Page
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+sourceTableType:
+  name: '"ESCA Data Link App"'
+  isExternal: true
+seeAlso:
+- '[Page](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-object)'
+objectProperties:
+- name: ApplicationArea
+  value: '#All'
+  promoted: false
+- name: Caption
+  value: Data Link Apps
+  promoted: false
+- name: PageType
+  value: List
+  promoted: true
+- name: SourceTable
+  value: "71096648"
+  promoted: true
+- name: UsageCategory
+  value: None
+  promoted: false
+- name: SourceTableView
+  value: sorting(Name)
+  promoted: false
+commentId: O:Page::ESCA Data Link Apps
+uid: O:Page::ESCA_Data_Link_Apps
+name: '"ESCA Data Link Apps"'

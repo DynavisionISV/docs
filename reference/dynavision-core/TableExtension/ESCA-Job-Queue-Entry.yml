@@ -1,0 +1,58 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"ESCA Job Queue Entry"'
+alId: ID 71096615
+baseKind: Table
+kind: TableExtension
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+extends:
+  name: '"Job Queue Entry"'
+  isExternal: true
+seeAlso:
+- '[Table Extension](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-table-ext-object)'
+fields:
+- type:
+    name: Boolean
+    isExternal: true
+  uid: F:TableExtension::ESCA_Job_Queue_Entry.ESCA_Restart_on_Error
+  name: '"ESCA Restart on Error"'
+- type:
+    name: Boolean
+    isExternal: true
+  uid: F:TableExtension::ESCA_Job_Queue_Entry.ESCA_Send_E-mail_on_Error
+  name: '"ESCA Send E-mail on Error"'
+- type:
+    name: Text[80]
+    isExternal: true
+  uid: F:TableExtension::ESCA_Job_Queue_Entry.ESCA_E-mail_on_Error[80]
+  name: '"ESCA E-mail on Error"'
+- type:
+    name: Integer
+    isExternal: true
+  uid: F:TableExtension::ESCA_Job_Queue_Entry.ESCA_Max._Attempts_to_Restart
+  name: '"ESCA Max. Attempts to Restart"'
+- type:
+    name: Integer
+    isExternal: true
+  uid: F:TableExtension::ESCA_Job_Queue_Entry.ESCA_No_of_Attempts_to_Restart
+  name: '"ESCA No of Attempts to Restart"'
+- type:
+    name: Text[250]
+    isExternal: true
+  uid: F:TableExtension::ESCA_Job_Queue_Entry.ESCA_Printer_Name[250]
+  name: '"ESCA Printer Name"'
+- type:
+    name: Integer
+    isExternal: true
+  uid: F:TableExtension::ESCA_Job_Queue_Entry.ESCA_Report_Recipients
+  name: '"ESCA Report Recipients"'
+- type:
+    xref: O:Enum::ESCA_JQ_Report_Recipient_Type
+    name: '"ESCA JQ Report Recipient Type"'
+    isExternal: false
+  uid: F:TableExtension::ESCA_Job_Queue_Entry.ESCA_Execute_Report_Per
+  name: '"ESCA Execute Report Per"'
+commentId: O:TableExtension::ESCA Job Queue Entry
+uid: O:TableExtension::ESCA_Job_Queue_Entry
+name: '"ESCA Job Queue Entry"'

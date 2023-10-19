@@ -1,0 +1,107 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"ESCA Text Block Line"'
+alId: ID 71096630
+baseKind: Table
+kind: Table
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+seeAlso:
+- '[Table](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-table-object)'
+objectProperties:
+- name: Access
+  value: Public
+  promoted: false
+- name: Caption
+  value: Text Block Line
+  promoted: false
+- name: DataClassification
+  value: CustomerContent
+  promoted: false
+fields:
+- type:
+    name: Code[30]
+    isExternal: true
+  uid: F:Table::ESCA_Text_Block_Line.Code[30]
+  name: Code
+- type:
+    name: Integer
+    isExternal: true
+  uid: F:Table::ESCA_Text_Block_Line.Line_No.
+  name: '"Line No."'
+- type:
+    name: Integer
+    isExternal: true
+  uid: F:Table::ESCA_Text_Block_Line.Sequence_No.
+  name: '"Sequence No."'
+- type:
+    name: Integer
+    isExternal: true
+  uid: F:Table::ESCA_Text_Block_Line.Field_No.
+  name: '"Field No."'
+- type:
+    name: Text[250]
+    isExternal: true
+  uid: F:Table::ESCA_Text_Block_Line.Field_Caption[250]
+  name: '"Field Caption"'
+- type:
+    xref: O:Enum::ESCA_Text_Block_Separator
+    name: '"ESCA Text Block Separator"'
+    isExternal: false
+  uid: F:Table::ESCA_Text_Block_Line.Field_Separator
+  name: '"Field Separator"'
+- type:
+    xref: O:Enum::ESCA_Text_Block_Title_Type
+    name: '"ESCA Text Block Title Type"'
+    isExternal: false
+  uid: F:Table::ESCA_Text_Block_Line.Title_Type
+  name: '"Title Type"'
+- type:
+    name: Text[250]
+    isExternal: true
+  uid: F:Table::ESCA_Text_Block_Line.Title[250]
+  name: Title
+- type:
+    xref: O:Enum::ESCA_Text_Block_Separator
+    name: '"ESCA Text Block Separator"'
+    isExternal: false
+  uid: F:Table::ESCA_Text_Block_Line.Title_Separator
+  name: '"Title Separator"'
+- type:
+    name: Integer
+    isExternal: true
+  uid: F:Table::ESCA_Text_Block_Line.Table_No.
+  name: '"Table No."'
+- type:
+    name: Guid
+    isExternal: true
+  uid: F:Table::ESCA_Text_Block_Line.SystemId
+  name: SystemId
+- type:
+    name: DateTime
+    isExternal: true
+  uid: F:Table::ESCA_Text_Block_Line.SystemCreatedAt
+  name: SystemCreatedAt
+- type:
+    name: Guid
+    isExternal: true
+  uid: F:Table::ESCA_Text_Block_Line.SystemCreatedBy
+  name: SystemCreatedBy
+- type:
+    name: DateTime
+    isExternal: true
+  uid: F:Table::ESCA_Text_Block_Line.SystemModifiedAt
+  name: SystemModifiedAt
+- type:
+    name: Guid
+    isExternal: true
+  uid: F:Table::ESCA_Text_Block_Line.SystemModifiedBy
+  name: SystemModifiedBy
+- type:
+    name: BigInteger
+    isExternal: true
+  uid: F:Table::ESCA_Text_Block_Line.SystemRowVersion
+  name: SystemRowVersion
+commentId: O:Table::ESCA Text Block Line
+uid: O:Table::ESCA_Text_Block_Line
+name: '"ESCA Text Block Line"'

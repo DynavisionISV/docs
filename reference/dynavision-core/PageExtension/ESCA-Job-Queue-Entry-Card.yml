@@ -1,0 +1,16 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: '"ESCA Job Queue Entry Card"'
+alId: ID 71096626
+baseKind: Page
+kind: PageExtension
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+extends:
+  name: '"Job Queue Entry Card"'
+  isExternal: true
+seeAlso:
+- '[Page Extension](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-page-ext-object)'
+commentId: O:PageExtension::ESCA Job Queue Entry Card
+uid: O:PageExtension::ESCA_Job_Queue_Entry_Card
+name: '"ESCA Job Queue Entry Card"'

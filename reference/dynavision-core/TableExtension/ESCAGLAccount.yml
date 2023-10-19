@@ -1,0 +1,22 @@
+﻿### YamlMime:BusinessCentralApplicationObject
+fqName: ESCAGLAccount
+alId: ID 71096619
+baseKind: Table
+kind: TableExtension
+parent: 'N:Module::Dynavision_Core::Namespace::'
+langs:
+- al
+extends:
+  name: '"G/L Account"'
+  isExternal: true
+seeAlso:
+- '[Table Extension](https://learn.microsoft.com/dynamics365/business-central/dev-itpro/developer/devenv-table-ext-object)'
+fields:
+- type:
+    name: Boolean
+    isExternal: true
+  uid: F:TableExtension::ESCAGLAccount.ESCA_No_Payment_Discount
+  name: '"ESCA No Payment Discount"'
+commentId: O:TableExtension::ESCAGLAccount
+uid: O:TableExtension::ESCAGLAccount
+name: ESCAGLAccount
